@@ -1,0 +1,2329 @@
+member_name,cid,party,state,total,indivs,pacs,defense_industry_code,committee_code
+"Bice, Stephanie",N00044579,R,Oklahoma,21350,7350,14000,D01,HADM
+"Torres, Norma",N00036107,D,California,12000,0,12000,D01,HADM
+"Sewell, Terri",N00030622,D,Alabama,10000,0,10000,D01,HADM
+"Kilmer, Derek",N00034453,D,Washington,9050,50,9000,D01,HADM
+"Carey, Mike",N00048568,R,Ohio,4500,0,4500,D01,HADM
+"D'Esposito, Anthony",N00050681,R,New York,2500,500,2000,D01,HADM
+"Murphy, Greg",N00044027,R,North Carolina,2000,0,2000,D01,HADM
+"Loudermilk, Barry",N00035347,R,Georgia,1000,0,1000,D01,HADM
+"Steil, Bryan",N00043379,R,Wisconsin,50,50,0,D01,HADM
+"Bice, Stephanie",N00044579,R,Oklahoma,9300,5800,3500,D02,HADM
+"D'Esposito, Anthony",N00050681,R,New York,6600,6600,0,D02,HADM
+"Kilmer, Derek",N00034453,D,Washington,3000,0,3000,D02,HADM
+"Sewell, Terri",N00030622,D,Alabama,2000,0,2000,D02,HADM
+"Sewell, Terri",N00030622,D,Alabama,15400,2500,12900,D03,HADM
+"Kilmer, Derek",N00034453,D,Washington,13595,95,13500,D03,HADM
+"Bice, Stephanie",N00044579,R,Oklahoma,2078,78,2000,D03,HADM
+"Griffith, Morgan",N00032029,R,Virginia,2000,0,2000,D03,HADM
+"Steil, Bryan",N00043379,R,Wisconsin,1599,99,1500,D03,HADM
+"D'Esposito, Anthony",N00050681,R,New York,1000,0,1000,D03,HADM
+"Lee, Laurel",N00051178,R,Florida,1000,0,1000,D03,HADM
+"Kelly, Trent",N00037003,R,Mississippi,38000,2000,36000,D01,HAGR
+"Bacon, Donald John",N00037049,R,Nebraska,24050,50,24000,D01,HAGR
+"Lucas, Frank D",N00005559,R,Oklahoma,19050,3550,15500,D01,HAGR
+"Carbajal, Salud",N00037015,D,California,12500,500,12000,D01,HAGR
+"Scott, Austin",N00032457,R,Georgia,10000,0,10000,D01,HAGR
+"Chavez-Deremer, Lori",N00048900,R,Oregon,8000,0,8000,D01,HAGR
+"Crawford, Rick",N00030770,R,Arkansas,6000,0,6000,D01,HAGR
+"Pingree, Chellie",N00013817,D,Maine,5500,0,5500,D01,HAGR
+"Moore, Barry",N00041295,R,Alabama,4500,0,4500,D01,HAGR
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D01,HAGR
+"Craig, Angie",N00037039,D,Minnesota,4035,535,3500,D01,HAGR
+"Nunn, Zach",N00048870,R,Iowa,3738,238,3500,D01,HAGR
+"Molinaro, Marc",N00049147,R,New York,3050,50,3000,D01,HAGR
+"Soto, Darren",N00037422,D,Florida,3000,0,3000,D01,HAGR
+"Thompson, Glenn",N00029736,R,Pennsylvania,3000,0,3000,D01,HAGR
+"Davids, Sharice",N00042626,D,Kansas,2246,246,2000,D01,HAGR
+"Vasquez, Gabe",N00049142,D,New Mexico,2087,87,2000,D01,HAGR
+"Hayes, Jahana",N00043421,D,Connecticut,2056,56,2000,D01,HAGR
+"Feenstra, Randy",N00044011,R,Iowa,2000,0,2000,D01,HAGR
+"Finstad, Brad",N00050649,R,Minnesota,2000,0,2000,D01,HAGR
+"Langworthy, Nick",N00051431,R,New York,2000,0,2000,D01,HAGR
+"Slotkin, Elissa",N00041357,D,Michigan,1953,1953,0,D01,HAGR
+"Crockett, Jasmine",N00049840,D,Texas,1300,300,1000,D01,HAGR
+"De La Cruz, Monica",N00045793,R,Texas,1005,5,1000,D01,HAGR
+"Rouzer, David",N00033527,R,North Carolina,1000,0,1000,D01,HAGR
+"LaMalfa, Doug",N00033987,R,California,1000,0,1000,D01,HAGR
+"Scott, David",N00024871,D,Georgia,1000,0,1000,D01,HAGR
+"Costa, Jim",N00026341,D,California,1000,0,1000,D01,HAGR
+"Duarte, John",N00050562,R,California,1000,0,1000,D01,HAGR
+"Davis, Don",N00049636,D,North Carolina,1000,0,1000,D01,HAGR
+"Salinas, Andrea",N00049738,D,Oregon,1000,0,1000,D01,HAGR
+"Brown, Shontel",N00047875,D,Ohio,1000,0,1000,D01,HAGR
+"Miller, Max",N00048277,R,Ohio,1000,0,1000,D01,HAGR
+"Baird, Jim",N00041954,R,Indiana,1000,0,1000,D01,HAGR
+"Jackson, Ronny",N00046055,R,Texas,439,439,0,D01,HAGR
+"Spanberger, Abigail",N00041418,D,Virginia,392,392,0,D01,HAGR
+"Sorensen, Eric",N00049558,D,Illinois,375,375,0,D01,HAGR
+"Perez, Marie Gluesenkamp",N00050490,D,Washington,163,163,0,D01,HAGR
+"Van Orden, Derrick",N00046843,R,Wisconsin,144,144,0,D01,HAGR
+"Caraveo, Yadira",N00049068,D,Colorado,62,62,0,D01,HAGR
+"Bacon, Donald John",N00037049,R,Nebraska,14600,6600,8000,D02,HAGR
+"Kelly, Trent",N00037003,R,Mississippi,10300,3300,7000,D02,HAGR
+"Jackson, Ronny",N00046055,R,Texas,6615,6615,0,D02,HAGR
+"Van Orden, Derrick",N00046843,R,Wisconsin,6600,6600,0,D02,HAGR
+"Nunn, Zach",N00048870,R,Iowa,6600,6600,0,D02,HAGR
+"Chavez-Deremer, Lori",N00048900,R,Oregon,6600,6600,0,D02,HAGR
+"De La Cruz, Monica",N00045793,R,Texas,6600,6600,0,D02,HAGR
+"Molinaro, Marc",N00049147,R,New York,6600,6600,0,D02,HAGR
+"Duarte, John",N00050562,R,California,6600,6600,0,D02,HAGR
+"Vasquez, Gabe",N00049142,D,New Mexico,3357,3357,0,D02,HAGR
+"Alford, Mark",N00049617,R,Missouri,3000,0,3000,D02,HAGR
+"Carbajal, Salud",N00037015,D,California,2500,0,2500,D02,HAGR
+"Davids, Sharice",N00042626,D,Kansas,1057,57,1000,D02,HAGR
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D02,HAGR
+"Spanberger, Abigail",N00041418,D,Virginia,905,905,0,D02,HAGR
+"Sorensen, Eric",N00049558,D,Illinois,557,557,0,D02,HAGR
+"Caraveo, Yadira",N00049068,D,Colorado,500,500,0,D02,HAGR
+"Slotkin, Elissa",N00041357,D,Michigan,225,225,0,D02,HAGR
+"Casar, Greg",N00049855,D,Texas,48,48,0,D02,HAGR
+"Kelly, Trent",N00037003,R,Mississippi,43300,19800,23500,D03,HAGR
+"Bacon, Donald John",N00037049,R,Nebraska,13500,3000,10500,D03,HAGR
+"Slotkin, Elissa",N00041357,D,Michigan,8269,8269,0,D03,HAGR
+"Finstad, Brad",N00050649,R,Minnesota,7500,0,7500,D03,HAGR
+"Moore, Barry",N00041295,R,Alabama,6000,5000,1000,D03,HAGR
+"Carbajal, Salud",N00037015,D,California,6000,0,6000,D03,HAGR
+"Scott, Austin",N00032457,R,Georgia,5500,1500,4000,D03,HAGR
+"Davis, Don",N00049636,D,North Carolina,5000,0,5000,D03,HAGR
+"Vasquez, Gabe",N00049142,D,New Mexico,4793,793,4000,D03,HAGR
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D03,HAGR
+"Molinaro, Marc",N00049147,R,New York,3500,0,3500,D03,HAGR
+"Spanberger, Abigail",N00041418,D,Virginia,3178,3178,0,D03,HAGR
+"Mann, Tracey",N00030743,R,Kansas,3000,0,3000,D03,HAGR
+"Pingree, Chellie",N00013817,D,Maine,2035,35,2000,D03,HAGR
+"Hayes, Jahana",N00043421,D,Connecticut,2000,0,2000,D03,HAGR
+"Budzinski, Nikki",N00049102,D,Illinois,1750,0,1750,D03,HAGR
+"Feenstra, Randy",N00044011,R,Iowa,1500,0,1500,D03,HAGR
+"Van Orden, Derrick",N00046843,R,Wisconsin,1080,80,1000,D03,HAGR
+"De La Cruz, Monica",N00045793,R,Texas,1050,50,1000,D03,HAGR
+"Cammack, Kat",N00045978,R,Florida,1000,0,1000,D03,HAGR
+"Scott, David",N00024871,D,Georgia,1000,0,1000,D03,HAGR
+"Chavez-Deremer, Lori",N00048900,R,Oregon,1000,0,1000,D03,HAGR
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D03,HAGR
+"Perez, Marie Gluesenkamp",N00050490,D,Washington,818,818,0,D03,HAGR
+"Jackson, Ronny",N00046055,R,Texas,798,798,0,D03,HAGR
+"Davids, Sharice",N00042626,D,Kansas,435,435,0,D03,HAGR
+"Duarte, John",N00050562,R,California,200,200,0,D03,HAGR
+"Tokuda, Jill",N00051049,D,Hawaii,200,200,0,D03,HAGR
+"Nunn, Zach",N00048870,R,Iowa,104,104,0,D03,HAGR
+"Brown, Shontel",N00047875,D,Ohio,75,75,0,D03,HAGR
+"McGovern, James P",N00000179,D,Massachusetts,45,45,0,D03,HAGR
+"Crockett, Jasmine",N00049840,D,Texas,10,10,0,D03,HAGR
+"Caraveo, Yadira",N00049068,D,Colorado,6,6,0,D03,HAGR
+"Calvert, Ken",N00007099,R,California,124370,81470,42900,D01,HAPP
+"Cole, Tom",N00025726,R,Oklahoma,34000,4500,29500,D01,HAPP
+"Garcia, Mike",N00044298,R,California,32350,3850,28500,D01,HAPP
+"McCollum, Betty",N00012942,D,Minnesota,30550,4550,26000,D01,HAPP
+"Aguilar, Pete",N00033997,D,California,30215,215,30000,D01,HAPP
+"Diaz-Balart, Mario",N00025337,R,Florida,28500,0,28500,D01,HAPP
+"Ciscomani, Juan",N00049039,R,Arizona,27555,12555,15000,D01,HAPP
+"Granger, Kay",N00008799,R,Texas,24600,3600,21000,D01,HAPP
+"Ruppersberger, Dutch",N00025482,D,Maryland,24000,1000,23000,D01,HAPP
+"Cartwright, Matt",N00034128,D,Pennsylvania,21802,3302,18500,D01,HAPP
+"Valadao, David",N00033367,R,California,21800,3300,18500,D01,HAPP
+"Womack, Steve",N00031857,R,Arkansas,21500,2000,19500,D01,HAPP
+"Rogers, Hal",N00003473,R,Kentucky,21500,1000,20500,D01,HAPP
+"Bice, Stephanie",N00044579,R,Oklahoma,21350,7350,14000,D01,HAPP
+"Case, Ed",N00025882,D,Hawaii,21000,1000,20000,D01,HAPP
+"Fleischmann, Chuck",N00030815,R,Tennessee,20500,4000,16500,D01,HAPP
+"Simpson, Mike",N00006263,R,Idaho,20000,0,20000,D01,HAPP
+"Hoyer, Steny H",N00001821,D,Maryland,20000,0,20000,D01,HAPP
+"Aderholt, Robert B",N00003028,R,Alabama,19500,0,19500,D01,HAPP
+"Stewart, Chris",N00033932,R,Utah,19500,1500,18000,D01,HAPP
+"Carter, John",N00025095,R,Texas,18500,1500,17000,D01,HAPP
+"Rutherford, John",N00039777,R,Florida,18000,500,17500,D01,HAPP
+"DeLauro, Rosa",N00000615,D,Connecticut,17380,7880,9500,D01,HAPP
+"Moolenaar, John",N00036275,R,Michigan,16500,0,16500,D01,HAPP
+"Kaptur, Marcy",N00003522,D,Ohio,16146,2646,13500,D01,HAPP
+"Amodei, Mark",N00031177,R,Nevada,16000,0,16000,D01,HAPP
+"Carl, Jerry",N00044245,R,Alabama,14601,1101,13500,D01,HAPP
+"Franklin, Scott",N00046760,R,Florida,14500,0,14500,D01,HAPP
+"Letlow, Julia",N00047972,R,Louisiana,13500,3500,10000,D01,HAPP
+"Ellzey, Jake",N00042243,R,Texas,13400,400,13000,D01,HAPP
+"Torres, Norma",N00036107,D,California,12000,0,12000,D01,HAPP
+"Hinson, Ashley",N00044521,R,Iowa,11140,1640,9500,D01,HAPP
+"Joyce, David P",N00035007,R,Ohio,10000,0,10000,D01,HAPP
+"Reschenthaler, Guy",N00041871,R,Pennsylvania,9500,0,9500,D01,HAPP
+"Kilmer, Derek",N00034453,D,Washington,9050,50,9000,D01,HAPP
+"Lee, Susie",N00037247,D,Nevada,8503,2503,6000,D01,HAPP
+"Guest, Michael",N00042458,R,Mississippi,8500,0,8500,D01,HAPP
+"Morelle, Joseph D",N00043207,D,New York,8000,0,8000,D01,HAPP
+"Quigley, Mike",N00030581,D,Illinois,8000,0,8000,D01,HAPP
+"Frankel, Lois",N00002893,D,Florida,8000,0,8000,D01,HAPP
+"Schultz, Debbie Wasserman",N00026106,D,Florida,6800,3300,3500,D01,HAPP
+"Bishop, Sanford",N00002674,D,Georgia,6500,0,6500,D01,HAPP
+"Pingree, Chellie",N00013817,D,Maine,5500,0,5500,D01,HAPP
+"Newhouse, Dan",N00036403,R,Washington,5500,0,5500,D01,HAPP
+"Zinke, Ryan",N00035616,R,Montana,5288,1788,3500,D01,HAPP
+"Gonzales, Tony",N00044592,R,Texas,4511,11,4500,D01,HAPP
+"Wexton, Jennifer",N00041002,D,Virginia,4113,1613,2500,D01,HAPP
+"Laturner, Jake",N00044232,R,Kansas,4000,0,4000,D01,HAPP
+"Meng, Grace",N00034547,D,New York,3500,0,3500,D01,HAPP
+"Cuellar, Henry",N00024978,D,Texas,2500,0,2500,D01,HAPP
+"Cline, Ben",N00042296,R,Virginia,2000,0,2000,D01,HAPP
+"Harris, Andy",N00029147,R,Maryland,1000,0,1000,D01,HAPP
+"Lee, Barbara",N00008046,D,California,253,253,0,D01,HAPP
+"Underwood, Lauren A",N00041569,D,Illinois,140,140,0,D01,HAPP
+"Harder, Josh",N00040853,D,California,70,70,0,D01,HAPP
+"Pocan, Mark",N00033549,D,Wisconsin,10,10,0,D01,HAPP
+"Calvert, Ken",N00007099,R,California,82200,58700,23500,D02,HAPP
+"Granger, Kay",N00008799,R,Texas,24450,7450,17000,D02,HAPP
+"Cole, Tom",N00025726,R,Oklahoma,21100,11100,10000,D02,HAPP
+"Diaz-Balart, Mario",N00025337,R,Florida,18300,3300,15000,D02,HAPP
+"Aguilar, Pete",N00033997,D,California,16100,12100,4000,D02,HAPP
+"Garcia, Mike",N00044298,R,California,13600,7600,6000,D02,HAPP
+"Carter, John",N00025095,R,Texas,13500,6000,7500,D02,HAPP
+"Franklin, Scott",N00046760,R,Florida,13300,3300,10000,D02,HAPP
+"Stewart, Chris",N00033932,R,Utah,11800,3300,8500,D02,HAPP
+"Morelle, Joseph D",N00043207,D,New York,10800,800,10000,D02,HAPP
+"Ruppersberger, Dutch",N00025482,D,Maryland,10000,1000,9000,D02,HAPP
+"Bice, Stephanie",N00044579,R,Oklahoma,9300,5800,3500,D02,HAPP
+"Ciscomani, Juan",N00049039,R,Arizona,9100,6600,2500,D02,HAPP
+"Cuellar, Henry",N00024978,D,Texas,9000,0,9000,D02,HAPP
+"Carl, Jerry",N00044245,R,Alabama,8500,2000,6500,D02,HAPP
+"Aderholt, Robert B",N00003028,R,Alabama,7600,6600,1000,D02,HAPP
+"McCollum, Betty",N00012942,D,Minnesota,7535,35,7500,D02,HAPP
+"Schultz, Debbie Wasserman",N00026106,D,Florida,7500,0,7500,D02,HAPP
+"Rutherford, John",N00039777,R,Florida,6800,3300,3500,D02,HAPP
+"Zinke, Ryan",N00035616,R,Montana,6665,6665,0,D02,HAPP
+"Valadao, David",N00033367,R,California,6600,6600,0,D02,HAPP
+"Case, Ed",N00025882,D,Hawaii,6000,6000,0,D02,HAPP
+"Joyce, David P",N00035007,R,Ohio,5300,3300,2000,D02,HAPP
+"Womack, Steve",N00031857,R,Arkansas,4800,3300,1500,D02,HAPP
+"Gonzales, Tony",N00044592,R,Texas,4500,0,4500,D02,HAPP
+"Newhouse, Dan",N00036403,R,Washington,4300,3300,1000,D02,HAPP
+"Simpson, Mike",N00006263,R,Idaho,3800,3300,500,D02,HAPP
+"Lee, Susie",N00037247,D,Nevada,3500,2000,1500,D02,HAPP
+"Rogers, Hal",N00003473,R,Kentucky,3300,3300,0,D02,HAPP
+"Kilmer, Derek",N00034453,D,Washington,3000,0,3000,D02,HAPP
+"Hoyer, Steny H",N00001821,D,Maryland,2500,0,2500,D02,HAPP
+"Underwood, Lauren A",N00041569,D,Illinois,2020,2020,0,D02,HAPP
+"Cline, Ben",N00042296,R,Virginia,1500,0,1500,D02,HAPP
+"Hinson, Ashley",N00044521,R,Iowa,1500,0,1500,D02,HAPP
+"Letlow, Julia",N00047972,R,Louisiana,1000,1000,0,D02,HAPP
+"Guest, Michael",N00042458,R,Mississippi,1000,0,1000,D02,HAPP
+"Meng, Grace",N00034547,D,New York,1000,0,1000,D02,HAPP
+"Cartwright, Matt",N00034128,D,Pennsylvania,1000,0,1000,D02,HAPP
+"Frankel, Lois",N00002893,D,Florida,1000,0,1000,D02,HAPP
+"Amodei, Mark",N00031177,R,Nevada,500,500,0,D02,HAPP
+"Harris, Andy",N00029147,R,Maryland,250,250,0,D02,HAPP
+"Kaptur, Marcy",N00003522,D,Ohio,57,57,0,D02,HAPP
+"Trone, David",N00039122,D,Maryland,50,50,0,D02,HAPP
+"Wexton, Jennifer",N00041002,D,Virginia,10,10,0,D02,HAPP
+"Calvert, Ken",N00007099,R,California,134550,61050,73500,D03,HAPP
+"Carter, John",N00025095,R,Texas,64500,42000,22500,D03,HAPP
+"Letlow, Julia",N00047972,R,Louisiana,59000,53500,5500,D03,HAPP
+"Cole, Tom",N00025726,R,Oklahoma,56650,10400,46250,D03,HAPP
+"Carl, Jerry",N00044245,R,Alabama,46580,23580,23000,D03,HAPP
+"Diaz-Balart, Mario",N00025337,R,Florida,44500,1500,43000,D03,HAPP
+"Ciscomani, Juan",N00049039,R,Arizona,41300,22300,19000,D03,HAPP
+"Aguilar, Pete",N00033997,D,California,39500,7000,32500,D03,HAPP
+"Granger, Kay",N00008799,R,Texas,34050,4050,30000,D03,HAPP
+"Garcia, Mike",N00044298,R,California,31762,4462,27300,D03,HAPP
+"Ruppersberger, Dutch",N00025482,D,Maryland,29750,4000,25750,D03,HAPP
+"McCollum, Betty",N00012942,D,Minnesota,28500,0,28500,D03,HAPP
+"Rutherford, John",N00039777,R,Florida,26000,0,26000,D03,HAPP
+"Case, Ed",N00025882,D,Hawaii,24900,7400,17500,D03,HAPP
+"Womack, Steve",N00031857,R,Arkansas,24500,6500,18000,D03,HAPP
+"Valadao, David",N00033367,R,California,23000,2500,20500,D03,HAPP
+"Hoyer, Steny H",N00001821,D,Maryland,22250,2750,19500,D03,HAPP
+"Aderholt, Robert B",N00003028,R,Alabama,21416,3416,18000,D03,HAPP
+"Cartwright, Matt",N00034128,D,Pennsylvania,20750,5500,15250,D03,HAPP
+"Gonzales, Tony",N00044592,R,Texas,19660,15160,4500,D03,HAPP
+"Rogers, Hal",N00003473,R,Kentucky,17000,7500,9500,D03,HAPP
+"Franklin, Scott",N00046760,R,Florida,16255,1255,15000,D03,HAPP
+"Frankel, Lois",N00002893,D,Florida,14200,13200,1000,D03,HAPP
+"Kilmer, Derek",N00034453,D,Washington,13595,95,13500,D03,HAPP
+"DeLauro, Rosa",N00000615,D,Connecticut,12530,30,12500,D03,HAPP
+"Stewart, Chris",N00033932,R,Utah,11000,2000,9000,D03,HAPP
+"Hinson, Ashley",N00044521,R,Iowa,10670,170,10500,D03,HAPP
+"Cuellar, Henry",N00024978,D,Texas,10500,0,10500,D03,HAPP
+"Ellzey, Jake",N00042243,R,Texas,9514,1514,8000,D03,HAPP
+"Fleischmann, Chuck",N00030815,R,Tennessee,9500,0,9500,D03,HAPP
+"Kaptur, Marcy",N00003522,D,Ohio,9500,1000,8500,D03,HAPP
+"Joyce, David P",N00035007,R,Ohio,8500,1000,7500,D03,HAPP
+"Quigley, Mike",N00030581,D,Illinois,8000,0,8000,D03,HAPP
+"Laturner, Jake",N00044232,R,Kansas,7640,6640,1000,D03,HAPP
+"Bishop, Sanford",N00002674,D,Georgia,7535,35,7500,D03,HAPP
+"Moolenaar, John",N00036275,R,Michigan,7000,0,7000,D03,HAPP
+"Guest, Michael",N00042458,R,Mississippi,6750,0,6750,D03,HAPP
+"Harder, Josh",N00040853,D,California,6650,6650,0,D03,HAPP
+"Reschenthaler, Guy",N00041871,R,Pennsylvania,6500,0,6500,D03,HAPP
+"Newhouse, Dan",N00036403,R,Washington,6000,0,6000,D03,HAPP
+"Morelle, Joseph D",N00043207,D,New York,5500,0,5500,D03,HAPP
+"Simpson, Mike",N00006263,R,Idaho,5000,0,5000,D03,HAPP
+"Lee, Susie",N00037247,D,Nevada,4000,0,4000,D03,HAPP
+"Wexton, Jennifer",N00041002,D,Virginia,3831,1331,2500,D03,HAPP
+"Cline, Ben",N00042296,R,Virginia,3500,1000,2500,D03,HAPP
+"Harris, Andy",N00029147,R,Maryland,3000,1000,2000,D03,HAPP
+"Bice, Stephanie",N00044579,R,Oklahoma,2078,78,2000,D03,HAPP
+"Pingree, Chellie",N00013817,D,Maine,2035,35,2000,D03,HAPP
+"Amodei, Mark",N00031177,R,Nevada,2000,0,2000,D03,HAPP
+"Zinke, Ryan",N00035616,R,Montana,1276,276,1000,D03,HAPP
+"Schultz, Debbie Wasserman",N00026106,D,Florida,1000,0,1000,D03,HAPP
+"Underwood, Lauren A",N00041569,D,Illinois,265,265,0,D03,HAPP
+"Lee, Barbara",N00008046,D,California,141,141,0,D03,HAPP
+"Trone, David",N00039122,D,Maryland,125,125,0,D03,HAPP
+"Pocan, Mark",N00033549,D,Wisconsin,5,5,0,D03,HAPP
+"Rogers, Mike D",N00024759,R,Alabama,76600,23600,53000,D01,HARM
+"Wittman, Rob",N00029459,R,Virginia,75860,9560,66300,D01,HARM
+"Smith, Adam",N00007833,D,Washington,63100,20600,42500,D01,HARM
+"Waltz, Michael",N00042403,R,Florida,53600,6600,47000,D01,HARM
+"Turner, Michael R",N00025175,R,Ohio,49800,6300,43500,D01,HARM
+"Kelly, Trent",N00037003,R,Mississippi,38000,2000,36000,D01,HARM
+"Norcross, Don",N00036154,D,New Jersey,34400,2900,31500,D01,HARM
+"Horsford, Steven",N00033638,D,Nevada,34013,3013,31000,D01,HARM
+"Courtney, Joe",N00024842,D,Connecticut,33020,520,32500,D01,HARM
+"Panetta, Jimmy",N00038601,D,California,30000,0,30000,D01,HARM
+"Gallagher, Mike",N00039330,R,Wisconsin,30000,0,30000,D01,HARM
+"Bacon, Donald John",N00037049,R,Nebraska,24050,50,24000,D01,HARM
+"Strong, Dale",N00048145,R,Alabama,23800,1300,22500,D01,HARM
+"Bergman, John",N00039533,R,Michigan,23000,0,23000,D01,HARM
+"Graves, Sam",N00013323,R,Missouri,23000,0,23000,D01,HARM
+"Wilson, Joe",N00024809,R,South Carolina,22000,0,22000,D01,HARM
+"Moulton, Seth",N00035431,D,Massachusetts,20558,58,20500,D01,HARM
+"Escobar, Veronica",N00041702,D,Texas,20050,50,20000,D01,HARM
+"Banks, Jim",N00037185,R,Indiana,20012,7012,13000,D01,HARM
+"Sherrill, Mikie",N00041154,D,New Jersey,19292,292,19000,D01,HARM
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,18060,60,18000,D01,HARM
+"Lamborn, Doug",N00028133,R,Colorado,16500,0,16500,D01,HARM
+"Kiggans, Jen",N00048315,R,Virginia,14004,504,13500,D01,HARM
+"Stefanik, Elise",N00035523,R,New York,13525,1025,12500,D01,HARM
+"Keating, Bill",N00031933,D,Massachusetts,13000,0,13000,D01,HARM
+"Johnson, Mike",N00039106,R,Louisiana,13000,500,12500,D01,HARM
+"Carbajal, Salud",N00037015,D,California,12500,500,12000,D01,HARM
+"McClain, Lisa",N00045730,R,Michigan,12000,0,12000,D01,HARM
+"Gallego, Ruben",N00036097,D,Arizona,10482,5482,5000,D01,HARM
+"Scott, Austin",N00032457,R,Georgia,10000,0,10000,D01,HARM
+"Sewell, Terri",N00030622,D,Alabama,10000,0,10000,D01,HARM
+"Strickland, Marilyn",N00046320,D,Washington,10000,0,10000,D01,HARM
+"Garamendi, John",N00030856,D,California,8000,0,8000,D01,HARM
+"Mace, Nancy",N00035670,R,South Carolina,6000,0,6000,D01,HARM
+"LaLota, Nick",N00050419,R,New York,5000,0,5000,D01,HARM
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D01,HARM
+"McCormick, Richard",N00044520,R,Georgia,3000,0,3000,D01,HARM
+"Mills, Cory",N00048179,R,Florida,2100,100,2000,D01,HARM
+"Luttrell, Morgan",N00048776,R,Texas,2093,93,2000,D01,HARM
+"Vasquez, Gabe",N00049142,D,New Mexico,2087,87,2000,D01,HARM
+"Gimenez, Carlos",N00046394,R,Florida,2000,0,2000,D01,HARM
+"Finstad, Brad",N00050649,R,Minnesota,2000,0,2000,D01,HARM
+"Slotkin, Elissa",N00041357,D,Michigan,1953,1953,0,D01,HARM
+"Fallon, Patrick",N00047264,R,Texas,1000,0,1000,D01,HARM
+"Davis, Don",N00049636,D,North Carolina,1000,0,1000,D01,HARM
+"Kim, Andy",N00041370,D,New Jersey,815,815,0,D01,HARM
+"Jackson, Ronny",N00046055,R,Texas,439,439,0,D01,HARM
+"Gaetz, Matt",N00039503,R,Florida,350,350,0,D01,HARM
+"Crow, Jason",N00040876,D,Colorado,268,268,0,D01,HARM
+"Khanna, Ro",N00026427,D,California,104,104,0,D01,HARM
+"Jackson, Jeff",N00050407,D,North Carolina,60,60,0,D01,HARM
+"Golden, Jared",N00041668,D,Maine,18,18,0,D01,HARM
+"Ryan, Pat",N00041165,D,New York,14,14,0,D01,HARM
+"Deluzio, Christopher",N00049160,D,Pennsylvania,14,14,0,D01,HARM
+"Rogers, Mike D",N00024759,R,Alabama,95900,63400,32500,D02,HARM
+"Wittman, Rob",N00029459,R,Virginia,44300,10400,33900,D02,HARM
+"Waltz, Michael",N00042403,R,Florida,33300,9300,24000,D02,HARM
+"Kiggans, Jen",N00048315,R,Virginia,29520,24020,5500,D02,HARM
+"Strong, Dale",N00048145,R,Alabama,17300,3300,14000,D02,HARM
+"Banks, Jim",N00037185,R,Indiana,16325,3325,13000,D02,HARM
+"Turner, Michael R",N00025175,R,Ohio,15100,7600,7500,D02,HARM
+"Bacon, Donald John",N00037049,R,Nebraska,14600,6600,8000,D02,HARM
+"Ryan, Pat",N00041165,D,New York,14257,14257,0,D02,HARM
+"Smith, Adam",N00007833,D,Washington,12500,0,12500,D02,HARM
+"Sherrill, Mikie",N00041154,D,New Jersey,12300,9300,3000,D02,HARM
+"Bergman, John",N00039533,R,Michigan,11500,0,11500,D02,HARM
+"Kelly, Trent",N00037003,R,Mississippi,10300,3300,7000,D02,HARM
+"Lamborn, Doug",N00028133,R,Colorado,10000,0,10000,D02,HARM
+"Courtney, Joe",N00024842,D,Connecticut,8500,0,8500,D02,HARM
+"Stefanik, Elise",N00035523,R,New York,8256,756,7500,D02,HARM
+"Wilson, Joe",N00024809,R,South Carolina,8000,0,8000,D02,HARM
+"Mace, Nancy",N00035670,R,South Carolina,7600,6600,1000,D02,HARM
+"Norcross, Don",N00036154,D,New Jersey,7020,20,7000,D02,HARM
+"Escobar, Veronica",N00041702,D,Texas,7000,0,7000,D02,HARM
+"Jackson, Ronny",N00046055,R,Texas,6615,6615,0,D02,HARM
+"Gallagher, Mike",N00039330,R,Wisconsin,5800,300,5500,D02,HARM
+"Graves, Sam",N00013323,R,Missouri,5000,0,5000,D02,HARM
+"McClain, Lisa",N00045730,R,Michigan,4300,3300,1000,D02,HARM
+"McCormick, Richard",N00044520,R,Georgia,3600,3100,500,D02,HARM
+"LaLota, Nick",N00050419,R,New York,3500,1000,2500,D02,HARM
+"Mills, Cory",N00048179,R,Florida,3500,2500,1000,D02,HARM
+"Vasquez, Gabe",N00049142,D,New Mexico,3357,3357,0,D02,HARM
+"Alford, Mark",N00049617,R,Missouri,3000,0,3000,D02,HARM
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,2500,0,2500,D02,HARM
+"Carbajal, Salud",N00037015,D,California,2500,0,2500,D02,HARM
+"Sewell, Terri",N00030622,D,Alabama,2000,0,2000,D02,HARM
+"Horsford, Steven",N00033638,D,Nevada,2000,1000,1000,D02,HARM
+"Deluzio, Christopher",N00049160,D,Pennsylvania,1657,1657,0,D02,HARM
+"Moulton, Seth",N00035431,D,Massachusetts,1000,0,1000,D02,HARM
+"Johnson, Mike",N00039106,R,Louisiana,1000,0,1000,D02,HARM
+"Fallon, Patrick",N00047264,R,Texas,1000,0,1000,D02,HARM
+"Kim, Andy",N00041370,D,New Jersey,1000,1000,0,D02,HARM
+"Luttrell, Morgan",N00048776,R,Texas,500,0,500,D02,HARM
+"Gallego, Ruben",N00036097,D,Arizona,361,361,0,D02,HARM
+"Slotkin, Elissa",N00041357,D,Michigan,225,225,0,D02,HARM
+"Jackson, Jeff",N00050407,D,North Carolina,25,25,0,D02,HARM
+"Gaetz, Matt",N00039503,R,Florida,-200,-200,0,D02,HARM
+"Rogers, Mike D",N00024759,R,Alabama,125800,65800,60000,D03,HARM
+"Strong, Dale",N00048145,R,Alabama,119650,78150,41500,D03,HARM
+"Wittman, Rob",N00029459,R,Virginia,104155,19255,84900,D03,HARM
+"Turner, Michael R",N00025175,R,Ohio,59850,26350,33500,D03,HARM
+"Kiggans, Jen",N00048315,R,Virginia,57869,20869,37000,D03,HARM
+"Smith, Adam",N00007833,D,Washington,56000,3000,53000,D03,HARM
+"Kelly, Trent",N00037003,R,Mississippi,43300,19800,23500,D03,HARM
+"Waltz, Michael",N00042403,R,Florida,41452,9452,32000,D03,HARM
+"Banks, Jim",N00037185,R,Indiana,37220,12220,25000,D03,HARM
+"Gallagher, Mike",N00039330,R,Wisconsin,32750,4750,28000,D03,HARM
+"Norcross, Don",N00036154,D,New Jersey,25250,250,25000,D03,HARM
+"McClain, Lisa",N00045730,R,Michigan,21100,12100,9000,D03,HARM
+"Lamborn, Doug",N00028133,R,Colorado,19500,3000,16500,D03,HARM
+"Bergman, John",N00039533,R,Michigan,18750,0,18750,D03,HARM
+"Mace, Nancy",N00035670,R,South Carolina,18000,0,18000,D03,HARM
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,15908,7408,8500,D03,HARM
+"Sewell, Terri",N00030622,D,Alabama,15400,2500,12900,D03,HARM
+"Stefanik, Elise",N00035523,R,New York,15396,10396,5000,D03,HARM
+"Horsford, Steven",N00033638,D,Nevada,15000,1500,13500,D03,HARM
+"Courtney, Joe",N00024842,D,Connecticut,13910,910,13000,D03,HARM
+"Bacon, Donald John",N00037049,R,Nebraska,13500,3000,10500,D03,HARM
+"Moulton, Seth",N00035431,D,Massachusetts,13038,38,13000,D03,HARM
+"Wilson, Joe",N00024809,R,South Carolina,13000,500,12500,D03,HARM
+"LaLota, Nick",N00050419,R,New York,12750,250,12500,D03,HARM
+"Graves, Sam",N00013323,R,Missouri,12000,0,12000,D03,HARM
+"Sherrill, Mikie",N00041154,D,New Jersey,11800,3800,8000,D03,HARM
+"Strickland, Marilyn",N00046320,D,Washington,11000,0,11000,D03,HARM
+"Panetta, Jimmy",N00038601,D,California,10500,0,10500,D03,HARM
+"Gallego, Ruben",N00036097,D,Arizona,9992,4992,5000,D03,HARM
+"Garamendi, John",N00030856,D,California,9000,0,9000,D03,HARM
+"Slotkin, Elissa",N00041357,D,Michigan,8269,8269,0,D03,HARM
+"Finstad, Brad",N00050649,R,Minnesota,7500,0,7500,D03,HARM
+"Keating, Bill",N00031933,D,Massachusetts,7000,0,7000,D03,HARM
+"McCormick, Richard",N00044520,R,Georgia,6800,3300,3500,D03,HARM
+"Carbajal, Salud",N00037015,D,California,6000,0,6000,D03,HARM
+"Mills, Cory",N00048179,R,Florida,5750,0,5750,D03,HARM
+"Escobar, Veronica",N00041702,D,Texas,5500,0,5500,D03,HARM
+"Scott, Austin",N00032457,R,Georgia,5500,1500,4000,D03,HARM
+"Davis, Don",N00049636,D,North Carolina,5000,0,5000,D03,HARM
+"Vasquez, Gabe",N00049142,D,New Mexico,4793,793,4000,D03,HARM
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D03,HARM
+"Crow, Jason",N00040876,D,Colorado,4225,4225,0,D03,HARM
+"Luttrell, Morgan",N00048776,R,Texas,4020,20,4000,D03,HARM
+"Golden, Jared",N00041668,D,Maine,3380,3380,0,D03,HARM
+"Ryan, Pat",N00041165,D,New York,3300,3300,0,D03,HARM
+"Kim, Andy",N00041370,D,New Jersey,2069,2069,0,D03,HARM
+"Johnson, Mike",N00039106,R,Louisiana,1000,0,1000,D03,HARM
+"Gimenez, Carlos",N00046394,R,Florida,1000,0,1000,D03,HARM
+"Jackson, Ronny",N00046055,R,Texas,798,798,0,D03,HARM
+"Gaetz, Matt",N00039503,R,Florida,651,651,0,D03,HARM
+"Tokuda, Jill",N00051049,D,Hawaii,200,200,0,D03,HARM
+"Jackson, Jeff",N00050407,D,North Carolina,60,60,0,D03,HARM
+"Panetta, Jimmy",N00038601,D,California,30000,0,30000,D01,HBUD
+"Bergman, John",N00039533,R,Michigan,23000,0,23000,D01,HBUD
+"Valadao, David",N00033367,R,California,21800,3300,18500,D01,HBUD
+"Bice, Stephanie",N00044579,R,Oklahoma,21350,7350,14000,D01,HBUD
+"Arrington, Jodey",N00038285,R,Texas,12500,0,12500,D01,HBUD
+"McClain, Lisa",N00045730,R,Michigan,12000,0,12000,D01,HBUD
+"Estes, Ron",N00040712,R,Kansas,10500,0,10500,D01,HBUD
+"Moore, Blake",N00046598,R,Utah,10000,0,10000,D01,HBUD
+"Peters, Scott",N00033591,D,California,9300,3300,6000,D01,HBUD
+"Higgins, Brian M",N00027060,D,New York,6000,0,6000,D01,HBUD
+"Ferguson, Drew",N00039090,R,Georgia,5000,0,5000,D01,HBUD
+"Carter, Buddy",N00035346,R,Georgia,4500,0,4500,D01,HBUD
+"Wexton, Jennifer",N00041002,D,Virginia,4113,1613,2500,D01,HBUD
+"Grothman, Glenn",N00036409,R,Wisconsin,2500,0,2500,D01,HBUD
+"Kildee, Dan",N00033395,D,Michigan,2100,100,2000,D01,HBUD
+"Cline, Ben",N00042296,R,Virginia,2000,0,2000,D01,HBUD
+"Yakym, Rudy",N00051733,R,Indiana,1080,80,1000,D01,HBUD
+"Burgess, Michael",N00025219,R,Texas,1072,72,1000,D01,HBUD
+"Scott, Bobby",N00002147,D,Virginia,1000,1000,0,D01,HBUD
+"Boyle, Brendan",N00035307,D,Pennsylvania,1000,0,1000,D01,HBUD
+"Smucker, Lloyd",N00038781,R,Pennsylvania,1000,0,1000,D01,HBUD
+"Fischbach, Michelle",N00045251,R,Minnesota,1000,0,1000,D01,HBUD
+"Omar, Ilhan",N00043581,D,Minnesota,797,797,0,D01,HBUD
+"Lee, Barbara",N00008046,D,California,253,253,0,D01,HBUD
+"Roy, Chip",N00042268,R,Texas,250,250,0,D01,HBUD
+"Balint, Becca",N00049900,D,Vermont,165,165,0,D01,HBUD
+"Jackson Lee, Sheila",N00005818,D,Texas,26,26,0,D01,HBUD
+"Bergman, John",N00039533,R,Michigan,11500,0,11500,D02,HBUD
+"Bice, Stephanie",N00044579,R,Oklahoma,9300,5800,3500,D02,HBUD
+"Valadao, David",N00033367,R,California,6600,6600,0,D02,HBUD
+"Moore, Blake",N00046598,R,Utah,6000,0,6000,D02,HBUD
+"McClain, Lisa",N00045730,R,Michigan,4300,3300,1000,D02,HBUD
+"Cline, Ben",N00042296,R,Virginia,1500,0,1500,D02,HBUD
+"Peters, Scott",N00033591,D,California,1000,0,1000,D02,HBUD
+"Omar, Ilhan",N00043581,D,Minnesota,243,243,0,D02,HBUD
+"Trone, David",N00039122,D,Maryland,50,50,0,D02,HBUD
+"Balint, Becca",N00049900,D,Vermont,25,25,0,D02,HBUD
+"Roy, Chip",N00042268,R,Texas,25,25,0,D02,HBUD
+"Wexton, Jennifer",N00041002,D,Virginia,10,10,0,D02,HBUD
+"Valadao, David",N00033367,R,California,23000,2500,20500,D03,HBUD
+"McClain, Lisa",N00045730,R,Michigan,21100,12100,9000,D03,HBUD
+"Bergman, John",N00039533,R,Michigan,18750,0,18750,D03,HBUD
+"Estes, Ron",N00040712,R,Kansas,11100,6600,4500,D03,HBUD
+"Panetta, Jimmy",N00038601,D,California,10500,0,10500,D03,HBUD
+"Peters, Scott",N00033591,D,California,8520,20,8500,D03,HBUD
+"Moore, Blake",N00046598,R,Utah,7195,195,7000,D03,HBUD
+"Carter, Buddy",N00035346,R,Georgia,7000,2000,5000,D03,HBUD
+"Yakym, Rudy",N00051733,R,Indiana,6113,113,6000,D03,HBUD
+"Scott, Bobby",N00002147,D,Virginia,4550,50,4500,D03,HBUD
+"Wexton, Jennifer",N00041002,D,Virginia,3831,1331,2500,D03,HBUD
+"Cline, Ben",N00042296,R,Virginia,3500,1000,2500,D03,HBUD
+"Kildee, Dan",N00033395,D,Michigan,3000,0,3000,D03,HBUD
+"Bice, Stephanie",N00044579,R,Oklahoma,2078,78,2000,D03,HBUD
+"Ferguson, Drew",N00039090,R,Georgia,2000,0,2000,D03,HBUD
+"Omar, Ilhan",N00043581,D,Minnesota,1022,1022,0,D03,HBUD
+"Boyle, Brendan",N00035307,D,Pennsylvania,1000,0,1000,D03,HBUD
+"Smucker, Lloyd",N00038781,R,Pennsylvania,1000,0,1000,D03,HBUD
+"Roy, Chip",N00042268,R,Texas,325,325,0,D03,HBUD
+"Lee, Barbara",N00008046,D,California,141,141,0,D03,HBUD
+"Trone, David",N00039122,D,Maryland,125,125,0,D03,HBUD
+"Balint, Becca",N00049900,D,Vermont,119,119,0,D03,HBUD
+"Burgess, Michael",N00025219,R,Texas,94,94,0,D03,HBUD
+"Norcross, Don",N00036154,D,New Jersey,34400,2900,31500,D01,HEDU
+"Courtney, Joe",N00024842,D,Connecticut,33020,520,32500,D01,HEDU
+"Wilson, Joe",N00024809,R,South Carolina,22000,0,22000,D01,HEDU
+"Banks, Jim",N00037185,R,Indiana,20012,7012,13000,D01,HEDU
+"Stefanik, Elise",N00035523,R,New York,13525,1025,12500,D01,HEDU
+"McClain, Lisa",N00045730,R,Michigan,12000,0,12000,D01,HEDU
+"Williams, Brandon",N00050433,R,New York,10300,0,10300,D01,HEDU
+"Chavez-Deremer, Lori",N00048900,R,Oregon,8000,0,8000,D01,HEDU
+"Kiley, Kevin",N00050259,R,California,6250,2750,3500,D01,HEDU
+"Bonamici, Suzanne",N00033474,D,Oregon,5000,0,5000,D01,HEDU
+"Steel, Michelle",N00044501,R,California,4927,2927,2000,D01,HEDU
+"Comer, James",N00038260,R,Kentucky,3176,176,3000,D01,HEDU
+"Allen, Richard W",N00033720,R,Georgia,3000,0,3000,D01,HEDU
+"Foxx, Virginia",N00026166,R,North Carolina,3000,0,3000,D01,HEDU
+"Walberg, Tim",N00026368,R,Michigan,3000,0,3000,D01,HEDU
+"Thompson, Glenn",N00029736,R,Pennsylvania,3000,0,3000,D01,HEDU
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D01,HEDU
+"Owens, Burgess",N00045812,R,Utah,2500,0,2500,D01,HEDU
+"Grothman, Glenn",N00036409,R,Wisconsin,2500,0,2500,D01,HEDU
+"Hayes, Jahana",N00043421,D,Connecticut,2056,56,2000,D01,HEDU
+"Takano, Mark",N00006701,D,California,1025,25,1000,D01,HEDU
+"Scott, Bobby",N00002147,D,Virginia,1000,1000,0,D01,HEDU
+"Houchin, Erin",N00037427,R,Indiana,1000,0,1000,D01,HEDU
+"James, John",N00041550,R,Michigan,1000,0,1000,D01,HEDU
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D01,HEDU
+"Moran, Nathaniel",N00049775,R,Texas,1000,0,1000,D01,HEDU
+"Omar, Ilhan",N00043581,D,Minnesota,797,797,0,D01,HEDU
+"McBath, Lucy",N00042813,D,Georgia,230,230,0,D01,HEDU
+"Jayapal, Pramila",N00038858,D,Washington,83,83,0,D01,HEDU
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,25,25,0,D01,HEDU
+"Mrvan, Frank Jr",N00045905,D,Indiana,15,15,0,D01,HEDU
+"Wild, Susan",N00041997,D,Pennsylvania,15,15,0,D01,HEDU
+"Bowman, Jamaal",N00044790,D,New York,8,8,0,D01,HEDU
+"Grijalva, Raul M",N00025284,D,Arizona,5,5,0,D01,HEDU
+"Banks, Jim",N00037185,R,Indiana,16325,3325,13000,D02,HEDU
+"Courtney, Joe",N00024842,D,Connecticut,8500,0,8500,D02,HEDU
+"Stefanik, Elise",N00035523,R,New York,8256,756,7500,D02,HEDU
+"Wilson, Joe",N00024809,R,South Carolina,8000,0,8000,D02,HEDU
+"Williams, Brandon",N00050433,R,New York,7600,6600,1000,D02,HEDU
+"Norcross, Don",N00036154,D,New Jersey,7020,20,7000,D02,HEDU
+"Owens, Burgess",N00045812,R,Utah,7000,0,7000,D02,HEDU
+"Chavez-Deremer, Lori",N00048900,R,Oregon,6600,6600,0,D02,HEDU
+"James, John",N00041550,R,Michigan,6600,6600,0,D02,HEDU
+"Kiley, Kevin",N00050259,R,California,6600,6600,0,D02,HEDU
+"McClain, Lisa",N00045730,R,Michigan,4300,3300,1000,D02,HEDU
+"Steel, Michelle",N00044501,R,California,3300,3300,0,D02,HEDU
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,3300,3300,0,D02,HEDU
+"Mrvan, Frank Jr",N00045905,D,Indiana,1057,57,1000,D02,HEDU
+"Bonamici, Suzanne",N00033474,D,Oregon,1000,1000,0,D02,HEDU
+"Moran, Nathaniel",N00049775,R,Texas,1000,1000,0,D02,HEDU
+"Burlison, Eric",N00049123,R,Missouri,500,500,0,D02,HEDU
+"Omar, Ilhan",N00043581,D,Minnesota,243,243,0,D02,HEDU
+"Bowman, Jamaal",N00044790,D,New York,35,35,0,D02,HEDU
+"Comer, James",N00038260,R,Kentucky,1,1,0,D02,HEDU
+"Banks, Jim",N00037185,R,Indiana,37220,12220,25000,D03,HEDU
+"Norcross, Don",N00036154,D,New Jersey,25250,250,25000,D03,HEDU
+"McClain, Lisa",N00045730,R,Michigan,21100,12100,9000,D03,HEDU
+"Stefanik, Elise",N00035523,R,New York,15396,10396,5000,D03,HEDU
+"Courtney, Joe",N00024842,D,Connecticut,13910,910,13000,D03,HEDU
+"Wilson, Joe",N00024809,R,South Carolina,13000,500,12500,D03,HEDU
+"Mrvan, Frank Jr",N00045905,D,Indiana,7000,0,7000,D03,HEDU
+"Scott, Bobby",N00002147,D,Virginia,4550,50,4500,D03,HEDU
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D03,HEDU
+"Takano, Mark",N00006701,D,California,2500,0,2500,D03,HEDU
+"James, John",N00041550,R,Michigan,2500,500,2000,D03,HEDU
+"Comer, James",N00038260,R,Kentucky,2347,347,2000,D03,HEDU
+"Houchin, Erin",N00037427,R,Indiana,2000,0,2000,D03,HEDU
+"Williams, Brandon",N00050433,R,New York,2000,0,2000,D03,HEDU
+"Hayes, Jahana",N00043421,D,Connecticut,2000,0,2000,D03,HEDU
+"Omar, Ilhan",N00043581,D,Minnesota,1022,1022,0,D03,HEDU
+"Chavez-Deremer, Lori",N00048900,R,Oregon,1000,0,1000,D03,HEDU
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D03,HEDU
+"Owens, Burgess",N00045812,R,Utah,1000,0,1000,D03,HEDU
+"Bonamici, Suzanne",N00033474,D,Oregon,1000,0,1000,D03,HEDU
+"Allen, Richard W",N00033720,R,Georgia,1000,0,1000,D03,HEDU
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,403,403,0,D03,HEDU
+"Kiley, Kevin",N00050259,R,California,200,200,0,D03,HEDU
+"Jayapal, Pramila",N00038858,D,Washington,104,104,0,D03,HEDU
+"Bowman, Jamaal",N00044790,D,New York,67,67,0,D03,HEDU
+"Steel, Michelle",N00044501,R,California,61,61,0,D03,HEDU
+"McBath, Lucy",N00042813,D,Georgia,54,54,0,D03,HEDU
+"Grijalva, Raul M",N00025284,D,Arizona,30,30,0,D03,HEDU
+"Manning, Kathy",N00042159,D,North Carolina,25,25,0,D03,HEDU
+"Wild, Susan",N00041997,D,Pennsylvania,8,8,0,D03,HEDU
+"Veasey, Marc",N00033839,D,Texas,19000,1000,18000,D01,HENE
+"Hudson, Richard",N00033630,R,North Carolina,12000,2500,9500,D01,HENE
+"Peters, Scott",N00033591,D,California,9300,3300,6000,D01,HENE
+"Obernolte, Jay",N00045377,R,California,7500,0,7500,D01,HENE
+"Rochester, Lisa Blunt",N00038414,D,Delaware,6505,5,6500,D01,HENE
+"Pfluger, August",N00045421,R,Texas,6000,0,6000,D01,HENE
+"Carter, Buddy",N00035346,R,Georgia,4500,0,4500,D01,HENE
+"Craig, Angie",N00037039,D,Minnesota,4035,535,3500,D01,HENE
+"Lesko, Debbie",N00042056,R,Arizona,4000,0,4000,D01,HENE
+"Pallone, Frank Jr",N00000781,D,New Jersey,4000,0,4000,D01,HENE
+"Armstrong, Kelly",N00042868,R,North Dakota,3500,0,3500,D01,HENE
+"Soto, Darren",N00037422,D,Florida,3000,0,3000,D01,HENE
+"Allen, Richard W",N00033720,R,Georgia,3000,0,3000,D01,HENE
+"Walberg, Tim",N00026368,R,Michigan,3000,0,3000,D01,HENE
+"Cardenas, Tony",N00033373,D,California,3000,0,3000,D01,HENE
+"Tonko, Paul",N00030196,D,New York,3000,0,3000,D01,HENE
+"Weber, Randy",N00033539,R,Texas,2500,0,2500,D01,HENE
+"Crenshaw, Dan",N00042224,R,Texas,2030,30,2000,D01,HENE
+"DeGette, Diana",N00006134,D,Colorado,2005,5,2000,D01,HENE
+"Latta, Bob",N00012233,R,Ohio,2000,0,2000,D01,HENE
+"Matsui, Doris",N00027459,D,California,2000,0,2000,D01,HENE
+"Bucshon, Larry",N00031227,R,Indiana,2000,0,2000,D01,HENE
+"Johnson, Bill",N00032088,R,Ohio,2000,0,2000,D01,HENE
+"Dingell, Debbie",N00036149,D,Michigan,2000,0,2000,D01,HENE
+"Eshoo, Anna",N00007335,D,California,1500,0,1500,D01,HENE
+"Burgess, Michael",N00025219,R,Texas,1072,72,1000,D01,HENE
+"Kuster, Ann",N00030875,D,New Hampshire,1059,59,1000,D01,HENE
+"Duncan, Jeff",N00030752,R,South Carolina,1000,0,1000,D01,HENE
+"Bilirakis, Gus",N00027462,R,Florida,1000,0,1000,D01,HENE
+"Miller-Meeks, Mariannette",N00029495,R,Iowa,1000,0,1000,D01,HENE
+"Guthrie, Brett",N00029675,R,Kentucky,1000,0,1000,D01,HENE
+"Joyce, John",N00043242,R,Pennsylvania,1000,0,1000,D01,HENE
+"Balderson, Troy",N00042194,R,Ohio,1000,0,1000,D01,HENE
+"Schrier, Kim",N00041606,D,Washington,38,38,0,D01,HENE
+"Hudson, Richard",N00033630,R,North Carolina,8100,6600,1500,D02,HENE
+"Bilirakis, Gus",N00027462,R,Florida,7500,0,7500,D02,HENE
+"Johnson, Bill",N00032088,R,Ohio,5000,0,5000,D02,HENE
+"Veasey, Marc",N00033839,D,Texas,4000,0,4000,D02,HENE
+"Obernolte, Jay",N00045377,R,California,3500,0,3500,D02,HENE
+"Pfluger, August",N00045421,R,Texas,3500,1000,2500,D02,HENE
+"Joyce, John",N00043242,R,Pennsylvania,1000,0,1000,D02,HENE
+"Curtis, John",N00041221,R,Utah,1000,0,1000,D02,HENE
+"Pence, Greg",N00041956,R,Indiana,1000,0,1000,D02,HENE
+"Peters, Scott",N00033591,D,California,1000,0,1000,D02,HENE
+"Tonko, Paul",N00030196,D,New York,1000,0,1000,D02,HENE
+"Rochester, Lisa Blunt",N00038414,D,Delaware,18,18,0,D02,HENE
+"Kuster, Ann",N00030875,D,New Hampshire,5,5,0,D02,HENE
+"Crenshaw, Dan",N00042224,R,Texas,2,2,0,D02,HENE
+"Dunn, Neal",N00037442,R,Florida,17432,14432,3000,D03,HENE
+"Hudson, Richard",N00033630,R,North Carolina,12600,8600,4000,D03,HENE
+"Peters, Scott",N00033591,D,California,8520,20,8500,D03,HENE
+"Carter, Buddy",N00035346,R,Georgia,7000,2000,5000,D03,HENE
+"Joyce, John",N00043242,R,Pennsylvania,6250,3750,2500,D03,HENE
+"Harshbarger, Diana",N00046688,R,Tennessee,6000,0,6000,D03,HENE
+"Veasey, Marc",N00033839,D,Texas,5500,0,5500,D03,HENE
+"Castor, Kathy",N00027514,D,Florida,4000,0,4000,D03,HENE
+"Kuster, Ann",N00030875,D,New Hampshire,2818,318,2500,D03,HENE
+"Pfluger, August",N00045421,R,Texas,2507,7,2500,D03,HENE
+"Rodgers, Cathy McMorris",N00026314,R,Washington,2500,0,2500,D03,HENE
+"Dingell, Debbie",N00036149,D,Michigan,2000,0,2000,D03,HENE
+"Griffith, Morgan",N00032029,R,Virginia,2000,0,2000,D03,HENE
+"Johnson, Bill",N00032088,R,Ohio,2000,0,2000,D03,HENE
+"Obernolte, Jay",N00045377,R,California,2000,0,2000,D03,HENE
+"Curtis, John",N00041221,R,Utah,2000,1000,1000,D03,HENE
+"Duncan, Jeff",N00030752,R,South Carolina,1500,0,1500,D03,HENE
+"Kelly, Robin",N00035215,D,Illinois,1250,250,1000,D03,HENE
+"Miller-Meeks, Mariannette",N00029495,R,Iowa,1040,40,1000,D03,HENE
+"Cardenas, Tony",N00033373,D,California,1000,0,1000,D03,HENE
+"Allen, Richard W",N00033720,R,Georgia,1000,0,1000,D03,HENE
+"Cammack, Kat",N00045978,R,Florida,1000,0,1000,D03,HENE
+"Barragan, Nanette",N00037019,D,California,800,800,0,D03,HENE
+"Bucshon, Larry",N00031227,R,Indiana,500,500,0,D03,HENE
+"Lesko, Debbie",N00042056,R,Arizona,500,500,0,D03,HENE
+"Bilirakis, Gus",N00027462,R,Florida,100,100,0,D03,HENE
+"Burgess, Michael",N00025219,R,Texas,94,94,0,D03,HENE
+"Schrier, Kim",N00041606,D,Washington,43,43,0,D03,HENE
+"Crenshaw, Dan",N00042224,R,Texas,20,20,0,D03,HENE
+"Rochester, Lisa Blunt",N00038414,D,Delaware,18,18,0,D03,HENE
+"Horsford, Steven",N00033638,D,Nevada,34013,3013,31000,D01,HFIN
+"Lucas, Frank D",N00005559,R,Oklahoma,19050,3550,15500,D01,HFIN
+"Meeks, Gregory",N00001171,D,New York,16000,0,16000,D01,HFIN
+"Emmer, Tom",N00035440,R,Minnesota,11081,581,10500,D01,HFIN
+"Posey, Bill",N00029662,R,Florida,11000,0,11000,D01,HFIN
+"Kim, Young",N00042386,R,California,10284,3284,7000,D01,HFIN
+"Himes, Jim",N00029070,D,Connecticut,9500,0,9500,D01,HFIN
+"Wagner, Ann",N00033106,R,Missouri,9243,8243,1000,D01,HFIN
+"McHenry, Patrick",N00026627,R,North Carolina,7500,0,7500,D01,HFIN
+"Vargas, Juan",N00007021,D,California,7500,0,7500,D01,HFIN
+"Williams, Roger",N00030602,R,Texas,6600,6600,0,D01,HFIN
+"Luetkemeyer, Blaine",N00030026,R,Missouri,5060,5060,0,D01,HFIN
+"Barr, Andy",N00031233,R,Kentucky,5020,20,5000,D01,HFIN
+"Pettersen, Brittany",N00040878,D,Colorado,4129,1129,3000,D01,HFIN
+"Nunn, Zach",N00048870,R,Iowa,3738,238,3500,D01,HFIN
+"Casten, Sean",N00041338,D,Illinois,3132,132,3000,D01,HFIN
+"Timmons, William",N00042715,R,South Carolina,3000,0,3000,D01,HFIN
+"Beatty, Joyce",N00033904,D,Ohio,3000,0,3000,D01,HFIN
+"Sherman, Brad",N00006897,D,California,2500,0,2500,D01,HFIN
+"Garbarino, Andrew",N00046030,R,New York,2500,0,2500,D01,HFIN
+"Gottheimer, Josh",N00036944,D,New Jersey,2250,250,2000,D01,HFIN
+"Hill, French",N00035792,R,Arkansas,2000,0,2000,D01,HFIN
+"Garcia, Sylvia",N00042282,D,Texas,2000,0,2000,D01,HFIN
+"Sessions, Pete",N00005681,R,Texas,2000,0,2000,D01,HFIN
+"Nickel, Wiley",N00049133,D,North Carolina,1015,15,1000,D01,HFIN
+"De La Cruz, Monica",N00045793,R,Texas,1005,5,1000,D01,HFIN
+"Williams, Nikema Natassha",N00047361,D,Georgia,1000,0,1000,D01,HFIN
+"Flood, Mike",N00050145,R,Nebraska,1000,0,1000,D01,HFIN
+"Lawler, Mike",N00051208,R,New York,1000,0,1000,D01,HFIN
+"Houchin, Erin",N00037427,R,Indiana,1000,0,1000,D01,HFIN
+"Scott, David",N00024871,D,Georgia,1000,0,1000,D01,HFIN
+"Loudermilk, Barry",N00035347,R,Georgia,1000,0,1000,D01,HFIN
+"Tlaib, Rashida",N00042649,D,Michigan,392,392,0,D01,HFIN
+"Mooney, Alex",N00033814,R,West Virginia,250,250,0,D01,HFIN
+"Pressley, Ayanna",N00042581,D,Massachusetts,90,90,0,D01,HFIN
+"Steil, Bryan",N00043379,R,Wisconsin,50,50,0,D01,HFIN
+"Torres, Ritchie",N00044346,D,New York,5,5,0,D01,HFIN
+"Posey, Bill",N00029662,R,Florida,7500,500,7000,D02,HFIN
+"Tlaib, Rashida",N00042649,D,Michigan,6949,6949,0,D02,HFIN
+"Kim, Young",N00042386,R,California,6854,6854,0,D02,HFIN
+"De La Cruz, Monica",N00045793,R,Texas,6600,6600,0,D02,HFIN
+"Nunn, Zach",N00048870,R,Iowa,6600,6600,0,D02,HFIN
+"Lawler, Mike",N00051208,R,New York,6600,6600,0,D02,HFIN
+"Meeks, Gregory",N00001171,D,New York,6000,0,6000,D02,HFIN
+"Sherman, Brad",N00006897,D,California,5000,0,5000,D02,HFIN
+"Himes, Jim",N00029070,D,Connecticut,3500,0,3500,D02,HFIN
+"Sessions, Pete",N00005681,R,Texas,3000,0,3000,D02,HFIN
+"Casten, Sean",N00041338,D,Illinois,2000,2000,0,D02,HFIN
+"Horsford, Steven",N00033638,D,Nevada,2000,1000,1000,D02,HFIN
+"Emmer, Tom",N00035440,R,Minnesota,1000,1000,0,D02,HFIN
+"Nickel, Wiley",N00049133,D,North Carolina,100,100,0,D02,HFIN
+"Torres, Ritchie",N00044346,D,New York,14,14,0,D02,HFIN
+"Horsford, Steven",N00033638,D,Nevada,15000,1500,13500,D03,HFIN
+"Emmer, Tom",N00035440,R,Minnesota,11203,703,10500,D03,HFIN
+"McHenry, Patrick",N00026627,R,North Carolina,10000,0,10000,D03,HFIN
+"Williams, Roger",N00030602,R,Texas,8000,1000,7000,D03,HFIN
+"Himes, Jim",N00029070,D,Connecticut,5500,0,5500,D03,HFIN
+"Garbarino, Andrew",N00046030,R,New York,5000,0,5000,D03,HFIN
+"Foster, Bill",N00029139,D,Illinois,4850,4850,0,D03,HFIN
+"Meeks, Gregory",N00001171,D,New York,4500,0,4500,D03,HFIN
+"Vargas, Juan",N00007021,D,California,4500,0,4500,D03,HFIN
+"Nickel, Wiley",N00049133,D,North Carolina,3000,0,3000,D03,HFIN
+"Lawler, Mike",N00051208,R,New York,2100,100,2000,D03,HFIN
+"Flood, Mike",N00050145,R,Nebraska,2000,0,2000,D03,HFIN
+"Fitzgerald, Scott",N00045434,R,Wisconsin,2000,0,2000,D03,HFIN
+"Houchin, Erin",N00037427,R,Indiana,2000,0,2000,D03,HFIN
+"Timmons, William",N00042715,R,South Carolina,2000,0,2000,D03,HFIN
+"Beatty, Joyce",N00033904,D,Ohio,2000,0,2000,D03,HFIN
+"Steil, Bryan",N00043379,R,Wisconsin,1599,99,1500,D03,HFIN
+"Mooney, Alex",N00033814,R,West Virginia,1525,1525,0,D03,HFIN
+"Sessions, Pete",N00005681,R,Texas,1500,0,1500,D03,HFIN
+"Kim, Young",N00042386,R,California,1360,360,1000,D03,HFIN
+"De La Cruz, Monica",N00045793,R,Texas,1050,50,1000,D03,HFIN
+"Scott, David",N00024871,D,Georgia,1000,0,1000,D03,HFIN
+"Meuser, Dan",N00029416,R,Pennsylvania,1000,0,1000,D03,HFIN
+"Hill, French",N00035792,R,Arkansas,1000,0,1000,D03,HFIN
+"Gottheimer, Josh",N00036944,D,New Jersey,1000,0,1000,D03,HFIN
+"Tlaib, Rashida",N00042649,D,Michigan,286,286,0,D03,HFIN
+"Nunn, Zach",N00048870,R,Iowa,104,104,0,D03,HFIN
+"Wagner, Ann",N00033106,R,Missouri,61,61,0,D03,HFIN
+"Pressley, Ayanna",N00042581,D,Massachusetts,38,38,0,D03,HFIN
+"Casten, Sean",N00041338,D,Illinois,15,15,0,D03,HFIN
+"Davidson, Warren",N00038767,R,Ohio,10,10,0,D03,HFIN
+"Huizenga, Bill",N00030673,R,Michigan,-11600,-11600,0,D03,HFIN
+"Turner, Michael R",N00025175,R,Ohio,49800,6300,43500,D01,HGOV
+"Connolly, Gerry",N00029891,D,Virginia,19870,5870,14000,D01,HGOV
+"Krishnamoorthi, Raja",N00033240,D,Illinois,14214,3214,11000,D01,HGOV
+"McClain, Lisa",N00045730,R,Michigan,12000,0,12000,D01,HGOV
+"Porter, Katie",N00040865,D,California,8763,8763,0,D01,HGOV
+"Mace, Nancy",N00035670,R,South Carolina,6000,0,6000,D01,HGOV
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,4126,4126,0,D01,HGOV
+"Laturner, Jake",N00044232,R,Kansas,4000,0,4000,D01,HGOV
+"Armstrong, Kelly",N00042868,R,North Dakota,3500,0,3500,D01,HGOV
+"Comer, James",N00038260,R,Kentucky,3176,176,3000,D01,HGOV
+"Timmons, William",N00042715,R,South Carolina,3000,0,3000,D01,HGOV
+"Foxx, Virginia",N00026166,R,North Carolina,3000,0,3000,D01,HGOV
+"Greene, Marjorie Taylor",N00044701,R,Georgia,2781,2781,0,D01,HGOV
+"Grothman, Glenn",N00036409,R,Wisconsin,2500,0,2500,D01,HGOV
+"Sessions, Pete",N00005681,R,Texas,2000,0,2000,D01,HGOV
+"Gomez, Jimmy",N00040597,D,California,2000,0,2000,D01,HGOV
+"Langworthy, Nick",N00051431,R,New York,2000,0,2000,D01,HGOV
+"Crockett, Jasmine",N00049840,D,Texas,1300,300,1000,D01,HGOV
+"Raskin, Jamie",N00037036,D,Maryland,1235,235,1000,D01,HGOV
+"Boebert, Lauren",N00045974,R,Colorado,1168,1168,0,D01,HGOV
+"Bush, Cori",N00039373,D,Missouri,1100,1100,0,D01,HGOV
+"Mfume, Kweisi",N00001799,D,Maryland,1000,0,1000,D01,HGOV
+"Lynch, Stephen",N00013855,D,Massachusetts,1000,0,1000,D01,HGOV
+"Fallon, Patrick",N00047264,R,Texas,1000,0,1000,D01,HGOV
+"Brown, Shontel",N00047875,D,Ohio,1000,0,1000,D01,HGOV
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D01,HGOV
+"Edwards, Chuck",N00049670,R,North Carolina,1000,0,1000,D01,HGOV
+"Frost, Maxwell",N00049075,D,Florida,447,447,0,D01,HGOV
+"Luna, Anna Paulina",N00045228,R,Florida,335,335,0,D01,HGOV
+"Goldman, Dan",N00051424,D,New York,265,265,0,D01,HGOV
+"Moskowitz, Jared",N00050596,D,Florida,255,255,0,D01,HGOV
+"Balint, Becca",N00049900,D,Vermont,165,165,0,D01,HGOV
+"Khanna, Ro",N00026427,D,California,104,104,0,D01,HGOV
+"Garcia, Robert",N00049470,D,California,80,80,0,D01,HGOV
+"Gosar, Paul",N00030771,R,Arizona,50,50,0,D01,HGOV
+"Biggs, Andy",N00039293,R,Arizona,30,30,0,D01,HGOV
+"Turner, Michael R",N00025175,R,Ohio,15100,7600,7500,D02,HGOV
+"Mace, Nancy",N00035670,R,South Carolina,7600,6600,1000,D02,HGOV
+"Connolly, Gerry",N00029891,D,Virginia,4950,450,4500,D02,HGOV
+"McClain, Lisa",N00045730,R,Michigan,4300,3300,1000,D02,HGOV
+"Higgins, Clay",N00039953,R,Louisiana,4000,0,4000,D02,HGOV
+"Krishnamoorthi, Raja",N00033240,D,Illinois,3800,3800,0,D02,HGOV
+"Stansbury, Melanie",N00047871,D,New Mexico,3300,3300,0,D02,HGOV
+"Sessions, Pete",N00005681,R,Texas,3000,0,3000,D02,HGOV
+"Fallon, Patrick",N00047264,R,Texas,1000,0,1000,D02,HGOV
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D02,HGOV
+"Porter, Katie",N00040865,D,California,546,546,0,D02,HGOV
+"Burlison, Eric",N00049123,R,Missouri,500,500,0,D02,HGOV
+"Jordan, Jim",N00027894,R,Ohio,360,360,0,D02,HGOV
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,348,348,0,D02,HGOV
+"Boebert, Lauren",N00045974,R,Colorado,183,183,0,D02,HGOV
+"Greene, Marjorie Taylor",N00044701,R,Georgia,180,180,0,D02,HGOV
+"Frost, Maxwell",N00049075,D,Florida,144,144,0,D02,HGOV
+"Casar, Greg",N00049855,D,Texas,48,48,0,D02,HGOV
+"Bush, Cori",N00039373,D,Missouri,45,45,0,D02,HGOV
+"Luna, Anna Paulina",N00045228,R,Florida,25,25,0,D02,HGOV
+"Balint, Becca",N00049900,D,Vermont,25,25,0,D02,HGOV
+"Goldman, Dan",N00051424,D,New York,10,10,0,D02,HGOV
+"Comer, James",N00038260,R,Kentucky,1,1,0,D02,HGOV
+"Turner, Michael R",N00025175,R,Ohio,59850,26350,33500,D03,HGOV
+"Connolly, Gerry",N00029891,D,Virginia,37231,9731,27500,D03,HGOV
+"McClain, Lisa",N00045730,R,Michigan,21100,12100,9000,D03,HGOV
+"Mace, Nancy",N00035670,R,South Carolina,18000,0,18000,D03,HGOV
+"Raskin, Jamie",N00037036,D,Maryland,8825,6825,2000,D03,HGOV
+"Laturner, Jake",N00044232,R,Kansas,7640,6640,1000,D03,HGOV
+"Porter, Katie",N00040865,D,California,6697,6697,0,D03,HGOV
+"Lynch, Stephen",N00013855,D,Massachusetts,5500,2000,3500,D03,HGOV
+"Krishnamoorthi, Raja",N00033240,D,Illinois,5049,49,5000,D03,HGOV
+"Stansbury, Melanie",N00047871,D,New Mexico,3873,3873,0,D03,HGOV
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,2722,2722,0,D03,HGOV
+"Comer, James",N00038260,R,Kentucky,2347,347,2000,D03,HGOV
+"Timmons, William",N00042715,R,South Carolina,2000,0,2000,D03,HGOV
+"Sessions, Pete",N00005681,R,Texas,1500,0,1500,D03,HGOV
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D03,HGOV
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D03,HGOV
+"Biggs, Andy",N00039293,R,Arizona,900,900,0,D03,HGOV
+"Greene, Marjorie Taylor",N00044701,R,Georgia,657,657,0,D03,HGOV
+"Bush, Cori",N00039373,D,Missouri,364,364,0,D03,HGOV
+"Luna, Anna Paulina",N00045228,R,Florida,335,335,0,D03,HGOV
+"Frost, Maxwell",N00049075,D,Florida,282,282,0,D03,HGOV
+"Jordan, Jim",N00027894,R,Ohio,279,279,0,D03,HGOV
+"Burchett, Tim",N00041594,R,Tennessee,200,200,0,D03,HGOV
+"Balint, Becca",N00049900,D,Vermont,119,119,0,D03,HGOV
+"Lee, Summer",N00049757,D,Pennsylvania,93,93,0,D03,HGOV
+"Brown, Shontel",N00047875,D,Ohio,75,75,0,D03,HGOV
+"Boebert, Lauren",N00045974,R,Colorado,50,50,0,D03,HGOV
+"Garcia, Robert",N00049470,D,California,20,20,0,D03,HGOV
+"Crockett, Jasmine",N00049840,D,Texas,10,10,0,D03,HGOV
+"Strong, Dale",N00048145,R,Alabama,23800,1300,22500,D01,HHSC
+"McCaul, Michael",N00026460,R,Texas,15600,8600,7000,D01,HHSC
+"Green, Mark",N00041873,R,Tennessee,11850,6850,5000,D01,HHSC
+"Guest, Michael",N00042458,R,Mississippi,8500,0,8500,D01,HHSC
+"Swalwell, Eric",N00033508,D,California,7493,993,6500,D01,HHSC
+"Pfluger, August",N00045421,R,Texas,6000,0,6000,D01,HHSC
+"LaLota, Nick",N00050419,R,New York,5000,0,5000,D01,HHSC
+"Gonzales, Tony",N00044592,R,Texas,4511,11,4500,D01,HHSC
+"Magaziner, Seth",N00050458,D,Rhode Island,3000,0,3000,D01,HHSC
+"Greene, Marjorie Taylor",N00044701,R,Georgia,2781,2781,0,D01,HHSC
+"D'Esposito, Anthony",N00050681,R,New York,2500,500,2000,D01,HHSC
+"Garbarino, Andrew",N00046030,R,New York,2500,0,2500,D01,HHSC
+"Menendez, Rob",N00049686,D,New Jersey,2500,500,2000,D01,HHSC
+"Gottheimer, Josh",N00036944,D,New Jersey,2250,250,2000,D01,HHSC
+"Luttrell, Morgan",N00048776,R,Texas,2093,93,2000,D01,HHSC
+"Thompson, Bennie G",N00003288,D,Mississippi,2000,0,2000,D01,HHSC
+"Gimenez, Carlos",N00046394,R,Florida,2000,0,2000,D01,HHSC
+"Slotkin, Elissa",N00041357,D,Michigan,1953,1953,0,D01,HHSC
+"Crane, Eli",N00048953,R,Arizona,1082,1082,0,D01,HHSC
+"Titus, Dina",N00030191,D,Nevada,1002,2,1000,D01,HHSC
+"Correa, Lou",N00037260,D,California,1000,0,1000,D01,HHSC
+"Ivey, Glenn",N00033749,D,Maryland,1000,0,1000,D01,HHSC
+"Thanedar, Shri",N00049602,D,Michigan,1000,0,1000,D01,HHSC
+"Goldman, Dan",N00051424,D,New York,265,265,0,D01,HHSC
+"Garcia, Robert",N00049470,D,California,80,80,0,D01,HHSC
+"Jackson Lee, Sheila",N00005818,D,Texas,26,26,0,D01,HHSC
+"Torres, Ritchie",N00044346,D,New York,5,5,0,D01,HHSC
+"Strong, Dale",N00048145,R,Alabama,17300,3300,14000,D02,HHSC
+"McCaul, Michael",N00026460,R,Texas,11000,0,11000,D02,HHSC
+"D'Esposito, Anthony",N00050681,R,New York,6600,6600,0,D02,HHSC
+"Gonzales, Tony",N00044592,R,Texas,4500,0,4500,D02,HHSC
+"Higgins, Clay",N00039953,R,Louisiana,4000,0,4000,D02,HHSC
+"Pfluger, August",N00045421,R,Texas,3500,1000,2500,D02,HHSC
+"LaLota, Nick",N00050419,R,New York,3500,1000,2500,D02,HHSC
+"Magaziner, Seth",N00050458,D,Rhode Island,1500,500,1000,D02,HHSC
+"Swalwell, Eric",N00033508,D,California,1000,0,1000,D02,HHSC
+"Guest, Michael",N00042458,R,Mississippi,1000,0,1000,D02,HHSC
+"Luttrell, Morgan",N00048776,R,Texas,500,0,500,D02,HHSC
+"Slotkin, Elissa",N00041357,D,Michigan,225,225,0,D02,HHSC
+"Greene, Marjorie Taylor",N00044701,R,Georgia,180,180,0,D02,HHSC
+"Crane, Eli",N00048953,R,Arizona,50,50,0,D02,HHSC
+"Torres, Ritchie",N00044346,D,New York,14,14,0,D02,HHSC
+"Goldman, Dan",N00051424,D,New York,10,10,0,D02,HHSC
+"Strong, Dale",N00048145,R,Alabama,119650,78150,41500,D03,HHSC
+"Gonzales, Tony",N00044592,R,Texas,19660,15160,4500,D03,HHSC
+"Carter, Troy",N00025766,D,Louisiana,14200,13200,1000,D03,HHSC
+"LaLota, Nick",N00050419,R,New York,12750,250,12500,D03,HHSC
+"Ezell, Mike",N00048240,R,Mississippi,12000,8500,3500,D03,HHSC
+"Magaziner, Seth",N00050458,D,Rhode Island,8500,0,8500,D03,HHSC
+"Slotkin, Elissa",N00041357,D,Michigan,8269,8269,0,D03,HHSC
+"Swalwell, Eric",N00033508,D,California,7224,2724,4500,D03,HHSC
+"Green, Mark",N00041873,R,Tennessee,7200,350,6850,D03,HHSC
+"Guest, Michael",N00042458,R,Mississippi,6750,0,6750,D03,HHSC
+"Thompson, Bennie G",N00003288,D,Mississippi,6480,980,5500,D03,HHSC
+"Garbarino, Andrew",N00046030,R,New York,5000,0,5000,D03,HHSC
+"Luttrell, Morgan",N00048776,R,Texas,4020,20,4000,D03,HHSC
+"McCaul, Michael",N00026460,R,Texas,3174,174,3000,D03,HHSC
+"Payne, Donald M Jr",N00034639,D,New Jersey,3000,0,3000,D03,HHSC
+"Pfluger, August",N00045421,R,Texas,2507,7,2500,D03,HHSC
+"Thanedar, Shri",N00049602,D,Michigan,1250,250,1000,D03,HHSC
+"Gimenez, Carlos",N00046394,R,Florida,1000,0,1000,D03,HHSC
+"D'Esposito, Anthony",N00050681,R,New York,1000,0,1000,D03,HHSC
+"Lee, Laurel",N00051178,R,Florida,1000,0,1000,D03,HHSC
+"Gottheimer, Josh",N00036944,D,New Jersey,1000,0,1000,D03,HHSC
+"Correa, Lou",N00037260,D,California,1000,0,1000,D03,HHSC
+"Barragan, Nanette",N00037019,D,California,800,800,0,D03,HHSC
+"Greene, Marjorie Taylor",N00044701,R,Georgia,657,657,0,D03,HHSC
+"Crane, Eli",N00048953,R,Arizona,336,336,0,D03,HHSC
+"Garcia, Robert",N00049470,D,California,20,20,0,D03,HHSC
+"Waltz, Michael",N00042403,R,Florida,53600,6600,47000,D01,HINT
+"Wilson, Joe",N00024809,R,South Carolina,22000,0,22000,D01,HINT
+"Connolly, Gerry",N00029891,D,Virginia,19870,5870,14000,D01,HINT
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,18060,60,18000,D01,HINT
+"Meeks, Gregory",N00001171,D,New York,16000,0,16000,D01,HINT
+"McCaul, Michael",N00026460,R,Texas,15600,8600,7000,D01,HINT
+"Keating, Bill",N00031933,D,Massachusetts,13000,0,13000,D01,HINT
+"Green, Mark",N00041873,R,Tennessee,11850,6850,5000,D01,HINT
+"Kim, Young",N00042386,R,California,10284,3284,7000,D01,HINT
+"Wagner, Ann",N00033106,R,Missouri,9243,8243,1000,D01,HINT
+"Mast, Brian",N00037269,R,Florida,8026,26,8000,D01,HINT
+"Allred, Colin",N00040989,D,Texas,7413,7413,0,D01,HINT
+"Issa, Darrell",N00007017,R,California,5250,250,5000,D01,HINT
+"Lieu, Ted",N00035825,D,California,5025,25,5000,D01,HINT
+"Barr, Andy",N00031233,R,Kentucky,5020,20,5000,D01,HINT
+"Cherfilus-McCormick, Sheila",N00043504,D,Florida,4500,0,4500,D01,HINT
+"Dean, Madeleine",N00042894,D,Pennsylvania,3525,25,3500,D01,HINT
+"McCormick, Richard",N00044520,R,Georgia,3000,0,3000,D01,HINT
+"Sherman, Brad",N00006897,D,California,2500,0,2500,D01,HINT
+"Mills, Cory",N00048179,R,Florida,2100,100,2000,D01,HINT
+"Self, Keith",N00049337,R,Texas,2000,0,2000,D01,HINT
+"Kamlager, Sydney",N00049460,D,California,2000,0,2000,D01,HINT
+"Hill, French",N00035792,R,Arkansas,2000,0,2000,D01,HINT
+"Bera, Ami",N00030717,D,California,2000,0,2000,D01,HINT
+"Buck, Ken",N00030829,R,Colorado,1225,225,1000,D01,HINT
+"Titus, Dina",N00030191,D,Nevada,1002,2,1000,D01,HINT
+"Kean, Tom",N00019149,R,New Jersey,1000,0,1000,D01,HINT
+"Moran, Nathaniel",N00049775,R,Texas,1000,0,1000,D01,HINT
+"James, John",N00041550,R,Michigan,1000,0,1000,D01,HINT
+"Baird, Jim",N00041954,R,Indiana,1000,0,1000,D01,HINT
+"Lawler, Mike",N00051208,R,New York,1000,0,1000,D01,HINT
+"Kim, Andy",N00041370,D,New Jersey,815,815,0,D01,HINT
+"Jackson, Ronny",N00046055,R,Texas,439,439,0,D01,HINT
+"Spanberger, Abigail",N00041418,D,Virginia,392,392,0,D01,HINT
+"Moskowitz, Jared",N00050596,D,Florida,255,255,0,D01,HINT
+"Wild, Susan",N00041997,D,Pennsylvania,15,15,0,D01,HINT
+"Castro, Joaquin",N00033316,D,Texas,15,15,0,D01,HINT
+"Waltz, Michael",N00042403,R,Florida,33300,9300,24000,D02,HINT
+"McCaul, Michael",N00026460,R,Texas,11000,0,11000,D02,HINT
+"Wilson, Joe",N00024809,R,South Carolina,8000,0,8000,D02,HINT
+"Kim, Young",N00042386,R,California,6854,6854,0,D02,HINT
+"Jackson, Ronny",N00046055,R,Texas,6615,6615,0,D02,HINT
+"James, John",N00041550,R,Michigan,6600,6600,0,D02,HINT
+"Lawler, Mike",N00051208,R,New York,6600,6600,0,D02,HINT
+"Meeks, Gregory",N00001171,D,New York,6000,0,6000,D02,HINT
+"Sherman, Brad",N00006897,D,California,5000,0,5000,D02,HINT
+"Mast, Brian",N00037269,R,Florida,5000,5000,0,D02,HINT
+"Connolly, Gerry",N00029891,D,Virginia,4950,450,4500,D02,HINT
+"McCormick, Richard",N00044520,R,Georgia,3600,3100,500,D02,HINT
+"Stanton, Greg",N00041750,D,Arizona,3500,0,3500,D02,HINT
+"Mills, Cory",N00048179,R,Florida,3500,2500,1000,D02,HINT
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,2500,0,2500,D02,HINT
+"Lieu, Ted",N00035825,D,California,1500,0,1500,D02,HINT
+"Allred, Colin",N00040989,D,Texas,1239,1239,0,D02,HINT
+"Kim, Andy",N00041370,D,New Jersey,1000,1000,0,D02,HINT
+"Bera, Ami",N00030717,D,California,1000,0,1000,D02,HINT
+"Self, Keith",N00049337,R,Texas,1000,0,1000,D02,HINT
+"Moran, Nathaniel",N00049775,R,Texas,1000,1000,0,D02,HINT
+"Spanberger, Abigail",N00041418,D,Virginia,905,905,0,D02,HINT
+"Waltz, Michael",N00042403,R,Florida,41452,9452,32000,D03,HINT
+"Connolly, Gerry",N00029891,D,Virginia,37231,9731,27500,D03,HINT
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,15908,7408,8500,D03,HINT
+"Wilson, Joe",N00024809,R,South Carolina,13000,500,12500,D03,HINT
+"Green, Mark",N00041873,R,Tennessee,7200,350,6850,D03,HINT
+"Keating, Bill",N00031933,D,Massachusetts,7000,0,7000,D03,HINT
+"McCormick, Richard",N00044520,R,Georgia,6800,3300,3500,D03,HINT
+"Mills, Cory",N00048179,R,Florida,5750,0,5750,D03,HINT
+"Dean, Madeleine",N00042894,D,Pennsylvania,5008,8,5000,D03,HINT
+"Meeks, Gregory",N00001171,D,New York,4500,0,4500,D03,HINT
+"Issa, Darrell",N00007017,R,California,4500,0,4500,D03,HINT
+"Stanton, Greg",N00041750,D,Arizona,4300,3300,1000,D03,HINT
+"Lieu, Ted",N00035825,D,California,4000,0,4000,D03,HINT
+"Smith, Chris",N00009816,R,New Jersey,3333,3333,0,D03,HINT
+"Spanberger, Abigail",N00041418,D,Virginia,3178,3178,0,D03,HINT
+"McCaul, Michael",N00026460,R,Texas,3174,174,3000,D03,HINT
+"Allred, Colin",N00040989,D,Texas,2610,2610,0,D03,HINT
+"James, John",N00041550,R,Michigan,2500,500,2000,D03,HINT
+"Lawler, Mike",N00051208,R,New York,2100,100,2000,D03,HINT
+"Kim, Andy",N00041370,D,New Jersey,2069,2069,0,D03,HINT
+"Cherfilus-McCormick, Sheila",N00043504,D,Florida,2000,0,2000,D03,HINT
+"Kim, Young",N00042386,R,California,1360,360,1000,D03,HINT
+"Mast, Brian",N00037269,R,Florida,1016,16,1000,D03,HINT
+"Hill, French",N00035792,R,Arkansas,1000,0,1000,D03,HINT
+"Jackson, Ronny",N00046055,R,Texas,798,798,0,D03,HINT
+"Bera, Ami",N00030717,D,California,500,500,0,D03,HINT
+"Burchett, Tim",N00041594,R,Tennessee,200,200,0,D03,HINT
+"Self, Keith",N00049337,R,Texas,100,100,0,D03,HINT
+"Wagner, Ann",N00033106,R,Missouri,61,61,0,D03,HINT
+"Salazar, Maria",N00042810,R,Florida,60,60,0,D03,HINT
+"Manning, Kathy",N00042159,D,North Carolina,25,25,0,D03,HINT
+"Davidson, Warren",N00038767,R,Ohio,10,10,0,D03,HINT
+"Wild, Susan",N00041997,D,Pennsylvania,8,8,0,D03,HINT
+"Huizenga, Bill",N00030673,R,Michigan,-11600,-11600,0,D03,HINT
+"Waltz, Michael",N00042403,R,Florida,53600,6600,47000,D01,HITL
+"Turner, Michael R",N00025175,R,Ohio,49800,6300,43500,D01,HITL
+"Kelly, Trent",N00037003,R,Mississippi,38000,2000,36000,D01,HITL
+"Garcia, Mike",N00044298,R,California,32350,3850,28500,D01,HITL
+"Gallagher, Mike",N00039330,R,Wisconsin,30000,0,30000,D01,HITL
+"Stewart, Chris",N00033932,R,Utah,19500,1500,18000,D01,HITL
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,18060,60,18000,D01,HITL
+"Krishnamoorthi, Raja",N00033240,D,Illinois,14214,3214,11000,D01,HITL
+"Stefanik, Elise",N00035523,R,New York,13525,1025,12500,D01,HITL
+"LaHood, Darin",N00037031,R,Illinois,11000,0,11000,D01,HITL
+"Scott, Austin",N00032457,R,Georgia,10000,0,10000,D01,HITL
+"Himes, Jim",N00029070,D,Connecticut,9500,0,9500,D01,HITL
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,7500,1000,6500,D01,HITL
+"Crawford, Rick",N00030770,R,Arkansas,6000,0,6000,D01,HITL
+"Carson, Andre",N00029513,D,Indiana,3500,0,3500,D01,HITL
+"Gottheimer, Josh",N00036944,D,New Jersey,2250,250,2000,D01,HITL
+"Crenshaw, Dan",N00042224,R,Texas,2030,30,2000,D01,HITL
+"Bera, Ami",N00030717,D,California,2000,0,2000,D01,HITL
+"Gomez, Jimmy",N00040597,D,California,2000,0,2000,D01,HITL
+"Hill, French",N00035792,R,Arkansas,2000,0,2000,D01,HITL
+"Wenstrup, Brad",N00033310,R,Ohio,1000,0,1000,D01,HITL
+"Spanberger, Abigail",N00041418,D,Virginia,392,392,0,D01,HITL
+"Crow, Jason",N00040876,D,Colorado,268,268,0,D01,HITL
+"Plaskett, Stacey",N00035000,D,Virgin Islands,90,90,0,D01,HITL
+"Castro, Joaquin",N00033316,D,Texas,15,15,0,D01,HITL
+"Waltz, Michael",N00042403,R,Florida,33300,9300,24000,D02,HITL
+"Turner, Michael R",N00025175,R,Ohio,15100,7600,7500,D02,HITL
+"Garcia, Mike",N00044298,R,California,13600,7600,6000,D02,HITL
+"Stewart, Chris",N00033932,R,Utah,11800,3300,8500,D02,HITL
+"Kelly, Trent",N00037003,R,Mississippi,10300,3300,7000,D02,HITL
+"Stefanik, Elise",N00035523,R,New York,8256,756,7500,D02,HITL
+"Gallagher, Mike",N00039330,R,Wisconsin,5800,300,5500,D02,HITL
+"Krishnamoorthi, Raja",N00033240,D,Illinois,3800,3800,0,D02,HITL
+"Himes, Jim",N00029070,D,Connecticut,3500,0,3500,D02,HITL
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,2500,0,2500,D02,HITL
+"Bera, Ami",N00030717,D,California,1000,0,1000,D02,HITL
+"Wenstrup, Brad",N00033310,R,Ohio,1000,0,1000,D02,HITL
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,1000,0,1000,D02,HITL
+"Spanberger, Abigail",N00041418,D,Virginia,905,905,0,D02,HITL
+"Crenshaw, Dan",N00042224,R,Texas,2,2,0,D02,HITL
+"Turner, Michael R",N00025175,R,Ohio,59850,26350,33500,D03,HITL
+"Kelly, Trent",N00037003,R,Mississippi,43300,19800,23500,D03,HITL
+"Waltz, Michael",N00042403,R,Florida,41452,9452,32000,D03,HITL
+"Gallagher, Mike",N00039330,R,Wisconsin,32750,4750,28000,D03,HITL
+"Garcia, Mike",N00044298,R,California,31762,4462,27300,D03,HITL
+"Houlahan, Chrissy",N00040949,D,Pennsylvania,15908,7408,8500,D03,HITL
+"Stefanik, Elise",N00035523,R,New York,15396,10396,5000,D03,HITL
+"Stewart, Chris",N00033932,R,Utah,11000,2000,9000,D03,HITL
+"Scott, Austin",N00032457,R,Georgia,5500,1500,4000,D03,HITL
+"Himes, Jim",N00029070,D,Connecticut,5500,0,5500,D03,HITL
+"Krishnamoorthi, Raja",N00033240,D,Illinois,5049,49,5000,D03,HITL
+"Crow, Jason",N00040876,D,Colorado,4225,4225,0,D03,HITL
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,4000,0,4000,D03,HITL
+"Spanberger, Abigail",N00041418,D,Virginia,3178,3178,0,D03,HITL
+"Wenstrup, Brad",N00033310,R,Ohio,3000,0,3000,D03,HITL
+"LaHood, Darin",N00037031,R,Illinois,1500,500,1000,D03,HITL
+"Hill, French",N00035792,R,Arkansas,1000,0,1000,D03,HITL
+"Gottheimer, Josh",N00036944,D,New Jersey,1000,0,1000,D03,HITL
+"Carson, Andre",N00029513,D,Indiana,1000,0,1000,D03,HITL
+"Bera, Ami",N00030717,D,California,500,500,0,D03,HITL
+"Plaskett, Stacey",N00035000,D,Virgin Islands,100,100,0,D03,HITL
+"Crenshaw, Dan",N00042224,R,Texas,20,20,0,D03,HITL
+"Escobar, Veronica",N00041702,D,Texas,20050,50,20000,D01,HJUD
+"Johnson, Mike",N00039106,R,Louisiana,13000,500,12500,D01,HJUD
+"Neguse, Joseph",N00041080,D,Colorado,9418,3418,6000,D01,HJUD
+"Schiff, Adam",N00009585,D,California,9405,9405,0,D01,HJUD
+"Swalwell, Eric",N00033508,D,California,7493,993,6500,D01,HJUD
+"Kiley, Kevin",N00050259,R,California,6250,2750,3500,D01,HJUD
+"Issa, Darrell",N00007017,R,California,5250,250,5000,D01,HJUD
+"Lieu, Ted",N00035825,D,California,5025,25,5000,D01,HJUD
+"Cohen, Steve",N00003225,D,Tennessee,5000,0,5000,D01,HJUD
+"Moore, Barry",N00041295,R,Alabama,4500,0,4500,D01,HJUD
+"Dean, Madeleine",N00042894,D,Pennsylvania,3525,25,3500,D01,HJUD
+"Lofgren, Zoe",N00007479,D,California,2500,0,2500,D01,HJUD
+"Johnson, Hank",N00027848,D,Georgia,2000,0,2000,D01,HJUD
+"Cline, Ben",N00042296,R,Virginia,2000,0,2000,D01,HJUD
+"Buck, Ken",N00030829,R,Colorado,1225,225,1000,D01,HJUD
+"Bush, Cori",N00039373,D,Missouri,1100,1100,0,D01,HJUD
+"Correa, Lou",N00037260,D,California,1000,0,1000,D01,HJUD
+"Ivey, Glenn",N00033749,D,Maryland,1000,0,1000,D01,HJUD
+"Scanlon, Mary Gay",N00042706,D,Pennsylvania,1000,0,1000,D01,HJUD
+"Bentz, Cliff",N00045773,R,Oregon,1000,0,1000,D01,HJUD
+"Moran, Nathaniel",N00049775,R,Texas,1000,0,1000,D01,HJUD
+"Gaetz, Matt",N00039503,R,Florida,350,350,0,D01,HJUD
+"Roy, Chip",N00042268,R,Texas,250,250,0,D01,HJUD
+"McBath, Lucy",N00042813,D,Georgia,230,230,0,D01,HJUD
+"Hunt, Wesley",N00044362,R,Texas,200,200,0,D01,HJUD
+"Hageman, Harriet",N00049197,R,Wyoming,115,115,0,D01,HJUD
+"Jayapal, Pramila",N00038858,D,Washington,83,83,0,D01,HJUD
+"Biggs, Andy",N00039293,R,Arizona,30,30,0,D01,HJUD
+"Jackson Lee, Sheila",N00005818,D,Texas,26,26,0,D01,HJUD
+"Van Drew, Jeff",N00042164,R,New Jersey,10,10,0,D01,HJUD
+"Escobar, Veronica",N00041702,D,Texas,7000,0,7000,D02,HJUD
+"Kiley, Kevin",N00050259,R,California,6600,6600,0,D02,HJUD
+"Schiff, Adam",N00009585,D,California,2561,2561,0,D02,HJUD
+"Lieu, Ted",N00035825,D,California,1500,0,1500,D02,HJUD
+"Cline, Ben",N00042296,R,Virginia,1500,0,1500,D02,HJUD
+"Moran, Nathaniel",N00049775,R,Texas,1000,1000,0,D02,HJUD
+"Johnson, Mike",N00039106,R,Louisiana,1000,0,1000,D02,HJUD
+"Swalwell, Eric",N00033508,D,California,1000,0,1000,D02,HJUD
+"Jordan, Jim",N00027894,R,Ohio,360,360,0,D02,HJUD
+"Bush, Cori",N00039373,D,Missouri,45,45,0,D02,HJUD
+"Roy, Chip",N00042268,R,Texas,25,25,0,D02,HJUD
+"Hageman, Harriet",N00049197,R,Wyoming,17,17,0,D02,HJUD
+"Massie, Thomas",N00034041,R,Kentucky,10,10,0,D02,HJUD
+"Gaetz, Matt",N00039503,R,Florida,-200,-200,0,D02,HJUD
+"Schiff, Adam",N00009585,D,California,8763,8763,0,D03,HJUD
+"Swalwell, Eric",N00033508,D,California,7224,2724,4500,D03,HJUD
+"Moore, Barry",N00041295,R,Alabama,6000,5000,1000,D03,HJUD
+"Escobar, Veronica",N00041702,D,Texas,5500,0,5500,D03,HJUD
+"Dean, Madeleine",N00042894,D,Pennsylvania,5008,8,5000,D03,HJUD
+"Ross, Deborah",N00038565,D,North Carolina,5000,0,5000,D03,HJUD
+"Issa, Darrell",N00007017,R,California,4500,0,4500,D03,HJUD
+"Lieu, Ted",N00035825,D,California,4000,0,4000,D03,HJUD
+"Cline, Ben",N00042296,R,Virginia,3500,1000,2500,D03,HJUD
+"Fitzgerald, Scott",N00045434,R,Wisconsin,2000,0,2000,D03,HJUD
+"Hageman, Harriet",N00049197,R,Wyoming,1165,665,500,D03,HJUD
+"Van Drew, Jeff",N00042164,R,New Jersey,1032,1032,0,D03,HJUD
+"Johnson, Mike",N00039106,R,Louisiana,1000,0,1000,D03,HJUD
+"Correa, Lou",N00037260,D,California,1000,0,1000,D03,HJUD
+"Lee, Laurel",N00051178,R,Florida,1000,0,1000,D03,HJUD
+"Nehls, Troy",N00046067,R,Texas,900,900,0,D03,HJUD
+"Biggs, Andy",N00039293,R,Arizona,900,900,0,D03,HJUD
+"Gaetz, Matt",N00039503,R,Florida,651,651,0,D03,HJUD
+"Bush, Cori",N00039373,D,Missouri,364,364,0,D03,HJUD
+"Roy, Chip",N00042268,R,Texas,325,325,0,D03,HJUD
+"Jordan, Jim",N00027894,R,Ohio,279,279,0,D03,HJUD
+"Kiley, Kevin",N00050259,R,California,200,200,0,D03,HJUD
+"Hunt, Wesley",N00044362,R,Texas,122,122,0,D03,HJUD
+"Jayapal, Pramila",N00038858,D,Washington,104,104,0,D03,HJUD
+"Neguse, Joseph",N00041080,D,Colorado,60,60,0,D03,HJUD
+"McBath, Lucy",N00042813,D,Georgia,54,54,0,D03,HJUD
+"Lofgren, Zoe",N00007479,D,California,15,15,0,D03,HJUD
+"Scanlon, Mary Gay",N00042706,D,Pennsylvania,8,8,0,D03,HJUD
+"Wittman, Rob",N00029459,R,Virginia,75860,9560,66300,D01,HRES
+"Case, Ed",N00025882,D,Hawaii,21000,1000,20000,D01,HRES
+"Lamborn, Doug",N00028133,R,Colorado,16500,0,16500,D01,HRES
+"Carl, Jerry",N00044245,R,Alabama,14601,1101,13500,D01,HRES
+"Kiggans, Jen",N00048315,R,Virginia,14004,504,13500,D01,HRES
+"Gallego, Ruben",N00036097,D,Arizona,10482,5482,5000,D01,HRES
+"Neguse, Joseph",N00041080,D,Colorado,9418,3418,6000,D01,HRES
+"Porter, Katie",N00040865,D,California,8763,8763,0,D01,HRES
+"Lee, Susie",N00037247,D,Nevada,8503,2503,6000,D01,HRES
+"Westerman, Bruce",N00035527,R,Arkansas,8000,0,8000,D01,HRES
+"Graves, Garret",N00036135,R,Louisiana,6000,0,6000,D01,HRES
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,4126,4126,0,D01,HRES
+"Webster, Daniel",N00026335,R,Florida,3000,0,3000,D01,HRES
+"Magaziner, Seth",N00050458,D,Rhode Island,3000,0,3000,D01,HRES
+"Kamlager, Sydney",N00049460,D,California,2000,0,2000,D01,HRES
+"Dingell, Debbie",N00036149,D,Michigan,2000,0,2000,D01,HRES
+"Peltola, Mary",N00050780,D,Alaska,1551,551,1000,D01,HRES
+"Napolitano, Grace",N00006789,D,California,1500,0,1500,D01,HRES
+"Boebert, Lauren",N00045974,R,Colorado,1168,1168,0,D01,HRES
+"Collins, Mike",N00035370,R,Georgia,1040,40,1000,D01,HRES
+"LaMalfa, Doug",N00033987,R,California,1000,0,1000,D01,HRES
+"Bentz, Cliff",N00045773,R,Oregon,1000,0,1000,D01,HRES
+"Duarte, John",N00050562,R,California,1000,0,1000,D01,HRES
+"Luna, Anna Paulina",N00045228,R,Florida,335,335,0,D01,HRES
+"Hunt, Wesley",N00044362,R,Texas,200,200,0,D01,HRES
+"Hageman, Harriet",N00049197,R,Wyoming,115,115,0,D01,HRES
+"Gosar, Paul",N00030771,R,Arizona,50,50,0,D01,HRES
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,25,25,0,D01,HRES
+"Grijalva, Raul M",N00025284,D,Arizona,5,5,0,D01,HRES
+"Wittman, Rob",N00029459,R,Virginia,44300,10400,33900,D02,HRES
+"Kiggans, Jen",N00048315,R,Virginia,29520,24020,5500,D02,HRES
+"Lamborn, Doug",N00028133,R,Colorado,10000,0,10000,D02,HRES
+"Carl, Jerry",N00044245,R,Alabama,8500,2000,6500,D02,HRES
+"Duarte, John",N00050562,R,California,6600,6600,0,D02,HRES
+"Case, Ed",N00025882,D,Hawaii,6000,6000,0,D02,HRES
+"Lee, Susie",N00037247,D,Nevada,3500,2000,1500,D02,HRES
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,3300,3300,0,D02,HRES
+"Stansbury, Melanie",N00047871,D,New Mexico,3300,3300,0,D02,HRES
+"Graves, Garret",N00036135,R,Louisiana,2500,0,2500,D02,HRES
+"Magaziner, Seth",N00050458,D,Rhode Island,1500,500,1000,D02,HRES
+"Curtis, John",N00041221,R,Utah,1000,0,1000,D02,HRES
+"Westerman, Bruce",N00035527,R,Arkansas,1000,0,1000,D02,HRES
+"Porter, Katie",N00040865,D,California,546,546,0,D02,HRES
+"Gallego, Ruben",N00036097,D,Arizona,361,361,0,D02,HRES
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,348,348,0,D02,HRES
+"Boebert, Lauren",N00045974,R,Colorado,183,183,0,D02,HRES
+"Luna, Anna Paulina",N00045228,R,Florida,25,25,0,D02,HRES
+"Hageman, Harriet",N00049197,R,Wyoming,17,17,0,D02,HRES
+"Wittman, Rob",N00029459,R,Virginia,104155,19255,84900,D03,HRES
+"Kiggans, Jen",N00048315,R,Virginia,57869,20869,37000,D03,HRES
+"Carl, Jerry",N00044245,R,Alabama,46580,23580,23000,D03,HRES
+"Case, Ed",N00025882,D,Hawaii,24900,7400,17500,D03,HRES
+"Lamborn, Doug",N00028133,R,Colorado,19500,3000,16500,D03,HRES
+"Gallego, Ruben",N00036097,D,Arizona,9992,4992,5000,D03,HRES
+"Peltola, Mary",N00050780,D,Alaska,8960,960,8000,D03,HRES
+"Magaziner, Seth",N00050458,D,Rhode Island,8500,0,8500,D03,HRES
+"Graves, Garret",N00036135,R,Louisiana,7500,0,7500,D03,HRES
+"Porter, Katie",N00040865,D,California,6697,6697,0,D03,HRES
+"Lee, Susie",N00037247,D,Nevada,4000,0,4000,D03,HRES
+"Stansbury, Melanie",N00047871,D,New Mexico,3873,3873,0,D03,HRES
+"Ocasio-Cortez, Alexandria",N00041162,D,New York,2722,2722,0,D03,HRES
+"Curtis, John",N00041221,R,Utah,2000,1000,1000,D03,HRES
+"Dingell, Debbie",N00036149,D,Michigan,2000,0,2000,D03,HRES
+"Collins, Mike",N00035370,R,Georgia,1500,0,1500,D03,HRES
+"Napolitano, Grace",N00006789,D,California,1500,0,1500,D03,HRES
+"Hageman, Harriet",N00049197,R,Wyoming,1165,665,500,D03,HRES
+"Webster, Daniel",N00026335,R,Florida,1000,0,1000,D03,HRES
+"Levin, Mike",N00040667,D,California,510,510,0,D03,HRES
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,403,403,0,D03,HRES
+"Luna, Anna Paulina",N00045228,R,Florida,335,335,0,D03,HRES
+"Duarte, John",N00050562,R,California,200,200,0,D03,HRES
+"Hunt, Wesley",N00044362,R,Texas,122,122,0,D03,HRES
+"Neguse, Joseph",N00041080,D,Colorado,60,60,0,D03,HRES
+"Hoyle, Val",N00049734,D,Oregon,60,60,0,D03,HRES
+"Boebert, Lauren",N00045974,R,Colorado,50,50,0,D03,HRES
+"Grijalva, Raul M",N00025284,D,Arizona,30,30,0,D03,HRES
+"Cole, Tom",N00025726,R,Oklahoma,34000,4500,29500,D01,HRUL
+"Reschenthaler, Guy",N00041871,R,Pennsylvania,9500,0,9500,D01,HRUL
+"Neguse, Joseph",N00041080,D,Colorado,9418,3418,6000,D01,HRUL
+"Langworthy, Nick",N00051431,R,New York,2000,0,2000,D01,HRUL
+"Burgess, Michael",N00025219,R,Texas,1072,72,1000,D01,HRUL
+"Houchin, Erin",N00037427,R,Indiana,1000,0,1000,D01,HRUL
+"Scanlon, Mary Gay",N00042706,D,Pennsylvania,1000,0,1000,D01,HRUL
+"Fischbach, Michelle",N00045251,R,Minnesota,1000,0,1000,D01,HRUL
+"Roy, Chip",N00042268,R,Texas,250,250,0,D01,HRUL
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,25,25,0,D01,HRUL
+"Cole, Tom",N00025726,R,Oklahoma,21100,11100,10000,D02,HRUL
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,3300,3300,0,D02,HRUL
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D02,HRUL
+"Roy, Chip",N00042268,R,Texas,25,25,0,D02,HRUL
+"Massie, Thomas",N00034041,R,Kentucky,10,10,0,D02,HRUL
+"Cole, Tom",N00025726,R,Oklahoma,56650,10400,46250,D03,HRUL
+"Reschenthaler, Guy",N00041871,R,Pennsylvania,6500,0,6500,D03,HRUL
+"Houchin, Erin",N00037427,R,Indiana,2000,0,2000,D03,HRUL
+"Langworthy, Nick",N00051431,R,New York,1000,0,1000,D03,HRUL
+"Fernandez, Teresa Leger",N00044559,D,New Mexico,403,403,0,D03,HRUL
+"Roy, Chip",N00042268,R,Texas,325,325,0,D03,HRUL
+"Burgess, Michael",N00025219,R,Texas,94,94,0,D03,HRUL
+"Neguse, Joseph",N00041080,D,Colorado,60,60,0,D03,HRUL
+"McGovern, James P",N00000179,D,Massachusetts,45,45,0,D03,HRUL
+"Scanlon, Mary Gay",N00042706,D,Pennsylvania,8,8,0,D03,HRUL
+"Garcia, Mike",N00044298,R,California,32350,3850,28500,D01,HSCI
+"Strong, Dale",N00048145,R,Alabama,23800,1300,22500,D01,HSCI
+"Bice, Stephanie",N00044579,R,Oklahoma,21350,7350,14000,D01,HSCI
+"Sherrill, Mikie",N00041154,D,New Jersey,19292,292,19000,D01,HSCI
+"Lucas, Frank D",N00005559,R,Oklahoma,19050,3550,15500,D01,HSCI
+"Posey, Bill",N00029662,R,Florida,11000,0,11000,D01,HSCI
+"Williams, Brandon",N00050433,R,New York,10300,0,10300,D01,HSCI
+"Obernolte, Jay",N00045377,R,California,7500,0,7500,D01,HSCI
+"Babin, Brian",N00005736,R,Texas,7500,0,7500,D01,HSCI
+"Bonamici, Suzanne",N00033474,D,Oregon,5000,0,5000,D01,HSCI
+"Tenney, Claudia",N00036351,R,New York,3600,600,3000,D01,HSCI
+"Stevens, Haley",N00040915,D,Michigan,3000,0,3000,D01,HSCI
+"McCormick, Richard",N00044520,R,Georgia,3000,0,3000,D01,HSCI
+"Webster, Daniel",N00026335,R,Florida,3000,0,3000,D01,HSCI
+"Weber, Randy",N00033539,R,Texas,2500,0,2500,D01,HSCI
+"Lofgren, Zoe",N00007479,D,California,2500,0,2500,D01,HSCI
+"Bera, Ami",N00030717,D,California,2000,0,2000,D01,HSCI
+"Collins, Mike",N00035370,R,Georgia,1040,40,1000,D01,HSCI
+"Kean, Tom",N00019149,R,New Jersey,1000,0,1000,D01,HSCI
+"Baird, Jim",N00041954,R,Indiana,1000,0,1000,D01,HSCI
+"Miller, Max",N00048277,R,Ohio,1000,0,1000,D01,HSCI
+"Sorensen, Eric",N00049558,D,Illinois,375,375,0,D01,HSCI
+"Bowman, Jamaal",N00044790,D,New York,8,8,0,D01,HSCI
+"Strong, Dale",N00048145,R,Alabama,17300,3300,14000,D02,HSCI
+"Garcia, Mike",N00044298,R,California,13600,7600,6000,D02,HSCI
+"Sherrill, Mikie",N00041154,D,New Jersey,12300,9300,3000,D02,HSCI
+"Bice, Stephanie",N00044579,R,Oklahoma,9300,5800,3500,D02,HSCI
+"Williams, Brandon",N00050433,R,New York,7600,6600,1000,D02,HSCI
+"Posey, Bill",N00029662,R,Florida,7500,500,7000,D02,HSCI
+"McCormick, Richard",N00044520,R,Georgia,3600,3100,500,D02,HSCI
+"Obernolte, Jay",N00045377,R,California,3500,0,3500,D02,HSCI
+"Bera, Ami",N00030717,D,California,1000,0,1000,D02,HSCI
+"Bonamici, Suzanne",N00033474,D,Oregon,1000,1000,0,D02,HSCI
+"Sorensen, Eric",N00049558,D,Illinois,557,557,0,D02,HSCI
+"Bowman, Jamaal",N00044790,D,New York,35,35,0,D02,HSCI
+"Strong, Dale",N00048145,R,Alabama,119650,78150,41500,D03,HSCI
+"Garcia, Mike",N00044298,R,California,31762,4462,27300,D03,HSCI
+"Sherrill, Mikie",N00041154,D,New Jersey,11800,3800,8000,D03,HSCI
+"McCormick, Richard",N00044520,R,Georgia,6800,3300,3500,D03,HSCI
+"Ross, Deborah",N00038565,D,North Carolina,5000,0,5000,D03,HSCI
+"Bice, Stephanie",N00044579,R,Oklahoma,2078,78,2000,D03,HSCI
+"Tenney, Claudia",N00036351,R,New York,2030,30,2000,D03,HSCI
+"Obernolte, Jay",N00045377,R,California,2000,0,2000,D03,HSCI
+"Williams, Brandon",N00050433,R,New York,2000,0,2000,D03,HSCI
+"Collins, Mike",N00035370,R,Georgia,1500,0,1500,D03,HSCI
+"Stevens, Haley",N00040915,D,Michigan,1010,10,1000,D03,HSCI
+"Webster, Daniel",N00026335,R,Florida,1000,0,1000,D03,HSCI
+"Bonamici, Suzanne",N00033474,D,Oregon,1000,0,1000,D03,HSCI
+"Bera, Ami",N00030717,D,California,500,500,0,D03,HSCI
+"Bowman, Jamaal",N00044790,D,New York,67,67,0,D03,HSCI
+"Lofgren, Zoe",N00007479,D,California,15,15,0,D03,HSCI
+"Ellzey, Jake",N00042243,R,Texas,13400,400,13000,D01,HSMA
+"Van Duyne, Beth",N00045167,R,Texas,6900,2900,4000,D01,HSMA
+"Williams, Roger",N00030602,R,Texas,6600,6600,0,D01,HSMA
+"Luetkemeyer, Blaine",N00030026,R,Missouri,5060,5060,0,D01,HSMA
+"LaLota, Nick",N00050419,R,New York,5000,0,5000,D01,HSMA
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D01,HSMA
+"Molinaro, Marc",N00049147,R,New York,3050,50,3000,D01,HSMA
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D01,HSMA
+"Davids, Sharice",N00042626,D,Kansas,2246,246,2000,D01,HSMA
+"Crane, Eli",N00048953,R,Arizona,1082,1082,0,D01,HSMA
+"Mfume, Kweisi",N00001799,D,Maryland,1000,0,1000,D01,HSMA
+"Thanedar, Shri",N00049602,D,Michigan,1000,0,1000,D01,HSMA
+"Hunt, Wesley",N00044362,R,Texas,200,200,0,D01,HSMA
+"Perez, Marie Gluesenkamp",N00050490,D,Washington,163,163,0,D01,HSMA
+"Pappas, Chris",N00042161,D,New Hampshire,60,60,0,D01,HSMA
+"Landsman, Greg",N00049718,D,Ohio,39,39,0,D01,HSMA
+"Golden, Jared",N00041668,D,Maine,18,18,0,D01,HSMA
+"Molinaro, Marc",N00049147,R,New York,6600,6600,0,D02,HSMA
+"LaLota, Nick",N00050419,R,New York,3500,1000,2500,D02,HSMA
+"Alford, Mark",N00049617,R,Missouri,3000,0,3000,D02,HSMA
+"Davids, Sharice",N00042626,D,Kansas,1057,57,1000,D02,HSMA
+"Scholten, Hillary",N00044885,D,Michigan,250,250,0,D02,HSMA
+"Landsman, Greg",N00049718,D,Ohio,57,57,0,D02,HSMA
+"Crane, Eli",N00048953,R,Arizona,50,50,0,D02,HSMA
+"Pappas, Chris",N00042161,D,New Hampshire,25,25,0,D02,HSMA
+"LaLota, Nick",N00050419,R,New York,12750,250,12500,D03,HSMA
+"Ellzey, Jake",N00042243,R,Texas,9514,1514,8000,D03,HSMA
+"Williams, Roger",N00030602,R,Texas,8000,1000,7000,D03,HSMA
+"Alford, Mark",N00049617,R,Missouri,4500,0,4500,D03,HSMA
+"Molinaro, Marc",N00049147,R,New York,3500,0,3500,D03,HSMA
+"Golden, Jared",N00041668,D,Maine,3380,3380,0,D03,HSMA
+"Mann, Tracey",N00030743,R,Kansas,3000,0,3000,D03,HSMA
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D03,HSMA
+"Scholten, Hillary",N00044885,D,Michigan,2036,1036,1000,D03,HSMA
+"McGarvey, Morgan",N00049295,D,Kentucky,2000,0,2000,D03,HSMA
+"Thanedar, Shri",N00049602,D,Michigan,1250,250,1000,D03,HSMA
+"Meuser, Dan",N00029416,R,Pennsylvania,1000,0,1000,D03,HSMA
+"Perez, Marie Gluesenkamp",N00050490,D,Washington,818,818,0,D03,HSMA
+"Davids, Sharice",N00042626,D,Kansas,435,435,0,D03,HSMA
+"Crane, Eli",N00048953,R,Arizona,336,336,0,D03,HSMA
+"Hunt, Wesley",N00044362,R,Texas,122,122,0,D03,HSMA
+"Salazar, Maria",N00042810,R,Florida,60,60,0,D03,HSMA
+"Van Duyne, Beth",N00045167,R,Texas,50,50,0,D03,HSMA
+"Landsman, Greg",N00049718,D,Ohio,36,36,0,D03,HSMA
+"Graves, Sam",N00013323,R,Missouri,23000,0,23000,D01,HTRA
+"Moulton, Seth",N00035431,D,Massachusetts,20558,58,20500,D01,HTRA
+"Larsen, Rick",N00009759,D,Washington,16000,0,16000,D01,HTRA
+"Carbajal, Salud",N00037015,D,California,12500,500,12000,D01,HTRA
+"Williams, Brandon",N00050433,R,New York,10300,0,10300,D01,HTRA
+"Strickland, Marilyn",N00046320,D,Washington,10000,0,10000,D01,HTRA
+"Brownley, Julia",N00034254,D,California,9010,10,9000,D01,HTRA
+"Mast, Brian",N00037269,R,Florida,8026,26,8000,D01,HTRA
+"Chavez-Deremer, Lori",N00048900,R,Oregon,8000,0,8000,D01,HTRA
+"Westerman, Bruce",N00035527,R,Arkansas,8000,0,8000,D01,HTRA
+"Garamendi, John",N00030856,D,California,8000,0,8000,D01,HTRA
+"Babin, Brian",N00005736,R,Texas,7500,0,7500,D01,HTRA
+"Allred, Colin",N00040989,D,Texas,7413,7413,0,D01,HTRA
+"Crawford, Rick",N00030770,R,Arkansas,6000,0,6000,D01,HTRA
+"Graves, Garret",N00036135,R,Louisiana,6000,0,6000,D01,HTRA
+"Cohen, Steve",N00003225,D,Tennessee,5000,0,5000,D01,HTRA
+"Carson, Andre",N00029513,D,Indiana,3500,0,3500,D01,HTRA
+"Molinaro, Marc",N00049147,R,New York,3050,50,3000,D01,HTRA
+"Webster, Daniel",N00026335,R,Florida,3000,0,3000,D01,HTRA
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D01,HTRA
+"D'Esposito, Anthony",N00050681,R,New York,2500,500,2000,D01,HTRA
+"Menendez, Rob",N00049686,D,New Jersey,2500,500,2000,D01,HTRA
+"Owens, Burgess",N00045812,R,Utah,2500,0,2500,D01,HTRA
+"Davids, Sharice",N00042626,D,Kansas,2246,246,2000,D01,HTRA
+"Johnson, Hank",N00027848,D,Georgia,2000,0,2000,D01,HTRA
+"Peltola, Mary",N00050780,D,Alaska,1551,551,1000,D01,HTRA
+"Napolitano, Grace",N00006789,D,California,1500,0,1500,D01,HTRA
+"Yakym, Rudy",N00051733,R,Indiana,1080,80,1000,D01,HTRA
+"Collins, Mike",N00035370,R,Georgia,1040,40,1000,D01,HTRA
+"Titus, Dina",N00030191,D,Nevada,1002,2,1000,D01,HTRA
+"Rouzer, David",N00033527,R,North Carolina,1000,0,1000,D01,HTRA
+"LaMalfa, Doug",N00033987,R,California,1000,0,1000,D01,HTRA
+"Kean, Tom",N00019149,R,New Jersey,1000,0,1000,D01,HTRA
+"James, John",N00041550,R,Michigan,1000,0,1000,D01,HTRA
+"Edwards, Chuck",N00049670,R,North Carolina,1000,0,1000,D01,HTRA
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D01,HTRA
+"Duarte, John",N00050562,R,California,1000,0,1000,D01,HTRA
+"Van Orden, Derrick",N00046843,R,Wisconsin,144,144,0,D01,HTRA
+"Pappas, Chris",N00042161,D,New Hampshire,60,60,0,D01,HTRA
+"Auchincloss, Jake",N00045506,D,Massachusetts,60,60,0,D01,HTRA
+"Sykes, Emilia",N00050165,D,Ohio,39,39,0,D01,HTRA
+"Ryan, Pat",N00041165,D,New York,14,14,0,D01,HTRA
+"Van Drew, Jeff",N00042164,R,New Jersey,10,10,0,D01,HTRA
+"Ryan, Pat",N00041165,D,New York,14257,14257,0,D02,HTRA
+"Williams, Brandon",N00050433,R,New York,7600,6600,1000,D02,HTRA
+"Owens, Burgess",N00045812,R,Utah,7000,0,7000,D02,HTRA
+"Van Orden, Derrick",N00046843,R,Wisconsin,6600,6600,0,D02,HTRA
+"Chavez-Deremer, Lori",N00048900,R,Oregon,6600,6600,0,D02,HTRA
+"James, John",N00041550,R,Michigan,6600,6600,0,D02,HTRA
+"Duarte, John",N00050562,R,California,6600,6600,0,D02,HTRA
+"D'Esposito, Anthony",N00050681,R,New York,6600,6600,0,D02,HTRA
+"Molinaro, Marc",N00049147,R,New York,6600,6600,0,D02,HTRA
+"Graves, Sam",N00013323,R,Missouri,5000,0,5000,D02,HTRA
+"Bost, Mike",N00035420,R,Illinois,5000,5000,0,D02,HTRA
+"Mast, Brian",N00037269,R,Florida,5000,5000,0,D02,HTRA
+"Stanton, Greg",N00041750,D,Arizona,3500,0,3500,D02,HTRA
+"Graves, Garret",N00036135,R,Louisiana,2500,0,2500,D02,HTRA
+"Carbajal, Salud",N00037015,D,California,2500,0,2500,D02,HTRA
+"Allred, Colin",N00040989,D,Texas,1239,1239,0,D02,HTRA
+"Davids, Sharice",N00042626,D,Kansas,1057,57,1000,D02,HTRA
+"Moulton, Seth",N00035431,D,Massachusetts,1000,0,1000,D02,HTRA
+"Westerman, Bruce",N00035527,R,Arkansas,1000,0,1000,D02,HTRA
+"Burlison, Eric",N00049123,R,Missouri,500,500,0,D02,HTRA
+"Scholten, Hillary",N00044885,D,Michigan,250,250,0,D02,HTRA
+"Sykes, Emilia",N00050165,D,Ohio,57,57,0,D02,HTRA
+"Pappas, Chris",N00042161,D,New Hampshire,25,25,0,D02,HTRA
+"Massie, Thomas",N00034041,R,Kentucky,10,10,0,D02,HTRA
+"Larsen, Rick",N00009759,D,Washington,15500,0,15500,D03,HTRA
+"Carter, Troy",N00025766,D,Louisiana,14200,13200,1000,D03,HTRA
+"Moulton, Seth",N00035431,D,Massachusetts,13038,38,13000,D03,HTRA
+"Graves, Sam",N00013323,R,Missouri,12000,0,12000,D03,HTRA
+"Ezell, Mike",N00048240,R,Mississippi,12000,8500,3500,D03,HTRA
+"Strickland, Marilyn",N00046320,D,Washington,11000,0,11000,D03,HTRA
+"Garamendi, John",N00030856,D,California,9000,0,9000,D03,HTRA
+"Peltola, Mary",N00050780,D,Alaska,8960,960,8000,D03,HTRA
+"Graves, Garret",N00036135,R,Louisiana,7500,0,7500,D03,HTRA
+"Yakym, Rudy",N00051733,R,Indiana,6113,113,6000,D03,HTRA
+"Carbajal, Salud",N00037015,D,California,6000,0,6000,D03,HTRA
+"Stanton, Greg",N00041750,D,Arizona,4300,3300,1000,D03,HTRA
+"Molinaro, Marc",N00049147,R,New York,3500,0,3500,D03,HTRA
+"Ryan, Pat",N00041165,D,New York,3300,3300,0,D03,HTRA
+"Payne, Donald M Jr",N00034639,D,New Jersey,3000,0,3000,D03,HTRA
+"Mann, Tracey",N00030743,R,Kansas,3000,0,3000,D03,HTRA
+"Bean, Aaron",N00051369,R,Florida,3000,0,3000,D03,HTRA
+"Allred, Colin",N00040989,D,Texas,2610,2610,0,D03,HTRA
+"James, John",N00041550,R,Michigan,2500,500,2000,D03,HTRA
+"Scholten, Hillary",N00044885,D,Michigan,2036,1036,1000,D03,HTRA
+"Williams, Brandon",N00050433,R,New York,2000,0,2000,D03,HTRA
+"Bost, Mike",N00035420,R,Illinois,2000,0,2000,D03,HTRA
+"Collins, Mike",N00035370,R,Georgia,1500,0,1500,D03,HTRA
+"Napolitano, Grace",N00006789,D,California,1500,0,1500,D03,HTRA
+"Van Orden, Derrick",N00046843,R,Wisconsin,1080,80,1000,D03,HTRA
+"Van Drew, Jeff",N00042164,R,New Jersey,1032,1032,0,D03,HTRA
+"Brownley, Julia",N00034254,D,California,1030,30,1000,D03,HTRA
+"Mast, Brian",N00037269,R,Florida,1016,16,1000,D03,HTRA
+"Sykes, Emilia",N00050165,D,Ohio,1005,5,1000,D03,HTRA
+"Chavez-Deremer, Lori",N00048900,R,Oregon,1000,0,1000,D03,HTRA
+"Burlison, Eric",N00049123,R,Missouri,1000,0,1000,D03,HTRA
+"Owens, Burgess",N00045812,R,Utah,1000,0,1000,D03,HTRA
+"Webster, Daniel",N00026335,R,Florida,1000,0,1000,D03,HTRA
+"Carson, Andre",N00029513,D,Indiana,1000,0,1000,D03,HTRA
+"D'Esposito, Anthony",N00050681,R,New York,1000,0,1000,D03,HTRA
+"Nehls, Troy",N00046067,R,Texas,900,900,0,D03,HTRA
+"Davids, Sharice",N00042626,D,Kansas,435,435,0,D03,HTRA
+"Burchett, Tim",N00041594,R,Tennessee,200,200,0,D03,HTRA
+"Duarte, John",N00050562,R,California,200,200,0,D03,HTRA
+"Hoyle, Val",N00049734,D,Oregon,60,60,0,D03,HTRA
+"Foushee, Valerie",N00049652,D,North Carolina,50,50,0,D03,HTRA
+"Ciscomani, Juan",N00049039,R,Arizona,27555,12555,15000,D01,HVET
+"Bergman, John",N00039533,R,Michigan,23000,0,23000,D01,HVET
+"Franklin, Scott",N00046760,R,Florida,14500,0,14500,D01,HVET
+"Kiggans, Jen",N00048315,R,Virginia,14004,504,13500,D01,HVET
+"Brownley, Julia",N00034254,D,California,9010,10,9000,D01,HVET
+"Mace, Nancy",N00035670,R,South Carolina,6000,0,6000,D01,HVET
+"Cherfilus-McCormick, Sheila",N00043504,D,Florida,4500,0,4500,D01,HVET
+"Luttrell, Morgan",N00048776,R,Texas,2093,93,2000,D01,HVET
+"Self, Keith",N00049337,R,Texas,2000,0,2000,D01,HVET
+"Murphy, Greg",N00044027,R,North Carolina,2000,0,2000,D01,HVET
+"Crane, Eli",N00048953,R,Arizona,1082,1082,0,D01,HVET
+"Takano, Mark",N00006701,D,California,1025,25,1000,D01,HVET
+"Miller-Meeks, Mariannette",N00029495,R,Iowa,1000,0,1000,D01,HVET
+"Van Orden, Derrick",N00046843,R,Wisconsin,144,144,0,D01,HVET
+"Pappas, Chris",N00042161,D,New Hampshire,60,60,0,D01,HVET
+"Landsman, Greg",N00049718,D,Ohio,39,39,0,D01,HVET
+"Mrvan, Frank Jr",N00045905,D,Indiana,15,15,0,D01,HVET
+"Deluzio, Christopher",N00049160,D,Pennsylvania,14,14,0,D01,HVET
+"Kiggans, Jen",N00048315,R,Virginia,29520,24020,5500,D02,HVET
+"Franklin, Scott",N00046760,R,Florida,13300,3300,10000,D02,HVET
+"Bergman, John",N00039533,R,Michigan,11500,0,11500,D02,HVET
+"Ciscomani, Juan",N00049039,R,Arizona,9100,6600,2500,D02,HVET
+"Mace, Nancy",N00035670,R,South Carolina,7600,6600,1000,D02,HVET
+"Van Orden, Derrick",N00046843,R,Wisconsin,6600,6600,0,D02,HVET
+"Bost, Mike",N00035420,R,Illinois,5000,5000,0,D02,HVET
+"Deluzio, Christopher",N00049160,D,Pennsylvania,1657,1657,0,D02,HVET
+"Mrvan, Frank Jr",N00045905,D,Indiana,1057,57,1000,D02,HVET
+"Self, Keith",N00049337,R,Texas,1000,0,1000,D02,HVET
+"Luttrell, Morgan",N00048776,R,Texas,500,0,500,D02,HVET
+"Landsman, Greg",N00049718,D,Ohio,57,57,0,D02,HVET
+"Crane, Eli",N00048953,R,Arizona,50,50,0,D02,HVET
+"Pappas, Chris",N00042161,D,New Hampshire,25,25,0,D02,HVET
+"Kiggans, Jen",N00048315,R,Virginia,57869,20869,37000,D03,HVET
+"Ciscomani, Juan",N00049039,R,Arizona,41300,22300,19000,D03,HVET
+"Bergman, John",N00039533,R,Michigan,18750,0,18750,D03,HVET
+"Mace, Nancy",N00035670,R,South Carolina,18000,0,18000,D03,HVET
+"Franklin, Scott",N00046760,R,Florida,16255,1255,15000,D03,HVET
+"Mrvan, Frank Jr",N00045905,D,Indiana,7000,0,7000,D03,HVET
+"Luttrell, Morgan",N00048776,R,Texas,4020,20,4000,D03,HVET
+"Takano, Mark",N00006701,D,California,2500,0,2500,D03,HVET
+"Bost, Mike",N00035420,R,Illinois,2000,0,2000,D03,HVET
+"Cherfilus-McCormick, Sheila",N00043504,D,Florida,2000,0,2000,D03,HVET
+"McGarvey, Morgan",N00049295,D,Kentucky,2000,0,2000,D03,HVET
+"Budzinski, Nikki",N00049102,D,Illinois,1750,0,1750,D03,HVET
+"Van Orden, Derrick",N00046843,R,Wisconsin,1080,80,1000,D03,HVET
+"Miller-Meeks, Mariannette",N00029495,R,Iowa,1040,40,1000,D03,HVET
+"Brownley, Julia",N00034254,D,California,1030,30,1000,D03,HVET
+"Levin, Mike",N00040667,D,California,510,510,0,D03,HVET
+"Crane, Eli",N00048953,R,Arizona,336,336,0,D03,HVET
+"Self, Keith",N00049337,R,Texas,100,100,0,D03,HVET
+"Landsman, Greg",N00049718,D,Ohio,36,36,0,D03,HVET
+"Panetta, Jimmy",N00038601,D,California,30000,0,30000,D01,HWAY
+"Larson, John",N00000575,D,Connecticut,17533,33,17500,D01,HWAY
+"Arrington, Jodey",N00038285,R,Texas,12500,0,12500,D01,HWAY
+"LaHood, Darin",N00037031,R,Illinois,11000,0,11000,D01,HWAY
+"Estes, Ron",N00040712,R,Kansas,10500,0,10500,D01,HWAY
+"Moore, Blake",N00046598,R,Utah,10000,0,10000,D01,HWAY
+"Sewell, Terri",N00030622,D,Alabama,10000,0,10000,D01,HWAY
+"Thompson, Mike",N00007419,D,California,7500,0,7500,D01,HWAY
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,7500,1000,6500,D01,HWAY
+"Van Duyne, Beth",N00045167,R,Texas,6900,2900,4000,D01,HWAY
+"Smith, Jason",N00035282,R,Missouri,6522,22,6500,D01,HWAY
+"Higgins, Brian M",N00027060,D,New York,6000,0,6000,D01,HWAY
+"Schweikert, David",N00006460,R,Arizona,5500,0,5500,D01,HWAY
+"Beyer, Don",N00036018,D,Virginia,5000,0,5000,D01,HWAY
+"Ferguson, Drew",N00039090,R,Georgia,5000,0,5000,D01,HWAY
+"Steel, Michelle",N00044501,R,California,4927,2927,2000,D01,HWAY
+"Carey, Mike",N00048568,R,Ohio,4500,0,4500,D01,HWAY
+"Tenney, Claudia",N00036351,R,New York,3600,600,3000,D01,HWAY
+"Schneider, Brad",N00033101,D,Illinois,3500,0,3500,D01,HWAY
+"DelBene, Suzan",N00030693,D,Washington,3000,0,3000,D01,HWAY
+"Moore, Gwen",N00026914,D,Wisconsin,3000,0,3000,D01,HWAY
+"Neal, Richard E",N00000153,D,Massachusetts,2500,0,2500,D01,HWAY
+"Sanchez, Linda",N00024870,D,California,2500,0,2500,D01,HWAY
+"Hern, Kevin",N00040829,R,Oklahoma,2130,130,2000,D01,HWAY
+"Kildee, Dan",N00033395,D,Michigan,2100,100,2000,D01,HWAY
+"Kelly, Mike",N00031647,R,Pennsylvania,2000,0,2000,D01,HWAY
+"Smith, Adrian",N00027623,R,Nebraska,2000,0,2000,D01,HWAY
+"Feenstra, Randy",N00044011,R,Iowa,2000,0,2000,D01,HWAY
+"Murphy, Greg",N00044027,R,North Carolina,2000,0,2000,D01,HWAY
+"Malliotakis, Nicole",N00044040,R,New York,2000,0,2000,D01,HWAY
+"Fischbach, Michelle",N00045251,R,Minnesota,1000,0,1000,D01,HWAY
+"Miller, Carol",N00041542,R,West Virginia,1000,0,1000,D01,HWAY
+"Steube, Greg",N00042808,R,Florida,1000,0,1000,D01,HWAY
+"Smucker, Lloyd",N00038781,R,Pennsylvania,1000,0,1000,D01,HWAY
+"Evans, Dwight",N00038450,D,Pennsylvania,1000,0,1000,D01,HWAY
+"Kustoff, David",N00025445,R,Tennessee,1000,0,1000,D01,HWAY
+"Pascrell, Bill Jr",N00000751,D,New Jersey,1000,0,1000,D01,HWAY
+"Wenstrup, Brad",N00033310,R,Ohio,1000,0,1000,D01,HWAY
+"Moore, Blake",N00046598,R,Utah,6000,0,6000,D02,HWAY
+"Steel, Michelle",N00044501,R,California,3300,3300,0,D02,HWAY
+"DelBene, Suzan",N00030693,D,Washington,2500,0,2500,D02,HWAY
+"Sewell, Terri",N00030622,D,Alabama,2000,0,2000,D02,HWAY
+"Smith, Jason",N00035282,R,Missouri,2000,0,2000,D02,HWAY
+"Beyer, Don",N00036018,D,Virginia,1000,0,1000,D02,HWAY
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,1000,0,1000,D02,HWAY
+"Hern, Kevin",N00040829,R,Oklahoma,1000,0,1000,D02,HWAY
+"Wenstrup, Brad",N00033310,R,Ohio,1000,0,1000,D02,HWAY
+"Pascrell, Bill Jr",N00000751,D,New Jersey,-2500,0,-2500,D02,HWAY
+"Sewell, Terri",N00030622,D,Alabama,15400,2500,12900,D03,HWAY
+"Estes, Ron",N00040712,R,Kansas,11100,6600,4500,D03,HWAY
+"Panetta, Jimmy",N00038601,D,California,10500,0,10500,D03,HWAY
+"Smith, Jason",N00035282,R,Missouri,10000,0,10000,D03,HWAY
+"Beyer, Don",N00036018,D,Virginia,9120,3620,5500,D03,HWAY
+"Neal, Richard E",N00000153,D,Massachusetts,7500,0,7500,D03,HWAY
+"Moore, Blake",N00046598,R,Utah,7195,195,7000,D03,HWAY
+"Larson, John",N00000575,D,Connecticut,5000,0,5000,D03,HWAY
+"DelBene, Suzan",N00030693,D,Washington,4500,0,4500,D03,HWAY
+"Fitzpatrick, Brian",N00038779,R,Pennsylvania,4000,0,4000,D03,HWAY
+"Wenstrup, Brad",N00033310,R,Ohio,3000,0,3000,D03,HWAY
+"Kildee, Dan",N00033395,D,Michigan,3000,0,3000,D03,HWAY
+"Schneider, Brad",N00033101,D,Illinois,2525,25,2500,D03,HWAY
+"Tenney, Claudia",N00036351,R,New York,2030,30,2000,D03,HWAY
+"Evans, Dwight",N00038450,D,Pennsylvania,2000,0,2000,D03,HWAY
+"Ferguson, Drew",N00039090,R,Georgia,2000,0,2000,D03,HWAY
+"Schweikert, David",N00006460,R,Arizona,2000,0,2000,D03,HWAY
+"LaHood, Darin",N00037031,R,Illinois,1500,500,1000,D03,HWAY
+"Feenstra, Randy",N00044011,R,Iowa,1500,0,1500,D03,HWAY
+"Miller, Carol",N00041542,R,West Virginia,1500,0,1500,D03,HWAY
+"Smucker, Lloyd",N00038781,R,Pennsylvania,1000,0,1000,D03,HWAY
+"Moore, Gwen",N00026914,D,Wisconsin,1000,0,1000,D03,HWAY
+"Pascrell, Bill Jr",N00000751,D,New Jersey,1000,0,1000,D03,HWAY
+"Hern, Kevin",N00040829,R,Oklahoma,98,98,0,D03,HWAY
+"Steel, Michelle",N00044501,R,California,61,61,0,D03,HWAY
+"Van Duyne, Beth",N00045167,R,Texas,50,50,0,D03,HWAY
+"Steube, Greg",N00042808,R,Florida,50,50,0,D03,HWAY
+"Fischer, Deb",N00033443,R,Nebraska,24000,500,23500,D01,SAGR
+"Brown, Sherrod",N00003535,D,Ohio,14669,6669,8000,D01,SAGR
+"Ernst, Joni",N00035483,R,Iowa,8035,35,8000,D01,SAGR
+"Tuberville, Tommy",N00044434,R,Alabama,6000,500,5500,D01,SAGR
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,3000,0,3000,D01,SAGR
+"McConnell, Mitch",N00003389,R,Kentucky,2550,50,2500,D01,SAGR
+"Fetterman, John",N00038201,D,Pennsylvania,2210,2210,0,D01,SAGR
+"Warnock, Raphael",N00046489,D,Georgia,1485,1485,0,D01,SAGR
+"Booker, Cory",N00035267,D,New Jersey,1242,1242,0,D01,SAGR
+"Grassley, Chuck",N00001758,R,Iowa,1002,2,1000,D01,SAGR
+"Hoeven, John",N00031688,R,North Dakota,1000,0,1000,D01,SAGR
+"Bennet, Michael",N00030608,D,Colorado,914,914,0,D01,SAGR
+"Gillibrand, Kirsten",N00027658,D,New York,361,361,0,D01,SAGR
+"Klobuchar, Amy",N00027500,D,Minnesota,358,358,0,D01,SAGR
+"Welch, Peter",N00000515,D,Vermont,200,200,0,D01,SAGR
+"Lujan, Ben Ray",N00029562,D,New Mexico,109,109,0,D01,SAGR
+"Durbin, Dick",N00004981,D,Illinois,12,12,0,D01,SAGR
+"Stabenow, Debbie",N00004118,D,Michigan,10,10,0,D01,SAGR
+"Fischer, Deb",N00033443,R,Nebraska,9182,182,9000,D02,SAGR
+"Durbin, Dick",N00004981,D,Illinois,6600,6600,0,D02,SAGR
+"Tuberville, Tommy",N00044434,R,Alabama,6500,0,6500,D02,SAGR
+"Hoeven, John",N00031688,R,North Dakota,2000,2000,0,D02,SAGR
+"Brown, Sherrod",N00003535,D,Ohio,1635,635,1000,D02,SAGR
+"Warnock, Raphael",N00046489,D,Georgia,1500,1500,0,D02,SAGR
+"McConnell, Mitch",N00003389,R,Kentucky,1200,1200,0,D02,SAGR
+"Klobuchar, Amy",N00027500,D,Minnesota,1113,1113,0,D02,SAGR
+"Boozman, John",N00013873,R,Arkansas,1000,0,1000,D02,SAGR
+"Lujan, Ben Ray",N00029562,D,New Mexico,500,500,0,D02,SAGR
+"Fetterman, John",N00038201,D,Pennsylvania,93,93,0,D02,SAGR
+"Gillibrand, Kirsten",N00027658,D,New York,70,70,0,D02,SAGR
+"Booker, Cory",N00035267,D,New Jersey,50,50,0,D02,SAGR
+"Bennet, Michael",N00030608,D,Colorado,25,25,0,D02,SAGR
+"Tuberville, Tommy",N00044434,R,Alabama,50900,45400,5500,D03,SAGR
+"Fischer, Deb",N00033443,R,Nebraska,21503,3,21500,D03,SAGR
+"Brown, Sherrod",N00003535,D,Ohio,10933,5933,5000,D03,SAGR
+"Ernst, Joni",N00035483,R,Iowa,7605,605,7000,D03,SAGR
+"Durbin, Dick",N00004981,D,Illinois,5005,5,5000,D03,SAGR
+"Hoeven, John",N00031688,R,North Dakota,2000,0,2000,D03,SAGR
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,2000,0,2000,D03,SAGR
+"Warnock, Raphael",N00046489,D,Georgia,1446,1446,0,D03,SAGR
+"Fetterman, John",N00038201,D,Pennsylvania,1266,1266,0,D03,SAGR
+"Booker, Cory",N00035267,D,New Jersey,944,944,0,D03,SAGR
+"Bennet, Michael",N00030608,D,Colorado,930,930,0,D03,SAGR
+"Gillibrand, Kirsten",N00027658,D,New York,599,599,0,D03,SAGR
+"Klobuchar, Amy",N00027500,D,Minnesota,427,427,0,D03,SAGR
+"Lujan, Ben Ray",N00029562,D,New Mexico,268,268,0,D03,SAGR
+"Smith, Tina",N00042353,D,Minnesota,13,13,0,D03,SAGR
+"Manchin, Joe",N00032838,D,West Virginia,89201,74201,15000,D01,SAPP
+"Collins, Susan M",N00000491,R,Maine,58600,58600,0,D01,SAPP
+"Tester, Jon",N00027605,D,Montana,29969,12969,17000,D01,SAPP
+"Heinrich, Martin",N00029835,D,New Mexico,26688,6688,20000,D01,SAPP
+"Britt, Katie Boyd",N00048812,R,Alabama,26510,19510,7000,D01,SAPP
+"Fischer, Deb",N00033443,R,Nebraska,24000,500,23500,D01,SAPP
+"Baldwin, Tammy",N00004367,D,Wisconsin,14973,8473,6500,D01,SAPP
+"Shaheen, Jeanne",N00024790,D,New Hampshire,7000,2500,4500,D01,SAPP
+"Reed, Jack",N00000362,D,Rhode Island,5800,5000,800,D01,SAPP
+"Peters, Gary",N00029277,D,Michigan,3590,90,3500,D01,SAPP
+"Moran, Jerry",N00005282,R,Kansas,3500,500,3000,D01,SAPP
+"Rubio, Marco",N00030612,R,Florida,3243,1743,1500,D01,SAPP
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,3000,0,3000,D01,SAPP
+"Capito, Shelley Moore",N00009771,R,West Virginia,3000,0,3000,D01,SAPP
+"McConnell, Mitch",N00003389,R,Kentucky,2550,50,2500,D01,SAPP
+"Hagerty, Bill",N00045369,R,Tennessee,2185,185,2000,D01,SAPP
+"Murphy, Christopher S",N00027566,D,Connecticut,1799,1799,0,D01,SAPP
+"Schatz, Brian",N00028138,D,Hawaii,1042,42,1000,D01,SAPP
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D01,SAPP
+"Murray, Patty",N00007876,D,Washington,1000,0,1000,D01,SAPP
+"Hoeven, John",N00031688,R,North Dakota,1000,0,1000,D01,SAPP
+"Coons, Chris",N00031820,D,Delaware,1000,0,1000,D01,SAPP
+"Graham, Lindsey",N00009975,R,South Carolina,177,177,0,D01,SAPP
+"Merkley, Jeff",N00029303,D,Oregon,30,30,0,D01,SAPP
+"Durbin, Dick",N00004981,D,Illinois,12,12,0,D01,SAPP
+"Kennedy, John",N00026823,R,Louisiana,-2280,720,-3000,D01,SAPP
+"Britt, Katie Boyd",N00048812,R,Alabama,25000,7000,18000,D02,SAPP
+"Shaheen, Jeanne",N00024790,D,New Hampshire,9500,0,9500,D02,SAPP
+"Fischer, Deb",N00033443,R,Nebraska,9182,182,9000,D02,SAPP
+"Durbin, Dick",N00004981,D,Illinois,6600,6600,0,D02,SAPP
+"Peters, Gary",N00029277,D,Michigan,6060,60,6000,D02,SAPP
+"Heinrich, Martin",N00029835,D,New Mexico,5800,3300,2500,D02,SAPP
+"Moran, Jerry",N00005282,R,Kansas,2500,0,2500,D02,SAPP
+"Reed, Jack",N00000362,D,Rhode Island,2500,1500,1000,D02,SAPP
+"Tester, Jon",N00027605,D,Montana,2161,2161,0,D02,SAPP
+"Hoeven, John",N00031688,R,North Dakota,2000,2000,0,D02,SAPP
+"Manchin, Joe",N00032838,D,West Virginia,1500,0,1500,D02,SAPP
+"McConnell, Mitch",N00003389,R,Kentucky,1200,1200,0,D02,SAPP
+"Graham, Lindsey",N00009975,R,South Carolina,1003,1003,0,D02,SAPP
+"Van Hollen, Chris",N00013820,D,Maryland,1000,0,1000,D02,SAPP
+"Boozman, John",N00013873,R,Arkansas,1000,0,1000,D02,SAPP
+"Hagerty, Bill",N00045369,R,Tennessee,1000,0,1000,D02,SAPP
+"Baldwin, Tammy",N00004367,D,Wisconsin,500,0,500,D02,SAPP
+"Murphy, Christopher S",N00027566,D,Connecticut,95,95,0,D02,SAPP
+"Britt, Katie Boyd",N00048812,R,Alabama,141951,91951,50000,D03,SAPP
+"Tester, Jon",N00027605,D,Montana,45701,14701,31000,D03,SAPP
+"Heinrich, Martin",N00029835,D,New Mexico,28885,7885,21000,D03,SAPP
+"Baldwin, Tammy",N00004367,D,Wisconsin,25556,5556,20000,D03,SAPP
+"Fischer, Deb",N00033443,R,Nebraska,21503,3,21500,D03,SAPP
+"Shaheen, Jeanne",N00024790,D,New Hampshire,16180,180,16000,D03,SAPP
+"Peters, Gary",N00029277,D,Michigan,14895,5895,9000,D03,SAPP
+"Reed, Jack",N00000362,D,Rhode Island,10500,0,10500,D03,SAPP
+"Hagerty, Bill",N00045369,R,Tennessee,9245,245,9000,D03,SAPP
+"Manchin, Joe",N00032838,D,West Virginia,8550,1050,7500,D03,SAPP
+"Murray, Patty",N00007876,D,Washington,7500,500,7000,D03,SAPP
+"Kennedy, John",N00026823,R,Louisiana,6113,5113,1000,D03,SAPP
+"Durbin, Dick",N00004981,D,Illinois,5005,5,5000,D03,SAPP
+"Capito, Shelley Moore",N00009771,R,West Virginia,4500,0,4500,D03,SAPP
+"Graham, Lindsey",N00009975,R,South Carolina,3525,525,3000,D03,SAPP
+"Rubio, Marco",N00030612,R,Florida,2700,700,2000,D03,SAPP
+"Schatz, Brian",N00028138,D,Hawaii,2100,100,2000,D03,SAPP
+"Hoeven, John",N00031688,R,North Dakota,2000,0,2000,D03,SAPP
+"Moran, Jerry",N00005282,R,Kansas,2000,0,2000,D03,SAPP
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,2000,0,2000,D03,SAPP
+"Collins, Susan M",N00000491,R,Maine,1000,0,1000,D03,SAPP
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D03,SAPP
+"Van Hollen, Chris",N00013820,D,Maryland,493,493,0,D03,SAPP
+"Murphy, Christopher S",N00027566,D,Connecticut,265,265,0,D03,SAPP
+"Manchin, Joe",N00032838,D,West Virginia,89201,74201,15000,D01,SARM
+"Wicker, Roger",N00003280,R,Mississippi,55600,13100,42500,D01,SARM
+"Kaine, Tim",N00033177,D,Virginia,39716,6216,33500,D01,SARM
+"Cramer, Kevin",N00004614,R,North Dakota,26401,9901,16500,D01,SARM
+"Rosen, Jacky",N00038734,D,Nevada,25553,5553,20000,D01,SARM
+"King, Angus",N00034580,I,Maine,24500,1000,23500,D01,SARM
+"Fischer, Deb",N00033443,R,Nebraska,24000,500,23500,D01,SARM
+"Mullin, Markwayne",N00033410,R,Oklahoma,12000,0,12000,D01,SARM
+"Budd, Ted",N00039551,R,North Carolina,8600,100,8500,D01,SARM
+"Hirono, Mazie K",N00028139,D,Hawaii,8513,13,8500,D01,SARM
+"Ernst, Joni",N00035483,R,Iowa,8035,35,8000,D01,SARM
+"Shaheen, Jeanne",N00024790,D,New Hampshire,7000,2500,4500,D01,SARM
+"Tuberville, Tommy",N00044434,R,Alabama,6000,500,5500,D01,SARM
+"Reed, Jack",N00000362,D,Rhode Island,5800,5000,800,D01,SARM
+"Kelly, Mark",N00044223,D,Arizona,4257,4257,0,D01,SARM
+"Duckworth, Tammy",N00027860,D,Illinois,3970,970,3000,D01,SARM
+"Peters, Gary",N00029277,D,Michigan,3590,90,3500,D01,SARM
+"Sullivan, Dan",N00035774,R,Alaska,2000,0,2000,D01,SARM
+"Warren, Elizabeth",N00033492,D,Massachusetts,1852,1852,0,D01,SARM
+"Cotton, Tom",N00033363,R,Arkansas,1072,72,1000,D01,SARM
+"Schmitt, Eric",N00048414,R,Missouri,1060,60,1000,D01,SARM
+"Scott, Rick",N00043290,R,Florida,1026,1026,0,D01,SARM
+"Rounds, Mike",N00035187,R,South Dakota,1000,0,1000,D01,SARM
+"Gillibrand, Kirsten",N00027658,D,New York,361,361,0,D01,SARM
+"Wicker, Roger",N00003280,R,Mississippi,14100,6600,7500,D02,SARM
+"Budd, Ted",N00039551,R,North Carolina,9900,9900,0,D02,SARM
+"Shaheen, Jeanne",N00024790,D,New Hampshire,9500,0,9500,D02,SARM
+"Fischer, Deb",N00033443,R,Nebraska,9182,182,9000,D02,SARM
+"Tuberville, Tommy",N00044434,R,Alabama,6500,0,6500,D02,SARM
+"Peters, Gary",N00029277,D,Michigan,6060,60,6000,D02,SARM
+"Kaine, Tim",N00033177,D,Virginia,5025,25,5000,D02,SARM
+"Schmitt, Eric",N00048414,R,Missouri,5000,0,5000,D02,SARM
+"King, Angus",N00034580,I,Maine,3000,0,3000,D02,SARM
+"Reed, Jack",N00000362,D,Rhode Island,2500,1500,1000,D02,SARM
+"Hirono, Mazie K",N00028139,D,Hawaii,2500,0,2500,D02,SARM
+"Manchin, Joe",N00032838,D,West Virginia,1500,0,1500,D02,SARM
+"Sullivan, Dan",N00035774,R,Alaska,1500,0,1500,D02,SARM
+"Cramer, Kevin",N00004614,R,North Dakota,1181,181,1000,D02,SARM
+"Warren, Elizabeth",N00033492,D,Massachusetts,1059,1059,0,D02,SARM
+"Rosen, Jacky",N00038734,D,Nevada,1030,530,500,D02,SARM
+"Scott, Rick",N00043290,R,Florida,150,150,0,D02,SARM
+"Gillibrand, Kirsten",N00027658,D,New York,70,70,0,D02,SARM
+"Kelly, Mark",N00044223,D,Arizona,25,25,0,D02,SARM
+"Kaine, Tim",N00033177,D,Virginia,140981,78481,62500,D03,SARM
+"Wicker, Roger",N00003280,R,Mississippi,103788,36088,67700,D03,SARM
+"Tuberville, Tommy",N00044434,R,Alabama,50900,45400,5500,D03,SARM
+"King, Angus",N00034580,I,Maine,35000,15500,19500,D03,SARM
+"Fischer, Deb",N00033443,R,Nebraska,21503,3,21500,D03,SARM
+"Hirono, Mazie K",N00028139,D,Hawaii,20891,391,20500,D03,SARM
+"Duckworth, Tammy",N00027860,D,Illinois,17450,9950,7500,D03,SARM
+"Shaheen, Jeanne",N00024790,D,New Hampshire,16180,180,16000,D03,SARM
+"Peters, Gary",N00029277,D,Michigan,14895,5895,9000,D03,SARM
+"Rosen, Jacky",N00038734,D,Nevada,14127,1127,13000,D03,SARM
+"Budd, Ted",N00039551,R,North Carolina,13692,6692,7000,D03,SARM
+"Cramer, Kevin",N00004614,R,North Dakota,13038,38,13000,D03,SARM
+"Reed, Jack",N00000362,D,Rhode Island,10500,0,10500,D03,SARM
+"Manchin, Joe",N00032838,D,West Virginia,8550,1050,7500,D03,SARM
+"Sullivan, Dan",N00035774,R,Alaska,8050,2550,5500,D03,SARM
+"Ernst, Joni",N00035483,R,Iowa,7605,605,7000,D03,SARM
+"Mullin, Markwayne",N00033410,R,Oklahoma,5500,0,5500,D03,SARM
+"Schmitt, Eric",N00048414,R,Missouri,5010,10,5000,D03,SARM
+"Scott, Rick",N00043290,R,Florida,3583,1083,2500,D03,SARM
+"Warren, Elizabeth",N00033492,D,Massachusetts,2478,2478,0,D03,SARM
+"Kelly, Mark",N00044223,D,Arizona,1331,1331,0,D03,SARM
+"Gillibrand, Kirsten",N00027658,D,New York,599,599,0,D03,SARM
+"Cotton, Tom",N00033363,R,Arkansas,500,0,500,D03,SARM
+"Blumenthal, Richard",N00031685,D,Connecticut,50,50,0,D03,SARM
+"Tester, Jon",N00027605,D,Montana,29969,12969,17000,D01,SBAN
+"Britt, Katie Boyd",N00048812,R,Alabama,26510,19510,7000,D01,SBAN
+"Cramer, Kevin",N00004614,R,North Dakota,26401,9901,16500,D01,SBAN
+"Brown, Sherrod",N00003535,D,Ohio,14669,6669,8000,D01,SBAN
+"Menendez, Robert",N00000699,D,New Jersey,9200,8200,1000,D01,SBAN
+"Scott, Tim",N00031782,R,South Carolina,8382,3382,5000,D01,SBAN
+"Sinema, Kyrsten",N00033983,I,Arizona,7000,2500,4500,D01,SBAN
+"Reed, Jack",N00000362,D,Rhode Island,5800,5000,800,D01,SBAN
+"Warner, Mark",N00002097,D,Virginia,3513,13,3500,D01,SBAN
+"Tillis, Thom",N00035492,R,North Carolina,2875,375,2500,D01,SBAN
+"Fetterman, John",N00038201,D,Pennsylvania,2210,2210,0,D01,SBAN
+"Hagerty, Bill",N00045369,R,Tennessee,2185,185,2000,D01,SBAN
+"Warren, Elizabeth",N00033492,D,Massachusetts,1852,1852,0,D01,SBAN
+"Warnock, Raphael",N00046489,D,Georgia,1485,1485,0,D01,SBAN
+"Vance, J D",N00048832,R,Ohio,1450,1450,0,D01,SBAN
+"Rounds, Mike",N00035187,R,South Dakota,1000,0,1000,D01,SBAN
+"Crapo, Mike",N00006267,R,Idaho,1000,0,1000,D01,SBAN
+"Masto, Catherine Cortez",N00037161,D,Nevada,218,218,0,D01,SBAN
+"Kennedy, John",N00026823,R,Louisiana,-2280,720,-3000,D01,SBAN
+"Britt, Katie Boyd",N00048812,R,Alabama,25000,7000,18000,D02,SBAN
+"Reed, Jack",N00000362,D,Rhode Island,2500,1500,1000,D02,SBAN
+"Tester, Jon",N00027605,D,Montana,2161,2161,0,D02,SBAN
+"Menendez, Robert",N00000699,D,New Jersey,2000,1000,1000,D02,SBAN
+"Brown, Sherrod",N00003535,D,Ohio,1635,635,1000,D02,SBAN
+"Warner, Mark",N00002097,D,Virginia,1500,1500,0,D02,SBAN
+"Warnock, Raphael",N00046489,D,Georgia,1500,1500,0,D02,SBAN
+"Cramer, Kevin",N00004614,R,North Dakota,1181,181,1000,D02,SBAN
+"Warren, Elizabeth",N00033492,D,Massachusetts,1059,1059,0,D02,SBAN
+"Masto, Catherine Cortez",N00037161,D,Nevada,1033,1033,0,D02,SBAN
+"Hagerty, Bill",N00045369,R,Tennessee,1000,0,1000,D02,SBAN
+"Sinema, Kyrsten",N00033983,I,Arizona,1000,1000,0,D02,SBAN
+"Van Hollen, Chris",N00013820,D,Maryland,1000,0,1000,D02,SBAN
+"Scott, Tim",N00031782,R,South Carolina,894,894,0,D02,SBAN
+"Fetterman, John",N00038201,D,Pennsylvania,93,93,0,D02,SBAN
+"Britt, Katie Boyd",N00048812,R,Alabama,141951,91951,50000,D03,SBAN
+"Tester, Jon",N00027605,D,Montana,45701,14701,31000,D03,SBAN
+"Warner, Mark",N00002097,D,Virginia,20536,13036,7500,D03,SBAN
+"Menendez, Robert",N00000699,D,New Jersey,17000,13500,3500,D03,SBAN
+"Cramer, Kevin",N00004614,R,North Dakota,13038,38,13000,D03,SBAN
+"Brown, Sherrod",N00003535,D,Ohio,10933,5933,5000,D03,SBAN
+"Reed, Jack",N00000362,D,Rhode Island,10500,0,10500,D03,SBAN
+"Hagerty, Bill",N00045369,R,Tennessee,9245,245,9000,D03,SBAN
+"Scott, Tim",N00031782,R,South Carolina,8953,9953,-1000,D03,SBAN
+"Kennedy, John",N00026823,R,Louisiana,6113,5113,1000,D03,SBAN
+"Sinema, Kyrsten",N00033983,I,Arizona,5000,0,5000,D03,SBAN
+"Warren, Elizabeth",N00033492,D,Massachusetts,2478,2478,0,D03,SBAN
+"Tillis, Thom",N00035492,R,North Carolina,1500,0,1500,D03,SBAN
+"Warnock, Raphael",N00046489,D,Georgia,1446,1446,0,D03,SBAN
+"Fetterman, John",N00038201,D,Pennsylvania,1266,1266,0,D03,SBAN
+"Daines, Steven",N00033054,R,Montana,1000,0,1000,D03,SBAN
+"Van Hollen, Chris",N00013820,D,Maryland,493,493,0,D03,SBAN
+"Vance, J D",N00048832,R,Ohio,452,452,0,D03,SBAN
+"Masto, Catherine Cortez",N00037161,D,Nevada,94,94,0,D03,SBAN
+"Smith, Tina",N00042353,D,Minnesota,13,13,0,D03,SBAN
+"Kaine, Tim",N00033177,D,Virginia,39716,6216,33500,D01,SBUD
+"Warner, Mark",N00002097,D,Virginia,3513,13,3500,D01,SBUD
+"Sanders, Bernie",N00000528,I,Vermont,2067,2067,0,D01,SBUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,1469,1469,0,D01,SBUD
+"Wyden, Ron",N00007724,D,Oregon,1040,40,1000,D01,SBUD
+"Scott, Rick",N00043290,R,Florida,1026,1026,0,D01,SBUD
+"Padilla, Alex",N00047888,D,California,1018,18,1000,D01,SBUD
+"Grassley, Chuck",N00001758,R,Iowa,1002,2,1000,D01,SBUD
+"Murray, Patty",N00007876,D,Washington,1000,0,1000,D01,SBUD
+"Crapo, Mike",N00006267,R,Idaho,1000,0,1000,D01,SBUD
+"Johnson, Ron",N00032546,R,Wisconsin,920,920,0,D01,SBUD
+"Markey, Ed",N00000270,D,Massachusetts,325,325,0,D01,SBUD
+"Graham, Lindsey",N00009975,R,South Carolina,177,177,0,D01,SBUD
+"Lujan, Ben Ray",N00029562,D,New Mexico,109,109,0,D01,SBUD
+"Lee, Mike",N00031696,R,Utah,108,108,0,D01,SBUD
+"Stabenow, Debbie",N00004118,D,Michigan,10,10,0,D01,SBUD
+"Kennedy, John",N00026823,R,Louisiana,-2280,720,-3000,D01,SBUD
+"Kaine, Tim",N00033177,D,Virginia,5025,25,5000,D02,SBUD
+"Warner, Mark",N00002097,D,Virginia,1500,1500,0,D02,SBUD
+"Sanders, Bernie",N00000528,I,Vermont,1179,1179,0,D02,SBUD
+"Graham, Lindsey",N00009975,R,South Carolina,1003,1003,0,D02,SBUD
+"Van Hollen, Chris",N00013820,D,Maryland,1000,0,1000,D02,SBUD
+"Johnson, Ron",N00032546,R,Wisconsin,555,55,500,D02,SBUD
+"Padilla, Alex",N00047888,D,California,500,0,500,D02,SBUD
+"Lujan, Ben Ray",N00029562,D,New Mexico,500,500,0,D02,SBUD
+"Scott, Rick",N00043290,R,Florida,150,150,0,D02,SBUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,50,50,0,D02,SBUD
+"Kaine, Tim",N00033177,D,Virginia,140981,78481,62500,D03,SBUD
+"Warner, Mark",N00002097,D,Virginia,20536,13036,7500,D03,SBUD
+"Murray, Patty",N00007876,D,Washington,7500,500,7000,D03,SBUD
+"Kennedy, John",N00026823,R,Louisiana,6113,5113,1000,D03,SBUD
+"Scott, Rick",N00043290,R,Florida,3583,1083,2500,D03,SBUD
+"Graham, Lindsey",N00009975,R,South Carolina,3525,525,3000,D03,SBUD
+"Sanders, Bernie",N00000528,I,Vermont,2567,2567,0,D03,SBUD
+"Padilla, Alex",N00047888,D,California,2080,80,2000,D03,SBUD
+"Johnson, Ron",N00032546,R,Wisconsin,1841,1841,0,D03,SBUD
+"Van Hollen, Chris",N00013820,D,Maryland,493,493,0,D03,SBUD
+"Lujan, Ben Ray",N00029562,D,New Mexico,268,268,0,D03,SBUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,135,135,0,D03,SBUD
+"Lee, Mike",N00031696,R,Utah,25,25,0,D03,SBUD
+"Markey, Ed",N00000270,D,Massachusetts,3,3,0,D03,SBUD
+"Romney, Mitt",N00000286,R,Utah,2,2,0,D03,SBUD
+"Wicker, Roger",N00003280,R,Mississippi,55600,13100,42500,D01,SCOM
+"Tester, Jon",N00027605,D,Montana,29969,12969,17000,D01,SCOM
+"Rosen, Jacky",N00038734,D,Nevada,25553,5553,20000,D01,SCOM
+"Fischer, Deb",N00033443,R,Nebraska,24000,500,23500,D01,SCOM
+"Baldwin, Tammy",N00004367,D,Wisconsin,14973,8473,6500,D01,SCOM
+"Budd, Ted",N00039551,R,North Carolina,8600,100,8500,D01,SCOM
+"Sinema, Kyrsten",N00033983,I,Arizona,7000,2500,4500,D01,SCOM
+"Blackburn, Marsha",N00003105,R,Tennessee,4640,640,4000,D01,SCOM
+"Duckworth, Tammy",N00027860,D,Illinois,3970,970,3000,D01,SCOM
+"Peters, Gary",N00029277,D,Michigan,3590,90,3500,D01,SCOM
+"Moran, Jerry",N00005282,R,Kansas,3500,500,3000,D01,SCOM
+"Capito, Shelley Moore",N00009771,R,West Virginia,3000,0,3000,D01,SCOM
+"Sullivan, Dan",N00035774,R,Alaska,2000,0,2000,D01,SCOM
+"Warnock, Raphael",N00046489,D,Georgia,1485,1485,0,D01,SCOM
+"Vance, J D",N00048832,R,Ohio,1450,1450,0,D01,SCOM
+"Schmitt, Eric",N00048414,R,Missouri,1060,60,1000,D01,SCOM
+"Schatz, Brian",N00028138,D,Hawaii,1042,42,1000,D01,SCOM
+"Cantwell, Maria",N00007836,D,Washington,1033,1033,0,D01,SCOM
+"Cruz, Ted",N00033085,R,Texas,956,956,0,D01,SCOM
+"Hickenlooper, John",N00044206,D,Colorado,768,768,0,D01,SCOM
+"Klobuchar, Amy",N00027500,D,Minnesota,358,358,0,D01,SCOM
+"Markey, Ed",N00000270,D,Massachusetts,325,325,0,D01,SCOM
+"Welch, Peter",N00000515,D,Vermont,200,200,0,D01,SCOM
+"Lujan, Ben Ray",N00029562,D,New Mexico,109,109,0,D01,SCOM
+"Cantwell, Maria",N00007836,D,Washington,14200,14200,0,D02,SCOM
+"Wicker, Roger",N00003280,R,Mississippi,14100,6600,7500,D02,SCOM
+"Budd, Ted",N00039551,R,North Carolina,9900,9900,0,D02,SCOM
+"Fischer, Deb",N00033443,R,Nebraska,9182,182,9000,D02,SCOM
+"Peters, Gary",N00029277,D,Michigan,6060,60,6000,D02,SCOM
+"Schmitt, Eric",N00048414,R,Missouri,5000,0,5000,D02,SCOM
+"Moran, Jerry",N00005282,R,Kansas,2500,0,2500,D02,SCOM
+"Tester, Jon",N00027605,D,Montana,2161,2161,0,D02,SCOM
+"Cruz, Ted",N00033085,R,Texas,1835,1835,0,D02,SCOM
+"Warnock, Raphael",N00046489,D,Georgia,1500,1500,0,D02,SCOM
+"Sullivan, Dan",N00035774,R,Alaska,1500,0,1500,D02,SCOM
+"Klobuchar, Amy",N00027500,D,Minnesota,1113,1113,0,D02,SCOM
+"Rosen, Jacky",N00038734,D,Nevada,1030,530,500,D02,SCOM
+"Sinema, Kyrsten",N00033983,I,Arizona,1000,1000,0,D02,SCOM
+"Lujan, Ben Ray",N00029562,D,New Mexico,500,500,0,D02,SCOM
+"Baldwin, Tammy",N00004367,D,Wisconsin,500,0,500,D02,SCOM
+"Blackburn, Marsha",N00003105,R,Tennessee,250,250,0,D02,SCOM
+"Wicker, Roger",N00003280,R,Mississippi,103788,36088,67700,D03,SCOM
+"Tester, Jon",N00027605,D,Montana,45701,14701,31000,D03,SCOM
+"Baldwin, Tammy",N00004367,D,Wisconsin,25556,5556,20000,D03,SCOM
+"Fischer, Deb",N00033443,R,Nebraska,21503,3,21500,D03,SCOM
+"Duckworth, Tammy",N00027860,D,Illinois,17450,9950,7500,D03,SCOM
+"Peters, Gary",N00029277,D,Michigan,14895,5895,9000,D03,SCOM
+"Rosen, Jacky",N00038734,D,Nevada,14127,1127,13000,D03,SCOM
+"Budd, Ted",N00039551,R,North Carolina,13692,6692,7000,D03,SCOM
+"Blackburn, Marsha",N00003105,R,Tennessee,12142,2642,9500,D03,SCOM
+"Sullivan, Dan",N00035774,R,Alaska,8050,2550,5500,D03,SCOM
+"Schmitt, Eric",N00048414,R,Missouri,5010,10,5000,D03,SCOM
+"Sinema, Kyrsten",N00033983,I,Arizona,5000,0,5000,D03,SCOM
+"Capito, Shelley Moore",N00009771,R,West Virginia,4500,0,4500,D03,SCOM
+"Schatz, Brian",N00028138,D,Hawaii,2100,100,2000,D03,SCOM
+"Moran, Jerry",N00005282,R,Kansas,2000,0,2000,D03,SCOM
+"Cantwell, Maria",N00007836,D,Washington,1941,1941,0,D03,SCOM
+"Young, Todd",N00030670,R,Indiana,1500,0,1500,D03,SCOM
+"Cruz, Ted",N00033085,R,Texas,1448,1448,0,D03,SCOM
+"Warnock, Raphael",N00046489,D,Georgia,1446,1446,0,D03,SCOM
+"Vance, J D",N00048832,R,Ohio,452,452,0,D03,SCOM
+"Klobuchar, Amy",N00027500,D,Minnesota,427,427,0,D03,SCOM
+"Lujan, Ben Ray",N00029562,D,New Mexico,268,268,0,D03,SCOM
+"Hickenlooper, John",N00044206,D,Colorado,40,40,0,D03,SCOM
+"Markey, Ed",N00000270,D,Massachusetts,3,3,0,D03,SCOM
+"Manchin, Joe",N00032838,D,West Virginia,89201,74201,15000,D01,SENE
+"Heinrich, Martin",N00029835,D,New Mexico,26688,6688,20000,D01,SENE
+"King, Angus",N00034580,I,Maine,24500,1000,23500,D01,SENE
+"Hirono, Mazie K",N00028139,D,Hawaii,8513,13,8500,D01,SENE
+"Barrasso, John",N00006236,R,Wyoming,8012,12,8000,D01,SENE
+"Risch, James E",N00029441,R,Idaho,5000,5000,0,D01,SENE
+"Kelly, Mark",N00044223,D,Arizona,4257,4257,0,D01,SENE
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,3000,0,3000,D01,SENE
+"Hawley, Josh",N00041620,R,Missouri,2739,2739,0,D01,SENE
+"Sanders, Bernie",N00000528,I,Vermont,2067,2067,0,D01,SENE
+"Wyden, Ron",N00007724,D,Oregon,1040,40,1000,D01,SENE
+"Cantwell, Maria",N00007836,D,Washington,1033,1033,0,D01,SENE
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D01,SENE
+"Cassidy, Bill",N00030245,R,Louisiana,1000,0,1000,D01,SENE
+"Hoeven, John",N00031688,R,North Dakota,1000,0,1000,D01,SENE
+"Hickenlooper, John",N00044206,D,Colorado,768,768,0,D01,SENE
+"Masto, Catherine Cortez",N00037161,D,Nevada,218,218,0,D01,SENE
+"Lee, Mike",N00031696,R,Utah,108,108,0,D01,SENE
+"Cantwell, Maria",N00007836,D,Washington,14200,14200,0,D02,SENE
+"Heinrich, Martin",N00029835,D,New Mexico,5800,3300,2500,D02,SENE
+"Cassidy, Bill",N00030245,R,Louisiana,3500,0,3500,D02,SENE
+"King, Angus",N00034580,I,Maine,3000,0,3000,D02,SENE
+"Hirono, Mazie K",N00028139,D,Hawaii,2500,0,2500,D02,SENE
+"Hoeven, John",N00031688,R,North Dakota,2000,2000,0,D02,SENE
+"Manchin, Joe",N00032838,D,West Virginia,1500,0,1500,D02,SENE
+"Sanders, Bernie",N00000528,I,Vermont,1179,1179,0,D02,SENE
+"Masto, Catherine Cortez",N00037161,D,Nevada,1033,1033,0,D02,SENE
+"Hawley, Josh",N00041620,R,Missouri,340,340,0,D02,SENE
+"Kelly, Mark",N00044223,D,Arizona,25,25,0,D02,SENE
+"King, Angus",N00034580,I,Maine,35000,15500,19500,D03,SENE
+"Heinrich, Martin",N00029835,D,New Mexico,28885,7885,21000,D03,SENE
+"Hirono, Mazie K",N00028139,D,Hawaii,20891,391,20500,D03,SENE
+"Cassidy, Bill",N00030245,R,Louisiana,9500,3000,6500,D03,SENE
+"Manchin, Joe",N00032838,D,West Virginia,8550,1050,7500,D03,SENE
+"Barrasso, John",N00006236,R,Wyoming,8503,3,8500,D03,SENE
+"Sanders, Bernie",N00000528,I,Vermont,2567,2567,0,D03,SENE
+"Hawley, Josh",N00041620,R,Missouri,2084,2084,0,D03,SENE
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,2000,0,2000,D03,SENE
+"Hoeven, John",N00031688,R,North Dakota,2000,0,2000,D03,SENE
+"Cantwell, Maria",N00007836,D,Washington,1941,1941,0,D03,SENE
+"Kelly, Mark",N00044223,D,Arizona,1331,1331,0,D03,SENE
+"Daines, Steven",N00033054,R,Montana,1000,0,1000,D03,SENE
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D03,SENE
+"Masto, Catherine Cortez",N00037161,D,Nevada,94,94,0,D03,SENE
+"Hickenlooper, John",N00044206,D,Colorado,40,40,0,D03,SENE
+"Lee, Mike",N00031696,R,Utah,25,25,0,D03,SENE
+"Wicker, Roger",N00003280,R,Mississippi,55600,13100,42500,D01,SENV
+"Cramer, Kevin",N00004614,R,North Dakota,26401,9901,16500,D01,SENV
+"Mullin, Markwayne",N00033410,R,Oklahoma,12000,0,12000,D01,SENV
+"Kelly, Mark",N00044223,D,Arizona,4257,4257,0,D01,SENV
+"Duckworth, Tammy",N00027860,D,Illinois,3970,970,3000,D01,SENV
+"Capito, Shelley Moore",N00009771,R,West Virginia,3000,0,3000,D01,SENV
+"Fetterman, John",N00038201,D,Pennsylvania,2210,2210,0,D01,SENV
+"Sanders, Bernie",N00000528,I,Vermont,2067,2067,0,D01,SENV
+"Ricketts, Pete",N00027695,R,Nebraska,1500,0,1500,D01,SENV
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,1469,1469,0,D01,SENV
+"Padilla, Alex",N00047888,D,California,1018,18,1000,D01,SENV
+"Markey, Ed",N00000270,D,Massachusetts,325,325,0,D01,SENV
+"Graham, Lindsey",N00009975,R,South Carolina,177,177,0,D01,SENV
+"Merkley, Jeff",N00029303,D,Oregon,30,30,0,D01,SENV
+"Stabenow, Debbie",N00004118,D,Michigan,10,10,0,D01,SENV
+"Wicker, Roger",N00003280,R,Mississippi,14100,6600,7500,D02,SENV
+"Cramer, Kevin",N00004614,R,North Dakota,1181,181,1000,D02,SENV
+"Sanders, Bernie",N00000528,I,Vermont,1179,1179,0,D02,SENV
+"Graham, Lindsey",N00009975,R,South Carolina,1003,1003,0,D02,SENV
+"Boozman, John",N00013873,R,Arkansas,1000,0,1000,D02,SENV
+"Padilla, Alex",N00047888,D,California,500,0,500,D02,SENV
+"Fetterman, John",N00038201,D,Pennsylvania,93,93,0,D02,SENV
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,50,50,0,D02,SENV
+"Kelly, Mark",N00044223,D,Arizona,25,25,0,D02,SENV
+"Wicker, Roger",N00003280,R,Mississippi,103788,36088,67700,D03,SENV
+"Duckworth, Tammy",N00027860,D,Illinois,17450,9950,7500,D03,SENV
+"Cramer, Kevin",N00004614,R,North Dakota,13038,38,13000,D03,SENV
+"Cardin, Ben",N00001955,D,Maryland,6000,0,6000,D03,SENV
+"Mullin, Markwayne",N00033410,R,Oklahoma,5500,0,5500,D03,SENV
+"Capito, Shelley Moore",N00009771,R,West Virginia,4500,0,4500,D03,SENV
+"Graham, Lindsey",N00009975,R,South Carolina,3525,525,3000,D03,SENV
+"Sanders, Bernie",N00000528,I,Vermont,2567,2567,0,D03,SENV
+"Padilla, Alex",N00047888,D,California,2080,80,2000,D03,SENV
+"Ricketts, Pete",N00027695,R,Nebraska,1503,3,1500,D03,SENV
+"Kelly, Mark",N00044223,D,Arizona,1331,1331,0,D03,SENV
+"Fetterman, John",N00038201,D,Pennsylvania,1266,1266,0,D03,SENV
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,135,135,0,D03,SENV
+"Markey, Ed",N00000270,D,Massachusetts,3,3,0,D03,SENV
+"Brown, Sherrod",N00003535,D,Ohio,14669,6669,8000,D01,SFIN
+"Casey, Bob",N00027503,D,Pennsylvania,10911,7411,3500,D01,SFIN
+"Menendez, Robert",N00000699,D,New Jersey,9200,8200,1000,D01,SFIN
+"Scott, Tim",N00031782,R,South Carolina,8382,3382,5000,D01,SFIN
+"Barrasso, John",N00006236,R,Wyoming,8012,12,8000,D01,SFIN
+"Blackburn, Marsha",N00003105,R,Tennessee,4640,640,4000,D01,SFIN
+"Warner, Mark",N00002097,D,Virginia,3513,13,3500,D01,SFIN
+"Tillis, Thom",N00035492,R,North Carolina,2875,375,2500,D01,SFIN
+"Warren, Elizabeth",N00033492,D,Massachusetts,1852,1852,0,D01,SFIN
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,1469,1469,0,D01,SFIN
+"Wyden, Ron",N00007724,D,Oregon,1040,40,1000,D01,SFIN
+"Cantwell, Maria",N00007836,D,Washington,1033,1033,0,D01,SFIN
+"Grassley, Chuck",N00001758,R,Iowa,1002,2,1000,D01,SFIN
+"Crapo, Mike",N00006267,R,Idaho,1000,0,1000,D01,SFIN
+"Cassidy, Bill",N00030245,R,Louisiana,1000,0,1000,D01,SFIN
+"Johnson, Ron",N00032546,R,Wisconsin,920,920,0,D01,SFIN
+"Bennet, Michael",N00030608,D,Colorado,914,914,0,D01,SFIN
+"Masto, Catherine Cortez",N00037161,D,Nevada,218,218,0,D01,SFIN
+"Hassan, Maggie",N00038397,D,New Hampshire,107,107,0,D01,SFIN
+"Cornyn, John",N00024852,R,Texas,86,86,0,D01,SFIN
+"Stabenow, Debbie",N00004118,D,Michigan,10,10,0,D01,SFIN
+"Cantwell, Maria",N00007836,D,Washington,14200,14200,0,D02,SFIN
+"Lankford, James",N00031129,R,Oklahoma,11000,1000,10000,D02,SFIN
+"Casey, Bob",N00027503,D,Pennsylvania,5300,2800,2500,D02,SFIN
+"Cassidy, Bill",N00030245,R,Louisiana,3500,0,3500,D02,SFIN
+"Cornyn, John",N00024852,R,Texas,2681,181,2500,D02,SFIN
+"Menendez, Robert",N00000699,D,New Jersey,2000,1000,1000,D02,SFIN
+"Brown, Sherrod",N00003535,D,Ohio,1635,635,1000,D02,SFIN
+"Warner, Mark",N00002097,D,Virginia,1500,1500,0,D02,SFIN
+"Warren, Elizabeth",N00033492,D,Massachusetts,1059,1059,0,D02,SFIN
+"Masto, Catherine Cortez",N00037161,D,Nevada,1033,1033,0,D02,SFIN
+"Scott, Tim",N00031782,R,South Carolina,894,894,0,D02,SFIN
+"Johnson, Ron",N00032546,R,Wisconsin,555,55,500,D02,SFIN
+"Hassan, Maggie",N00038397,D,New Hampshire,255,255,0,D02,SFIN
+"Blackburn, Marsha",N00003105,R,Tennessee,250,250,0,D02,SFIN
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,50,50,0,D02,SFIN
+"Bennet, Michael",N00030608,D,Colorado,25,25,0,D02,SFIN
+"Warner, Mark",N00002097,D,Virginia,20536,13036,7500,D03,SFIN
+"Menendez, Robert",N00000699,D,New Jersey,17000,13500,3500,D03,SFIN
+"Blackburn, Marsha",N00003105,R,Tennessee,12142,2642,9500,D03,SFIN
+"Brown, Sherrod",N00003535,D,Ohio,10933,5933,5000,D03,SFIN
+"Cassidy, Bill",N00030245,R,Louisiana,9500,3000,6500,D03,SFIN
+"Scott, Tim",N00031782,R,South Carolina,8953,9953,-1000,D03,SFIN
+"Barrasso, John",N00006236,R,Wyoming,8503,3,8500,D03,SFIN
+"Cardin, Ben",N00001955,D,Maryland,6000,0,6000,D03,SFIN
+"Casey, Bob",N00027503,D,Pennsylvania,3884,884,3000,D03,SFIN
+"Lankford, James",N00031129,R,Oklahoma,3500,0,3500,D03,SFIN
+"Warren, Elizabeth",N00033492,D,Massachusetts,2478,2478,0,D03,SFIN
+"Cantwell, Maria",N00007836,D,Washington,1941,1941,0,D03,SFIN
+"Johnson, Ron",N00032546,R,Wisconsin,1841,1841,0,D03,SFIN
+"Tillis, Thom",N00035492,R,North Carolina,1500,0,1500,D03,SFIN
+"Young, Todd",N00030670,R,Indiana,1500,0,1500,D03,SFIN
+"Cornyn, John",N00024852,R,Texas,1025,25,1000,D03,SFIN
+"Daines, Steven",N00033054,R,Montana,1000,0,1000,D03,SFIN
+"Bennet, Michael",N00030608,D,Colorado,930,930,0,D03,SFIN
+"Hassan, Maggie",N00038397,D,New Hampshire,551,551,0,D03,SFIN
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,135,135,0,D03,SFIN
+"Masto, Catherine Cortez",N00037161,D,Nevada,94,94,0,D03,SFIN
+"Kaine, Tim",N00033177,D,Virginia,39716,6216,33500,D01,SFOR
+"Menendez, Robert",N00000699,D,New Jersey,9200,8200,1000,D01,SFOR
+"Scott, Tim",N00031782,R,South Carolina,8382,3382,5000,D01,SFOR
+"Barrasso, John",N00006236,R,Wyoming,8012,12,8000,D01,SFOR
+"Shaheen, Jeanne",N00024790,D,New Hampshire,7000,2500,4500,D01,SFOR
+"Risch, James E",N00029441,R,Idaho,5000,5000,0,D01,SFOR
+"Duckworth, Tammy",N00027860,D,Illinois,3970,970,3000,D01,SFOR
+"Rubio, Marco",N00030612,R,Florida,3243,1743,1500,D01,SFOR
+"Hagerty, Bill",N00045369,R,Tennessee,2185,185,2000,D01,SFOR
+"Murphy, Christopher S",N00027566,D,Connecticut,1799,1799,0,D01,SFOR
+"Ricketts, Pete",N00027695,R,Nebraska,1500,0,1500,D01,SFOR
+"Booker, Cory",N00035267,D,New Jersey,1242,1242,0,D01,SFOR
+"Paul, Rand",N00030836,R,Kentucky,1189,1189,0,D01,SFOR
+"Schatz, Brian",N00028138,D,Hawaii,1042,42,1000,D01,SFOR
+"Coons, Chris",N00031820,D,Delaware,1000,0,1000,D01,SFOR
+"Cruz, Ted",N00033085,R,Texas,956,956,0,D01,SFOR
+"Merkley, Jeff",N00029303,D,Oregon,30,30,0,D01,SFOR
+"Shaheen, Jeanne",N00024790,D,New Hampshire,9500,0,9500,D02,SFOR
+"Kaine, Tim",N00033177,D,Virginia,5025,25,5000,D02,SFOR
+"Menendez, Robert",N00000699,D,New Jersey,2000,1000,1000,D02,SFOR
+"Cruz, Ted",N00033085,R,Texas,1835,1835,0,D02,SFOR
+"Van Hollen, Chris",N00013820,D,Maryland,1000,0,1000,D02,SFOR
+"Hagerty, Bill",N00045369,R,Tennessee,1000,0,1000,D02,SFOR
+"Scott, Tim",N00031782,R,South Carolina,894,894,0,D02,SFOR
+"Murphy, Christopher S",N00027566,D,Connecticut,95,95,0,D02,SFOR
+"Booker, Cory",N00035267,D,New Jersey,50,50,0,D02,SFOR
+"Paul, Rand",N00030836,R,Kentucky,27,27,0,D02,SFOR
+"Kaine, Tim",N00033177,D,Virginia,140981,78481,62500,D03,SFOR
+"Duckworth, Tammy",N00027860,D,Illinois,17450,9950,7500,D03,SFOR
+"Menendez, Robert",N00000699,D,New Jersey,17000,13500,3500,D03,SFOR
+"Shaheen, Jeanne",N00024790,D,New Hampshire,16180,180,16000,D03,SFOR
+"Hagerty, Bill",N00045369,R,Tennessee,9245,245,9000,D03,SFOR
+"Scott, Tim",N00031782,R,South Carolina,8953,9953,-1000,D03,SFOR
+"Barrasso, John",N00006236,R,Wyoming,8503,3,8500,D03,SFOR
+"Cardin, Ben",N00001955,D,Maryland,6000,0,6000,D03,SFOR
+"Rubio, Marco",N00030612,R,Florida,2700,700,2000,D03,SFOR
+"Schatz, Brian",N00028138,D,Hawaii,2100,100,2000,D03,SFOR
+"Ricketts, Pete",N00027695,R,Nebraska,1503,3,1500,D03,SFOR
+"Young, Todd",N00030670,R,Indiana,1500,0,1500,D03,SFOR
+"Cruz, Ted",N00033085,R,Texas,1448,1448,0,D03,SFOR
+"Booker, Cory",N00035267,D,New Jersey,944,944,0,D03,SFOR
+"Paul, Rand",N00030836,R,Kentucky,599,599,0,D03,SFOR
+"Van Hollen, Chris",N00013820,D,Maryland,493,493,0,D03,SFOR
+"Murphy, Christopher S",N00027566,D,Connecticut,265,265,0,D03,SFOR
+"Romney, Mitt",N00000286,R,Utah,2,2,0,D03,SFOR
+"Rosen, Jacky",N00038734,D,Nevada,25553,5553,20000,D01,SGOV
+"Sinema, Kyrsten",N00033983,I,Arizona,7000,2500,4500,D01,SGOV
+"Peters, Gary",N00029277,D,Michigan,3590,90,3500,D01,SGOV
+"Hawley, Josh",N00041620,R,Missouri,2739,2739,0,D01,SGOV
+"Paul, Rand",N00030836,R,Kentucky,1189,1189,0,D01,SGOV
+"Scott, Rick",N00043290,R,Florida,1026,1026,0,D01,SGOV
+"Padilla, Alex",N00047888,D,California,1018,18,1000,D01,SGOV
+"Johnson, Ron",N00032546,R,Wisconsin,920,920,0,D01,SGOV
+"Ossoff, Jon",N00040675,D,Georgia,475,475,0,D01,SGOV
+"Hassan, Maggie",N00038397,D,New Hampshire,107,107,0,D01,SGOV
+"Lankford, James",N00031129,R,Oklahoma,11000,1000,10000,D02,SGOV
+"Peters, Gary",N00029277,D,Michigan,6060,60,6000,D02,SGOV
+"Rosen, Jacky",N00038734,D,Nevada,1030,530,500,D02,SGOV
+"Sinema, Kyrsten",N00033983,I,Arizona,1000,1000,0,D02,SGOV
+"Johnson, Ron",N00032546,R,Wisconsin,555,55,500,D02,SGOV
+"Padilla, Alex",N00047888,D,California,500,0,500,D02,SGOV
+"Hawley, Josh",N00041620,R,Missouri,340,340,0,D02,SGOV
+"Hassan, Maggie",N00038397,D,New Hampshire,255,255,0,D02,SGOV
+"Scott, Rick",N00043290,R,Florida,150,150,0,D02,SGOV
+"Paul, Rand",N00030836,R,Kentucky,27,27,0,D02,SGOV
+"Peters, Gary",N00029277,D,Michigan,14895,5895,9000,D03,SGOV
+"Rosen, Jacky",N00038734,D,Nevada,14127,1127,13000,D03,SGOV
+"Sinema, Kyrsten",N00033983,I,Arizona,5000,0,5000,D03,SGOV
+"Scott, Rick",N00043290,R,Florida,3583,1083,2500,D03,SGOV
+"Lankford, James",N00031129,R,Oklahoma,3500,0,3500,D03,SGOV
+"Hawley, Josh",N00041620,R,Missouri,2084,2084,0,D03,SGOV
+"Padilla, Alex",N00047888,D,California,2080,80,2000,D03,SGOV
+"Johnson, Ron",N00032546,R,Wisconsin,1841,1841,0,D03,SGOV
+"Paul, Rand",N00030836,R,Kentucky,599,599,0,D03,SGOV
+"Hassan, Maggie",N00038397,D,New Hampshire,551,551,0,D03,SGOV
+"Ossoff, Jon",N00040675,D,Georgia,490,490,0,D03,SGOV
+"Blumenthal, Richard",N00031685,D,Connecticut,50,50,0,D03,SGOV
+"Romney, Mitt",N00000286,R,Utah,2,2,0,D03,SGOV
+"Tester, Jon",N00027605,D,Montana,29969,12969,17000,D01,SIND
+"Moran, Jerry",N00005282,R,Kansas,3500,500,3000,D01,SIND
+"Schatz, Brian",N00028138,D,Hawaii,1042,42,1000,D01,SIND
+"Cantwell, Maria",N00007836,D,Washington,1033,1033,0,D01,SIND
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D01,SIND
+"Hoeven, John",N00031688,R,North Dakota,1000,0,1000,D01,SIND
+"Rounds, Mike",N00035187,R,South Dakota,1000,0,1000,D01,SIND
+"Masto, Catherine Cortez",N00037161,D,Nevada,218,218,0,D01,SIND
+"Lujan, Ben Ray",N00029562,D,New Mexico,109,109,0,D01,SIND
+"Cantwell, Maria",N00007836,D,Washington,14200,14200,0,D02,SIND
+"Lankford, James",N00031129,R,Oklahoma,11000,1000,10000,D02,SIND
+"Moran, Jerry",N00005282,R,Kansas,2500,0,2500,D02,SIND
+"Tester, Jon",N00027605,D,Montana,2161,2161,0,D02,SIND
+"Hoeven, John",N00031688,R,North Dakota,2000,2000,0,D02,SIND
+"Masto, Catherine Cortez",N00037161,D,Nevada,1033,1033,0,D02,SIND
+"Lujan, Ben Ray",N00029562,D,New Mexico,500,500,0,D02,SIND
+"Tester, Jon",N00027605,D,Montana,45701,14701,31000,D03,SIND
+"Lankford, James",N00031129,R,Oklahoma,3500,0,3500,D03,SIND
+"Schatz, Brian",N00028138,D,Hawaii,2100,100,2000,D03,SIND
+"Moran, Jerry",N00005282,R,Kansas,2000,0,2000,D03,SIND
+"Hoeven, John",N00031688,R,North Dakota,2000,0,2000,D03,SIND
+"Cantwell, Maria",N00007836,D,Washington,1941,1941,0,D03,SIND
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D03,SIND
+"Daines, Steven",N00033054,R,Montana,1000,0,1000,D03,SIND
+"Lujan, Ben Ray",N00029562,D,New Mexico,268,268,0,D03,SIND
+"Masto, Catherine Cortez",N00037161,D,Nevada,94,94,0,D03,SIND
+"Smith, Tina",N00042353,D,Minnesota,13,13,0,D03,SIND
+"Hirono, Mazie K",N00028139,D,Hawaii,8513,13,8500,D01,SJUD
+"Blackburn, Marsha",N00003105,R,Tennessee,4640,640,4000,D01,SJUD
+"Tillis, Thom",N00035492,R,North Carolina,2875,375,2500,D01,SJUD
+"Hawley, Josh",N00041620,R,Missouri,2739,2739,0,D01,SJUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,1469,1469,0,D01,SJUD
+"Booker, Cory",N00035267,D,New Jersey,1242,1242,0,D01,SJUD
+"Cotton, Tom",N00033363,R,Arkansas,1072,72,1000,D01,SJUD
+"Padilla, Alex",N00047888,D,California,1018,18,1000,D01,SJUD
+"Grassley, Chuck",N00001758,R,Iowa,1002,2,1000,D01,SJUD
+"Coons, Chris",N00031820,D,Delaware,1000,0,1000,D01,SJUD
+"Cruz, Ted",N00033085,R,Texas,956,956,0,D01,SJUD
+"Ossoff, Jon",N00040675,D,Georgia,475,475,0,D01,SJUD
+"Klobuchar, Amy",N00027500,D,Minnesota,358,358,0,D01,SJUD
+"Welch, Peter",N00000515,D,Vermont,200,200,0,D01,SJUD
+"Graham, Lindsey",N00009975,R,South Carolina,177,177,0,D01,SJUD
+"Lee, Mike",N00031696,R,Utah,108,108,0,D01,SJUD
+"Cornyn, John",N00024852,R,Texas,86,86,0,D01,SJUD
+"Durbin, Dick",N00004981,D,Illinois,12,12,0,D01,SJUD
+"Kennedy, John",N00026823,R,Louisiana,-2280,720,-3000,D01,SJUD
+"Durbin, Dick",N00004981,D,Illinois,6600,6600,0,D02,SJUD
+"Cornyn, John",N00024852,R,Texas,2681,181,2500,D02,SJUD
+"Hirono, Mazie K",N00028139,D,Hawaii,2500,0,2500,D02,SJUD
+"Cruz, Ted",N00033085,R,Texas,1835,1835,0,D02,SJUD
+"Klobuchar, Amy",N00027500,D,Minnesota,1113,1113,0,D02,SJUD
+"Graham, Lindsey",N00009975,R,South Carolina,1003,1003,0,D02,SJUD
+"Padilla, Alex",N00047888,D,California,500,0,500,D02,SJUD
+"Hawley, Josh",N00041620,R,Missouri,340,340,0,D02,SJUD
+"Blackburn, Marsha",N00003105,R,Tennessee,250,250,0,D02,SJUD
+"Booker, Cory",N00035267,D,New Jersey,50,50,0,D02,SJUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,50,50,0,D02,SJUD
+"Hirono, Mazie K",N00028139,D,Hawaii,20891,391,20500,D03,SJUD
+"Blackburn, Marsha",N00003105,R,Tennessee,12142,2642,9500,D03,SJUD
+"Kennedy, John",N00026823,R,Louisiana,6113,5113,1000,D03,SJUD
+"Durbin, Dick",N00004981,D,Illinois,5005,5,5000,D03,SJUD
+"Graham, Lindsey",N00009975,R,South Carolina,3525,525,3000,D03,SJUD
+"Hawley, Josh",N00041620,R,Missouri,2084,2084,0,D03,SJUD
+"Padilla, Alex",N00047888,D,California,2080,80,2000,D03,SJUD
+"Tillis, Thom",N00035492,R,North Carolina,1500,0,1500,D03,SJUD
+"Cruz, Ted",N00033085,R,Texas,1448,1448,0,D03,SJUD
+"Cornyn, John",N00024852,R,Texas,1025,25,1000,D03,SJUD
+"Booker, Cory",N00035267,D,New Jersey,944,944,0,D03,SJUD
+"Cotton, Tom",N00033363,R,Arkansas,500,0,500,D03,SJUD
+"Ossoff, Jon",N00040675,D,Georgia,490,490,0,D03,SJUD
+"Klobuchar, Amy",N00027500,D,Minnesota,427,427,0,D03,SJUD
+"Whitehouse, Sheldon",N00027533,D,Rhode Island,135,135,0,D03,SJUD
+"Blumenthal, Richard",N00031685,D,Connecticut,50,50,0,D03,SJUD
+"Lee, Mike",N00031696,R,Utah,25,25,0,D03,SJUD
+"Collins, Susan M",N00000491,R,Maine,58600,58600,0,D01,SLAB
+"Kaine, Tim",N00033177,D,Virginia,39716,6216,33500,D01,SLAB
+"Baldwin, Tammy",N00004367,D,Wisconsin,14973,8473,6500,D01,SLAB
+"Casey, Bob",N00027503,D,Pennsylvania,10911,7411,3500,D01,SLAB
+"Sanders, Bernie",N00000528,I,Vermont,2067,2067,0,D01,SLAB
+"Murphy, Christopher S",N00027566,D,Connecticut,1799,1799,0,D01,SLAB
+"Paul, Rand",N00030836,R,Kentucky,1189,1189,0,D01,SLAB
+"Cassidy, Bill",N00030245,R,Louisiana,1000,0,1000,D01,SLAB
+"Murray, Patty",N00007876,D,Washington,1000,0,1000,D01,SLAB
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D01,SLAB
+"Casey, Bob",N00027503,D,Pennsylvania,5300,2800,2500,D02,SLAB
+"Kaine, Tim",N00033177,D,Virginia,5025,25,5000,D02,SLAB
+"Cassidy, Bill",N00030245,R,Louisiana,3500,0,3500,D02,SLAB
+"Sanders, Bernie",N00000528,I,Vermont,1179,1179,0,D02,SLAB
+"Baldwin, Tammy",N00004367,D,Wisconsin,500,0,500,D02,SLAB
+"Murphy, Christopher S",N00027566,D,Connecticut,95,95,0,D02,SLAB
+"Paul, Rand",N00030836,R,Kentucky,27,27,0,D02,SLAB
+"Kaine, Tim",N00033177,D,Virginia,140981,78481,62500,D03,SLAB
+"Baldwin, Tammy",N00004367,D,Wisconsin,25556,5556,20000,D03,SLAB
+"Cassidy, Bill",N00030245,R,Louisiana,9500,3000,6500,D03,SLAB
+"Murray, Patty",N00007876,D,Washington,7500,500,7000,D03,SLAB
+"Casey, Bob",N00027503,D,Pennsylvania,3884,884,3000,D03,SLAB
+"Sanders, Bernie",N00000528,I,Vermont,2567,2567,0,D03,SLAB
+"Collins, Susan M",N00000491,R,Maine,1000,0,1000,D03,SLAB
+"Murkowski, Lisa",N00026050,R,Alaska,1000,0,1000,D03,SLAB
+"Paul, Rand",N00030836,R,Kentucky,599,599,0,D03,SLAB
+"Murphy, Christopher S",N00027566,D,Connecticut,265,265,0,D03,SLAB
+"Wicker, Roger",N00003280,R,Mississippi,55600,13100,42500,D01,SRUL
+"Britt, Katie Boyd",N00048812,R,Alabama,26510,19510,7000,D01,SRUL
+"Fischer, Deb",N00033443,R,Nebraska,24000,500,23500,D01,SRUL
+"Warner, Mark",N00002097,D,Virginia,3513,13,3500,D01,SRUL
+"Capito, Shelley Moore",N00009771,R,West Virginia,3000,0,3000,D01,SRUL
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,3000,0,3000,D01,SRUL
+"McConnell, Mitch",N00003389,R,Kentucky,2550,50,2500,D01,SRUL
+"Hagerty, Bill",N00045369,R,Tennessee,2185,185,2000,D01,SRUL
+"Padilla, Alex",N00047888,D,California,1018,18,1000,D01,SRUL
+"Cruz, Ted",N00033085,R,Texas,956,956,0,D01,SRUL
+"Bennet, Michael",N00030608,D,Colorado,914,914,0,D01,SRUL
+"Ossoff, Jon",N00040675,D,Georgia,475,475,0,D01,SRUL
+"Schumer, Charles E",N00001093,D,New York,440,440,0,D01,SRUL
+"Klobuchar, Amy",N00027500,D,Minnesota,358,358,0,D01,SRUL
+"Welch, Peter",N00000515,D,Vermont,200,200,0,D01,SRUL
+"Merkley, Jeff",N00029303,D,Oregon,30,30,0,D01,SRUL
+"Britt, Katie Boyd",N00048812,R,Alabama,25000,7000,18000,D02,SRUL
+"Wicker, Roger",N00003280,R,Mississippi,14100,6600,7500,D02,SRUL
+"Schumer, Charles E",N00001093,D,New York,10003,3,10000,D02,SRUL
+"Fischer, Deb",N00033443,R,Nebraska,9182,182,9000,D02,SRUL
+"Cruz, Ted",N00033085,R,Texas,1835,1835,0,D02,SRUL
+"Warner, Mark",N00002097,D,Virginia,1500,1500,0,D02,SRUL
+"McConnell, Mitch",N00003389,R,Kentucky,1200,1200,0,D02,SRUL
+"Klobuchar, Amy",N00027500,D,Minnesota,1113,1113,0,D02,SRUL
+"Hagerty, Bill",N00045369,R,Tennessee,1000,0,1000,D02,SRUL
+"Padilla, Alex",N00047888,D,California,500,0,500,D02,SRUL
+"Bennet, Michael",N00030608,D,Colorado,25,25,0,D02,SRUL
+"Britt, Katie Boyd",N00048812,R,Alabama,141951,91951,50000,D03,SRUL
+"Wicker, Roger",N00003280,R,Mississippi,103788,36088,67700,D03,SRUL
+"Fischer, Deb",N00033443,R,Nebraska,21503,3,21500,D03,SRUL
+"Warner, Mark",N00002097,D,Virginia,20536,13036,7500,D03,SRUL
+"Hagerty, Bill",N00045369,R,Tennessee,9245,245,9000,D03,SRUL
+"Capito, Shelley Moore",N00009771,R,West Virginia,4500,0,4500,D03,SRUL
+"Padilla, Alex",N00047888,D,California,2080,80,2000,D03,SRUL
+"Hyde-Smith, Cindy",N00043298,R,Mississippi,2000,0,2000,D03,SRUL
+"Cruz, Ted",N00033085,R,Texas,1448,1448,0,D03,SRUL
+"Bennet, Michael",N00030608,D,Colorado,930,930,0,D03,SRUL
+"Ossoff, Jon",N00040675,D,Georgia,490,490,0,D03,SRUL
+"Schumer, Charles E",N00001093,D,New York,452,452,0,D03,SRUL
+"Klobuchar, Amy",N00027500,D,Minnesota,427,427,0,D03,SRUL
+"Rosen, Jacky",N00038734,D,Nevada,25553,5553,20000,D01,SSMA
+"Hirono, Mazie K",N00028139,D,Hawaii,8513,13,8500,D01,SSMA
+"Scott, Tim",N00031782,R,South Carolina,8382,3382,5000,D01,SSMA
+"Ernst, Joni",N00035483,R,Iowa,8035,35,8000,D01,SSMA
+"Shaheen, Jeanne",N00024790,D,New Hampshire,7000,2500,4500,D01,SSMA
+"Risch, James E",N00029441,R,Idaho,5000,5000,0,D01,SSMA
+"Duckworth, Tammy",N00027860,D,Illinois,3970,970,3000,D01,SSMA
+"Rubio, Marco",N00030612,R,Florida,3243,1743,1500,D01,SSMA
+"Hawley, Josh",N00041620,R,Missouri,2739,2739,0,D01,SSMA
+"Booker, Cory",N00035267,D,New Jersey,1242,1242,0,D01,SSMA
+"Paul, Rand",N00030836,R,Kentucky,1189,1189,0,D01,SSMA
+"Cantwell, Maria",N00007836,D,Washington,1033,1033,0,D01,SSMA
+"Coons, Chris",N00031820,D,Delaware,1000,0,1000,D01,SSMA
+"Hickenlooper, John",N00044206,D,Colorado,768,768,0,D01,SSMA
+"Markey, Ed",N00000270,D,Massachusetts,325,325,0,D01,SSMA
+"Kennedy, John",N00026823,R,Louisiana,-2280,720,-3000,D01,SSMA
+"Cantwell, Maria",N00007836,D,Washington,14200,14200,0,D02,SSMA
+"Shaheen, Jeanne",N00024790,D,New Hampshire,9500,0,9500,D02,SSMA
+"Hirono, Mazie K",N00028139,D,Hawaii,2500,0,2500,D02,SSMA
+"Rosen, Jacky",N00038734,D,Nevada,1030,530,500,D02,SSMA
+"Scott, Tim",N00031782,R,South Carolina,894,894,0,D02,SSMA
+"Hawley, Josh",N00041620,R,Missouri,340,340,0,D02,SSMA
+"Booker, Cory",N00035267,D,New Jersey,50,50,0,D02,SSMA
+"Paul, Rand",N00030836,R,Kentucky,27,27,0,D02,SSMA
+"Hirono, Mazie K",N00028139,D,Hawaii,20891,391,20500,D03,SSMA
+"Duckworth, Tammy",N00027860,D,Illinois,17450,9950,7500,D03,SSMA
+"Shaheen, Jeanne",N00024790,D,New Hampshire,16180,180,16000,D03,SSMA
+"Rosen, Jacky",N00038734,D,Nevada,14127,1127,13000,D03,SSMA
+"Scott, Tim",N00031782,R,South Carolina,8953,9953,-1000,D03,SSMA
+"Ernst, Joni",N00035483,R,Iowa,7605,605,7000,D03,SSMA
+"Kennedy, John",N00026823,R,Louisiana,6113,5113,1000,D03,SSMA
+"Cardin, Ben",N00001955,D,Maryland,6000,0,6000,D03,SSMA
+"Rubio, Marco",N00030612,R,Florida,2700,700,2000,D03,SSMA
+"Hawley, Josh",N00041620,R,Missouri,2084,2084,0,D03,SSMA
+"Cantwell, Maria",N00007836,D,Washington,1941,1941,0,D03,SSMA
+"Young, Todd",N00030670,R,Indiana,1500,0,1500,D03,SSMA
+"Booker, Cory",N00035267,D,New Jersey,944,944,0,D03,SSMA
+"Paul, Rand",N00030836,R,Kentucky,599,599,0,D03,SSMA
+"Hickenlooper, John",N00044206,D,Colorado,40,40,0,D03,SSMA
+"Markey, Ed",N00000270,D,Massachusetts,3,3,0,D03,SSMA
+"Manchin, Joe",N00032838,D,West Virginia,89201,74201,15000,D01,SVET
+"Tester, Jon",N00027605,D,Montana,29969,12969,17000,D01,SVET
+"Cramer, Kevin",N00004614,R,North Dakota,26401,9901,16500,D01,SVET
+"Brown, Sherrod",N00003535,D,Ohio,14669,6669,8000,D01,SVET
+"Hirono, Mazie K",N00028139,D,Hawaii,8513,13,8500,D01,SVET
+"Sinema, Kyrsten",N00033983,I,Arizona,7000,2500,4500,D01,SVET
+"Tuberville, Tommy",N00044434,R,Alabama,6000,500,5500,D01,SVET
+"Blackburn, Marsha",N00003105,R,Tennessee,4640,640,4000,D01,SVET
+"Moran, Jerry",N00005282,R,Kansas,3500,500,3000,D01,SVET
+"Tillis, Thom",N00035492,R,North Carolina,2875,375,2500,D01,SVET
+"Sanders, Bernie",N00000528,I,Vermont,2067,2067,0,D01,SVET
+"Sullivan, Dan",N00035774,R,Alaska,2000,0,2000,D01,SVET
+"Murray, Patty",N00007876,D,Washington,1000,0,1000,D01,SVET
+"Rounds, Mike",N00035187,R,South Dakota,1000,0,1000,D01,SVET
+"Cassidy, Bill",N00030245,R,Louisiana,1000,0,1000,D01,SVET
+"Hassan, Maggie",N00038397,D,New Hampshire,107,107,0,D01,SVET
+"Tuberville, Tommy",N00044434,R,Alabama,6500,0,6500,D02,SVET
+"Cassidy, Bill",N00030245,R,Louisiana,3500,0,3500,D02,SVET
+"Moran, Jerry",N00005282,R,Kansas,2500,0,2500,D02,SVET
+"Hirono, Mazie K",N00028139,D,Hawaii,2500,0,2500,D02,SVET
+"Tester, Jon",N00027605,D,Montana,2161,2161,0,D02,SVET
+"Brown, Sherrod",N00003535,D,Ohio,1635,635,1000,D02,SVET
+"Manchin, Joe",N00032838,D,West Virginia,1500,0,1500,D02,SVET
+"Sullivan, Dan",N00035774,R,Alaska,1500,0,1500,D02,SVET
+"Cramer, Kevin",N00004614,R,North Dakota,1181,181,1000,D02,SVET
+"Sanders, Bernie",N00000528,I,Vermont,1179,1179,0,D02,SVET
+"Boozman, John",N00013873,R,Arkansas,1000,0,1000,D02,SVET
+"Sinema, Kyrsten",N00033983,I,Arizona,1000,1000,0,D02,SVET
+"Hassan, Maggie",N00038397,D,New Hampshire,255,255,0,D02,SVET
+"Blackburn, Marsha",N00003105,R,Tennessee,250,250,0,D02,SVET
+"Tuberville, Tommy",N00044434,R,Alabama,50900,45400,5500,D03,SVET
+"Tester, Jon",N00027605,D,Montana,45701,14701,31000,D03,SVET
+"Hirono, Mazie K",N00028139,D,Hawaii,20891,391,20500,D03,SVET
+"Cramer, Kevin",N00004614,R,North Dakota,13038,38,13000,D03,SVET
+"Blackburn, Marsha",N00003105,R,Tennessee,12142,2642,9500,D03,SVET
+"Brown, Sherrod",N00003535,D,Ohio,10933,5933,5000,D03,SVET
+"Cassidy, Bill",N00030245,R,Louisiana,9500,3000,6500,D03,SVET
+"Manchin, Joe",N00032838,D,West Virginia,8550,1050,7500,D03,SVET
+"Sullivan, Dan",N00035774,R,Alaska,8050,2550,5500,D03,SVET
+"Murray, Patty",N00007876,D,Washington,7500,500,7000,D03,SVET
+"Sinema, Kyrsten",N00033983,I,Arizona,5000,0,5000,D03,SVET
+"Sanders, Bernie",N00000528,I,Vermont,2567,2567,0,D03,SVET
+"Moran, Jerry",N00005282,R,Kansas,2000,0,2000,D03,SVET
+"Tillis, Thom",N00035492,R,North Carolina,1500,0,1500,D03,SVET
+"Hassan, Maggie",N00038397,D,New Hampshire,551,551,0,D03,SVET
+"Blumenthal, Richard",N00031685,D,Connecticut,50,50,0,D03,SVET
