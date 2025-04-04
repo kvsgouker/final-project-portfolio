@@ -1,4 +1,4 @@
-# Project 8: Political Migration and Its Electoral Impact: A Data-Driven Study
+# Political Migration and Its Electoral Impact: A Data-Driven Study
 
 This project investigates how internal migration across U.S. counties shapes political outcomes, with a focus on voter turnout and partisan shifts. By combining election returns and IRS migration data, it explores how demographic movement influences electoral behavior—particularly in Florida and historically predictive (“bellwether”) counties.
 
