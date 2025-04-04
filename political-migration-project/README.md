@@ -6,6 +6,10 @@ This project investigates how internal migration across U.S. counties shapes pol
 
 The goal of this study is to determine how patterns of residential mobility contribute to political change at the county level. The project integrates datasets from the Harvard Dataverse and the IRS to explore the relationship between migration trends and voting behavior in national elections from 2000 to 2020.
 
+## Instruction
+
+Make sure to unzip the zip file.
+
 ## Data Sources
 
 - **Harvard Dataverse** — County-level U.S. presidential election returns (2000–2020)
