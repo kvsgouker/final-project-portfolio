@@ -1,0 +1,317 @@
+Table,Column ID,Column Name,Data Type,Not Null,Default Value,Primary Key
+all_drafts,0,Rank,INTEGER,False,,False
+all_drafts,1,Tm,TEXT,False,,False
+all_drafts,2,Player,TEXT,False,,False
+all_drafts,3,Yrs,INTEGER,False,,False
+all_drafts,4,G,INTEGER,False,,False
+all_drafts,5,MP,INTEGER,False,,False
+all_drafts,6,WS,REAL,False,,False
+all_drafts,7,WS/48,REAL,False,,False
+all_drafts,8,Year,INTEGER,False,,False
+all_drafts,9,Player_Link,TEXT,False,,False
+all_drafts,10,player_id,TEXT,False,,False
+all_drafts,11,Team,TEXT,False,,False
+draft_summary,0,Rank,INTEGER,False,,False
+draft_summary,1,Yrs,INTEGER,False,,False
+draft_summary,2,G,INTEGER,False,,False
+draft_summary,3,MP,INTEGER,False,,False
+draft_summary,4,WS,REAL,False,,False
+draft_summary,5,WS/48,REAL,False,,False
+regular_seasons,0,Team,TEXT,False,,False
+regular_seasons,1,Year,INTEGER,False,,False
+regular_seasons,2,Wins,INTEGER,False,,False
+regular_seasons,3,Losses,INTEGER,False,,False
+regular_seasons,4,Pct,REAL,False,,False
+all_playoff,0,Series,INTEGER,False,,False
+all_playoff,1,Team 1,TEXT,False,,False
+all_playoff,2,Team 2,TEXT,False,,False
+all_playoff,3,Team 1 Wins,INTEGER,False,,False
+all_playoff,4,Team 2 Wins,INTEGER,False,,False
+all_playoff,5,Year,INTEGER,False,,False
+per_game_stats,0,Season,TEXT,False,,False
+per_game_stats,1,Age,INTEGER,False,,False
+per_game_stats,2,Tm,TEXT,False,,False
+per_game_stats,3,Lg,TEXT,False,,False
+per_game_stats,4,Pos,TEXT,False,,False
+per_game_stats,5,G,INTEGER,False,,False
+per_game_stats,6,GS,REAL,False,,False
+per_game_stats,7,MP,REAL,False,,False
+per_game_stats,8,FG,REAL,False,,False
+per_game_stats,9,FGA,REAL,False,,False
+per_game_stats,10,FG%,REAL,False,,False
+per_game_stats,11,3P,REAL,False,,False
+per_game_stats,12,3PA,REAL,False,,False
+per_game_stats,13,3P%,REAL,False,,False
+per_game_stats,14,2P,REAL,False,,False
+per_game_stats,15,2PA,REAL,False,,False
+per_game_stats,16,2P%,REAL,False,,False
+per_game_stats,17,eFG%,REAL,False,,False
+per_game_stats,18,FT,REAL,False,,False
+per_game_stats,19,FTA,REAL,False,,False
+per_game_stats,20,FT%,REAL,False,,False
+per_game_stats,21,ORB,REAL,False,,False
+per_game_stats,22,DRB,REAL,False,,False
+per_game_stats,23,TRB,REAL,False,,False
+per_game_stats,24,AST,REAL,False,,False
+per_game_stats,25,STL,REAL,False,,False
+per_game_stats,26,BLK,REAL,False,,False
+per_game_stats,27,TOV,REAL,False,,False
+per_game_stats,28,PF,REAL,False,,False
+per_game_stats,29,PTS,REAL,False,,False
+per_game_stats,30,player_id,TEXT,False,,False
+per_game_stats,31,Year,INTEGER,False,,False
+per_game_stats,32,Team,TEXT,False,,False
+total_stats,0,Season,TEXT,False,,False
+total_stats,1,Age,INTEGER,False,,False
+total_stats,2,Tm,TEXT,False,,False
+total_stats,3,Lg,TEXT,False,,False
+total_stats,4,Pos,TEXT,False,,False
+total_stats,5,G,INTEGER,False,,False
+total_stats,6,GS,REAL,False,,False
+total_stats,7,MP,INTEGER,False,,False
+total_stats,8,FG,INTEGER,False,,False
+total_stats,9,FGA,INTEGER,False,,False
+total_stats,10,FG%,REAL,False,,False
+total_stats,11,3P,REAL,False,,False
+total_stats,12,3PA,REAL,False,,False
+total_stats,13,3P%,REAL,False,,False
+total_stats,14,2P,INTEGER,False,,False
+total_stats,15,2PA,INTEGER,False,,False
+total_stats,16,2P%,REAL,False,,False
+total_stats,17,eFG%,REAL,False,,False
+total_stats,18,FT,INTEGER,False,,False
+total_stats,19,FTA,INTEGER,False,,False
+total_stats,20,FT%,REAL,False,,False
+total_stats,21,ORB,REAL,False,,False
+total_stats,22,DRB,REAL,False,,False
+total_stats,23,TRB,INTEGER,False,,False
+total_stats,24,AST,INTEGER,False,,False
+total_stats,25,STL,REAL,False,,False
+total_stats,26,BLK,REAL,False,,False
+total_stats,27,TOV,REAL,False,,False
+total_stats,28,PF,INTEGER,False,,False
+total_stats,29,PTS,INTEGER,False,,False
+total_stats,30,player_id,TEXT,False,,False
+total_stats,31,Year,INTEGER,False,,False
+total_stats,32,Team,TEXT,False,,False
+total_stats,33,Trp-Dbl,REAL,False,,False
+advanced_stats,0,Season,TEXT,False,,False
+advanced_stats,1,Age,INTEGER,False,,False
+advanced_stats,2,Tm,TEXT,False,,False
+advanced_stats,3,Lg,TEXT,False,,False
+advanced_stats,4,Pos,TEXT,False,,False
+advanced_stats,5,G,INTEGER,False,,False
+advanced_stats,6,MP,INTEGER,False,,False
+advanced_stats,7,PER,REAL,False,,False
+advanced_stats,8,TS%,REAL,False,,False
+advanced_stats,9,3PAr,REAL,False,,False
+advanced_stats,10,FTr,REAL,False,,False
+advanced_stats,11,ORB%,REAL,False,,False
+advanced_stats,12,DRB%,REAL,False,,False
+advanced_stats,13,TRB%,REAL,False,,False
+advanced_stats,14,AST%,REAL,False,,False
+advanced_stats,15,STL%,REAL,False,,False
+advanced_stats,16,BLK%,REAL,False,,False
+advanced_stats,17,TOV%,REAL,False,,False
+advanced_stats,18,USG%,REAL,False,,False
+advanced_stats,19,OWS,REAL,False,,False
+advanced_stats,20,DWS,REAL,False,,False
+advanced_stats,21,WS,REAL,False,,False
+advanced_stats,22,WS/48,REAL,False,,False
+advanced_stats,23, .1,REAL,False,,False
+advanced_stats,24,OBPM,REAL,False,,False
+advanced_stats,25,DBPM,REAL,False,,False
+advanced_stats,26,BPM,REAL,False,,False
+advanced_stats,27,VORP,REAL,False,,False
+advanced_stats,28,player_id,TEXT,False,,False
+advanced_stats,29,Year,INTEGER,False,,False
+advanced_stats,30,Team,TEXT,False,,False
+playoff_per_game_stats,0,Season,TEXT,False,,False
+playoff_per_game_stats,1,Age,INTEGER,False,,False
+playoff_per_game_stats,2,Tm,TEXT,False,,False
+playoff_per_game_stats,3,Lg,TEXT,False,,False
+playoff_per_game_stats,4,Pos,TEXT,False,,False
+playoff_per_game_stats,5,G,INTEGER,False,,False
+playoff_per_game_stats,6,GS,REAL,False,,False
+playoff_per_game_stats,7,MP,REAL,False,,False
+playoff_per_game_stats,8,FG,REAL,False,,False
+playoff_per_game_stats,9,FGA,REAL,False,,False
+playoff_per_game_stats,10,FG%,REAL,False,,False
+playoff_per_game_stats,11,3P,REAL,False,,False
+playoff_per_game_stats,12,3PA,REAL,False,,False
+playoff_per_game_stats,13,3P%,REAL,False,,False
+playoff_per_game_stats,14,2P,REAL,False,,False
+playoff_per_game_stats,15,2PA,REAL,False,,False
+playoff_per_game_stats,16,2P%,REAL,False,,False
+playoff_per_game_stats,17,eFG%,REAL,False,,False
+playoff_per_game_stats,18,FT,REAL,False,,False
+playoff_per_game_stats,19,FTA,REAL,False,,False
+playoff_per_game_stats,20,FT%,REAL,False,,False
+playoff_per_game_stats,21,ORB,REAL,False,,False
+playoff_per_game_stats,22,DRB,REAL,False,,False
+playoff_per_game_stats,23,TRB,REAL,False,,False
+playoff_per_game_stats,24,AST,REAL,False,,False
+playoff_per_game_stats,25,STL,REAL,False,,False
+playoff_per_game_stats,26,BLK,REAL,False,,False
+playoff_per_game_stats,27,TOV,REAL,False,,False
+playoff_per_game_stats,28,PF,REAL,False,,False
+playoff_per_game_stats,29,PTS,REAL,False,,False
+playoff_per_game_stats,30,player_id,TEXT,False,,False
+playoff_per_game_stats,31,Year,INTEGER,False,,False
+playoff_per_game_stats,32,Team,TEXT,False,,False
+playoff_total_stats,0,Season,TEXT,False,,False
+playoff_total_stats,1,Age,INTEGER,False,,False
+playoff_total_stats,2,Tm,TEXT,False,,False
+playoff_total_stats,3,Lg,TEXT,False,,False
+playoff_total_stats,4,Pos,TEXT,False,,False
+playoff_total_stats,5,G,INTEGER,False,,False
+playoff_total_stats,6,GS,REAL,False,,False
+playoff_total_stats,7,MP,INTEGER,False,,False
+playoff_total_stats,8,FG,INTEGER,False,,False
+playoff_total_stats,9,FGA,INTEGER,False,,False
+playoff_total_stats,10,FG%,REAL,False,,False
+playoff_total_stats,11,3P,REAL,False,,False
+playoff_total_stats,12,3PA,REAL,False,,False
+playoff_total_stats,13,3P%,REAL,False,,False
+playoff_total_stats,14,2P,INTEGER,False,,False
+playoff_total_stats,15,2PA,INTEGER,False,,False
+playoff_total_stats,16,2P%,REAL,False,,False
+playoff_total_stats,17,eFG%,REAL,False,,False
+playoff_total_stats,18,FT,INTEGER,False,,False
+playoff_total_stats,19,FTA,INTEGER,False,,False
+playoff_total_stats,20,FT%,REAL,False,,False
+playoff_total_stats,21,ORB,REAL,False,,False
+playoff_total_stats,22,DRB,REAL,False,,False
+playoff_total_stats,23,TRB,INTEGER,False,,False
+playoff_total_stats,24,AST,INTEGER,False,,False
+playoff_total_stats,25,STL,REAL,False,,False
+playoff_total_stats,26,BLK,REAL,False,,False
+playoff_total_stats,27,TOV,REAL,False,,False
+playoff_total_stats,28,PF,INTEGER,False,,False
+playoff_total_stats,29,PTS,INTEGER,False,,False
+playoff_total_stats,30,player_id,TEXT,False,,False
+playoff_total_stats,31,Year,INTEGER,False,,False
+playoff_total_stats,32,Team,TEXT,False,,False
+playoff_total_stats,33,Trp-Dbl,REAL,False,,False
+playoff_advanced_stats,0,Season,TEXT,False,,False
+playoff_advanced_stats,1,Age,INTEGER,False,,False
+playoff_advanced_stats,2,Tm,TEXT,False,,False
+playoff_advanced_stats,3,Lg,TEXT,False,,False
+playoff_advanced_stats,4,Pos,TEXT,False,,False
+playoff_advanced_stats,5,G,INTEGER,False,,False
+playoff_advanced_stats,6,MP,INTEGER,False,,False
+playoff_advanced_stats,7,PER,REAL,False,,False
+playoff_advanced_stats,8,TS%,REAL,False,,False
+playoff_advanced_stats,9,3PAr,REAL,False,,False
+playoff_advanced_stats,10,FTr,REAL,False,,False
+playoff_advanced_stats,11,ORB%,REAL,False,,False
+playoff_advanced_stats,12,DRB%,REAL,False,,False
+playoff_advanced_stats,13,TRB%,REAL,False,,False
+playoff_advanced_stats,14,AST%,REAL,False,,False
+playoff_advanced_stats,15,STL%,REAL,False,,False
+playoff_advanced_stats,16,BLK%,REAL,False,,False
+playoff_advanced_stats,17,TOV%,REAL,False,,False
+playoff_advanced_stats,18,USG%,REAL,False,,False
+playoff_advanced_stats,19,OWS,REAL,False,,False
+playoff_advanced_stats,20,DWS,REAL,False,,False
+playoff_advanced_stats,21,WS,REAL,False,,False
+playoff_advanced_stats,22,WS/48,REAL,False,,False
+playoff_advanced_stats,23, .1,REAL,False,,False
+playoff_advanced_stats,24,OBPM,REAL,False,,False
+playoff_advanced_stats,25,DBPM,REAL,False,,False
+playoff_advanced_stats,26,BPM,REAL,False,,False
+playoff_advanced_stats,27,VORP,REAL,False,,False
+playoff_advanced_stats,28,player_id,TEXT,False,,False
+playoff_advanced_stats,29,Year,INTEGER,False,,False
+playoff_advanced_stats,30,Team,TEXT,False,,False
+combined_season,0,franchise_id,INTEGER,False,,False
+combined_season,1,Tm,TEXT,False,,False
+combined_season,2,Team,TEXT,False,,False
+combined_season,3,Year,INTEGER,False,,False
+combined_season,4,Wins,INTEGER,False,,False
+combined_season,5,Losses,INTEGER,False,,False
+combined_season,6,Pct,REAL,False,,False
+combined_season,7,Wins Finals,INTEGER,False,,False
+combined_season,8,Losses Finals,INTEGER,False,,False
+combined_season,9,Wins Conference Finals,INTEGER,False,,False
+combined_season,10,Losses Conference Finals,INTEGER,False,,False
+combined_season,11,Wins Semifinals,INTEGER,False,,False
+combined_season,12,Losses Semifinals,INTEGER,False,,False
+combined_season,13,Wins First Round,INTEGER,False,,False
+combined_season,14,Losses First Round,INTEGER,False,,False
+combined_season,15,season_performance,INTEGER,False,,False
+combined_season,16,draft_power,REAL,False,,False
+combined_season,17,adjusted_year,REAL,False,,False
+combined_season,18,adjusted_year2,REAL,False,,False
+combined_season,19,adjusted_year3,REAL,False,,False
+combined_season,20,adjusted_log_year,REAL,False,,False
+combined_season,21,Payroll,REAL,False,,False
+combined_season,22,Total Expenses,REAL,False,,False
+combined_season,23,win_cost,REAL,False,,False
+combined_season,24,performance_cost,REAL,False,,False
+combined_season,25,draft_rankings_info,TEXT,False,,False
+combined_season,26,WS_Total,REAL,False,,False
+combined_season,27,MP_Total,REAL,False,,False
+combined_season,28,WS_Playoff_Total,REAL,False,,False
+combined_season,29,MP_Playoff_Total,REAL,False,,False
+combined_season,30,WS_PER_48,REAL,False,,False
+combined_season,31,Playoff_WS_PER_48,REAL,False,,False
+combined_season,32,estimated_season_performance,REAL,False,,False
+team_salaries,0,Unnamed: 0,INTEGER,False,,False
+team_salaries,1,Year,INTEGER,False,,False
+team_salaries,2,Team,TEXT,False,,False
+team_salaries,3,Payroll,INTEGER,False,,False
+team_salaries,4,Total Expenses,INTEGER,False,,False
+team_salaries,5,franchise_id,REAL,False,,False
+player_info,0,Player,TEXT,False,,False
+player_info,1,Position,TEXT,False,,False
+player_info,2,Shoots,TEXT,False,,False
+player_info,3,College,TEXT,False,,False
+player_info,4,Yrs,REAL,False,,False
+player_info,5,Team,TEXT,False,,False
+player_info,6,Rank,REAL,False,,False
+player_info,7,Year,REAL,False,,False
+player_info,8,Height,TEXT,False,,False
+player_info,9,Weight,REAL,False,,False
+player_info,10,Birthdate,TEXT,False,,False
+player_info,11,player_id,TEXT,False,,False
+career,0,Player,TEXT,False,,False
+career,1,Rank,REAL,False,,False
+career,2,Year,REAL,False,,False
+career,3,MP_Regular,INTEGER,False,,False
+career,4,WS_Regular,REAL,False,,False
+career,5,WS/48_Regular,REAL,False,,False
+career,6,MP_Playoffs,REAL,False,,False
+career,7,WS_Playoffs,REAL,False,,False
+career,8,WS/48_Playoffs,REAL,False,,False
+career,9,Impact,REAL,False,,False
+career,10,Impact/48,REAL,False,,False
+player_records,0,player_id,TEXT,False,,False
+player_records,1,Player,TEXT,False,,False
+player_records,2,Rank,REAL,False,,False
+player_records,3,Year Drafted,REAL,False,,False
+player_records,4,Age,INTEGER,False,,False
+player_records,5,Team,TEXT,False,,False
+player_records,6,MP RS,INTEGER,False,,False
+player_records,7,OWS RS,REAL,False,,False
+player_records,8,DWS RS,REAL,False,,False
+player_records,9,WS RS,REAL,False,,False
+player_records,10,WS/48 RS,REAL,False,,False
+player_records,11,Year,INTEGER,False,,False
+player_records,12,MP PO,REAL,False,,False
+player_records,13,OWS PO,REAL,False,,False
+player_records,14,DWS PO,REAL,False,,False
+player_records,15,WS PO,REAL,False,,False
+player_records,16,WS/48 PO,REAL,False,,False
+player_records,17,Impact,REAL,False,,False
+player_records,18,Year Started,INTEGER,False,,False
+player_records,19,franchise_id,INTEGER,False,,False
+player_records,20,teams_played_for,INTEGER,False,,False
+player_records,21,salary,REAL,False,,False
+player_records,22,allocated_salary,REAL,False,,False
+player_records,23,MP_Total,REAL,False,,False
+player_records,24,MP_RS_Cost,REAL,False,,False
+player_records,25,MP_TOT_Cost,REAL,False,,False
+player_records,26,WS_RS_Cost,REAL,False,,False
+player_records,27,WS_TOT_Cost,REAL,False,,False
+player_records,28,Impact_Cost,REAL,False,,False

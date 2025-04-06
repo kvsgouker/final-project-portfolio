@@ -1,0 +1,107 @@
+Team,City,Beginning-Year,Ending-Year,Abbreviation,franchise_id,teamId,other_abbreviation
+Atlanta Hawks,Atlanta,1969,2025,ATL,1,1610612737,ATL
+St. Louis Hawks,Atlanta,1956,1968,STL,1,1610612737,STL
+Milwaukee Hawks,Atlanta,1952,1955,MLH,1,1610612737,MIL
+Tri-Cities Blackhawks,Atlanta,1950,1951,TRI,1,1610612737,TRI
+Boston Celtics,Boston,1947,2025,BOS,2,1610612738,BOS
+Charlotte Bobcats,Charlotte,2005,2014,CHA,3,1610612766,CHA
+Charlotte Hornets,Charlotte,2015,2025,CHO,3,1610612766,CHA
+Charlotte Hornets,Charlotte,1989,2002,CHH,4,1610612766,CHA
+New Orleans Hornets,New Orleans,2003,2005,NOH,4,1610612740,NOH
+New Orleans/Oklahoma City Hornets,New Orleans,2006,2007,NOK,4,1610612740,NOK
+New Orleans Hornets,New Orleans,2008,2013,NOH,4,1610612740,NOH
+New Orleans Pelicans,New Orleans,2014,2025,NOP,4,1610612740,NOP
+Chicago Bulls,Chicago,1967,2025,CHI,5,1610612741,CHI
+Cleveland Cavaliers,Cleveland,1971,2025,CLE,6,1610612739,CLE
+Dallas Mavericks,Dallas,1981,2025,DAL,7,1610612742,DAL
+Denver Nuggets,Denver,1977,2025,DEN,8,1610612743,DEN
+Denver Nuggets,Denver,1975,1976,DNA,8,1610612743,DEN
+Denver Nuggets,Denver,1968,1974,DNR,8,1610612743,DEN
+Detroit Pistons,Detroit,1958,2025,DET,9,1610612765,DET
+Ft. Wayne Pistons,Detroit,1949,1957,FTW,9,1610612765,FWZ
+Golden State Warriors,Golden State,1972,2025,GSW,10,1610612744,GSW
+San Francisco Warriors,Golden State,1963,1971,SFW,10,1610612744,SF
+Philadelphia Warriors,Golden State,1947,1962,PHW,10,1610612744,PHI
+Houston Rockets,Houston,1972,2025,HOU,11,1610612745,HOU
+San Diego Rockets,Houston,1968,1971,SDR,11,1610612745,SD
+Indiana Pacers,Indiana,1977,2025,IND,12,1610612754,IND
+Indiana Pacers,Indiana,1968,1976,INA,12,1610612754,IND
+Los Angeles Clippers,LA Clippers,1985,2025,LAC,13,1610612746,LAC
+San Diego Clippers,LA Clippers,1979,1984,SDC,13,1610612746,SDC
+Buffalo Braves,LA Clippers,1971,1978,BUF,13,1610612746,BUF
+Los Angeles Lakers,LA Lakers,1961,2025,LAL,14,1610612747,LAL
+Minneapolis Lakers,LA Lakers,1949,1960,MNL,14,1610612747,MIN
+Vancouver Grizzlies,Memphis,1996,2001,VAN,15,1610612763,VAN
+Memphis Grizzlies,Memphis,2002,2025,MEM,15,1610612763,MEM
+Miami Heat,Miami,1989,2025,MIA,16,1610612748,MIA
+Milwaukee Bucks,Milwaukee,1969,2025,MIL,17,1610612749,MIL
+Minnesota Timberwolves,Minnesota,1990,2025,MIN,18,1610612750,MIN
+Brooklyn Nets,Brooklyn,2013,2025,BRK,19,1610612751,BKN
+New Jersey Nets,Brooklyn,1978,2012,NJN,19,1610612751,NJ
+New York Nets,Brooklyn,1977,1977,NYN,19,1610612751,NYK
+New York Nets,Brooklyn,1969,1976,NYA,19,1610612751,NYK
+New Jersey Americans,Brooklyn,1968,1968,NJA,19,1610612751,NJA
+New York Knicks,New York,1947,2025,NYK,20,1610612752,NYK
+Seattle SuperSonics,Oklahoma City,1968,2008,SEA,21,1610612760,SEA
+Oklahoma City Thunder,Oklahoma City,2009,2025,OKC,21,1610612760,OKC
+Orlando Magic,Orlando,1990,2025,ORL,22,1610612753,ORL
+Philadelphia 76ers,Philadelphia,1964,2025,PHI,23,1610612755,PHI
+Syracuse Nationals,Philadelphia,1950,1963,SYR,23,1610612755,SYR
+Phoenix Suns,Phoenix,1969,2025,PHO,24,1610612756,PHX
+Portland Trail Blazers,Portland,1971,2025,POR,25,1610612757,POR
+Sacramento Kings,Sacramento,1986,2025,SAC,26,1610612758,SAC
+Kansas City Kings,Sacramento,1976,1985,KCK,26,1610612758,KC
+Kansas City-Omaha Kings,Sacramento,1973,1975,KCO,26,1610612758,KCO
+Cincinnati Royals,Sacramento,1958,1972,CIN,26,1610612758,CIN
+Rochester Royals,Sacramento,1949,1957,ROC,26,1610612758,ROC
+San Antonio Spurs,San Antonio,1977,2025,SAS,27,1610612759,SAN
+San Antonio Spurs,San Antonio,1974,1976,SAA,27,1610612759,SAN
+Dallas Chapparals,San Antonio,1972,1973,DLC,27,1610612759,DLC
+Texas Chapparals,San Antonio,1971,1971,TEX,27,1610612759,TX
+Dallas Chapparals,San Antonio,1968,1970,DLC,27,1610612759,DLC
+Toronto Raptors,Toronto,1996,2025,TOR,28,1610612761,TOR
+Utah Jazz,Utah,1980,2025,UTA,29,1610612762,UTA
+New Orleans Jazz,Utah,1975,1979,NOJ,29,1610612762,NEO
+Chicago Packers,Washington,1962,1962,CHP,30,1610612764,CHI
+Chicago Zephyrs,Washington,1963,1963,CHZ,30,1610612764,CHI
+Baltimore Bullets,Washington,1964,1973,BAL,30,1610612764,BAL
+Capital Bullets,Washington,1974,1974,CAP,30,1610612764,CAP
+Washington Bullets,Washington,1975,1997,WSB,30,1610612764,WAS
+Washington Wizards,Washington,1998,2025,WAS,30,1610612764,WAS
+Anderson Packers,Defunct 1,1950,1950,AND,-1,9028,AND
+Baltimore Bullets,Defunct 2,1948,1955,BLB,-2, -2,BAL
+Chicago Stags,Defunct 3,1947,1950,CHS,-3,9059,CHS
+Cleveland Rebels,Defunct 4,1947,1947,CLR,-4,9017,CLR
+Detroit Falcons,Defunct 6,1947,1947,DTF,-6,9020,DEF
+Indianapolis Jets,Defunct 7,1949,1949,INJ,-7,9008,JET
+Indianapolis Olympians,Defunct 8,1950,1953,INO,-8,9058,INO
+Kentucky Colonels,Defunct 9,1968,1976,KEN,-9,-9,KEN
+New Orleans Buccaneers,Defunct 10,1968,1970,NOB,-10,-10,NOB
+Memphis Pros,Defunct 10,1971,1972,MMP,-10,-10,MMP
+Memphis Tams,Defunct 10,1973,1974,MMT,-10,-10,MMT
+Memphis Sounds,Defunct 10,1975,1975,MMS,-10,-10,MMS
+Pittsburgh Condors,Defunct 11,1971,1972,PTC,-11,-11,PTC
+Pittsburgh Pipers,Defunct 11,1970,1970,PTP,-11,-11,PTP
+Minneapolis Pipers,Defunct 11,1969,1969,MNP,-11,-11,MNP
+Pittsburgh Pipers,Defunct 11,1968,1968,PTP,-11,-11,PTP
+Pittsburgh Ironmen,Defunct 12,1947,1947,PIT,-12,9001,PIT
+Providence Steam Rollers,Defunct 13,1947,1949,PRO,-13,9056,PRO
+San Diego Sails,Defunct 14,1976,1976,SDS,-14,-14,SDS
+San Diego Conquistadors,Defunct 14,1973,1975,SDC,-14,-14,SDC
+Sheboygan Red Skins,Defunct 15,1950,1950,SHE,-15,-15,SHE
+Spirits of St. Louis,Defunct 16,1975,1976,SSL,-16,-16,SSL
+Carolina Cougars,Defunct 16,1970,1974,CAR,-16,-16,CAR
+Houston Mavericks,Defunct 16,1968,1969,HSM,-16,-16,HSM
+St. Louis Bombers,Defunct 17,1947,1950,STB,-17,9012,BOM
+The Floridians,Defunct 18,1971,1972,FLO,-18,-18,FLO
+Miami Floridians,Defunct 18,1969,1970,MMF,-18,-18,MMF
+Minnesota Muskies,Defunct 18,1968,1968,MNM,-18,-18,MNM
+Toronto Huskies,Defunct 19,1947,1947,TRH,-19,9042,HUS
+Anaheim Amigos,Defunct 20,1968,1968,ANA,-20,-20,ANA
+Los Angeles Stars,Defunct 20,1969,1970,LAS,-20,-20,LAS
+Utah Stars,Defunct 20,1971,1976,UTS,-20,-20,UTS
+Virginia Squires,Defunct 21,1971,1976,VIR,-21,-21,VIR
+Washington Capitals,Defunct 21,1970,1970,WSA,-21,-21,WSA
+Oakland Oaks,Defunct 21,1968,1969,OAK,-21,-21,OAK
+Washington Capitals,Defunct 22,1947,1951,WSC,-22,-22,WSC
+Waterloo Hawks,Defunct 23,1950,1950,WAT,-23,9002,WAT
