@@ -80,7 +80,7 @@ def plot_attendance_vs_lag(attendance_df):
 
     plt.tight_layout()
     save_plot(plt, "attendance_vs_lag")
-    plt.show()
+    plt.show(block=False)
 
 
 def run_ols_and_plot_residuals(X, y, title, filename):
@@ -222,10 +222,12 @@ def do_attendance_modeling():
     y = model_df['attendance']
 
     # Residual plot
+    # Needs optimized. Skips display.
     run_ols_and_plot_residuals(X, y, "Residuals Distribution", "attendance_model_residuals")
 
     print(show_df_info(games_subset_df, "Games History"))
-    plot_attendance_vs_lag(games_subset_df)
+    # very slow graph. remove for now.
+    # plot_attendance_vs_lag(games_subset_df)
 
     df = load_fan_attendance_revenue()
     fan_attendance_revenue_filtered_for_covid_df = filter_seasons(df, min_year=2011,
