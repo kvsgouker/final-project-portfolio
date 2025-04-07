@@ -133,32 +133,7 @@ def do_attendance_modeling():
         - DataFrame statistics printed via `show_df_info`
     """
 
-    expected_columns = 33  # Update this if your real CSV has 33 columns
-
-    bad_rows = []
-
-    with open(FILE_PATH_TO_COMPILED_DATA + "extended_game_history.csv", "r", encoding="utf-8") as f:
-        reader = csv.reader(f)
-        for i, row in enumerate(reader):
-            field_count = len(row)
-            if i == 0:
-                print(f"Header has {field_count} columns.")
-                continue  # header
-            if field_count != expected_columns:
-                bad_rows.append((i, field_count, row))
-
-    print(f"\nTotal bad rows found: {len(bad_rows)}\n")
-
-    for i, (row_num, field_count, row) in enumerate(bad_rows[:20]):  # limit to first 20 bad rows
-        print(f"Row {row_num}: has {field_count} fields")
-        print(row)
-        print("-" * 40)
-
-    if len(bad_rows) > 20:
-        print(f"... and {len(bad_rows) - 20} more bad rows.")
-
     games_df = pd.read_csv(FILE_PATH_TO_COMPILED_DATA + "extended_game_history.csv")
-        # load_extended_game_history())
     log.log(TankLog.WARNING_LOGGING, show_df_info(games_df, "Games History"))
 
     games_df = games_df[((games_df['season_year'] > 2004) & (games_df['season_year'] < 2020)) | (games_df['season_year'] > 2021)]
