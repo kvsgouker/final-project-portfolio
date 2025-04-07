@@ -1,0 +1,139 @@
+basketball-tanking-costs/.idea/inspectionProfiles/profiles_settings.xml
+basketball-tanking-costs/.idea/misc.xml
+basketball-tanking-costs/.idea/modules.xml
+basketball-tanking-costs/.idea/TankOrNot.iml
+basketball-tanking-costs/.idea/vcs.xml
+basketball-tanking-costs/__pycache__/Constants.cpython-38.pyc
+basketball-tanking-costs/__pycache__/FreeAgent.cpython-38.pyc
+basketball-tanking-costs/__pycache__/General.cpython-38.pyc
+basketball-tanking-costs/__pycache__/MarketSize.cpython-38.pyc
+basketball-tanking-costs/__pycache__/Mining.cpython-38.pyc
+basketball-tanking-costs/__pycache__/NbaData.cpython-38.pyc
+basketball-tanking-costs/__pycache__/Paths.cpython-38.pyc
+basketball-tanking-costs/__pycache__/ShowHighestPlayerImpact.cpython-38.pyc
+basketball-tanking-costs/__pycache__/SimpleAttendanceModeling.cpython-38.pyc
+basketball-tanking-costs/__pycache__/Tables.cpython-38.pyc
+basketball-tanking-costs/__pycache__/TankEffects.cpython-38.pyc
+basketball-tanking-costs/__pycache__/TankLog.cpython-38.pyc
+basketball-tanking-costs/__pycache__/TeamMapping.cpython-38.pyc
+basketball-tanking-costs/__pycache__/TeamRevenueView.cpython-38.pyc
+basketball-tanking-costs/__pycache__/TheProcess.cpython-38.pyc
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_095641.png
+basketball-tanking-costs/plots/attendance_model_residuals_20250406_101829.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_20250406_110703.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_20250406_110931.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_20250406_111458.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_20250406_111916.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_20250406_112322.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_Without Pandemic_20250406_111957.png
+basketball-tanking-costs/plots/AwayAttendanceVsWinPercentage_Without Pandemic_20250406_112334.png
+basketball-tanking-costs/plots/Charlotte_tank_20250406_093347.png
+basketball-tanking-costs/plots/Histogram of Lagging_Impact_AVG_COST_2Y - All Players Not On Rookie Scale.csv_20250406_101815.png
+basketball-tanking-costs/plots/Histogram of Lagging_Impact_AVG_COST_2Y - All Players.csv_20250406_101814.png
+basketball-tanking-costs/plots/Histogram of Lagging_Impact_AVG_COST_6Y - All Players Not On Rookie Scale.csv_20250406_101817.png
+basketball-tanking-costs/plots/Histogram of Lagging_Impact_AVG_COST_6Y - All Players.csv_20250406_101816.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_101059.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_101654.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_102319.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_103911.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_104342.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_104749.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_105129.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_105426.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_105643.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_105840.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_110639.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_110915.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_111455.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_111913.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_20250406_112320.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_Without Pandemic_20250406_111941.png
+basketball-tanking-costs/plots/HomeAttendanceVsWinPercentage_Without Pandemic_20250406_112331.png
+basketball-tanking-costs/plots/LAFA_vs_LAFR_Model_20250406_112109.png
+basketball-tanking-costs/plots/LAFA_vs_LAFR_Model_20250406_112351.png
+basketball-tanking-costs/plots/LAFA_vs_Pct_Model_20250406_112108.png
+basketball-tanking-costs/plots/LAFA_vs_Pct_Model_20250406_112347.png
+basketball-tanking-costs/plots/LAFAVsWinPercentage_Without Pandemic_20250406_112038.png
+basketball-tanking-costs/plots/LAFAVsWinPercentage_Without Pandemic_20250406_112344.png
+basketball-tanking-costs/plots/LAFR_vs_Pct_Model_20250406_112109.png
+basketball-tanking-costs/plots/LAFR_vs_Pct_Model_20250406_112349.png
+basketball-tanking-costs/plots/Lagging_Impact_AVG_COST_2Y vs Lagging_estimated_season_performance_2Y - All Players Not On Rookie Scale.csv_20250406_101814.png
+basketball-tanking-costs/plots/Lagging_Impact_AVG_COST_2Y vs Lagging_estimated_season_performance_2Y - All Players.csv_20250406_101813.png
+basketball-tanking-costs/plots/Lagging_Impact_AVG_COST_6Y vs Lagging_estimated_season_performance_6Y - All Players Not On Rookie Scale.csv_20250406_101816.png
+basketball-tanking-costs/plots/Lagging_Impact_AVG_COST_6Y vs Lagging_estimated_season_performance_6Y - All Players.csv_20250406_101816.png
+basketball-tanking-costs/plots/Minnesota Timberwolves_tank_20250406_093356.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_094553.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_095000.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_095222.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_095852.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_100425.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_100627.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_101000.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_101608.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_102209.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_103851.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_104045.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_104242.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_104728.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_104913.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_105045.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_105343.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_105548.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_105753.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_110553.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_110828.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_111412.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_111830.png
+basketball-tanking-costs/plots/NBA_Championship_Donut_20250406_112233.png
+basketball-tanking-costs/plots/Operating Income Over Time_20250406_093316.png
+basketball-tanking-costs/plots/Operating Income Over Time_20250406_093812.png
+basketball-tanking-costs/plots/Operating Income Over Time_20250406_213414.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_20250406_110946.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_20250406_111505.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_20250406_111924.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_20250406_112327.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_Without Pandemic_20250406_112017.png
+basketball-tanking-costs/plots/OperatingIncomeVsTotalWins_Without Pandemic_20250406_112339.png
+basketball-tanking-costs/plots/Orlando Magic_tank_20250406_093351.png
+basketball-tanking-costs/plots/Philadelphia 76ers_tank_20250406_093353.png
+basketball-tanking-costs/plots/plot_metropolitan_area_20250406_093304.png
+basketball-tanking-costs/plots/plot_metropolitan_area_20250406_093732.png
+basketball-tanking-costs/plots/plot_metropolitan_area_20250406_101554.png
+basketball-tanking-costs/plots/plot_metropolitan_area_20250406_112207.png
+basketball-tanking-costs/plots/plot_metropolitan_area_20250406_213210.png
+basketball-tanking-costs/plots/residual_plot_attendance_avg_20250406_093411.png
+basketball-tanking-costs/plots/residual_plot_attendance_avg_20250406_093431.png
+basketball-tanking-costs/plots/residual_plot_attendance_avg_20250406_094148.png
+basketball-tanking-costs/plots/residual_plot_attendance_avg_20250406_094159.png
+basketball-tanking-costs/plots/Sacramento Kings_tank_20250406_093342.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_20250406_110955.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_20250406_111507.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_20250406_111926.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_20250406_112328.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_Without Pandemic_20250406_112022.png
+basketball-tanking-costs/plots/TeamRevenueVsAverageHomeAttendance_Without Pandemic_20250406_112340.png
+basketball-tanking-costs/plots/TeamRevenueVsRelativeHomeAttendance_Without Pandemic_20250406_112045.png
+basketball-tanking-costs/plots/TeamRevenueVsRelativeHomeAttendance_Without Pandemic_20250406_112345.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_20250406_110942.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_20250406_111503.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_20250406_111921.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_20250406_112325.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_Without Pandemic_20250406_112011.png
+basketball-tanking-costs/plots/TeamRevenueVsTotalWins_Without Pandemic_20250406_112337.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_20250406_110937.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_20250406_111500.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_20250406_111919.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_20250406_112324.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_Without Pandemic_20250406_112006.png
+basketball-tanking-costs/plots/TotalAttendanceVsWinPercentage_Without Pandemic_20250406_112336.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_20250406_111027.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_20250406_111533.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_20250406_111933.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_20250406_112330.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_Without Pandemic_20250406_112027.png
+basketball-tanking-costs/plots/UnproductiveLosingFreeAgents_Without Pandemic_20250406_112342.png
+basketball-tanking-costs/TeamRevenueView.py.bak
+basketball-tanking-costs/TeamMapping.py.bak
+basketball-tanking-costs/Tables.py.bak
+basketball-tanking-costs/plots/Washington Wizards_tank_20250406_093400.png
+basketball-tanking-costs/nba-data/log/tank_log_2025-04-06_21-32-04.log

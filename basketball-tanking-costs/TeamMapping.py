@@ -1,7 +1,10 @@
 import pandas as pd
 from Constants import FIRST_YEAR, FINAL_YEAR
 from dataclasses import dataclass
+
+from General import show_df_info
 from Paths import FILE_PATH_TO_COMPILED_DATA
+from Tables import load_team_mapping, load_league_mapping
 
 league_mapping = [
     ["NBA", 1950, FINAL_YEAR + 1],
@@ -113,9 +116,8 @@ def add_franchise_id(df, team_column="team_abbreviation", verbose=True):
 # Franchise Id is universal key for this system's database
 # Beginning-Year/Ending-Year are the dates franchise was established (if after the FIRST_YEAR) and perhaps moved, renamed, etc.
 # FINAL_YEAR + 1 as Ending-Year means franchise has not been changed since its inception.
-team_mapping_df = pd.read_csv(FILE_PATH_TO_COMPILED_DATA + "team_mapping.csv")
-league_mapping_df = pd.read_csv(FILE_PATH_TO_COMPILED_DATA + "league_mapping.csv")
-
+team_mapping_df = load_team_mapping()
+league_mapping_df = load_league_mapping()
 
 @dataclass
 class FranchiseMapper:
@@ -168,6 +170,5 @@ class FranchiseMapper:
             (self.team_mapping_df['Ending-Year'] >= year)
         ]
         return rec['franchise_id'].values[0] if not rec.empty else None
-
 
 franchise_mapper = FranchiseMapper(team_mapping_df)

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from General import save_plot, pretty_print_df, printFormattedTestStat
 from Paths import FILE_PATH_TO_COMPILED_DATA
-from Tables import load_fan_attendance_revenue
+from Tables import load_fan_attendance_revenue, load_team_mapping
 from TeamMapping import franchise_mapper
 
 
@@ -11,11 +11,11 @@ def plot_team_operating_income():
     """Plot operating income over time for the top 5 and bottom 5 NBA teams."""
 
     # Load team mapping for franchise name lookup
-    team_mapping_df = pd.read_csv(FILE_PATH_TO_COMPILED_DATA + "team_mapping.csv")
+    team_mapping_df = load_team_mapping()
 
     # Load and prepare the data
     df = load_fan_attendance_revenue()
-    df["season_year"] = df["season_year"].astype(str)
+    df["season_year_str"] = df["season_year"].astype(str)
     df["Operating_Income"] = pd.to_numeric(df["Operating_Income"], errors="coerce")
 
     # Compute average income per franchise
@@ -39,8 +39,15 @@ def plot_team_operating_income():
     plt.figure(figsize=(14, 7))
     for team_id in selected_franchises:
         team_data = filtered_df[filtered_df["franchise_id"] == team_id]
-        team_name = franchise_names[team_id]
-        plt.plot(team_data["season_year"], team_data["Operating_Income"], label=team_name)
+
+        # Use a year in the dataset to get the correct historical team name
+        # Favor last location of franchise.
+        sample_year = team_data["season_year"].max() - 1
+        team_id = int(team_id)  # just in case it's a string from CSV
+
+        team_name = franchise_mapper.get_team_name(team_id, sample_year)
+
+        plt.plot(team_data["season_year_str"], team_data["Operating_Income"], label=team_name)
 
     plt.title("Operating Income Over Time: Top 5 vs Bottom 5 NBA Teams (Excluding Totals)")
     plt.xlabel("Season")
@@ -53,20 +60,15 @@ def plot_team_operating_income():
     save_plot(plt, "Operating Income Over Time")
     plt.show()
 
-    # Ensure column is numeric
-    df["Operating_Income"] = pd.to_numeric(df["Operating_Income"], errors="coerce")
-
     # Filter rows with negative operating income
+    # Get team name to show legend.
     negative_income_df = df[df["Operating_Income"] < 0].copy()
     # Ensure correct dtypes
     negative_income_df["season_year"] = pd.to_numeric(negative_income_df["season_year"], errors="coerce")
+    negative_income_df["season_year"] = int(negative_income_df["season_year"].min())
+    negative_income_df["franchise_id"] = int(negative_income_df['franchise_id'])
 
     # Add team name using franchise_mapper
-    negative_income_df["Team"] = negative_income_df.apply(
-        lambda row: franchise_mapper.get_team_name(row["franchise_id"], row["season_year"]), axis=1
-    )
-
-    # Optional: Map franchise_id to readable team names
     negative_income_df["Team"] = negative_income_df.apply(
         lambda row: franchise_mapper.get_team_name(row["franchise_id"], row["season_year"]), axis=1
     )
@@ -75,9 +77,6 @@ def plot_team_operating_income():
     negative_income_df['Pct'] = negative_income_df['Pct'].apply(printFormattedTestStat)
     negative_income_df['attendance_avg'] = negative_income_df['attendance_avg'].apply(printFormattedTestStat)
 
-    print(pretty_print_df(negative_income_df[["season_year", "franchise_id", "Team", "Operating_Income", 'home_wins',
-                                              'Pct', 'attendance_avg', 'Team_Revenue']].sort_values(
-                                               by="Operating_Income")))
 
 
 if __name__ == "__main__":

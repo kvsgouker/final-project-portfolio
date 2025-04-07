@@ -58,15 +58,28 @@ def load_team_revenue():
 
 def load_team_mapping():
     """
-    Loads a team mapping table that allows franchse_id to be found from season_year and team name.
-    Note there are two tables of data that must be related (both external sources that are incompatible.
-    This fixes that incompatibility issue.
+    Loads the team mapping table, which links franchise identifiers to team names,
+    abbreviations, cities, and active year ranges.
 
     Returns:
-        pd.DataFrame: DataFrame of team mapping.
+        pd.DataFrame: A DataFrame with correct data types for franchise lookup.
     """
-    team_mapping_path = 'team_mapping.csv'
-    team_mapping_df = pd.read_csv(team_mapping_path)
+    team_mapping_path = FILE_PATH_TO_COMPILED_DATA + 'team_mapping.csv'
+
+    team_mapping_dtypes = dict(
+        Team="string",                  # Full name like "Atlanta Hawks"
+        City="string",                 # City like "Atlanta"
+        **{
+            "Beginning-Year": "Int64",  # Starting year of the franchise
+            "Ending-Year": "Int64",     # Ending year (use FINAL_YEAR+1 for active teams)
+            "Abbreviation": "string",   # Abbreviated form, e.g., ATL
+            "franchise_id": "Int64",    # Internal franchise ID
+            "teamId": "string",         # External team identifier (NBA's internal ID)
+            "other_abbreviation": "string"  # Alternate abbreviations (e.g., from other sources)
+        }
+    )
+
+    team_mapping_df = pd.read_csv(team_mapping_path, dtype=team_mapping_dtypes)
     return team_mapping_df
 
 
@@ -85,7 +98,7 @@ def load_player_salaries():
         salary = "Float64",
         player_id = "string"
     )
-    players_salaries_path = 'player_salaries.csv'
+    players_salaries_path = FILE_PATH_TO_COMPILED_DATA + 'player_salaries.csv'
     players_salaries_df = pd.read_csv(players_salaries_path, dtype=player_salary_dtypes)
     return players_salaries_df
 
@@ -103,7 +116,7 @@ def load_league_mapping():
         Beginning = "Int64",
         Ending = "Int64",
     )
-    league_mapping_path = 'league_mapping.csv'
+    league_mapping_path = FILE_PATH_TO_COMPILED_DATA + 'league_mapping.csv'
     league_mapping_df = pd.read_csv(league_mapping_path)
     return league_mapping_df
 
