@@ -2,7 +2,7 @@
 
 ## Instructions
 
-- Download code from this link: https://drive.google.com/file/d/1tJDkgDJOpC9v5GtqF42icU8cBZKHjZhR/view?usp=drive_link
+- Download the data from this link to save time: https://drive.google.com/file/d/1tJDkgDJOpC9v5GtqF42icU8cBZKHjZhR/view?usp=drive_link
 - Open PyCharm
 - Create new project with existing source at root of code base
 - Use "main" as initial script. A menu will appear.
