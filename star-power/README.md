@@ -14,16 +14,25 @@ This project was developed using the following tools:
 
 - PyCharm
 - Python 3.8 or later
-- matplotlib
-- pandas
 - numpy
-- seaborn
+- pandas
 - scikit-learn
-- statsmodels
-- requests
+- matplotlib
 - tabulate
+- seaborn
+- requests
+- urllib3
+- pillow
+- statsmodels
+- tmdbv3api
+- bs4
 - beautifulsoup4
-- lxml
+- torch
+- scipy
+- xgboost
+- pytrends
+- fuzzywuzzy
+- waybackpy
 
 ## Author
 
