@@ -1,0 +1,1388 @@
+---
+title: "Demographic Trends in American Politics"
+author: "Kyle Salgado-Gouker"
+date: "2023-02-28"
+output:
+  pdf_document: default
+  html_document: default
+bibliography: bibliography.bib
+---
+```{r synopsis-doesnt-print, include=FALSE}
+
+# This project investigates the relationship between voter turnout and residential mobility
+# across U.S. counties, with a focus on Florida and bellwether counties nationwide.
+# Using publicly available datasets from Harvard Dataverse (election returns) and the IRS
+# (county-level migration data), the analysis explores how migration patterns may
+# influence political outcomes and turnout trends.
+
+# The initial dataset (DoltHub) was replaced with a more complete and reliable source
+# from Harvard Dataverse, providing presidential election returns from 2000 to 2020.
+# Migration data was drawn from IRS inflow/outflow summaries covering 2011–2019,
+# acknowledging limitations (e.g., county-level granularity and exclusion of non-taxpayers).
+
+# Key steps in the analysis include:
+# - Cleaning and harmonizing multiple datasets using FIPS codes
+# - Identifying counties with strong predictive value for national outcomes ("bellwethers")
+# - Visualizing turnout changes and migration trends
+# - Evaluating demographic and political shifts at the county level
+
+# While the data does not allow for individual-level causal claims, it offers a proof-of-concept
+# for how aggregated migration patterns might help explain changes in voter participation
+# and partisan dynamics in the United States.
+
+```
+``` {r packages, messages=FALSE, include=FALSE}
+library(here)
+# for knit output
+library(knitr)
+# for tables
+library(pander)
+# for graphs
+library(ggplot2)
+# input/output
+library(rio)
+# knn
+library(class)
+# for correlations
+library(corrplot)
+# for melting
+library(reshape2)
+# graph aesthetics
+library(scales)
+# data analysis
+library(Hmisc)
+# r squared
+library(rsq)
+# partial correlation
+library(ppcor)
+# for rectangular data like csv.
+library(readr)
+#  splits big data structures into homogeneous pieces, applies a function to 
+# each piece, and then combines results together. Mutate etc
+library(dplyr)
+# make data "tidy" (spread)
+library(tidyr)
+# functional programming
+library(purrr)
+# compare coefficients et
+library(car)
+# confint-MASS: Confidence Intervals for Model Parameters
+library(MASS)
+# boot - Ripley cross-validation is in bootstrap package
+library(boot)
+# corpcor etc - for collinearity
+library(corpcor)
+library(mctest)
+library(ppcor)
+# plot
+library(lattice)
+# discretePlot
+#library(Rcmdr)
+# metrics (for mse)
+library(Metrics)
+# confusion matrix
+library(caret)
+# Load the `pROC` package
+library(pROC)
+# json
+library(jsonlite)
+# httr
+library(httr)
+# dolt
+library(DBI)
+# padding strings etc
+library(stringr)
+library(lme4)
+library(sandwich)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r substr_functions, messages=FALSE, include=FALSE}
+# String manipulation functions
+#Note: Use roxygen-style to make ide aware.
+
+#' Get the rightmost n characters of a string
+#'
+#' @param s A character string.
+#' @param n The number of characters to extract from the right.
+#'
+#' @return A character string of length n.
+#' @examples
+#' substrRight("abcdef", 3)
+#' # returns "def"
+substrRight <- function(s, n) {
+  substr(s, nchar(s) - n + 1, nchar(s))
+}
+
+#' Pad a string on the left, then get the rightmost n characters
+#'
+#' @param s A character string.
+#' @param n The total number of characters desired after padding.
+#' @param z A single character used for padding (e.g., "0").
+#'
+#' @return A character string of length n, right-aligned and left-padded.
+#' @examples
+#' substrRightPaddedWithLeft("5", 3, "0")
+#' # returns "005"
+substrRightPaddedWithLeft <- function(s, n, z) {
+  padded_s <- stringr::str_pad(s, n, side = "left", pad = z)
+  substrRight(padded_s, n)
+}
+
+```
+# The Effects of Internal Population Migration in American Politics
+
+It is no secret that America’s political landscape is in a constant state of flux, and the lines of its strategic map are redrawn every election. News media generally focuses on the divisions of the two parties, often irresponsibly leaning into party polarity as if covering rival sports teams, but other important factors are in play as well. Demographics is one. In 2018, the Brookings Institute demonstrated how—because of natural demographic changes in the size and composition of the population that result from births, deaths, and aging—"minorities will be the source of all of the growth in the nation’s youth and working age population, most of the growth in its voters, and much of the growth in its consumers and tax base as far into the future as we can see" (@frey). Another widely reported factor is immigration: according to the Pew Research Center, over "40 million people living in the U.S. were born in another country" (@budiman). One comparatively understudied area of politics, however, does not depend on the growth of the voter base, but in how citizens are distributed. Because of the narrow margins of victory in battleground states, focus on American internal migration is vital in predicting election outcomes, and analytical tools such as R are especially apt to glean new truths from the data.
+
+## Research Questions
+
+The extent of internal migration is measured by the Census Bureau in the American Community Survey. Of the 127,544,730 American households in 2021, 34,784,732 have changed residents since 2019. The 2021 American Community Survey also shows that approximately 7,000,000 people—2.4% of the United States population—moved from one state to another. Moreover, the migration is heterogeneous, and much is from Democratic dominated metropolitan areas, part of what Derek Thompson calls a "blue urban exodus" (@thompson). In fact, of the "13 percent of Americans [who] moved" from 2017-2018, 25 percent were from the 18-24 group, versus "6 percent of individuals age 65 and over" (@frost). Likewise, low-income Americans had higher residential mobility than their wealthier counterparts. 
+
+\newpage
+
+![Line graph showing how much more mobile are young adults]("images/movement by age.jpg"){#fig_movement_by_age .class width=50% height=30%}
+
+Americans aged 20 to 40 are three times more likely to move between states than their elderly counterparts from 50 to 70. Though this is not by itself a large number of people, it is politically significant, because four states (Pennsylvania, Wisconsin, Arizona, and Georgia) in the 2020 election were decided within two percent.
+
+Moreover, the effects of large numbers of citizens in motion provide an insight into the voting districts that extend far beyond the vote counting. Such trends can be an outsized indicator at how attractive a district is to a prospective citizen of a given background and may provide clues that can help answer numerous questions across America's political map.
+
+For example, Florida has long been a magnet for citizens of other states, especially from the North, where it drew large numbers of Democratic voters to offset a dominant base of Cuban immigrants who have historically voted Republican. For years, political analysts have considered Florida to be a bellwether or swing state, but today such claims are disputable, because Democrats have won only 3 presidential elections in Florida since 1976, and its governor, Ron DeSantis, is acknowledged to be a favorite for the Republican nomination. Does domestic migration provide any clues to the state's political future?
+
+Democrats in the 2020 Georgia election, on the other hand, broke a string of six Republican victories, and its contested "purple" status was confirmed by the 2022 senatorial elections. To what extent is domestic migration a factor in the political landscape in Metro-Atlanta's counties (Cobb, Gwinnett, Henry, Fayette, Rockdale, Newton, Douglas), and what does the future hold?
+
+Maricopa County in Arizona is another area of focus. To what degree is domestic migration a factor in Arizona's politics? Has it changed the election outcomes?
+
+Republicans in Texas, which will have 40 electoral votes in 2024 (two more than the 2020 election), won the state by over 5 percentage points, however, the difference was 9 percent in 2016, and nearly 16 percent in 2012. Tarrant County, home of Ft Worth, flipped to Democratic in 2020, while others like Denton and Collin also trended left. Is voter migration a significant factor in these changes?
+
+Oakland County, Michigan and Hamilton County (of Cincinnati, Ohio) are other areas undergoing change. Oakland County used to be a solid red county, but that is no longer true. Hamilton County is also trending blue, even though Ohio, by and large, remains very conservative. To what extent is voter migration a factor that causes counties like Oakland, Hamilton, or Delaware, Montgomery, and Chester counties in Pennsylvania to buck the trend of their states? Are these merely urban to suburban migrations or are there other forces at work?
+
+Finally, overall, what do these trends mean for the political parties and their candidates? Are the trends sustainable or a momentary aberration?
+
+## Approach
+
+The most important decision for this project was the abstaction of a voter. While opinion polls are ubiquitous during election season, I did not want to rely on self-reporting. The expectation of voter privacy is a fundamental right of our democracy, so how an individual votes can only be guessed from wider outcomes. Moreover, although states make voter rolls public, access is not free, nor is it for any interested party. Also, there is no uniform data base. Instead, each state makes its own rules, and politicians and strategists pay for access to such bodies as the National Conference of State Legislatures. It is also expensive: Access to Alabama's alone through NCSL.org would cost over $40000.
+
+Instead, I will define the definition of a potential voter by the political bias of their source residency. To denote the valence of partisan and ideological identities this project uses the results of recent presidential elections and assigns crude red-vs-blue weights for both the districts studied and those that contribute to their change. A vote for a candidate is assumed to define the characteristics of the voters of the precinct. The sum of the inflow and outflow of voter entities from source locations into a target of study, collected on an annual basis, is used to produce a model and predict future results, which is further evaluated to determine the model's efficacy. This can further be refined to achieve a better model.
+
+For example, I live in Florida's 7th Congressional District, which in 2020 (before redistricting) contained portions of two counties (Seminole and Orange) and twenty-four different zip codes:
+
+![Map showing 7th Congressional District of Florida by county]("images/7th district by county.jpg"){#fig-district-county .class width=50% height=30%}  
+
+![Map showing 7th Congressional District of Florida by zip]("images/7th district by zip.jpg"){#fig-district-zip .class width=50% height=30%}
+
+``` {r zip-codes, include = FALSE, echo = FALSE}
+seventh_district_zips <- c(32701, 32707, 32708, 32714, 32732, 32746, 32750, 32751, 32765, 32766, 32771, 32773, 32779, 32879, 32792, 32803, 32806, 32807, 32817, 32820, 32822, 32825, 32826, 32828)
+seventh_district_counties <- c("Seminole", "Orange")
+```
+
+The 7th Congressional district is part of the I4-Corridor, one of the last areas of Florida that are not seen as deep red or deep blue. Candidates for high office always visit this region of 7 counties and spend money in its media market to bombard potential voters with advertisements. In 2020, 54.5% of voters in the 7th chose the eventual winner, Joe Biden, versus 44.15 who opted for then-President Trump.
+
+Like many states, Florida tracks voter participation by county rather than by precinct. In the general election, 77% of eligible voters cast their ballot, the highest percentage since 1992. The distinction between precinct-level tracking of votes and county-level tracking of voter participation is representative of the challenging nature of location in residential mobility. The holy grail of relocation data is the National Change of Address Link, which is maintained by the post office who sells the data freely provided by its customers (unless they opt out) to a multitude of commercial vendors and nonprofits. The data is specific to an address—using 9-digit zip codes. Unfortunately, access to this data requires a subscription at a cost beyond the project budget. 
+
+Another alternative is provided by the Internal Revenue Service, but it has two serious deficiencies: The intersection between voters and taxpayers is inexact. Some non-taxpayers are voters, while some taxpayers are unregistered or forbidden to vote. Moreover, the IRS address-change data is county-specific, rather than zip code specific, which means new inaccuracies are introduced. Nevertheless, the data is quite useful for a proof-of-concept, and several pathways exist to use intermediate data sets to improve the results. Best of all, the IRS data is free and easily available.
+
+# Data: Sources, Importing, and Cleaning
+
+## Data Sources
+
+- **Election Results (2000–2020)**: [Harvard Dataverse](https://doi.org/10.7910/DVN/VOQCHQ)  
+  Source: U.S. President Precinct-Level Returns 2000–2020, compiled by Tony McGovern.  
+  DOI: [10.7910/DVN/VOQCHQ](https://doi.org/10.7910/DVN/VOQCHQ)
+
+- **County Migration Data (2011–2019)**: [IRS Migration Data](https://www.irs.gov/statistics/soi-tax-stats-migration-data-2019-2020)  
+  IRS Statistics of Income Division – Based on Form 1040 filings and address changes.  
+
+- **IRS Inflow/Outflow Documentation**: [Download PDF](https://www.irs.gov/pub/irs-soi/1920inpublicmigdoc.pdf)  
+  Details methodology and limitations in the construction of the migration files.
+
+
+## Data Cleaning
+
+Before the data could be used, a number of steps were required. 
+
+Initial steps for transforming election results: 
+* Change tab-delimited file to comma-delimited file. 
+* Use rio package "import" to load csv file.
+* Give columns names
+* Remove data that is unnecessary: 
+    + mode (of voting)
+    + date of data-set (Spring 2022)
+    + office sought (President)
+    + state name (redundant with state-po abbreviation)
+
+``` {r get-election-results-data}
+# It needs to be changed from a tab separated file to a csv first.
+writeLines(gsub("\t", ",", readLines("data/countypres_2000-2020.tab")), 
+           "data/countypres_2000-2020.csv")
+
+# load it in.
+election_results_df <- rio::import("data/countypres_2000-2020.csv")
+
+# give the columns some names.
+names(election_results_df) <- c("year", "state", "state_po", "county_name", 
+                                "county_fips", "office", "candidate", "party", 
+                                "candidate_votes", "total_votes", 
+                                "data_set_date", "mode")
+
+# drop some columns we don't need now. (mode, data_set_date, office, state)
+election_results_df <- election_results_df[,-12]
+election_results_df <- election_results_df[,-11]
+election_results_df <- election_results_df[,-6]
+election_results_df <- election_results_df[,-2]
+```
+
+Another important dataset are the migrations of citizens between counties. This is a set of 18 files, two for each year from 2011 through 2019. They are csv files, one for inflow and the other for outflow. The IRS data that describes inflow and outflow of counties is described here:
+
+https://www.irs.gov/statistics/soi-tax-stats-migration-data-2019-2020
+
+https://www.irs.gov/pub/irs-soi/1920inpublicmigdoc.pdf
+
+The sourcing of the data is explained in the documentation: "Migration data are based on the population of Forms 1040 that were filed and processed by the IRS during calendar years 2019 and 2020. In addition, tax year 2019 paper returns were included up until mid-July of 2021 because of processing delays due to the COVID-19 pandemic."
+
+I use the IRS's county-specific data instead of the state-specific data. It has a few more fields. Here is a complete list of the columns:
+
+Note: For both inflow and outflow, Y1=Year One, Y2=Year Two. For a given transaction, the county just changes columns in the datasets.
+
+1. Y1_STATEFIPS: State FIPS Code of Origin from Year 1. Numbered alphabetically. Alabama = 1, Wyoming = 56. 57-59 summary records, 96-98 likewise.
+2. Y1_COUNTYFIPS County FIPS Code of Origin from Year 1. (state-total=0, 001-840 are the potential values)
+3. Y2_STATEFIPS State FIPS Code of Destination from Year 2
+4. Y2_COUNTYFIPS County FIPS code of Destination from Year 2
+5. Y2_STATE State Abbreviation or Postal Code of Destination from Year 2. "AL" to "WY". "FR" means "foreign". "SS" means "same state".
+6. Y2_COUNTYNAME County Name of Destination from Year 2. For summary fields it has special values:
+[State County Name] Total Migration – US and Foreign
+[State County Name] Total Migration – US
+[State County Name] Total Migration – Same State
+[State County Name] Total Migration – Different State
+[State County Name] Total Migration – Foreign
+For non-migrant records, the name will take the following format:
+[State County Name] Non-migrants
+For the foreign records, the name will take the following format:
+Foreign – Overseas
+Foreign – Puerto Rico
+Foreign – APO/FPO ZIPs
+Foreign – US Virgin Islands
+7. N1 Number of returns <- It was actually used for tax purposes.
+8. N2 Number of individuals <- Individuals is more useful for us.
+9. AGI Adjusted Gross Income (AGI) <- We do not use this field.
+
+To find trends of migration, which are vital to building a model, I import each year of the data. It is self-reported to the IRS and (as previously specified) is a count of taxpayers, not voters. Even so, as an indicator of trends of migration, it is still valid, because taxpayers are a population subset too and we are working with percentages and not absolutes most of the time.
+
+These datasets have a number of peculiarities that must be addressed, but first they need to be imported. I also used the "import" function of the rio package, a Swiss army-knife tool that guesses data format from the file extension (in this case comma-delimited, "csv").
+
+``` {r county-inflow-outflow-data}
+# County inflow and outflow files describe the migration of each county.
+# This is a set of 18 files. Make the filenames first.
+inflow_file_names <- paste0('data/countyinflow', 11:19, 12:20, '.csv')
+outflow_file_names <- paste0('data/countyoutflow', 11:19, 12:20, '.csv')
+# lists for the data
+inflow_data <- list()
+outflow_data <- list()
+# import the data from the files by calling import for each name.
+inflow_data <- lapply(inflow_file_names, rio::import)
+outflow_data <- lapply(outflow_file_names, rio::import)
+```
+
+To link the migration data with the election results, I needed a common key that denoted each county. The "FIPS" is a federal identifier, but its format varies between these databases. This code makes the FIPS of the migration data conform to the format of the election results. It also removes special summary records as well as foreign migration.
+
+``` {r make-fips-key-the-same-format}
+# Tweak the county id, "Fips", to make it the same across all data.
+
+
+# transform fips for all the county migration data.
+for (i in 1:length(inflow_data)) {
+  county_inflow_df <- inflow_data[[i]]
+  county_outflow_df <- outflow_data[[i]]
+  # Exclude special designators (for totals, foreign immigration etc)
+  # remove statefips 57-59 summary records, 96-98 likewise
+  # The only other data to possibly exclude are when the county and state
+  # are the same as the inflow (or outflow), which means they stayed in place.
+  # Keeping it for now.
+  #
+  # NOTE:
+  # y1_combined_fips: where the person moved *from* (origin)
+  # y2_combined_fips: where the person moved *to* (destination)
+
+  county_inflow_df <- county_inflow_df[county_inflow_df$y1_statefips<57,]
+  county_outflow_df <- county_outflow_df[county_outflow_df$y2_statefips<57,]
+  # Keys for all inflow counties
+  county_inflow_df$y1_combined_fips <-
+    paste(county_inflow_df$y1_statefips,
+          substrRightPaddedWithLeft(county_inflow_df$y1_countyfips, 3, "0"),
+          sep = "")
+  county_inflow_df$y2_combined_fips <-
+    paste(county_inflow_df$y2_statefips,
+          substrRightPaddedWithLeft(county_inflow_df$y2_countyfips, 3, "0"),
+          sep = "")
+  # Keys for all outflow counties
+  county_outflow_df$y1_combined_fips <-
+    paste(county_outflow_df$y1_statefips,
+          substrRightPaddedWithLeft(county_outflow_df$y1_countyfips, 3, "0"),
+          sep = "")
+  county_outflow_df$y2_combined_fips <-
+    paste(county_outflow_df$y2_statefips,
+          substrRightPaddedWithLeft(county_outflow_df$y2_countyfips, 3, "0"),
+          sep = "")
+  inflow_data[[i]] <- county_inflow_df
+  outflow_data[[i]] <- county_outflow_df
+}
+
+# we do not need these anymore
+county_inflow_df<-NULL
+county_outflow_df<-NULL
+
+# guarantee the inflow and outflow data has no duplicate records.
+for (migration_year in 2011:2019) {
+  inflow_data[[migration_year - 2010]]<-unique(inflow_data[[migration_year - 2010]])
+  outflow_data[[migration_year - 2010]]<-unique(outflow_data[[migration_year - 2010]])
+}
+
+```
+## Construction of the County Valence Calendar
+
+My next step is to build the County Valence Calendar data frame that denotes the political valence of each county for each election. Essentially, the presidential election results are used to assign the valence from 0 (red=Republican) to 1 (blue=Democrat). It would also be nice to add voter turnout here but as of now, I have not discovered any good national data base with turnout data. Each state has its own method of tracking turnout.
+
+This is the format of the County Valence Calendar data frame:
+
+1. combined_fips: The county identifier.
+2. county_name: Keep the name for interesting reports.
+3. state_po: Used to select by states.
+4-8. democratic_votes_2004, democratic_votes_2008 ... democratic_votes_2020
+9-13. republican_votes_2004, republican_votes_2008 ... republican_votes_2020
+14-18. valence_2004, valence_2008... valence_2020
+
+First field is a fips, copied from the election_results file.
+
+``` {r start-building-valence-calendar}
+county_fips <- unique(election_results_df$county_fips)
+county_valence_calendar_df <- data.frame(county_fips)
+```
+
+To compute the valence the data is divided into segments for each party and each election.
+
+``` {r divide-before-conquering}
+democratic_2004_votes_df <- election_results_df[
+  election_results_df$party=="DEMOCRAT" & election_results_df$year==2004,]
+republican_2004_votes_df <- election_results_df[
+  election_results_df$party=="REPUBLICAN" & election_results_df$year==2004,]
+democratic_2008_votes_df <- election_results_df[
+  election_results_df$party=="DEMOCRAT" & election_results_df$year==2008,]
+republican_2008_votes_df <- election_results_df[
+  election_results_df$party=="REPUBLICAN" & election_results_df$year==2008,]
+democratic_2012_votes_df <- election_results_df[
+  election_results_df$party=="DEMOCRAT" & election_results_df$year==2012,]
+republican_2012_votes_df <- election_results_df[
+  election_results_df$party=="REPUBLICAN" & election_results_df$year==2012,]
+democratic_2016_votes_df <- election_results_df[
+  election_results_df$party=="DEMOCRAT" & election_results_df$year==2016,]
+republican_2016_votes_df <- election_results_df[
+  election_results_df$party=="REPUBLICAN" & election_results_df$year==2016,]
+democratic_2020_votes_df <- election_results_df[
+  election_results_df$party=="DEMOCRAT" & election_results_df$year==2020,]
+republican_2020_votes_df <- election_results_df[
+  election_results_df$party=="REPUBLICAN" & election_results_df$year==2020,]
+```
+
+Add up the candidate votes for 2020, because the source data set has multiple entries, one for each type of vote: mail-in, provisorial, and so forth. None of these distinctions are relevant for this project.
+
+``` {r fix-2020-aberration}
+# consolidate multiple entries for 2020 depending on the type of ballot cast.
+
+democratic_2020_votes_df <- democratic_2020_votes_df %>% 
+  group_by(county_fips) %>% 
+  mutate(candidate_votes = sum(candidate_votes)) %>% 
+  ungroup()
+
+republican_2020_votes_df <- republican_2020_votes_df %>% 
+  group_by(county_fips) %>% 
+  mutate(candidate_votes = sum(candidate_votes)) %>% 
+  ungroup()
+
+# The 2020 results have duplicate rows for different modes.
+# Get rid of those now.
+democratic_2020_votes_df <- distinct(democratic_2020_votes_df)
+republican_2020_votes_df <- distinct(republican_2020_votes_df)
+```
+
+Recombine everything into one registry, each record representing one county.
+
+``` {r merge-in-votes-per-year}
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                democratic_2004_votes_df[c("county_fips", 
+                                                           "county_name", 
+                                                           "state_po", 
+                                                           "candidate_votes")], 
+                                by = "county_fips", 
+                                all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                democratic_2004_votes = candidate_votes)
+# merge next results by fips
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                democratic_2008_votes_df[c("county_fips", 
+                                                           "candidate_votes")], 
+                                by = "county_fips", 
+                                all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                democratic_2008_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                democratic_2012_votes_df[c("county_fips", 
+                                                           "candidate_votes")], 
+                                by = "county_fips", 
+                                all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                democratic_2012_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                democratic_2016_votes_df[c("county_fips", 
+                                                           "candidate_votes")], 
+                                by = "county_fips", 
+                                all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                 democratic_2016_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                democratic_2020_votes_df[c("county_fips", 
+                                                           "candidate_votes")], 
+                                by = "county_fips", 
+                                all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                democratic_2020_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                    republican_2004_votes_df[c("county_fips", 
+                                                            "candidate_votes")], 
+                                    by = "county_fips", 
+                                    all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                     republican_2004_votes = candidate_votes)
+# merge next results by fips
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                    republican_2008_votes_df[c("county_fips", 
+                                                            "candidate_votes")], 
+                                    by = "county_fips", 
+                                    all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                     republican_2008_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                    republican_2012_votes_df[c("county_fips", 
+                                                            "candidate_votes")], 
+                                    by = "county_fips", 
+                                    all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                     republican_2012_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                    republican_2016_votes_df[c("county_fips", 
+                                                            "candidate_votes")], 
+                                    by = "county_fips", 
+                                    all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                     republican_2016_votes = candidate_votes)
+county_valence_calendar_df <- merge(county_valence_calendar_df, 
+                                    republican_2020_votes_df[c("county_fips", 
+                                                            "candidate_votes")], 
+                                    by = "county_fips", 
+                                    all.candidate_votes = TRUE)
+county_valence_calendar_df <- rename(county_valence_calendar_df, 
+                                     republican_2020_votes = candidate_votes)
+# executing these merges somehow led to empty row slots.
+county_valence_calendar_df <- na.omit(county_valence_calendar_df)
+county_valence_calendar_df <- unique(county_valence_calendar_df)
+```
+
+Now the valences can easily be determined and the valence calendar will be complete.
+
+``` {r calculate-election-valences}
+county_valence_calendar_df <- county_valence_calendar_df %>% 
+  mutate(valence_2004 = democratic_2004_votes/
+           (democratic_2004_votes+republican_2004_votes)) %>%
+  mutate(valence_2008 = democratic_2008_votes/
+           (democratic_2008_votes+republican_2008_votes)) %>%
+  mutate(valence_2012 = democratic_2012_votes/
+           (democratic_2012_votes+republican_2012_votes)) %>%
+  mutate(valence_2016 = democratic_2016_votes/
+           (democratic_2016_votes+republican_2016_votes)) %>%
+  mutate(valence_2020 = democratic_2020_votes/
+           (democratic_2020_votes+republican_2020_votes)) 
+```
+
+A peek at this data, which is used as a lookup table for the processing of records of the county migration data, is informative. First, I will show the results of Orange County and Seminole County of my congressional district:
+
+``` {r show-seminole}
+demo_states_subset <- c("FL")
+demo_counties_subset <- c("SEMINOLE", "ORANGE")
+demo_state_test <- county_valence_calendar_df$state_po %in% demo_states_subset
+demo_county_test <- county_valence_calendar_df$county_name %in% demo_counties_subset
+
+# Subset results_df to only include the rows where state_po 
+# is in the battleground_states array
+demo_calendar_df <- county_valence_calendar_df[demo_county_test & demo_state_test,]
+
+kable(demo_calendar_df[1:length(demo_counties_subset), c(1,2,3,7,8,12,13,17,18)], 
+      col.names = c("fips", "county", "state", "D2016", "D2020",
+                   "R2016", "R2020", "V2016", "V2020"),
+      row.names = FALSE)
+
+```
+
+
+The Seminole result of 0.514 shows a slight lean towards blue, which is a fair assessment for 2020.
+
+Here is another example across a number of counties (as well as some synonymous interlopers!) discussed in the research questions.
+
+``` {r show-valence-calendar}
+
+demo_states_subset <- c("AZ", "GA", "MI", "OH", "PA", "TX")
+demo_counties_subset <- c("COBB", "DOUGLASS", "FAYETTE", "GWINETT", 
+                          "HENRY", "NEWTON", "ROCKDALE",
+                          "MARICOPA", "COLLIN", "DENTON", "TARRANT", 
+                          "CHESTER", "DELAWARE", "HAMILTON", "MONTGOMERY")
+demo_state_test <- county_valence_calendar_df$state_po %in% demo_states_subset
+demo_county_test <- county_valence_calendar_df$county_name %in% demo_counties_subset
+
+# Subset results_df to only include the rows where state_po 
+# is in the battleground_states array
+demo_calendar_df <- county_valence_calendar_df[demo_county_test & demo_state_test,]
+demo_calendar_df <- demo_calendar_df %>% 
+  mutate(location = paste(demo_calendar_df$county_name, demo_calendar_df$state_po, sep=", "))
+
+kable(demo_calendar_df[1:length(demo_counties_subset), c(1,19,7,8,12,13,17,18)], 
+      col.names = c("fips", "location", "D2016", "D2020",
+                    "R2016", "R2020", "V2016", "V2020"),
+      row.names = FALSE)
+```
+
+The final three columns show the political valence (0=Republican, 1=Democratic) in the last three elections. The 2004 and 2008 data is also stored in the data frame, so longer trends can also be computed. The 2000 data is also available but not used in this assignment, because there is no IRS inflow/outflow available before 2009.
+
+As a side note, county also means county-equivalent, such as the District of Columbia, Alaska boroughs and census areas, Louisiana parishes, and the 41 independent cities: Carson City, Nevada, St. Louis, Missouri, Baltimore, Maryland, and 38 in Virginia. There are also the 8 districts of Connecticut that are not county governments but still separate in the databases.
+
+This is not quite right though, because it contains entries for counties in different states with the same name: Montgomery County in Georgia, for example. For purposes of illustration, though, it is fine. This is only a lookup table, and it must work for Montgomery County in Georgia and Fayette County in Ohio too!
+
+These valences are a crude estimate of the county's political leaning. Similarly, the inflow citizens' political leanings can also be assessed and contrasted with the current makeup of the county's voting base. Projecting this data forward provides an indication of how residential mobility will change the precincts of the county. Ideally, turnout information could also be used in the calendar, which would better assess the impact of voters who originate from the locations. Until such data is included, turnout is assumed to be uniform, which it is not. This is one serious limitation of the project that should be addressed.
+
+As previously stated, residential mobility is only one factor in the changing political spectrum, so this tool can only provide a partial explanation to the changing political landscape for each of the places discussed in the section of questions. Nevertheless, the insight it provides is vital, because other sociological factors drive these changes, for example economic factors, a changing employment base, or evolved educational shift. Moreover, like most big data problems, the value of the solution is larger when viewed not on the impact of a singular precinct, but rather on the macro effects of all these areas together.
+
+Now that the data has been loaded and converted, the next step is to build a target data frame, Results or results_df, from the county migration data described earlier and the County Valence Calendar just constructed. The format of these files are the same, a set of 21 columns:
+
+1. The FIPS, our unique key described before.
+2. The county name.
+3. The state abbreviation.
+4. Nine columns of valence change, essentially the sum of all the county immigrants and county emigrants multiplied by their valence of source or destination county.
+5. Nine columns of the count of citizens who remain who are the population base.
+
+``` {r get-battleground-counties}
+results_df <- data.frame(county_fips)
+results_df <- results_df %>% merge(county_valence_calendar_df[c("county_fips", 
+                                                                "county_name", 
+                                                                "state_po")],
+                                   by = "county_fips")
+
+# Areas considered battlegrounds in the 2020 election were 
+# Arizona, Florida, Georgia, Iowa, Maine, Michigan, Minnesota, Nebraska, 
+# Nevada, New Hampshire, North Carolina, Ohio, Pennsylvania, Texas and Wisconsin
+
+battleground_states <- c("AZ", "FL", "GA", "IA", "ME", "MI", "MN", "NE",
+                          "NV", "NH", "NC", "OH", "PA", "TX", "WI")
+
+# battleground_states <- c("AZ", "FL", "GA", "MI", 
+#                           "NV", "OH", "PA", "TX")
+
+# Create a logical vector indicating whether each row's state_po is 
+# in the battleground_states array
+matches_battleground <- results_df$state_po %in% battleground_states
+
+# Subset results_df to only include the rows where state_po is 
+# in the battleground_states array
+battleground_df <- results_df[matches_battleground,]
+# fips_to_test has all counties in battleground states.
+fips_to_test <- battleground_df$county_fips
+```
+
+New vector fields are created for battleground_df whose data is produced as the counties are processed. Valence changes is the net political effect change for the citizens who move into and out of the counties. For example, in reference to the previous data, suppose 200 people move from Henry County, Georgia to Newton County, Georgia in 2017, a year for which the valence of the 2016 election is used. These 200 people cause a valence change of 200 * 0.5226193 or +104.5 to Newton County and a valence change of -200 * 0.5120170 or -102 to Henry County.
+
+``` {r prepare-new-columns}
+# 9 columns of one row for each county.
+valence_changes <- array(0, dim = c(length(fips_to_test), 9))
+static_citizens <- array(0, dim = c(length(fips_to_test), 14))
+```
+
+Examine each county and its migrations to build the results for the selected counties.
+
+``` {r do-counties}
+# 9 columns of one row for each county.
+valence_changes <- array(0, dim = c(length(fips_to_test), 9))
+static_citizens <- array(0, dim = c(length(fips_to_test), 14))
+
+for (migration_year in 2011:2019) {
+  inflow_data[[migration_year - 2010]]<-unique(inflow_data[[migration_year - 2010]])
+  outflow_data[[migration_year - 2010]]<-unique(outflow_data[[migration_year - 2010]])
+}
+
+for (fip_ix in 1:length(fips_to_test)) {
+  key_to_match <- fips_to_test[fip_ix]
+  for (migration_year in 2011:2019) {
+    # get all records for this county
+    matching_immigrant_rows_df <- filter(inflow_data[[migration_year - 2010]],
+        inflow_data[[migration_year - 2010]]$y2_combined_fips == key_to_match)
+    matching_emigrant_rows_df <- filter(outflow_data[[migration_year - 2010]],
+        outflow_data[[migration_year - 2010]]$y1_combined_fips == key_to_match)
+    # remove the ones who stayed in place
+    static_citizen_df <- 
+      matching_emigrant_rows_df[matching_emigrant_rows_df$y2_combined_fips == 
+                                  key_to_match,]
+    if (nrow(static_citizen_df)==0) {
+      if (migration_year == 2011) {
+        # a population of 1 is the minimum for the log to work
+        static_citizens[fip_ix, 1]<-1
+      }
+      else
+        static_citizens[fip_ix, migration_year - 2010]<-
+          static_citizens[fip_ix, migration_year - 2010 - 1]
+    }
+    else
+      static_citizens[fip_ix, migration_year - 2010]<-static_citizen_df$n2
+    matching_immigrant_rows_df <- 
+      matching_immigrant_rows_df[-(matching_immigrant_rows_df$y1_combined_fips 
+                                   == key_to_match),]
+    matching_emigrant_rows_df <- 
+      matching_emigrant_rows_df[-(matching_emigrant_rows_df$y2_combined_fips 
+                                  == key_to_match),]
+    
+    # sum of people (we aren't counting this now, but it might be useful later)
+    new_immigrants <- sum(matching_immigrant_rows_df$n2)
+    new_emigrants <- sum(matching_emigrant_rows_df$n2)
+    # add valence amounts for all immigrant and emigrant rows.
+    # first we need to make sure the name of the fields we merge match.
+    matching_immigrant_rows_df<-
+      rename(matching_immigrant_rows_df, county_fips = y1_combined_fips)
+    matching_emigrant_rows_df<-
+      rename(matching_emigrant_rows_df, county_fips = y2_combined_fips)
+    # do the merge to transfer the political valence of counties into immigrant rows
+    matching_immigrant_rows_df <- 
+      merge(matching_immigrant_rows_df, 
+                                    county_valence_calendar_df[c("county_fips", 
+                                                                "valence_2004", 
+                                                                "valence_2008", 
+                                                                "valence_2012",
+                                                                "valence_2016", 
+                                                              "valence_2020")], 
+                                      by = "county_fips")
+    matching_emigrant_rows_df <- merge(matching_emigrant_rows_df, 
+                                    county_valence_calendar_df[c("county_fips", 
+                                                                 "valence_2004", 
+                                                                 "valence_2008", 
+                                                                 "valence_2012",
+                                                                 "valence_2016", 
+                                                               "valence_2020")], 
+                                    by = "county_fips")
+    # we reuse the fields emigrant_change and immigrant_change to calculate.
+    # they are just the number of people "n2" times the valence of their county.
+    if (migration_year >= 2019) {
+      matching_emigrant_rows_df <- matching_emigrant_rows_df %>% 
+        mutate(emigrant_change = round(n2 * valence_2020),0)
+      matching_immigrant_rows_df <- matching_immigrant_rows_df %>% 
+        mutate(immigrant_change = round(n2 * valence_2020),0)
+    }    
+    else if (migration_year >= 2015) {
+      matching_emigrant_rows_df <- matching_emigrant_rows_df %>% 
+        mutate(emigrant_change = round(n2 * valence_2016),0)
+      matching_immigrant_rows_df <- matching_immigrant_rows_df %>% 
+        mutate(immigrant_change = round(n2 * valence_2016),0)
+    } else if (migration_year >= 2011) {
+      matching_emigrant_rows_df <- matching_emigrant_rows_df %>% 
+        mutate(emigrant_change = round(n2 * valence_2012),0)
+      matching_immigrant_rows_df <- matching_immigrant_rows_df %>% 
+        mutate(immigrant_change = round(n2 * valence_2012),0)
+    } else {
+      matching_emigrant_rows_df <- matching_emigrant_rows_df %>% 
+        mutate(emigrant_change = round(n2 * valence_2008),0)
+      matching_immigrant_rows_df <- matching_immigrant_rows_df %>% 
+        mutate(immigrant_change = round(n2 * valence_2008),0)
+    }
+    # Add up the changes. We do it separately because later it might be fun
+    # to see how each of these vary.
+    immigrant_change_sum <- sum(matching_immigrant_rows_df$immigrant_change)
+    emigrant_change_sum <- sum(matching_emigrant_rows_df$emigrant_change)
+    # Calculate the valence change for this year's citizens.
+    valence_changes[fip_ix, migration_year - 2010] <- immigrant_change_sum - 
+      emigrant_change_sum
+  }
+  # Fit a linear regression model to the data
+  years <- 2011:2019
+  populations <- static_citizens[fip_ix, 1:9]
+  population_model <- lm(log(populations) ~ years)
+  growth_rate <- exp(coef(population_model)[2])
+  
+  # Estimate the population in future years
+  future_years <- 2020:2025
+  future_populations <- numeric(length(future_years))
+  future_populations[1] <- populations[length(populations)]
+  for (future_year in 2:length(future_years)) {
+    future_populations[future_year] <- 
+      round(future_populations[future_year-1] * growth_rate, digits = 0)
+  }
+  for (migration_year in 2020:2024) {
+    static_citizens[fip_ix, migration_year - 2010] <- 
+      future_populations[migration_year-2019+1]
+  }
+}
+
+```
+
+Finally, add the vectors to the results data frame.
+
+``` {r add-columns}
+
+battleground_df[, c("chg_2011", "chg_2012", "chg_2013",
+               "chg_2014", "chg_2015", "chg_2016",
+              "chg_2017", "chg_2018", "chg_2019")] <- valence_changes
+battleground_df[, c("static_2011", "static_2012", "static_2013",
+                    "static_2014", "static_2015", "static_2016",
+              "static_2017", "static_2018", "static_2019",
+              "static_2020", "static_2021", "static_2022",
+              "static_2023", "static_2024")] <- static_citizens
+
+```
+
+For now, this is the data's final form. 
+
+# Data Analysis and Predictions
+
+Now that the data is computed, I can use it to analyze its mean and project future outcomes. First i slice and dice the data into a table with three values: x, y, and n, where "x" is the year, "n" is the county population, and "y" is the valence change.
+
+``` {r gathering-transformation}
+# First, create a new data frame df_long with columns "year" and "y", 
+# where "year" has the values "chg_2011", "chg_2012", "chg_2013", etc,
+# and "y" has the corresponding values for each year
+
+df_long <- gather(battleground_df, key = "year", value = "y", 
+                  chg_2011:chg_2019)
+df_long <- df_long %>% 
+  mutate(x = as.numeric(substr(year,5,8)))
+df_long2 <- gather(battleground_df, key = "year", value = "n", 
+                   static_2011:static_2024)
+df_long2 <- df_long2 %>%
+  mutate(x = as.numeric(substr(year,8,11)))
+
+merged_df <- merge(df_long[c("y", "x", "county_fips", "state_po")], 
+                   df_long2[c("n", "x", "county_fips", "state_po")], 
+                   by = c("x", "county_fips", "state_po"), all = TRUE)
+merged_df <- unique(merged_df)
+merged_df <- dplyr::select(merged_df, county_fips, state_po, x, n, y)
+
+```
+
+The above data shows the two predictors, x (year) and n (static population), and the response variable, y, the change of valence. Here it is in table format:
+
+``` {r show_cut_data_pt_1, echo = FALSE}
+    kable(merged_df[1:8, 1:5], col.names = 
+            c("County FIP", "State", "Year", "Population", "Valence Change"))
+```
+
+Use the factor to divide the data by population into color-coded sections.
+
+``` {r show_cut_data_pt_2}
+# To ascertain the rural vs urban division, create another field with population grouping info.
+# "n" is the field of people who remain, the static population.
+labels <- c("tiny", "small", "medium", "large", "very large", "enormous")
+merged_df$population_group <- cut(merged_df$n, 
+                                  c(0, 10000, 50000, 100000, 500000, 1000000, Inf),
+                                  labels = labels)
+merged_df$population_group <- factor(merged_df$population_group, 
+                                     levels = c("tiny", "small", "medium",
+                                                "large", "very large", "enormous"))
+
+
+```
+In the following scatterplot, the valence change for each county is plotted in the color of its population group factor. There is a wide contrast. Tiny counties are smaller than 10000 in population, small are less than 50000, medium less than 100000, green less than 500000, blue less than a million, and violet include the largest counties of the United States.
+
+Here are the largest and smallest of them:
+
+``` {r show-county-examples}
+df_sorted_by_population <- battleground_df %>% 
+  arrange(desc(static_2019)) %>% 
+  distinct(county_fips, .keep_all = TRUE)
+
+kable(df_sorted_by_population[1:10, c(1, 2, 3, 21)],
+                              col.names = c("FIPS", "County Name",
+                                          "State", "Individuals (2019)"))
+kable(tail(df_sorted_by_population,10)[1:10, c(1, 2, 3, 21)],
+      col.names = c("FIPS", "County Name",
+                    "State", "Individuals (2019)"))
+```
+
+Interestingly, Texas has both the largest and smallest counties in our dataset, and their relative sizes is a factor of 50000! In the following scatterplot each county has a data point in the graphs.
+
+``` {r general-scatterplot, echo=FALSE}
+# Create the scatterplot
+colors <- c("red", "orange", "yellow", "green", "blue", "violet")
+# Create the scatterplot
+ggplot(merged_df[merged_df$x >= 2011 & merged_df$x<=2019,], 
+       aes(x = x, y = y, color = factor(population_group))) + 
+  geom_point(alpha = 0.5, size=2) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)", 
+       color="Population") + 
+  scale_x_continuous(breaks=c(2011:2019), n.breaks=9) +
+  ggtitle("Change in Political Valence in Battleground States") +
+  theme(panel.background = element_rect(fill = "white"))
+
+```
+
+Aside from the principle that most of the valence change occurs in larger counties and a general bias to positive (Democratic) change, not much else can be determined from this graph. Later, each of the states of our questions will be drilled into, and other trends will become apparent. For now, though, the quantity of the data obscures it somewhat.
+
+Until now, I have been merely merging, summarizing, or rearranging the original data. The next step is to predict how the valence will change in future years. I already used exponential growth methods to calculate future populations. Now I will use these values to generate new future valence change using two predictors: the year (x) and the population (n).
+
+First, I will try a clustered version of the k-nearest neighbors algorithm, separating my data into the population_group factors from before.
+
+``` {r knn-estimates}
+
+known_data_df <-
+  merged_df[merged_df$x >= 2011 & merged_df$x <= 2019, ]
+
+prediction_results_df_list<-vector("list", 6)
+
+for (label in 1:length(labels)) {
+  factor_name <- labels[label]
+  predictors <-
+    known_data_df[known_data_df$population_group == factor_name, c("x", "n")]
+  responses <-
+    known_data_df$y[known_data_df$population_group == factor_name]
+  
+  # Split the data into training and testing sets
+  set.seed(123)
+  trainIndex <-
+    sample(nrow(predictors), size = nrow(predictors) * 0.8)
+  
+  predictors_train <- predictors[trainIndex, ]
+  responses_train <- responses[trainIndex]
+  predictors_test <- predictors[-trainIndex, ]
+  responses_test <- responses[-trainIndex]
+  
+  # Perform KNN regression on the training set
+  predictions <- FNN::knn.reg(
+    train = predictors_train,
+    test = predictors_test,
+    y = responses_train,
+    k = 5
+  )
+  
+  prediction_results_df_list[[label]] <- data.frame(
+    x = predictors_test[, 1],
+    n = predictors_test[, 2],
+    actual = responses_test,
+    guess = predictions$pred
+  )
+  # Evaluate the model
+  mse <-
+    mean((prediction_results_df_list[[label]]$actual - 
+            prediction_results_df_list[[label]]$guess) ^ 2)
+  print(paste0("Mean Squared Error: ", mse))
+}
+```
+
+These are dreadful results. Clearly, even accounting for sociological behavioral changes in the different settlement sizes, KNN is not a great match for the data.
+
+I discounted simple linear regression because of the scatter plots and exponential factor for population growth, but it is worth seeing how it compares to knn.
+
+``` {r clustered-linear-regression-attempt}
+lm_prediction_results_df_list<-vector("list", 6)
+
+for (label in 1:length(labels)) {
+  factor_name <- labels[label]
+  factor_subset_df<-known_data_df[known_data_df$population_group == factor_name,]
+
+  # Split the data into training and testing sets
+  set.seed(123)
+  trainIndex <-
+    sample(nrow(factor_subset_df), size = nrow(factor_subset_df) * 0.8)
+  
+  train_df <- factor_subset_df[trainIndex,]
+  test_df <- factor_subset_df[-trainIndex,]
+
+  linear_model <- lm(y ~ x + n, train_df)
+  
+  # Make predictions on the testing set
+  predictions <- predict(linear_model, newdata = test_df)
+  
+  # Calculate the MSE
+  mse <- mean((test_df$y - predictions)^2)
+  
+  # View the model coefficients and MSE
+  summary(linear_model)
+  cat("MSE:", mse, "\n")
+  
+  lm_prediction_results_df_list[[label]] <- data.frame(
+    x = test_df$x,
+    n = test_df$n,
+    actual = test_df$y,
+    guess = predictions
+  )
+  # Evaluate the model
+}
+```
+
+These are even worse results. I also tried neural network (nnet) and a few others but was unable to find a good algorithm that matches the data. Instead, a simpler traditional linear method on each row actually works better and produces credible results.
+
+``` {r simple-linear-estimate}
+# estimate 2020+ data from 2011-2019 data.
+
+simple_predicted_df <- data.frame()
+future_valence_changes <- array(0, dim = c(nrow(battleground_df), 5))
+
+# Loop through each row of the data frame
+for(fip_ix in 1:nrow(battleground_df)) {
+  
+  # Get the data for the current row
+  current_row <- battleground_df[fip_ix,]
+  
+  # Extract the population data for 2011-2019
+  y_linear <- as.numeric(current_row[4:12])
+  n_linear <- as.numeric(current_row[13:21])
+  # Create a vector with the years for 2020-2024
+  x_linear <- c(2011:2019)
+  
+  x_new <- c(2020:2024)
+  n_new <- as.numeric(current_row[22:26])
+  
+    # Fit a linear regression model to the data
+  simple_model <- lm(y_linear ~ x_linear + n_linear)
+  
+  future_valence_changes[fip_ix, ] <- 
+    predict(simple_model, newdata = data.frame(x_linear = x_new, n_linear = n_new))
+  
+}
+
+battleground_df[, c("chg_2020", "chg_2021", "chg_2022",
+                    "chg_2023", "chg_2024")] <- round(future_valence_changes,0)
+battleground_df<-select(battleground_df, county_fips, county_name, state_po, 
+                        chg_2011, chg_2012, chg_2013, chg_2014, chg_2015,
+                        chg_2016, chg_2017, chg_2018, chg_2019, chg_2020,
+                        chg_2021, chg_2022, chg_2023, chg_2024,
+                        static_2011, static_2012, static_2013, static_2014,
+                        static_2015, static_2016, static_2017, static_2018,
+                        static_2019, static_2020, static_2021, static_2022,
+                        static_2023, static_2024)
+# save the data, so we can use it as a short cut
+export(battleground_df, "data/battleground.csv")
+
+# regather our numeric data to include the predicted values
+df_long <- gather(battleground_df, key = "year", value = "y", 
+                  chg_2011:chg_2024)
+df_long <- df_long %>% 
+  mutate(x = as.numeric(substr(year,5,8)))
+df_long2 <- gather(battleground_df, key = "year", value = "n", 
+                   static_2011:static_2024)
+df_long2 <- df_long2 %>%
+  mutate(x = as.numeric(substr(year,8,11)))
+
+merged_df <- merge(df_long[c("y", "x", "county_fips", "state_po")], 
+                   df_long2[c("n", "x", "county_fips", "state_po")], 
+                   by = c("x", "county_fips", "state_po"), all = TRUE)
+merged_df <- unique(merged_df)
+merged_df <- dplyr::select(merged_df, county_fips, state_po, x, n, y)
+# need to reconstruct factor too.
+merged_df$population_group <- cut(merged_df$n, 
+                                c(0, 10000, 50000, 100000, 500000, 1000000, Inf),
+                                labels = labels)
+merged_df$population_group <- factor(merged_df$population_group, 
+                                     levels = c("tiny", "small", "medium",
+                                                "large", "very large", "enormous"))
+
+
+# Save this intermediate data too.
+rio::export(merged_df, "data/battlemath.csv")
+
+# we can now use merged_df for plotting through 2024.
+# recall the previous demo data for the valence calendar. 
+# use the same subset to show the battleground estimates.
+demo_state_test <- battleground_df$state_po %in% demo_states_subset
+demo_county_test <- battleground_df$county_name %in% demo_counties_subset
+
+demo_battleground_df<-battleground_df[demo_state_test & demo_county_test,]
+demo_battleground_df <- demo_battleground_df %>% 
+  mutate(location = paste(demo_battleground_df$county_name, 
+                          demo_battleground_df$state_po, sep=", "))
+
+kable(demo_battleground_df[,c(32, 5, 7, 9, 11, 13, 15, 17)], 
+      col.names = c("Location", "2012", "2014", "2016", "2018", 
+                    "2020", "2022", "2024"))
+```
+
+This clearly describes Frey's nightmare of impending blue rule. Though it is unrealistic to assume all conditions remain the same in politics, this is by far the model that gives the most realistic outcome.
+
+At this point, a summation of the effects of migration is in order. After all, movement from urban centers to suburbs or rural areas in the same state might effect the composition of the House of Representatives, but by itself it does not impact presidential or senatorial outcomes.
+
+``` {r net-valence-change}
+# summarize net valence
+# Create a subset of the data with the states and valence changes
+df_subset <- select(battleground_df, state_po, chg_2011, chg_2012, chg_2013, 
+                    chg_2014, chg_2015, chg_2016, chg_2017, chg_2018, chg_2019, 
+                    chg_2020, chg_2021, chg_2022, chg_2023, chg_2024)
+
+# Sum the votes by state
+df_sum <- df_subset %>%
+  group_by(state_po) %>%
+  summarize(total_chg_2011 = sum(chg_2011),
+            total_chg_2012 = sum(chg_2012),
+            total_chg_2013 = sum(chg_2013),
+            total_chg_2014 = sum(chg_2014),
+            total_chg_2015 = sum(chg_2015),
+            total_chg_2016 = sum(chg_2016),
+            total_chg_2017 = sum(chg_2017),
+            total_chg_2018 = sum(chg_2018),
+            total_chg_2019 = sum(chg_2019),
+            total_chg_2020 = sum(chg_2020),
+            total_chg_2021 = sum(chg_2021),
+            total_chg_2022 = sum(chg_2022),
+            total_chg_2023 = sum(chg_2023),
+            total_chg_2024 = sum(chg_2024)
+  )
+
+df_long_sum <- gather(df_sum, key = "year_key", value = "Valence_Change", 
+                      total_chg_2011:total_chg_2024)
+df_long_sum <- df_long_sum %>% 
+  mutate(year = as.numeric(substr(year_key,11,15)))
+
+```
+
+Now there is a simple x-y relationship, where x is the year and y the annual change in political valence caused by migration.
+
+Any positive changes correspond to a theoretically more Democratic electorate, while negative changes reflect a more favorable climate for Republicans.
+
+``` {r show_the_net_change, echo = FALSE}
+ggplot(df_long_sum, aes(x = year, y = Valence_Change, color = state_po)) +
+  geom_line() + labs(color = "State",x = "Year", y = "Valence Change (migration)") +
+  theme(panel.background = element_rect(fill = "black")) + 
+  ggtitle("Effects of Valence Change by State")
+```
+
+In tabular form, the yearly state changes in valence are:
+
+``` {r show_the_net_change_table, echo = FALSE}
+kable(df_sum[,c(1,3,5,7,9,11,13,15)], 
+      col.names = c("State", "2012", "2014", "2016", "2018",
+                    "2020", "2022", "2024"),
+      row.names = FALSE)
+```
+
+\newpage
+
+# The Story of the Data
+
+This project's analysis largely corroborates Frey's findings. An ongoing demographic shift to southern urban centers is indeed in progress, and many new citizens originate from northern metropolitan areas. This alone, of course, is not enough to justify a headline like Thompson's "American Migration Patterns Should Terrify the GOP". After all, another reason citizens in Democratic northern states might move to the south is to escape Democratic policies and embrace Republican ideals like lower income taxes. State taxes in New Jersey on $75,000 income is 6.5%, whereas Florida and Texas have no state income tax at all.
+
+Nevertheless, when these migration results are also bolstered by observed narrowing margins in many states (with Georgia and Arizona actually flipping to Democratic), responsible party leaders should at least take pause and reflect whether their strategies and issue alignment alienates core groups of the public that deserve more consideration.
+
+During his 17-term career, the late Massachusetts Representative "Tip" O'Neill Jr. constantly championed the phrase "All politics is local", and to some extent, even in these divided times, he would still be correct. Competent administration generally bests ideology. Good government makes a location more desirable to live, attracting more residents, jobs, and political power.
+
+Earlier a number of questions were raised about various locations undergoing sweeping changes, some due to migration. Each of the stories of these places is different, however, so I will drill down into each and use R and our data to glean more understanding.
+
+\newpage
+
+## Arizona
+
+The last presidential election in Arizona was won by a difference of 0.3%, a little less than 11,000 votes. Our analysis clearly shows the largest counties of Arizona trending Democratic led by Maricopa County, home of Phoenix, America's fifth largest city. If this continues as projected, Arizona will become more hostile towards the GOP. Its 11 electoral votes, vital for the win, are definitely trending blue.
+
+``` {r arizona-scatterplot, echo = FALSE}
+arizona_xy_df <- merged_df[merged_df$state_po == "AZ" & 
+                             (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(arizona_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)") + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Arizona") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 100,000 IRS individuals) in valence are:
+
+``` {r arizona-table, echo = FALSE}
+big_arizona_battleground_df <- 
+  battleground_df[battleground_df$state_po=="AZ" & 
+                    battleground_df$static_2018>100000,]
+kable(big_arizona_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+
+```
+
+While Maricopa County is the most important of the state, its other large counties, like Pima and Pinal are also receiving more migrants from Democratic counties. Altogether, Arizona is an area where both parties should concentrate their efforts if they are to be victorious.
+
+\newpage
+
+## Florida
+
+Florida has not elected a Democratic president since 2012, nor a Democratic senator. Media pundits have begun to reclassify Florida as a red state rather than a swing state, and it is a fair assessment. After all, the last Democratic candidate for governor was a former Republican governor, Charlie Crist.
+
+As can be seen in the graph below, Florida is a divided, heterogeneous beast with 30 electoral votes in 2024. 
+
+``` {r florida-scatterplot, echo = FALSE}
+florida_xy_df <- merged_df[merged_df$state_po == "FL" & 
+                             (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(florida_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Florida") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 250,000 IRS individuals) in valence are:
+
+``` {r florida-table, echo = FALSE}
+big_florida_battleground_df <- 
+  battleground_df[battleground_df$state_po=="FL" & 
+                    battleground_df$static_2018>250000,]
+kable(big_florida_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+```
+
+If Florida remains a swing state, the outcome will be largely defined by the bellwether counties of the I-4 Corridor. Its seven counties are:
+
+Hillsborough County (pop 2020: 1,487,764): This county is located on the west coast of Florida and includes the city of Tampa, which is the largest city in the region.
+
+Pinellas County (974,996): This county is also located on the west coast of Florida and includes the cities of Clearwater and St. Petersburg.
+
+Polk County (724,777): This county is located in the central part of Florida and includes the cities of Lakeland and Winter Haven.
+
+Osceola County (398,439): This county is located in the central part of Florida and includes the city of Kissimmee, which is part of the greater Orlando metropolitan area.
+
+Orange County (1,393,452): This county is located in the central part of Florida and includes the city of Orlando, which is the largest city in the region.
+
+Seminole County (474,081): This county is located in the central part of Florida and includes the city of Sanford, which is part of the greater Orlando metropolitan area.
+
+Volusia County (547,538): This county is located on the east coast of Florida and includes the cities of Daytona Beach and New Smyrna Beach.
+
+A total of 6,001,047 of the total of 21,944,577 Florida citizens, 27 percent. Here is how the change in political valence affects these counties.
+
+``` {r bellwether-florida, echo = FALSE}
+i4_counties = c(12057, 12095, 12097, 12103, 12105, 12117, 12127)
+i4_xy_df <- merged_df[merged_df$county_fips %in% i4_counties,]
+ggplot(i4_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)") + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Florida") 
+```
+
+In tabular form, the yearly county changes in valence are:
+
+``` {r i4-table, echo = FALSE}
+i4_battleground_df <- battleground_df[battleground_df$county_fips %in% i4_counties,]
+kable(i4_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+```
+
+The "enormous" county trending negative is Orange County, a solid Democratic stronghold, whereas Polk County usually votes Republican. In fact, Polk has not voted Democratic since Jimmy Carter won in 1976. In other words, almost anyone who moves to Polk county will swing its valence slightly positive. Likewise, emigrants from Orange County who relocate to other counties will tend to swing Orange County negative. This is an expected outcome of the data.
+
+The general trend across these seven counties is a moderate trend towards positive Democratic outcomes. This does not mean Florida will suddenly turn Democratic in 2024, but there is an underlying migratory trend that offsets its current red aspect.
+
+\newpage
+
+## Georgia
+
+The last presidential election of this state of 16 electoral votes was won by 0.23%, a difference of 11,779 votes, the narrowest of victories in a hotly contested election. Therefore, any change to the state's political climate is significant. Moreover, there is a definite trend to positive valence or a better climate for Democratic candidates.
+
+``` {r georgia-scatterplot, echo = FALSE}
+georgia_xy_df <- merged_df[merged_df$state_po == "GA" & 
+                             (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(georgia_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Georgia") 
+  
+```
+
+In this graph too, it should be clear that apart from a few outliers (including very large Dekalb County), most of the migration is positive. This confirms the general Democratic trend seen in the Effects of Valence Change by State. Georgia, in fact, is estimated to have a positive valence of over 40000 from 2022 through 2024.
+
+Much of the migration activity is focused on Georgia's largest counties. The following table shows counties with more than 100,000 IRS individual records in the state.
+
+``` {r big-georgia-counties, echo = FALSE}
+big_georgia_battleground_df <- 
+  battleground_df[battleground_df$state_po=="GA" & 
+                    battleground_df$static_2018>100000,]
+kable(big_georgia_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+
+```
+
+Bibb County (of Macon), Chatham County (of Savannah), Muscogee (of Columbus), and Richmond (of Augusta) are solidly blue. There are also some traditional red counties that are trending blue, such as Columbia and Houston. The rest of the list is composed of Atlanta suburbs and are highlighted by Clayton, Fulton, Henry, and Gwinnett with positive valence and Dekalb and Cobb with negative valence. Needless to say, Dekalb is a Democratic stronghold and many of its emigrants are likely imigrants of Atlanta's other suburban counties, including Cherokee, Coweta, Forsyth, Hall, and Paulding, which are red counties that are likely to flip Democratic by next decade if these trends hold.
+
+When Derek Thompson warns that one needs to "Just ... wait" to see the impact of the migration of blue voters to the South, these Atlanta suburban counties are the epicenter of the political earthquake that awaits the GOP (@thompson).
+
+\newpage
+
+## Michigan
+
+On the surface, the data of Michigan appears to portray a far more hospitable state for Republicans, and a drill down into the inflow and outflow data largely corroborates this opinion. However, many of the citizens leaving counties like Kent (-1104 valence change in 2020) are relocating within the state to such counties as Ottawa, Allegan, or Montcalm. As yet, of these destinations, only Ottawa County has shifted left in elections.
+
+Notably, Wayne County, of Michigan's largest city, Detroit, a Democratic stronghold, appears to be ending a trend of bleeding blue voters. Other Democratic strongholds like Kalamazoo and Oakland are likely sourcing many of the changes we see in other states. Maricopa County, for example, is a destination of many counties.
+
+Michigan is close. The last election, won by Biden by only 2.78% or nearly 155,000 votes, was considered a toss-up until nearly the very end of the campaign. As such, it is a state Democrats must defend, as Hillary Clinton learned in 2016, and are opportunities for GOP gains.
+
+``` {r michigan-scatterplot, echo = FALSE}
+michigan_xy_df <- merged_df[merged_df$state_po == "MI" & 
+                              (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(michigan_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Michigan") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 100,000 IRS individuals) in valence are:
+
+``` {r michigan-table, echo = FALSE}
+big_michigan_battleground_df <- 
+  battleground_df[battleground_df$state_po=="MI" & 
+                    battleground_df$static_2018>100000,]
+kable(big_michigan_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+```
+
+\newpage
+
+## Ohio
+ 
+If there is doubt about Michigan as a welcome state to the GOP, there is none at all with respect to the Buckeye State, which has not elected a Democratic president since 2012. The one bright spot for Democrats is their senator Sherrod Brown, who won in 2018 and will fight a tough reelection campaign in 2024.
+ 
+``` {r ohio-scatterplot, echo = FALSE} 
+ohio_xy_df <- merged_df[merged_df$state_po == "OH" & 
+                            (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(ohio_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Ohio") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 100,000 IRS individuals) in valence are:
+
+``` {r ohio-table, echo = FALSE}
+  big_ohio_battleground_df <- 
+  battleground_df[battleground_df$state_po=="OH" & 
+                    battleground_df$static_2018>100000,]
+kable(big_ohio_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+
+```
+Much of the Democratic exodus in Ohio is focused in three counties: Cuyahoga (Cleveland), Franklin (Columbus), and Hamilton (Cincinnati). These are also the homes of the state's three largest cities and are all Democratic strongholds. Of the positive trending counties, Lorain is a Cleveland suburb (and likely destination of many of its migrants); Delaware, Fairfield, and Licking are similarly suburbs of Columbus; while Butler and Warren are Cincinnati suburbs. In other words, much of the negative valence of the counties of the largest cities is likely relocation within the state.
+
+Ohio is not even close for Democrats though. The last election was won by Republicans by over 8 percent, a total of almost 500,000 voters. There is a slight total positive valence for Ohio, but it seems unlikely that Democrats can make a comeback anytime soon in the state.
+
+\newpage
+
+## Pennsylvania
+
+With 19 electoral votes (down from 20 in the 2020 election), the Keystone State has been an important conquest for campaigns of recent elections. The elections have been close and dramatic. In fact, President Biden won the last election by only 1.17%, or over 80,000 voters. Overall, the state has a general positive valence change, with the highly negative Allegheny (Pittsburgh) and Philadelphia outflows entirely offset by countiees like Bucks, Montgomery, Monroe, Chester, and Delaware.
+
+``` {r pennsylvania-scatterplot, echo = FALSE}
+pennsylvania_xy_df <- merged_df[merged_df$state_po == "PA" & 
+                                  (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(pennsylvania_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Pennsylvania") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 100,000 IRS individuals) in valence are:
+
+``` {r penn-table, echo = FALSE}
+  big_pa_battleground_df <- 
+  battleground_df[battleground_df$state_po=="PA" & 
+                    battleground_df$static_2018>100000,]
+kable(big_pa_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+
+```
+
+The table shows all the largest counties of the state. My data projects a trend towards a more hospitable climate for Democratic campaigning. Again, however, nothing should be taken for granted.
+
+\newpage
+
+## Texas
+
+Republicans in Texas, which will have 40 electoral votes in 2024 (two more than the 2020 election), won the state by over 5 percentage points, however, the difference was 9 percent in 2016, and nearly 16 percent in 2012. Tarrant County, home of Ft Worth, flipped Democratic in 2020, while other Dallas-Ft Worth suburbs like Denton and Collin Counties also trended left.
+
+It is possible that the GOP can survive losing Georgia and Arizona, but if Texas were to become a blue state, the impact on their party would be catastrophic. A decade ago, few would believe a Democratic victory would be possible, but the demographics of the state are changing, and there is a massive influx of new voters, many of whom originate from blue states.
+
+``` {r texas-scatterplot, echo = FALSE}
+texas_xy_df <- merged_df[merged_df$state_po == "TX" & 
+                           (merged_df$x >= 2011 & merged_df$x<=2024),]
+
+# Create the scatterplot
+ggplot(texas_xy_df, aes(x = x, y = y, color = factor(population_group))) +
+  geom_point(alpha = 0.5, size = 3) + scale_color_manual(values = colors) +
+  labs(x = "Year", y = "Valence Change (migration)")  + 
+  scale_x_continuous(breaks = seq(2012, 2024, by = 2)) +
+  theme(panel.background = element_rect(fill = "white")) +
+  ggtitle("Change in Political Valence in Texas") 
+```
+
+In tabular form, the yearly county changes (for counties larger than 250,000 IRS individuals) in valence are:
+
+``` {r texas-table, echo = FALSE}
+  texas_xy_df <- merged_df[merged_df$state_po == "TX" & 
+                           (merged_df$x >= 2011 & merged_df$x<=2024),]
+big_texas_battleground_df <- 
+  battleground_df[battleground_df$state_po=="TX" & 
+                    battleground_df$static_2018>250000,]
+kable(big_texas_battleground_df[,c(2,5,7,9,11,13,15,17)], 
+      col.names = c("County", "Change 2012", "Change 2014", "Change 2016",
+                    "Change 2018", "Change 2020", "Change 2022", "Change 2024"),
+      row.names = FALSE)
+
+```
+Texas is such a large state that the above table only includes counties with over 250,000 people, instead of the 100,000 cut-off of the other states. Some of the trends noted before are present again. Dallas, Harris (home of Houston), and Travis (Austin) have a large net negative valance and are still Democratic strongholds. Much of this is due to relocation within the state.
+
+Bell County (north of Austin) has a positive valance and if trends continue should eventually flip to Democratic. Bexar has consolidated its role as a blue county in recent elections. Brazoria County, a suburb of Houston, has a positive valance but a long to go before flipping. Cameron County, around Brownsville, and neighboring Hidalgo County have been Democratic, but they trended red in 2020, and this is also reflected in the valance data. Tarrant County flipped Democratic in 2020, and nearby Collin and Denton counties have trended blue in recent elections, and although they have not flipped, this could happen very soon. El Paso is already Democratic. Fort Bend, a Houston suburb, flipped blue in 2016 and remained so in the 2020 election, trending even farther left. Galveston remains very red, but Nueces County (Corpus Christi) only leans Republican and may eventually flip. Montgomery County, however, even with a sizable positive valence remains extremely red. Williamson, an Austin suburb, recently flipped Democratic and, as the migration data shows, should continue to trend bluer.
+
+All in all, Texas appears to be almost in play, and that is very bad news for the GOP, who will need to spend funds to defend it. In this way, it is similar to the situation the Democrats have with the Rust Belt states.
+
+\newpage
+
+# Questions for Future Steps
+
+1. I need more migration data. It would be interesting to track past migration data before 2010, which is my current starting point.
+2. Rather than exclusively track presidential data, I would like to extend the model in the future to precinct level representative and senate races and extend the idea of "vote" to philosophical questions by tracking the views of the candidates. This requires an objective source for determining issue positional bias. This will make the data more valuable than a simple red/purple/blue correlation.
+3. I need to acquire more election results data. This is essential for using past election results to prove the efficacy of the model. At this stage, I am limited to 2000-2020.
+4. I need a better method than simple linear regression to predict future results. The algorithms we have learned in class did not generate good predictions. Their mean square errors were very high on prediction of the test data from the training data. There are many more prediction methods in data science, but I require more mastery of these methods.
+5. Finally, I would also like to add turnout to my model. This is a very important neglected factor. For most states, turnout data is county based rather than precinct based, so that is an added complication.
+
+# Conclusion
+
+The data analysis of this project confirms an ongoing shift of political bias that can impact the results of elections, especially in states with narrow margins of victory. The predictive model generated credible results, but they can be improved upon, which will allow for more accurate forecasting.
+
+In general, the data shows that there is a general move in previously solid red states to purple or, in the case of Arizona, Georgia, and maybe even Texas, to blue in the future. This possibility represents a real threat to the Republican Party and an opportunity for Democrats that must be seized.
+
+# References
+
+
+
