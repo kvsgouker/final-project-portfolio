@@ -1,0 +1,683 @@
+company,theme_park,ride_name,park_number,ride_number,incident_date,age_group,gender,injury_location,severity,medical_attention,injury_type,ride_status,contributing_factor,description,submission_time,source
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,08/07/2022,60+,Male,,,,,,,guest with pre-existing condition was briefly unresponsive while experiencing attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,4/19/22,41–60,Female,,,,,,,guest with pre-existing condition had motion sickness after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,07/05/2022,60+,Female,,,,,,,guest with pre-existing lost consciousness after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,1/27/22,18–40,Female,,,,Seizure / Illness,,,guest with a pre-existing condition had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,12/18/21,60+,Male,,,,,,,guest felt unwell upon exiting attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,12/21/21,60+,Female,,,,,,,guest felt disoriented after experiencing attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,9/16/21,60+,Female,,,,,,,guest with pre-existing condition felt lightheaded after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,6/29/21,18–40,Male,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,3/24/18,41–60,Male,,,,Seizure / Illness,,,guest with pre-existing condition felt ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,07/05/2019,18–40,Female,,,,,,,guest temporarily lost consciousness while on attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,5/28/18,18–40,Male,,,,,,,guest with pre-existing condition felt disoriented after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,10/27/17,60+,Female,,,,,,,guest fell while boarding ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,04/11/2017,41–60,Female,,,,,,,guest with pre-existing condition temporarily passed out on ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,12/06/2017,60+,Female,,,,Seizure / Illness,,,guest with pre-existing condition became ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Avatar Flight of Passage,8,4439,6/24/17,18–40,Female,,,,Dizziness / Fainting,,," felt dizzy, ill and brief loss of consciousness",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,6/24/03,10–17,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,4/30/05,18–40,Male,,Moderate,Yes,,,," guest lost consciousness, parents indicated he had a pre-existing heart condition. Later passed away at hospital",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,07/17/03,60+,Female,,,,,,,passed out,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,1/17/22,60+,Male,,,,Dizziness / Fainting,,,guest with pre-existing condition felt dizzy after experiencing attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,2/17/19,41–60,Male,Chest,,,,,,guest with pre-existing condition had chest pains and shortness of breath,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,4/17/18,41–60,Female,,,,Dizziness / Fainting,,,guest felt dizzy after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,6/17/18,41–60,Male,,,,,,,guest with pre-existing condition vomited after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,12/23/15,18–40,Male,,,,Seizure / Illness,,,seizure after departing from attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,3/15/14,60+,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,2/18/12,18–40,Female,,,,Seizure / Illness,,,seizure after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,02/08/2010,41–60,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,10/12/2009,60+,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,7/25/08,60+,Male,Chest,,,,,,guest with pre-existing heart condition reported chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Dinosaur,8,111,02/01/2010,18–40,Female,Chest,,,Psychological / Panic,,,chest pain: anxiety,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,03/03/2007,18–40,Male,,,,Seizure / Illness,,,Seizure.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,9/20/06,41–60,Female,,,,Seizure / Illness,,,Felt disoriented and sick.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,6/21/06,41–60,Male,Chest,,,,,,Shortness of breath and chest pains.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,04/06/2010,60+,Male,,,,Dizziness / Fainting,,,felt dizzy and ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,05/07/2019,41–60,Female,,,,Seizure / Illness,,,seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,9/22/19,41–60,Female,,,,Seizure / Illness,,,guest felt ill; migraine and vomiting,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,11/05/2019,41–60,Male,,,,Seizure / Illness,,,guest with pre-existing condition became ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,03/06/2019,60+,Male,,,,Dizziness / Fainting,,,guest became dizzy and nauseous after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,5/19/18,18–40,Male,,,,Seizure / Illness,,,guest experienced a seizure after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,5/27/18,18–40,Female,,,,,,,guest with history of dislocating kneecap had reoccurrence,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,07/08/2017,41–60,Male,,,,,,,guest with pre-existing condition had nausea and vomited after the ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,4/20/17,18–40,Male,,,,,,,felt something in eye irritation,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,12/02/2017,18–40,Male,Head,,,Dizziness / Fainting,,,reported being struck on head; headache; dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,4/18/15,41–60,Male,,,,Seizure / Illness,,,seizure after exiting.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,09/02/2015,18–40,Female,,,,Dizziness / Fainting,,," guest who felt ill at times earlier in the day, felt dizzy, shaky and numbness after attraction",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,3/19/15,60+,Female,,,,,,,temporary memory loss after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,04/08/2014,41–60,Female,Arm|Leg,,,,,,Guest felt lightheaded & fell injuring right knee & arm; brief loss of consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,06/01/2014,41–60,Male,,,,Dizziness / Fainting,,," nausea and dizziness,  briefly lost consciousness after ride",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,1/16/14,60+,Male,,,,,,,guest with pre-existing condition felt light headed after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,12/28/13,18–40,Female,,,,Seizure / Illness,,,guest felt ill & disoriented with slurred speech,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,12/29/11,60+,Male,,,,,,," guest not feeling well riding attraction, blocked arteries",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,10/07/2011,60+,Male,,,,Seizure / Illness,,," history of heart condition, felt ill",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,5/18/11,18–40,Female,,,,Dizziness / Fainting,,,felt dizzy and ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,08/08/2010,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,9/23/10,60+,Female,,,,Dizziness / Fainting,,,felt dizzy and ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,5/18/10,41–60,Male,,,,Seizure / Illness,,," felt ill, difficulty breathing; later had heart attack",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,10/20/2009,18–40,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,02/08/2009,60+,Male,,,,Seizure / Illness,,,felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,11/05/2009,60+,Male,,,,,,,felt lightheaded and weak,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,3/29/08,60+,Male,Internal,,,,,,stomach pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,5/17/08,41–60,Male,,,,Dizziness / Fainting,,,felt hot & dizzy,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,6/16/08,60+,Male,,,,Seizure / Illness,,,felt ill before & after riding ride; trouble breathing & blurred vision,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,05/03/2008,60+,Female,,,,Dizziness / Fainting,,,Complained of dizziness and loss of memory after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,12/18/07,41–60,Male,,,,,,,Guest with history of heart condition was unconscious at unload and passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,12/10/2021,41–60,Female,,,,,,,guest experienced cardiac symptoms after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,7/14/21,60+,Male,,,,,,,guest felt nauseous after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,10/25/15,60+,Male,Chest,,,Dizziness / Fainting,,,guest with pre-existing condition felt chest pain and dizziness after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Expedition Everest,8,110,6/21/14,41–60,Female,,,,Dizziness / Fainting,,," nausea, dizziness and shortness of breath",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,6/13/06,10–17,Male,,Moderate,Yes,Dizziness / Fainting,,,Guest who was recently released from hospital and recovering from pneumonia fainted and fell on dock,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,02/06/2005,41–60,Female,Head,,,Collision,,,guest fell from raft into flume at load area and hit head,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,05/12/2014,18–40,Male,,,,Seizure / Illness,,,guest with preexisting condition had seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,9/29/13,18–40,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,5/17/13,18–40,Female,,,,Seizure / Illness,,,guest with pre-existing condition suffered a seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kali River Rapids,8,112,01/03/2010,41–60,Male,,,,,,,preexisting heart condition felt numbness on right side of body,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,07/16/2007,41–60,Male,,,,,,," Jumped out of vehicle, broke left ankle",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,06/04/2010,60+,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,5/23/10,60+,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,12/24/16,60+,Male,,,,,,,guest with pre-existing condition felt numbness after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,12/29/17,60+,Female,Chest,,,,,,guest with pre-existing condition experienced chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,5/21/14,60+,Female,Chest,,,,,,guest with pre-existing condition felt tightness in chest,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,10/03/2012,60+,Female,Chest,,,,,,guest w/ pre-existing health condition felt nauseated & had chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,12/22/08,41–60,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,4/25/18,18–40,Female,,,,,,,guest went into labor after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,07/06/2018,60+,Female,,,,,,,guest with pre-existing conditions suffered nausea and vomiting on ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,1/17/18,60+,Male,Chest,,,,,,guest experienced chest pain after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,10/06/2017,18–40,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,6/15/16,60+,Male,Back,,,Seizure / Illness,,,guest with preexisting condition felt ill; neck discomfort,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,03/09/2015,<10,Male,,,,,,,developed rash before boarding; rash later worsened; temporarily passed out while on ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,6/24/15,41–60,Female,,,,Dizziness / Fainting,,," felt dizzy , mini stroke",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,04/04/2022,41–60,Female,Head,,,,,,guest had trouble breathing and numbness to her face after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,6/24/22,60+,Female,,,,Dizziness / Fainting,,,guest felt dizzy and weak after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,6/27/22,41–60,Male,,,,,,,guest lost consciousness while on the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,10/13/21,60+,Male,,,,,,,guest passed out while experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,3/13/21,60+,Female,,,,Seizure / Illness,,,guest became ill while riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Kilimanjaro Safaris Expedition,8,113,12/02/2016,60+,Female,,,,,In motion,,guest became disoriented during experience.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Na'vi River Journey,8,4438,03/07/2019,60+,Male,,,,,,,injured hip entering the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Primeval Whirl,8,114,7/24/14,41–60,Female,,,,,,,temporarily lost consciousness after exiting attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Animal Kingdom,Wildlife Express,8,655,6/18/22,41–60,Male,,,,Seizure / Illness,,,guest felt ill after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Castaway Creek,338,-1,9/22/19,41–60,Female,,,,,,,guest experienced sudden memory loss,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Castaway Creek,338,-1,08/04/2017,41–60,Female,,,,,,,guest with pre-existing condition experienced stroke-like symptoms,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Castaway Creek,338,-1,10/10/2013,60+,Male,Leg,,,,,,fractured toe on outer wall,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Castaway Creek,338,-1,7/16/11,18–40,Female,,,,Seizure / Illness,,,loss of consciousness and seizure like symptoms.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Castaway Creek,338,-1,6/26/10,41–60,Female,,,,,,,Lost balance and fell; fractured tibia,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Chair Lift,338,-1,02/16/04,41–60,Female,,Moderate,Yes,,,," injured ankle getting into raft, went to hospital",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Chair Lift,338,-1,5/19/15,60+,Female,,,,,,," fell while exiting attraction, fractured hip",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Cross County Creek,338,-1,12/07/2004,18–40,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Cross County Creek,338,-1,01/01/2008,41–60,Male,,,,,,,Guest jumped into creek and fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Crush n' Gusher,338,-1,02/05/2007,10–17,Male,Head,,,Collision,,,Hit head on bottom of catch pool,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Crush n' Gusher,338,-1,05/25/2012,41–60,Female,Chest,,,,,,Chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Downhill Double Dipper,338,-1,04/06/2007,<10,Female,Back,,,,,,Back Pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Downhill Double Dipper,338,-1,03/16/07,41–60,Male,,,,,,,It is unclear whether the guest rode this attraction. Guest collapsed adjacent to catch pool; later passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Downhill Double Dipper,338,-1,7/27/17,41–60,Female,Arm,,,,,,fractured arm,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Downhill Double Dipper,338,-1,07/24/12,18–40,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Meltaway Bay,338,-1,7/19/04,10–17,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Meltaway Bay,338,-1,10/06/2018,60+,Male,,,,,,,guest with pre-existing heart condition had a heart attack and passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Slush Gusher,338,-1,8/16/04,41–60,Male,,,,Dizziness / Fainting,,,felt dizzy & sick,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Summit Plummet,338,-1,06/02/2006,18–40,Male,,,,,,,Breathing problems.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Surf Pool,338,-1,07/04/2004,41–60,Male,,,,,,,fractured elbow,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Teamboat Springs,338,-1,6/19/21,41–60,Male,,,,,,,guest fractured ankle stepping into the tube,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Teamboat Springs,338,-1,9/26/17,41–60,Female,Back,,,,,,fell while entering raft and fractured back,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Teamboat Springs,338,-1,04/16/09,60+,Female,,,,,,,Felt disoriented and lightheaded,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Teamboat Springs,338,-1,8/14/08,41–60,Female,,,,Fall / Slipped,,,slipped while getting into tube; fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Toboggan Racers,338,-1,11/03/2009,60+,Male,,,,,,,Cervical injury after collision near end of slide,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Blizzard Beach,Toboggan Racers,338,-1,06/18/09,41–60,Female,Chest,,,,,,Felt pain in abdomen and chest,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,03/08/2005,60+,Male,,,,Seizure / Illness,,,felt ill.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,3/13/05,41–60,Male,,,,,,,not feeling well on ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,07/03/2016,60+,Male,,,,Dizziness / Fainting,,," guest felt ill, dizzy and disoriented",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,07/10/2012,60+,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,12/30/12,60+,Male,,,,,,," loss of consciousness while on ride,  pre-existing condition",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,3/17/11,60+,Male,,,,,,,Report of possible heart attack for guest with history of heart condition,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,3/28/03,60+,Female,,,,,,,heart attack later died.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Ellen's Energy Adventure,5,162,06/23/09,41–60,Male,,,,Dizziness / Fainting,,,Felt dizzy.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Frozen Ever After,5,2679,2/17/17,60+,Female,Leg,,,,,,fell entering boat; fractured leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Gran Fiesta Tour Attraction,5,466,7/21/15,41–60,Female,Back,,,,,,injured back,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Gran Fiesta Tour Attraction,5,466,12/11/2012,60+,Female,,,,,,,lost balance & fell from seat,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Gran Fiesta Tour Attraction,5,466,03/09/2007,41–60,Male,,,,,,,Lost consciousness while on ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Gran Fiesta Tour Attraction,5,466,2/15/21,60+,Female,,,,,,,guest injured her ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Journey info Imagination with Figment,5,155,9/22/21,60+,Female,,,,,,,guest fell exiting the attraction striking her nose,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Journey info Imagination with Figment,5,155,12/16/17,60+,Female,,,,Fall / Slipped,,,guest tripped and fractured elbow,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Living with the Land,5,156,5/29/22,60+,Female,,,,,,,guest with pre-existing condition had a cardiac event while exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Maelstrom,5,-1,03/28/2012,41–60,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,07/24/12,60+,Male,,,,,,,guest with pacemaker stated he felt a shock through his shoulders when fastening his restraint,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,07/19/07,60+,Male,,,,Seizure / Illness,,,Guest with history of high blood pressure. Became ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,11/20/06,41–60,Male,,,,Seizure / Illness,,,Guest with hypertension felt ill day after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,11/04/2006,41–60,Female,,Moderate,Yes,Seizure / Illness,,,Felt ill; passed away next day at hospital.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,04/10/2005,41–60,Male,,,,,,,reported on 10/07/05 that had not been feeling well sinece riding attraction three days prior,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,06/08/2005,41–60,Male,Chest,,,,,,chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,6/13/05,<10,Male,,Moderate,Yes,,,,child lost consciousness. Later died at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,08/11/2004,41–60,Male,Internal,,,Dizziness / Fainting,,,Became dizzy and had upset stomach.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,7/16/04,18–40,Female,,,,Dizziness / Fainting,,,fainted while on ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,10/08/2003,41–60,Male,,,,,,,sustained nausea on ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,10/21/03,60+,Male,Chest,,,,,,chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,11/17/03,60+,Male,Chest,,,,,,chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,05/02/2004,60+,Female,,,,,,,didnÃ¢ÂÂt feel well,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,03/24/04,41–60,Female,Chest,,,,,,Chest Pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,03/30/04,41–60,Male,,,,,,,Nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,9/15/17,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing condition felt ill after experiencing attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,1/25/13,10–17,Female,,,,Seizure / Illness,,,seizure/loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,2/23/13,18–40,Female,,,,Dizziness / Fainting,,,guest fainted after ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,7/19/11,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing health condition felt ill after exiting attraction & temporarily lost consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,8/13/10,41–60,Female,Chest,,,Seizure / Illness,,,felt ill: chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,06/06/2010,18–40,Male,,,,Seizure / Illness,,,Felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,09/19/09,41–60,Female,,,,Dizziness / Fainting,,," felt dizzy, loss of memory",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,06/19/09,41–60,Female,,,,,,,loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,2/19/16,41–60,Male,,,,Seizure / Illness,,,guest with preexisting heart condition felt ill after riding attractions.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,12/07/2022,41–60,Male,,,,,,,guest with pre-existing condition lost consciousness after experiencing the green side of the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,7/26/20,60+,Female,,,,,,,guest with pre-existing condition had a stroke after experiencing the green side of the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,09/07/2019,18–40,Male,,,,Seizure / Illness,,,guest with history of motion sickness became ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,10/06/2018,41–60,Male,,,Yes,,,,guest with pre-existing medical issues experienced brief loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,2/13/12,41–60,Male,,,,Seizure / Illness,,,guest w/ pre-existing health condition felt ill after ride; heart attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,5/23/11,41–60,Female,,,,Dizziness / Fainting,,,guest with history of vertigo felt dizzy and ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,08/02/2010,41–60,Male,,,,,,," vomiting,  vertigo and felt rapid heart rate",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,8/21/08,41–60,Female,,,,Dizziness / Fainting,,,felt dizzy and sick,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,1/19/17,60+,Female,,,,Seizure / Illness,,,guest with pre-existing condition felt ill and passed out momentarily,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,08/05/2014,60+,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,12/05/2014,41–60,Male,Chest,,,,,,guest with pre-existing condition felt tightness in chest and nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Mission: Space,5,158,6/24/14,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Remy' s Ratatouille Adventure,5,10914,3/24/22,41–60,Male,,,,,,,guest with pre-existing condition experienced stroke like symptoms after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,01/15/2007,41–60,Male,,,,,,,Guest had difficulty standing in exit area; passed away two days later due to stroke.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,10/12/2014,60+,Female,Leg,,,Fall / Slipped,,," tripped over guests bag, fractured leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,07/03/2012,41–60,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,1/16/17,60+,Female,Chest,,,,,," guest with pre-existing condition felt chest pain, numbness",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,08/06/2009,60+,Female,,,,,,,felt pain in side earlier in day; reported it was worse after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,1/17/17,41–60,Male,,,,Dizziness / Fainting,,,"felt dizzy and ill, slurred speech",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,1/23/22,41–60,Female,Chest,,,,,,guest with pre-existing condition had chest pain after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,08/03/2022,60+,Female,,,,,,,guest experienced stroke like symptoms while on the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Soarin' Around the World,5,151,3/14/22,60+,Female,Chest,,,,,,guest had chest pain after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,08/08/2006,<10,Female,,,,Seizure / Illness,,,Guest visiting through wish granting Organization had seizure after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,10/14/05,60+,Female,,,,,,,fell getting off attraction reported complaints regarding shoulder and both wrists,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,5/30/21,41–60,Male,,Moderate,Yes,,,,guest with pre-existing condition passed out after exiting the attraction; later passed away at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,5/31/19,60+,Female,,,,,,,guest passed out after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,4/16/16,60+,Female,Leg,,,,,,fell while boarding; fractured leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,4/14/15,60+,Male,,,,,,," guest with pre-existing condition felt nausea,  shortness of breath and pain in jaw after riding.",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,12/02/2013,41–60,Male,,,,Seizure / Illness,,,felt ill and appeared incoherent,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,05/17/2012,41–60,Female,,,,Seizure / Illness,,,Seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,06/15/2012,41–60,Male,,,,Seizure / Illness,,,Guest with preexisting health condition felt ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,05/04/2010,60+,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,11/02/2009,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Spaceship Earth,5,159,07/07/2002,41–60,Male,,,,,,,Asthma Attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,06/06/2015,60+,Male,Chest,,,,,,guest with pre-existing condition experienced chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,12/18/06,60+,Female,,,,,,,Fell getting out of vehicle and fractured pelvis.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,3/14/20,18–40,Female,,,,,,,guest with pre-existing condition experienced abdominal pain after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,5/17/19,60+,Male,,,,Seizure / Illness,,,guest with pre-existing condition became ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,3/13/10,60+,Male,,,,Dizziness / Fainting,,," felt dizzy and ill, nose bleed",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,Test Track,5,160,08/15/2009,18–40,Male,Arm,,,,,,fell while exiting vehicle and broke right wrist.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,1/31/12,60+,Male,,,,Seizure / Illness,,,felt ill; subsequently diagnosed with heart attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,6/20/19,60+,Female,,,,,Loading/Unloading,,guest fell and fractured hip while loading onto the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,8/17/14,60+,Male,Head,,,,,,fell and struck face while assisting family member from vehicle; facial fractures.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,4/14/14,60+,Female,Leg,,,,,,guest fell on mobbing walkway and injured knee,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,12/31/10,60+,Female,Leg,,,,,,guest fell while on moving walkway and injured her left leg.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,3/13/08,60+,Female,Head,,,Collision,,,Fell exiting vehicle; hit head and fractured left shoulder,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,11/10/2007,60+,Female,Back,,,,,,Fell while boarding the vehicle/back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,9/16/18,60+,Female,,,,Seizure / Illness,,,guest felt ill prior to and after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,1/14/18,60+,Male,Chest,,,,,,guest with pre-existing heart condition had chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Epcot,The Seas with Nemo & Friends,5,153,07/04/2015,60+,Male,,,,Seizure / Illness,,,guest with pre-existing condition felt ill after exiting ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Alien Swirling Saucers,7,5477,06/09/2022,41–60,Female,,,,,,,guest with pre-existing condition sustained injury to toes,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,7/22/04,60+,Female,Chest,,,,,,chest pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,01/01/2016,60+,Male,,,,,,,guest with history of motion sickness became temporarily unconscious while on the attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,3/13/16,41–60,Male,,,,Dizziness / Fainting,,,guest with preexisting condition had numbness and felt dizzy.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,1/20/15,41–60,Male,,,,,,,guest with pre-existing condition had brief loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,5/19/08,41–60,Male,,,,Seizure / Illness,,," felt ill, possible heart attack",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Great Movie Ride,7,122,8/18/14,60+,Male,Chest,,,,,,chest pain and loss of consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Honey I Shrunk The Kids,7,-1,5/26/08,41–60,Female,,,,,,,went down slide & fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Honey I Shrunk The Kids,7,-1,11/25/2005,10–17,Male,Arm,,,,,,fell and hurt wrist.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Honey I Shrunk The Kids,7,-1,3/24/11,<10,Male,Head|Back,,,Collision,,,fell; hit head; back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Mickey & Minnie's Runaway Railway,7,6361,4/13/22,41–60,Female,,,,Seizure / Illness,,,guest had seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Mickey & Minnie's Runaway Railway,7,6361,10/28/20,60+,Female,Head|Arm|Leg,,,Fall / Slipped,,,guest tripped and fell exiting the ride vehicle injuring her head arm and leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Millennium Falcon: Smugglers Run,7,6368,05/04/2022,18–40,Male,,,,Seizure / Illness,,,guest had seizure while experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Millennium Falcon: Smugglers Run,7,6368,03/03/2020,<10,Female,,,Yes,Seizure / Illness,,,guest with pre-existing medical condition had a seizure after the ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,05/19/07,41–60,Male,Chest,,,,,,Chest pain; diagnosed with heart attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,04/10/2006,41–60,Male,,,,Dizziness / Fainting,,,Headache and dizziness; transported from other park location approximately three hours after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,6/28/06,41–60,Female,Back,,,,,,Fell while getting into vehicle; back injury,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,6/29/06,10–17,Male,,Moderate,Yes,,,,Guest unresponsive; later passed away at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,2/28/19,60+,Male,Chest,,,,,,guest had chest pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,4/26/17,60+,Male,Arm,,,Dizziness / Fainting,,,shoulder and arm pain; dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,6/15/17,60+,Male,,,,Dizziness / Fainting,,,guest with pre-existing condition felt dizzy and faint,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,10/27/21,18–40,Male,,,,,,,guest passed out and fell after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,2/27/22,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure on the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,3/26/22,41–60,Female,,,,,,,guest passed out after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,10/31/19,41–60,Female,Head,,,,,,severe head pain illness and vomiting after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,12/26/14,41–60,Female,,,,Dizziness / Fainting,,,dizziness & loss of memory after riding; later lost consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,09/06/2012,41–60,Male,,,,,,,Loss of consciousness on ride; regained consciousness before exiting,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,01/12/2014,41–60,Female,,,,,,,experienced nausea and motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,08/10/2017,60+,Female,,,,Seizure / Illness,,,guest with pre-existing condition felt ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,9/18/15,41–60,Male,,,,Seizure / Illness,,,guest with pre-existing condition felt ill and temporarily lost consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,09/17/2009,18–40,Female,,,,Seizure / Illness,,,seizure after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,09/21/2009,41–60,Female,Chest,,,,,,chest pains and shortness of breath,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,04/13/09,41–60,Male,,,,,,,feeling weak on left side and had trouble standing after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,05/21/09,41–60,Male,Chest,,,,,,Chest pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,05/06/2008,18–40,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,6/21/16,18–40,Male,Back|Leg,,,,,,guest reported back and leg pain and that he was lightheaded; later underwent heart surgery.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Rock 'n' Roller Coaster Starring Aerosmith,7,119,6/25/16,41–60,Male,,,,Seizure / Illness,,,felt ill; nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Slinky Dog Dash,7,5476,9/25/22,41–60,Male,,,,Seizure / Illness,,,guest had a seizure after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Slinky Dog Dash,7,5476,02/02/2019,18–40,Male,,,,Seizure / Illness,,,guest with pre-existing condition had seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,8/31/12,41–60,Male,Back,,,Dizziness / Fainting,,,dizziness neck pain and motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,05/10/2019,18–40,Female,,,,Dizziness / Fainting,,,guest with pre-existing condition felt dizzy and had trouble with equilibrium,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,08/10/2019,60+,Male,,,,Seizure / Illness,,,guest with pre-existing condition was ill after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,8/19/19,18–40,Male,,,Yes,Seizure / Illness,,,guest with pre-existing medical condition had a seizure and fell after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,03/04/2019,60+,Female,Chest,,,,,,guest with pre-existing condition had chest pain after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,06/05/2018,41–60,Male,Chest,,,,,,guest with pre-existing condition had chest pain and shortness of breath after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,11/21/17,60+,Female,,,,Dizziness / Fainting,,,guest felt ill and dizzy after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,9/18/16,60+,Male,,,,Seizure / Illness,,,guest with preexisting heart condition felt ill after riding; later passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,06/05/2015,60+,Male,,,,Seizure / Illness,,,felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,3/16/15,41–60,Male,,,,Seizure / Illness,,,seizure after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,08/08/2014,41–60,Male,Chest,,,,,,chest pain; did not have medication with him.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,1/24/13,41–60,Male,Chest,,,,,,guest with pre-existing health condition experienced nausea and chest pain after ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,09/08/2011,10–17,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,11/16/2009,60+,Male,Head,,,Dizziness / Fainting,,," felt dizzy,  later fainted and fell and struck his head",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,07/27/2009,41–60,Male,,,,Seizure / Illness,,,Seizure after exiting ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Tours: The Adventure Continues,7,120,5/13/22,60+,Male,,,,Dizziness / Fainting,,,guest with pre-existing condition felt faint after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Star Wars: Rise of the Resistance,7,6369,3/30/22,41–60,Female,,,,,,,guest experienced a cardiac event within the attraction in a holding area prior to boarding a ride vehicle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Studio Backlot Tour,7,-1,03/08/2014,41–60,Female,,,,,,,guest temporarily lost consciousness while transferring from wheelchair into ride vehicle.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,07/02/2006,41–60,Female,,,,Dizziness / Fainting,,,Felt Dizzy.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,12/07/2005,10–17,Female,,,,Seizure / Illness,,,felt ill.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,5/16/04,60+,Male,Chest,,,,,,chest pains after ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,6/29/03,41–60,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,01/04/2002,41–60,Female,,,,Psychological / Panic,,," anxiety & claustrophobia, atrial fibrilation",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,12/02/2020,18–40,Female,,,,,,,guest had abdominal pain after experiencing attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,3/26/17,60+,Male,,,,Seizure / Illness,,,felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,5/23/16,18–40,Male,Arm|Chest,,,,,,guest with preexisting history felt chest pain; numbness in arm,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,02/07/2014,18–40,Female,,,,Psychological / Panic,,,guest with pre-existing condition experienced anxiety & numbness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,8/19/14,18–40,Female,Chest,,,,,,guest with pre-existing condition experienced chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,10/27/16,18–40,Male,,,,,,,guest felt disoriented,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,09/07/2012,18–40,Female,,,,Dizziness / Fainting,,," felt dizzy, numbness/pain in arms",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,12/12/2008,41–60,Female,Leg,,,,,,Numbness in right leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,7/30/08,60+,Male,,,,Dizziness / Fainting,,,felt disoriented and dizzy,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,05/04/2008,18–40,Male,Head|Back,,,,,," neck & head pain, diagnosed with existing brain tumor",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,The Twilight Zone Tower of Terror,7,123,10/19/07,60+,Male,,,,Seizure / Illness,,,Fell ill after riding attraction  claimed memory loss and irregular heartbeat became ill after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,09/07/2017,60+,Male,,,,Seizure / Illness,,,guest with pre-existing condition felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,06/10/2021,41–60,Female,,,,Dizziness / Fainting,,,guest felt dizzy and fell exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,12/03/2020,41–60,Male,,,,,,,guest had a heart attack after having experienced the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,2/23/16,18–40,Female,,,,Dizziness / Fainting,,,guest with preexisting heart condition fainted while boarding attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,04/10/2014,41–60,Female,,,,Dizziness / Fainting,,," nausea & dizziness,  lost consciousness & subsequently passed away",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,10/31/11,60+,Male,Head,,,,,,guest with pre-existing health condition fell near restrooms after exiting ride & struck his head,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Hollywood Studios,Toy Story Midway Mania!,7,117,11/20/11,60+,Male,,,,Seizure / Illness,,,felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Astro Orbiter,6,248,10/05/2014,60+,Male,Leg,,,,,," guest fell exiting vehicle, developed blood clot in leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Astro Orbiter,6,248,12/03/2009,18–40,Female,,,,,,,fractured left ankle exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,05/08/2012,60+,Female,Leg,,,,,,guest with pre-existing condition complained of pain in leg upon exiting later diagnosed with a blood clot,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,12/19/04,60+,Male,,,,,,,reported difficulty moving when leaving ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,12/24/03,18–40,Male,Leg,,,,,,knee,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,3/14/08,18–40,Male,,,,Seizure / Illness,,,Seizure after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,4/22/17,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing conditions felt ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,10/05/2017,41–60,Female,Internal,,,,,,stomach pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,09/02/2017,41–60,Male,,Moderate,Yes,,,,guest with pre-existing condition collapsed; later passed away at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,12/02/2017,60+,Male,Back,,,,,,guest with pre-existing condition complained of neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,06/12/2015,60+,Male,Arm,,,,,," guest complained of pain,  tremors and numbness in right arm after exiting",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,02/12/2014,60+,Female,,Moderate,Yes,,,," guest with pre-existing health conditions experienced headache & loss of consciousness after riding,  subsequently underwent surgery for aneurysm and released from hospital",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,7/21/14,60+,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Big Thunder Mountain Railroad,6,130,5/27/14,60+,Female,Chest,,,Dizziness / Fainting,,," guest with preexisting condition exited ride with chest pain and felt dizzy, briefly lost consciousness and fell",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,01/11/2006,41–60,Male,,,,Seizure / Illness,,,Seizure.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,11/30/04,41–60,Female,,,,Seizure / Illness,,,got sick on ride due to lights.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,11/05/2003,60+,Female,Leg,,,,,,knee injury,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,5/14/03,10–17,Female,,,,,,,lacerated ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,09/08/2008,41–60,Male,,,,,,," fell after getting off ride, fractured hip",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,3/18/19,60+,Male,Leg,,,,,,guest fell and fractured leg while entering attraction vehicle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,10/25/18,60+,Female,,,,,,,guest fell while exiting the ride vehicle; injured hip,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,10/06/2017,41–60,Female,,,,Seizure / Illness,,,felt ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,02/09/2015,60+,Male,Chest,,,Dizziness / Fainting,,,guest with pre-existing health condition felt dizziness and chest pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,11/10/2014,18–40,Female,,,,Seizure / Illness,,,guest with history of diabetic seizures experienced seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,01/03/2014,60+,Female,,,,,,,fell while exiting; fractured hip,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,07/11/2013,41–60,Male,,,,Seizure / Illness,,,guest felt ill after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Buzz Lightyears Space Ranger Spin,6,131,9/14/10,60+,Female,Back,,,,,,fell on moving walkway in load area: fractured spine.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Carousel of Progress,6,457,05/07/2012,60+,Female,,,,Fall / Slipped,,," tripped while approaching seat, fractured femur",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Carousel of Progress,6,457,7/24/13,<10,Female,,,,,,,guest with pre-existing condition had difficulty breathing,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Dumbo,6,132,2/22/06,,,,,,,,,Came off ride not feeling well.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,10/02/2007,60+,Female,,,,,,,fell exiting attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,12/04/2021,60+,Female,Arm,,,,,,guest fell and fractured wrist exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,5/16/16,60+,Female,,,,Dizziness / Fainting,,,guest with preexisting condition became dizzy.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,8/20/15,60+,Female,,,,,,,became disoriented after exiting ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,10/06/2013,60+,Male,Chest,,,,,,guest with pre-existing condition suffered from chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,09/08/2011,60+,Female,Leg,,,,Loading/Unloading,," fell on moving walkway while loading, fractured leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,1/31/09,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,7/29/08,60+,Female,,,,,,,fell after exiting vehicle and fractured shoulder,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,6/19/08,41–60,Female,Leg,,,Collision,,,hit right knee getting into vehicle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,12/30/17,60+,Male,Chest,,,,,,guest with pre-existing condition experienced chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,12/31/13,18–40,Male,Chest,,,,,,guest with preexisting condition felt chest pain prior to and after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Haunted Mansion,6,140,03/03/2013,60+,Female,Leg,,,,,," fell stepping onto moving walkway, fractured leg and dislocated ankle",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,It's A Small World,6,133,12/25/14,18–40,Female,,,,,,,guest with preexisting health condition lost consciousness after riding; later passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,It's A Small World,6,133,11/21/08,41–60,Male,,,,Seizure / Illness,,,Seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,It's A Small World,6,133,06/07/2008,41–60,Male,,,,,,,difficulty breathing,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,4/21/22,18–40,Male,Chest,,,,,,guest with pre-existing condition had chest pain after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,3/14/20,60+,Female,Leg,,,,,,guest fractured leg stepping into boat,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,8/18/17,<10,Male,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,01/09/2015,<10,Female,,,,,,,fractured finger,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,11/13/12,60+,Female,,,,,,," guest fell while stepping into boat, fractured hip",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Jungle Cruise,6,134,03/23/12,18–40,Female,,,,,,,fell while stepping into boat & fractured fibula. Passed away of pulmonary embolism on 4/7/12.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Liberty Riverboat,6,1187,7/21/15,60+,Female,Head,,,,,,passed out and struck head,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,05/06/2006,60+,Female,,,,,,,Missed step and fell,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,4/18/18,60+,Female,,,,Seizure / Illness,,,guest with pre-existing illness felt ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,5/23/18,60+,Female,,,,Dizziness / Fainting,,,guest with pre-existing condition was dizzy after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,08/12/2016,60+,Female,,,,,,,fell and fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,12/18/14,41–60,Male,,,,Fall / Slipped,,,tripped while exiting ride vehicle; fractured shoulder,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,10/13/13,60+,Female,Arm,,,,,," fell while exiting, fractured wrist",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,4/13/10,60+,Female,,,,,,,fell exiting vehicle; fractured hip,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,5/24/10,60+,Female,Arm,,,,,," fell exiting vehicle, left arm fracture",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,7/15/08,41–60,Male,,,,Dizziness / Fainting,,,felt dizzy and sick,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Mad Tea Party,6,135,02/02/2008,60+,Female,,,,,,," Fell exiting ride, fractured hip",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,6/21/06,41–60,Female,,,,,,,Fell getting onto ride; fractured hip.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,2/14/06,60+,Male,,,,Fall / Slipped,,,Guest tripped and fell into the ride path as he attempted to board the attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,07/29/07,60+,Female,,,,,,,Fell Ã¢ÂÂ fractured legs and arms.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,9/25/19,<10,Male,,,Yes,Seizure / Illness,,,guest with pre-existing medical condition had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,06/01/2014,60+,Female,Chest,,,,,,guest with pre-existing condition felt chest pain after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,06/03/2011,60+,Female,Leg,,,,,,fell on moving walkway in load area; fractured knee,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,07/17/2009,60+,Female,Head|Arm,,,Collision,,," lost balance on unload belt,  fell and hit head and fractured wrist",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Peter Pan's Flight,6,136,04/10/2008,41–60,Male,,,,Seizure / Illness,,,Seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,2/13/05,60+,Female,,Moderate,Yes,,,,lost consciousness after ride. Later passed away at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,5/17/22,60+,Male,Back,,,,,,guest experienced abdominal and back pain while on the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,11/10/2021,60+,Male,,,,,,,guest with pre-existing condition experienced stroke like symptoms after having been on the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,10/25/17,60+,Male,,,,,,,guest with pre-existing condition experienced headache and brief loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,3/23/17,41–60,Male,,,,Seizure / Illness,,,guest recovering from throat surgery became ill,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,11/26/15,18–40,Female,,,,,,,guest fell while entering the ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,12/20/15,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure after exiting.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,5/20/15,41–60,Male,Back,,,,,,guest with pre-existing condition felt back pain when exiting the ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,10/07/2014,41–60,Male,,,,,,,lacerated tips of 2 fingers,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,4/13/14,10–17,Male,,,,,,,lacerated 4 fingers,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Pirates of the Caribbean,6,137,01/11/2012,60+,Female,Chest,,,Dizziness / Fainting,,," dizziness, chest pain, mouth numbness",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,2/22/22,60+,Female,,,,,,,guest fell stepping down from attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,3/24/22,60+,Female,,,,,,,while dismounting a horse guest lost balance and fell,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,1/30/19,60+,Male,,,,,,,guest fell while exiting the attraction and fractured hip,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,11/13/14,60+,Female,Leg,,,,,," fell while stepping off carousel horse, fractured leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,2/25/12,60+,Female,Leg,,,Seizure / Illness,,,felt ill while boarding attraction; fractured hip & leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,2/29/12,60+,Female,Arm,,,Seizure / Illness,,,felt ill while exiting attraction; fractured arm,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,9/21/11,60+,Female,Leg,,,,,," fell while stepping off the carousel platform, fractured leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,1/24/17,60+,Female,Head,,,Collision,,,fell and hit head,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,11/10/2010,60+,Female,,,,,,,guest fell and fractured hip and shoulder while ride was stopped.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Prince Charming Regal Carousel,6,161,12/12/2010,60+,Female,,,,Seizure / Illness,,,guest with pre-existing conditions (i.e. heart condition prior stroke) felt ill while riding attraction  collapsed after exiting and subsequently passed away.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Seven Dwarfs Mine Train,6,129,11/21/15,60+,Male,,,,Seizure / Illness,,,guest felt ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Seven Dwarfs Mine Train,6,129,11/27/18,41–60,Female,,,,Dizziness / Fainting,,,guest felt dizzy after having experienced the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Seven Dwarfs Mine Train,6,129,5/14/17,41–60,Female,,,,Seizure / Illness,,,guest with pre-existing condition had a seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Seven Dwarfs Mine Train,6,129,12/18/14,41–60,Male,,,,Seizure / Illness,,,guest wilt preexisting condition felt ill after exiting,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Snow White's Scary Adventures,6,-1,1/31/09,41–60,Female,,,,,,,guest exited vehicle and claims to have lost consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Snow White's Scary Adventures,6,-1,08/05/2008,<10,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,02/09/2012,60+,Male,,,,,,,guest lost consciousness after exiting attraction subsequently diagnosed with a heart attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,06/23/07,41–60,Female,,,,Dizziness / Fainting,,,Dizzy and weakness in the left side.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,07/12/2006,60+,Male,,,,,,,Guest unresponsive after riding; passed away three days later due to heart condition.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,01/08/2006,<10,Male,,Moderate,Yes,Seizure / Illness,,," Terminally ill guest rode ride, later passed away at hospital",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,6/14/06,41–60,Male,Chest,,,,,,Chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,2/22/06,41–60,Female,,,,,,,Hip Pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,3/14/06,60+,Male,,,,,,,Motion Sickness.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,12/24/04,10–17,Female,,Moderate,Yes,,,,collapsed in queue line leading to ride. Child subsequently passed away at hospital.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,03/02/2003,60+,Female,,,,,,,memory loss,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,9/15/15,<10,Female,,,,,,,thigh pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,11/21/20,41–60,Female,,,,Seizure / Illness,,,guest felt ill after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,10/12/2019,60+,Female,,,Yes,,,,guest with pre-existing medical condition experienced temporary loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,08/06/2019,60+,Female,,,,Seizure / Illness,,,guest became ill after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,06/08/2018,60+,Female,,,,,,,guest was disoriented and unable to exit vehicle without assistance,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,6/20/18,60+,Female,,,,,,,guest with pre-existing condition felt disoriented and had slurred speech,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,12/09/2017,10–17,Female,,,,Dizziness / Fainting,,,guest felt dizzy and disoriented,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,9/27/17,41–60,Female,Leg,,,,,," fell entering ride vehicle,  temporary loss of consciousness, fractured leg",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,8/20/16,41–60,Male,Chest|Internal,,,,,,stomach and chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,4/26/16,41–60,Female,,,,Dizziness / Fainting,,," guest felt ill, dizzy and disoriented",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,1/26/16,10–17,Female,,,,,,,guest temporarily lost consciousness and fell after riding attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,07/07/2015,41–60,Female,,,,,,," guest with pre-existing conditions exited ride,  then lost consciousness; later passed away.",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,12/28/14,60+,Male,,,,,,,felt nauseated & lethargic after exiting,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,7/29/14,60+,Female,Chest,,,,,," chest pain, nausea and vomiting",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,05/08/2014,41–60,Male,,,,Seizure / Illness,,,guest who had not been feeling well felt sick after exiting.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,03/03/2014,10–17,Female,,,,,,,guest with pre-existing condition experienced periods of unconsciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,8/26/13,18–40,Female,Head|Back,Moderate,Yes,,,,nausea vomiting & neck pain; reportedly underwent surgery to the head prior to being released from hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,5/30/13,41–60,Male,Chest,,,Dizziness / Fainting,,," dizziness,  chest pain, lower abdominal pain",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,1/14/13,41–60,Male,,,,Dizziness / Fainting,In motion,,motion sickness/fainted during and after ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,12/29/12,18–40,Male,,,,,,," loss of consciousness while on ride, pre-existing condition",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,08/04/2012,41–60,Male,,,,,,,Guest with preexisting health condition (asthma) temporarily lost consciousness; released,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,09/03/2012,41–60,Female,Leg,,,,,,while entering ride vehicle guest fractured leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,11/19/11,41–60,Female,,,,Dizziness / Fainting,,,nausea and dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,4/28/11,41–60,Female,,,,Dizziness / Fainting,,," felt nauseous, dizzy and short of breath",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,5/15/11,10–17,Female,,Moderate,Yes,,,,guest with history of asthma came into unload area unresponsive: regained consciousness and was transported to hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,5/21/11,41–60,Female,,Moderate,Yes,,,,guest came into unload area unconscious: later diagnosed with subarachnoid hemorrhage at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,06/01/2010,60+,Female,,,,,,,stroke,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,3/18/09,60+,Female,,,,,,,Felt light headed; nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,10/24/08,60+,Male,,,,Dizziness / Fainting,,,Dizzy and disoriented,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Space Mountain,6,138,9/16/18,18–40,Male,,,,,,,guest with pre-existing condition lost consciousness after exiting attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,07/29/06,18–40,Female,Chest,Moderate,Yes,,,," Guest recently released from hospital for lung condition,  reported chest pains and difficulty breathing.",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,10/07/2005,60+,Male,Chest,,,,,,chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,09/10/2021,18–40,Male,,,,Seizure / Illness,,,guest had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,6/16/18,10–17,Male,Chest,,,,,,guest experienced chest pain and shortness of breath before and after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,6/15/15,18–40,Female,Chest,,,,,,nausea and chest pains,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,06/02/2011,18–40,Female,,,,,,,Guest with prior history of anaphylactic reactions began experiencing symptoms while on the attraction.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,04/07/2009,41–60,Female,Head,,,Collision,,," passed out after riding and exiting attraction,  hit head on concrete floor and fractured skull.",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,04/13/09,18–40,Male,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,12/16/08,60+,Male,Leg,,,Fall / Slipped,,,Fall occurred while getting into vehicles; fractured leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Splash Mountain,6,139,4/27/08,60+,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Barnstormer,6,126,03/11/2017,41–60,Male,Chest,,,,,,guest complained of chest pain after riding attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Barnstormer,6,126,2/19/13,41–60,Female,,,,Seizure / Illness,,,seizure like symptoms,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Liberty Belle,6,1187,6/16/05,41–60,Female,Leg,,,Dizziness / Fainting,,,fainted and fell while on Riverboat. Hurt ankle and knee,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Liberty Belle,6,1187,07/16/03,60+,Female,,,,,,,fx pelvis,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Liberty Belle,6,1187,08/11/2003,60+,Female,Head,,,Collision,,,fell & hit head.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Liberty Belle,6,1187,2/28/14,60+,Male,,,,,,,guest with personal illness felt weakness while on the riverboat,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Magic Carpets of Aladdin,6,141,6/28/14,<10,Female,,,,,,,loss of consciousness on ride; regained consciousness and was trasnported,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,The Many Adventures of Winnie the Pooh,6,142,10/22/21,18–40,Female,,,,Seizure / Illness,,,guest had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,03/04/2014,60+,Female,,,,,,," guest fell while exiting vehicle, fractured fibula",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,7/23/19,60+,Male,,,,,Loading/Unloading,,guest fell loading onto the attraction; multiple abrasions and contusions,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,10/01/2015,60+,Male,,,,,,,guest injured ankle attempting to step out of the vehicle.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,09/06/2009,<10,Male,Arm,,,,,,fell after exiting vehicle and fractured arm.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,9/23/22,18–40,Female,,,,,,,guest went into labor after exiting the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,12/06/2016,60+,Male,,,,Seizure / Illness,,,guest with preexisting condition felt ill after exiting ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,04/07/2015,18–40,Female,,,,Seizure / Illness,,,guest with pre-existing health condition had seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,12/14/2009,41–60,Male,Leg,,,Fall / Slipped,,," felt dizzy,  tripped while exiting vehicle and injured his knee",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Speedway,6,143,12/28/08,60+,Female,,,,Dizziness / Fainting,,,Felt dizzy and hot; loss of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,03/08/2015,60+,Male,,,,,,," fell while exiting, fractured shoulder",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,02/09/2015,60+,Male,Chest,,,Dizziness / Fainting,,,dizziness and chest pain after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,04/01/2015,60+,Male,,,,,,,guest with pre-existing condition felt weakness & disorientation,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,3/18/13,60+,Male,,,,Seizure / Illness,,,felt ill/lost consciousness after exiting ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,9/25/22,60+,Male,,,,,,,guest with pre-existing condition experienced cardiac event,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Tomorrowland Transit Authority People Mover,6,1190,09/02/2022,60+,Female,,,,,,,guest loss consciousness while experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,07/05/2022,60+,Female,,,,,,,guest with pre-existing condition experienced stroke like symptoms after riding the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,8/16/16,41–60,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,1/26/14,<10,Female,,,,Seizure / Illness,,,guest with pre-existing condition had seizure after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,09/02/2019,41–60,Female,,,,Dizziness / Fainting,,,guest with pre-existing condition complained of being dizzy and light-headed after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,7/21/19,60+,Female,,,Yes,Seizure / Illness,,,guest with pre-existing medical condition had a seizure after experiencing the attraction,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,6,127,06/02/2017,18–40,Male,,,,,,,felt disoriented and fell after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Walt Disney World Railroad,6,1181,07/04/2016,41–60,Male,,,,Seizure / Illness,,,guest felt ill and began shaking after exiting.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Magic Kingdom,Walt Disney World Railroad,6,1181,05/05/2015,60+,Male,,,,Dizziness / Fainting,,,nausea and dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Humunga Kowabunga,339,-1,03/10/2015,18–40,Female,,,,,,,laceration while riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Humunga Kowabunga,339,-1,12/09/2015,10–17,Male,,,,,,,fractured hip,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Humunga Kowabunga,339,-1,7/24/13,41–60,Female,,,,,,,laceration,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,11/15/06,60+,Male,Leg,,,,,,Broken foot.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,03/05/2018,18–40,Male,,,,,,,guest fractured ankle going down slide,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,5/15/15,41–60,Female,,,,,,,fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,7/18/14,41–60,Female,,,,,,,fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,6/23/14,41–60,Male,Leg,,,,,,fractured leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,06/29/2012,41–60,Male,Chest,,,,,,Guest with preexisting condition felt chest pain after riding,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Mayday Falls,339,-1,7/16/11,41–60,Female,,,,,,,injured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Miss Adventure Falls,339,-1,11/20/18,18–40,Male,Head,,,,,,guest fell out of raft into catch pool at the end of slide and struck his head,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Miss Adventure Falls,339,-1,08/12/2018,41–60,Male,Back|Arm,,,,In motion,,guest sustained fractures to arm and injuries to neck and back when arm became caught in conveyor belt during initial incline of ride,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,339,-1,07/06/2009,41–60,Female,,,,Seizure / Illness,,,felt disoriented and sick after riding.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,339,-1,06/25/09,60+,Male,,,,,,,fractured ribs after collision with another guest.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,339,-1,07/07/2012,41–60,Male,Leg,,,,,,fractured leg after entering catch pool,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,339,-1,10/25/11,41–60,Male,,,,,,,fell and fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,339,-1,8/23/10,18–40,Male,Head,Moderate,Yes,,,,complained of head pain and collapsed: subsequent stroke at hospital,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,8/26/12,41–60,Male,,,,,,,guest collapsed in water subsequently Passed away from heart attack,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,10/19/02,41–60,Male,,,,,,,saw spots,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,11/04/2006,41–60,Male,,,,Dizziness / Fainting,,," Swallowed a lot of water, felt dizzy and shortness of breath",2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,03/03/2006,41–60,Male,,,,,,,Loss of consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,04/08/2005,10–17,Female,,Moderate,Yes,,,,felt illÃ¢ÂÂ¦later passed away at hospital.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,8/31/05,60+,Female,Arm,,,,,,fell and fractured wrist.,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,07/17/03,41–60,Male,,,,,,,stroke (according to family),2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,6/14/16,60+,Female,Leg,,,,,,injured knee,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,01/05/2012,60+,Female,Leg,,,,,,Temporarily loss of consciousness when another guest fell and knocked her down; pain in right knee/leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,09/01/2013,60+,Female,Leg,,,,,,fell and fractured left leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,5/13/11,41–60,Female,Leg,,,,,,fell and fractured left leg,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,07/02/2003,18–40,Female,,,,,,,fell on steps leading to catch pool fractured ankle and died of pulmonary embolism,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,3/29/02,10–17,Female,Back,,,,,,c/o neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,03/08/2010,60+,Female,,,,,,,loss of consciousness: history of heart condition,2025-05-21T04:36:52.415,disney_universal_historical
+Disney World,Typhoon Lagoon,Surf Pool,339,-1,8/23/15,41–60,Male,Chest,,,,,,chest pain (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Camp Jurassic,64,6008,3/30/15,<10,Female,Arm,,,,,,arm injury,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Camp Jurassic,64,6008,8/25/10,18–40,Female,,,,,,,fractured ankle,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Camp Jurassic,64,6008,07/17/2007,10–17,Female,Arm,,,,,,Fractured arm.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,01/03/2017,60+,Female,,,,,,,pelvis pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,6/14/22,18–40,Female,Head,,,,,,head pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,11/22/17,41–60,Male,Head,,,,,,fainting/head injury,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,7/25/11,60+,Male,,,,,,,general illness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,12/29/01,41–60,Female,Arm,,,,,,broken arm,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Caro-Seuss-el,64,5986,12/02/2012,60+,Female,Head,,,,,,head laceration,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dr Doom's Fearfall,64,5988,4/15/03,<10,Female,,,,,,,laceration/tear genitalia,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dr Doom's Fearfall,64,5988,12/07/2019,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,04/15/2006,41–60,Female,Arm|Chest,,,,,," Nausea, heartburn, chest pain, numb L arm",2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,7/31/16,41–60,Female,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,4/25/16,41–60,Female,Back,,,,,,neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,3/28/15,41–60,Male,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,9/30/15,41–60,Male,,,,,,,unconscious,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,10/18/13,60+,Female,,,,,,,presented with confusion,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,11/07/2012,10–17,Female,,,,,,,lowered level of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,7/31/11,41–60,Male,,,,,,,eye discomfort,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,09/12/2009,18–40,Female,,,,,,,vomiting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,09/08/2008,41–60,Male,Chest,,,,,," chest pain,  shortness of breath and nausea",2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dragon Challenge,64,-1,11/08/2007,10–17,Male,Back,,,,,,Upper back pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dudley Do Rights Ripsaw Falls,64,5989,10/17/14,41–60,Female,,,,Seizure / Illness,,,seizure (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dudley Do Rights Ripsaw Falls,64,5989,02/10/2002,41–60,Female,Back,,,,,,complained of lower back pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dudley Do Rights Ripsaw Falls,64,5989,10/11/2002,60+,Male,Back,,,,,,complained of neck pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Dudley Do Rights Ripsaw Falls,64,5989,11/07/2002,18–40,Female,Back,,,,,,fractured back.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Flight of the Hippogriff,64,5991,01/01/2016,41–60,Female,,,,,,,weakness (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Hagrid's Magical Creatures Motorbike Adventure,64,6682,04/12/2020,18–40,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Hagrid's Magical Creatures Motorbike Adventure,64,6682,07/07/2021,<10,Female,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Hagrid's Magical Creatures Motorbike Adventure,64,6682,09/06/2021,41–60,Female,,,,,,,headache,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,7/19/11,41–60,Male,,,,,,,vertigo,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,4/16/15,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,1/17/15,60+,Male,Chest,,,,,,chest discomfort,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,3/15/15,41–60,Male,,,,,,,difficult moving extremities (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,3/24/15,60+,Female,,,,,,,altered mental status,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,01/10/2014,18–40,Male,,,,,,,nausea (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,11/13/13,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,07/12/2013,18–40,Male,,,,,,,fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,12/16/13,60+,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,07/07/2013,60+,Female,,,,,,,hip & pelvis pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,9/13/13,18–40,Male,,,,Seizure / Illness,,,seizure (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,07/05/2013,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,5/15/13,60+,Female,,,,,,,headache,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,02/01/2013,60+,Female,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,1/22/13,41–60,Female,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,02/04/2012,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,11/01/2012,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,03/03/2012,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,3/31/12,60+,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,09/09/2022,18–40,Male,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,1/13/22,60+,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,3/15/22,60+,Female,,,,,,,hip pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,03/11/2019,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,12/26/19,60+,Male,Leg,,,,,,knee injury,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,10/10/2018,41–60,Female,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,03/09/2018,18–40,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,06/01/2018,41–60,Female,,,,Dizziness / Fainting,,,dizziness and weakness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,12/27/17,60+,Male,,,,,,,altered mental status,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,04/08/2017,60+,Male,,,,,,,fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,4/16/17,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,05/01/2017,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,07/03/2017,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,01/10/2016,18–40,Female,,,,Seizure / Illness,,,seizure (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,10/16/16,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,02/04/2016,41–60,Female,,,,,,,fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,5/23/16,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,12/24/15,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,12/24/15,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,8/26/15,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,05/04/2014,41–60,Female,Head|Back,,,,,,head and neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,01/01/2014,60+,Female,Leg,,,,,,upper leg pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,1/20/14,41–60,Male,,,,,,,lowered level of consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,1/29/2011,41–60,Male,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Harry Potter and the Forbidden Journey,64,5992,2/28/11,41–60,Male,Chest,,,,,,Chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,If I Ran the Zoo,64,6011,4/20/19,41–60,Female,Head,,,,,,head pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Jurassic Park River Adventure,64,5994,2/15/19,18–40,Female,Leg,,,,,,foot pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Jurassic Park River Adventure,64,5994,08/05/2018,60+,Female,Arm,,,,,,shoulder & wrist pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Jurassic World VelociCoaster,64,8721,7/24/22,18–40,Female,Back,,,,,,neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Poseidon's Fury,64,6039,7/18/22,41–60,Male,,,,,,,nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Poseidon's Fury,64,6039,12/24/14,60+,Female,,,,,,,shoulder pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,Storm Force Acceleration,64,6003,02/04/2022,18–40,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Amazing Adventures of Spiderman,64,5985,11/23/14,41–60,Male,,,,,,,change in mental status,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Amazing Adventures of Spiderman,64,5985,8/15/08,10–17,Male,Chest,,,,,,shortness of breath with associated chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Amazing Adventures of Spiderman,64,5985,09/26/2006,60+,Male,,,,,,,Fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Cat In The Hat,64,5987,1/31/08,18–40,Female,,,,,,,Nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,02/22/05,41–60,Female,,,,,,,loss of consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,2/29/08,18–40,Female,,,,Seizure / Illness,,,Seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,07/29/2012,18–40,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,2/15/21,41–60,Female,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,11/27/20,10–17,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,7/24/17,18–40,Female,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,6/20/17,41–60,Female,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,6/14/15,41–60,Male,Chest,,,,,,chest discomfort,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,3/14/14,18–40,Male,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,4/18/11,18–40,Male,,,,,,,syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Islands of Adventure,The Incredible Hulk Coaster,64,6004,2/16/20,41–60,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Back to the Future,65,-1,6/27/04,60+,Female,,,,,,,Hypertension,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Despicable Me Minion Mayhem,65,5984,4/23/15,41–60,Female,Head|Back,,,,,,head and neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Despicable Me Minion Mayhem,65,5984,12/13/19,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Despicable Me Minion Mayhem,65,5984,3/17/18,<10,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Despicable Me Minion Mayhem,65,5984,10/13/15,60+,Female,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Disaster,65,-1,10/29/13,60+,Female,,,,,,,presented with confusion,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,1/31/19,10–17,Male,Leg,,,,,,foot pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,09/12/2015,18–40,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,4/20/14,60+,Male,,,,,,,weakness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,3/13/09,60+,Male,Arm,,,,,,Left arm numbness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,3/13/21,60+,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,1/18/15,41–60,Female,Back,,,,,,back pain (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,E.T Adventure,65,5990,3/22/02,10–17,Male,Leg,,,,,,injured right foot.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Fast & Furious - Supercharged,65,6038,02/12/2021,18–40,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Fast & Furious - Supercharged,65,6038,4/24/19,60+,Female,Chest,,,,,,fainting/chest pain (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Fast & Furious - Supercharged,65,6038,06/06/2019,60+,Female,,,,,,,fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Fievel's Playground,65,6010,12/26/18,18–40,Female,,,,,,,ankle pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Fievel's Playground,65,6010,6/16/16,<10,Male,Arm,,,,,,arm pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Halloween Horror Nights,65,-1,10/15/17,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Harry Potter and the Escape from Gringotts,65,6014,03/10/2015,10–17,Male,,,,,,," anxious, difficulty breathing",2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Harry Potter and the Escape from Gringotts,65,6014,7/26/22,18–40,Male,,,,,,,abdominal pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Harry Potter and the Escape from Gringotts,65,6014,4/28/17,18–40,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Harry Potter and the Escape from Gringotts,65,6014,10/20/16,41–60,Female,,,,Seizure / Illness,,,seizure (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,09/13/2012,18–40,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,8/31/22,60+,Female,,,,,,,headache,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,11/21/18,18–40,Female,Head,,,,,,head pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,12/13/18,18–40,Female,,,,,,,nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,10/11/2015,18–40,Female,Back,,,,,,neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,10/16/14,18–40,Female,Back,,,,,,neck pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,06/08/2014,18–40,Male,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,03/10/2011,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,04/03/2016,41–60,Female,,,,,,,motion sickness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,05/22/10,41–60,Female,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,4/24/10,18–40,Male,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,10/31/2009,18–40,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,01/09/2016,41–60,Male,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Hollywood Rip Ride Rocket,65,5993,6/23/13,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Kang & Kodos Twirl n' Hurl,65,5995,01/02/2022,18–40,Female,,,,,,,abdominal pain (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,08/01/2004,10–17,Male,Leg,,,,,,Fractured Toe,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,6/25/16,41–60,Male,,,,Seizure / Illness,,,seizure (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,3/18/13,41–60,Female,,,,,,,hermatemesis,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,10/10/2011,60+,Male,,,,Dizziness / Fainting,,,dizziness & syncope,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,5/21/15,41–60,Female,,,,,,,headache,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Men In Black,65,5996,7/31/13,18–40,Female,,,,,,,abdominal pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,11/14/2005,60+,Female,,,,,,,Loss of Consciousness.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,8/16/05,60+,Female,Back,,,,,,lower back pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,9/23/05,41–60,Female,Chest,,,Dizziness / Fainting,,,Dizziness/Mild Chest Discomfort.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,06/08/2019,60+,Male,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,10/16/18,41–60,Female,,,,Dizziness / Fainting,,,dizziness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,3/28/17,41–60,Female,,,,Seizure / Illness,,,seizure,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,6/24/15,41–60,Male,Chest,,,,,," chest, tightness/pressure/pain",2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,11/03/2015,18–40,Male,,,,,,,motion sickness (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,5/16/14,10–17,Male,,,,,,,lowered level consciousness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,5/29/14,18–40,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,07/23/2012,41–60,Female,Leg,,,,,,knee pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,08/04/2011,60+,Female,,,,,,,nausea lightheadedness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,5/24/08,41–60,Male,Chest,,,,,,chest pain/nausea,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,11/18/07,18–40,Female,Back,,,,,,Lower back vertebrae fracture,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,08/19/07,41–60,Male,Chest,,,,,,Chest pain.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,07/07/2007,60+,Female,,,,,,,general weakness after exiting ride.,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Revenge of the Mummy,65,6000,09/21/04,18–40,Male,,,,,,,passed away,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Terminator 2: 3D,65,-1,10/17/13,60+,Female,,,,,,,abdominal pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,The Simpsons Ride,65,6005,04/05/2022,18–40,Female,Leg,,,,,,knee pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,The Simpsons Ride,65,6005,09/09/2014,41–60,Male,,,,,,,headache,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,The Simpsons Ride,65,6005,01/11/2008,60+,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Transformers: The Ride 3D,65,6006,10/06/2015,41–60,Female,Chest,,,,,,chest discomfort,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Universal Studios,Transformers: The Ride 3D,65,6006,4/19/18,41–60,Male,,,,,,,weakness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Kala Serpentine Body Slide,67,-1,5/27/17,41–60,Male,Back,,,,,,back pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Ko'okiri Body Plunge,67,-1,12/11/2018,10–17,Female,Leg,,,,,,foot pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Kopiko Wai Winding River,67,-1,6/14/19,60+,Female,Leg,,,,,,knee pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Kopiko Wai Winding River,67,-1,3/24/19,10–17,Male,,,,,,,fainting,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Kopiko Wai Winding River,67,-1,7/17/22,41–60,Male,Chest,,,,,,chest pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Oh! No! Drop Slide,67,-1,05/09/2020,41–60,Female,,,,,,,hip/pelvis pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Puihi Raft Ride,67,-1,5/26/19,18–40,Female,Head,,,,,,head pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Punga Racers,67,-1,11/07/2019,41–60,Male,,,,,,,numbness,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Runamukka Reef,67,-1,10/05/2022,60+,Female,,,,,,,elbow pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Tai Nui Serpentine Body Slide,67,-1,6/14/20,<10,Male,,,,,,,unresponsive,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Tai Nui Serpentine Body Slide,67,-1,04/03/2019,41–60,Male,,,,,,,hip/pelvis pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Tai Nui Serpentine Body Slide,67,-1,06/09/2018,41–60,Male,,,,,,,hip pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Tai Nui Serpentine Body Slide,67,-1,5/16/18,18–40,Male,,,,,,,hip/pelvis pain,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Te'awa The Fearless River,67,-1,6/16/22,18–40,Female,,,,,,,lost consciousness (pre-existing condition),2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Te'awa The Fearless River,67,-1,10/03/2019,18–40,Male,Chest,,,,,,chest palpitations,2025-05-21T04:36:52.415,disney_universal_historical
+Universal,Volcano Bay,Te'awa The Fearless River,67,-1,8/15/17,41–60,Female,,,,,,,cardiac arrest,2025-05-21T04:36:52.415,disney_universal_historical

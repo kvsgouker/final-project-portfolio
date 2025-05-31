@@ -1,0 +1,36 @@
+{
+  "age_group": ["Minor", "Teen", "Adult", "Senior"],
+  "gender": {
+    "Male": 0.47,
+    "Female": 0.48,
+    "Nonbinary": 0.03,
+    "Unknown": 0.02
+  },
+  "injury_location": {
+    "Head": 0.25,
+    "Arm": 0.2,
+    "Leg": 0.2,
+    "Torso": 0.15,
+    "Neck": 0.2
+  },
+  "severity": {
+    "Minor": 0.84,
+    "Moderate": 0.13,
+    "Severe": 0.025,
+    "Fatal": 0.005
+  },
+  "medical_attention": ["No", "First Aid", "Hospital", "Emergency"],
+  "injury_type": {
+    "Seizure / Illness": 0.57,
+    "Dizziness / Fainting": 0.33,
+    "Collision": 0.04,
+    "Fall / Slipped": 0.04,
+    "Psychological / Panic": 0.02 },
+  "ride_status": ["Operating", "Shut down", "Under repair"],
+  "contributing_factor": [
+    "Guest behavior",
+    "Mechanical failure",
+    "Weather",
+    "Staff error"
+  ]
+}

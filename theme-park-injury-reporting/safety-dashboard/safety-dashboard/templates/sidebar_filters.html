@@ -1,0 +1,30 @@
+<form method="GET" action="{{ request.path }}">
+    {% for field in filter_fields %}
+    <label class="form-label mt-2">{{ field.label }}</label>
+
+    {% if field.type == "checkbox" %}
+    <div class="form-check">
+        {% for option in field.options %}
+        <input class="form-check-input" type="checkbox" name="{{ field.name }}" value="{{ option }}"
+               {% if option in request.args.getlist(field.name) %}checked{% endif %}>
+        <label class="form-check-label">{{ option }}</label><br>
+        {% endfor %}
+    </div>
+
+    {% elif field.type == "select" %}
+    <select name="{{ field.name }}" class="form-select">
+        {% for option in field.options %}
+        <option value="{{ option }}" {% if request.args.get(field.name)== option %}selected{% endif %}>
+            {{ option }}
+        </option>
+        {% endfor %}
+    </select>
+
+    {% elif field.type == "date" %}
+    <input type="date" name="{{ field.name }}" class="form-control"
+           value="{{ request.args.get(field.name, '') }}">
+    {% endif %}
+    {% endfor %}
+
+    <button type="submit" class="btn btn-primary mt-3">Apply Filters</button>
+</form>

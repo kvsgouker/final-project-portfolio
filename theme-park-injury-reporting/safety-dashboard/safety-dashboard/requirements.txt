@@ -1,0 +1,41 @@
+#  Flask Web Framework and Server
+Flask==3.0.3                  # Core web framework used to build routes, handle forms, and render templates
+gunicorn==23.0.0              # WSGI HTTP server for running Flask apps in production (used by Heroku)
+Werkzeug==3.0.4               # Flask's underlying WSGI utility library (request/response handling)
+Jinja2==3.1.4                 # HTML templating engine used by Flask
+itsdangerous==2.2.0           # Secure session and token handling for Flask
+click==8.1.7                  # CLI utilities used by Flask and extensions
+blinker==1.8.2                # Optional Flask signaling support
+
+#  HTTP Client Utilities
+requests==2.32.3              # Simple HTTP requests (for APIs or webhooks)
+urllib3==2.2.3                # Low-level HTTP library used by `requests`
+certifi==2024.8.30            # SSL certificates for verifying HTTPS connections
+idna==3.10                    # International domain name handling
+charset-normalizer==3.3.2     # Encoding detection used by `requests`
+
+#  Data Handling & Processing
+pandas==2.2.3                 # DataFrame library for manipulating structured data
+numpy==2.1.1                  # Core numerical operations library (required by pandas and Plotly)
+python-dateutil==2.9.0.post0  # Advanced date/time parsing (used by pandas)
+pytz==2024.2                  # Timezone support for datetime objects
+tzdata==2024.2                # Timezone database for use in environments without local tz files
+
+#  Data Visualization
+plotly==5.24.1                # Interactive plotting for web dashboards (HTML/JS-based)
+tenacity==9.0.0               # Retry logic used by Plotly for resilient operations
+seaborn==0.13.2
+
+#  Database & ORM
+SQLAlchemy==2.0.30            # Python SQL toolkit and ORM used to define and manage database models
+psycopg2-binary==2.9.9        # PostgreSQL database adapter for Python (used with SQLAlchemy)
+
+#  Environment & Utility
+python-dotenv==1.0.1          # Load environment variables from `.env` files (for local dev)
+packaging==24.1               # Version parsing and environment compatibility logic
+six==1.16.0                   # Legacy compatibility layer between Python 2 and 3
+tabulate==0.9.0               # Output pretty tables in CLI for debug or reports
+Pillow==10.3.0                # Image processing library (optional: for any image-based features)
+
+#  Machine Learning
+scikit-learn==1.4.2           # Core machine learning library for model training, prediction, and evaluation

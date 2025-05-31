@@ -1,0 +1,22 @@
+{% extends "layout_with_sidebar.html" %}
+
+{% block title %}Incident Data Table{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Incident Data</h1>
+<div class="mt-5">
+    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+</div>
+
+<div class="table-responsive">
+    {{ table_html | safe }}
+</div>
+<div class="mt-5">
+    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+</div>
+<style>
+  th {
+    text-align: center !important;
+  }
+</style>
+{% endblock %}

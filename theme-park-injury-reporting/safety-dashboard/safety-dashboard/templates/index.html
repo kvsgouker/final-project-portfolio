@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Park Safety Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Background image and dark overlay */
+        body {
+            background: url('/static/IMG_5278.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            background: inherit;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            filter: brightness(0.6);
+        }
+
+        /* Header styling */
+        h1, .mb-4 {
+            color: white;
+        }
+
+        /* Button and layout container */
+        .button-container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        button, .btn {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto 1rem auto;
+            padding: 0.6rem 1.2rem;
+            font-size: 1rem;
+            display: block;
+        }
+
+        /* Bootstrap component overrides */
+        .card, .list-group-item, .form-control {
+            background-color: rgba(0, 0, 0, 0.5) !important;
+            color: white !important;
+            border: none;
+        }
+
+        .form-label, .form-check-label, .card-text, .card-header, .btn {
+            color: white !important;
+        }
+
+        .form-check-input:checked {
+            background-color: #0d6efd;
+            border-color: white;
+        }
+
+        /* Additional refinements */
+        input::placeholder {
+            color: #ddd;
+        }
+
+        .form-check-label {
+            font-weight: 500;
+        }
+
+        .card, .card-body, form {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+<div style="background: rgba(0,0,0,0.5); min-height: 100vh; padding: 2rem;">
+    <h1 class="mb-4">Theme Park Safety Tools</h1>
+
+    <!-- Global synthetic Data Toggle -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <form action="/set_fake/{{ 'false' if is_fake_mode else 'true' }}" method="get" class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="fakeToggle"
+                       onchange="this.form.submit()" {% if is_fake_mode %}checked{% endif %}>
+                <label class="form-check-label fw-bold" for="fakeToggle">
+                    {{ 'Synthetic Data Mode is ON' if is_fake_mode else 'Real Data Mode is ON' }}
+                </label>
+            </form>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <div class="list-group mb-5">
+
+            <!-- 1. Enter New Incident Report -->
+            <form action="/entry" method="get" class="list-group-item">
+                <button type="submit" class="btn btn-primary mt-2">1. Enter New Incident Report</button>
+            </form>
+
+            <!-- 2. View Incident Table -->
+            <form action="/data" method="get" class="list-group-item">
+                <button type="submit" class="btn btn-primary mt-2">2. View Incident Table</button>
+            </form>
+
+            <!-- 3. View Graphs -->
+            <form action="/graphs" method="get" class="list-group-item">
+                <button type="submit" class="btn btn-primary mt-2">3. View Graphs & Trends</button>
+            </form>
+
+            <!-- 4. Launch Modeling Tools -->
+            <form action="/model/evaluate" method="get" class="list-group-item">
+                <button type="submit" class="btn btn-primary mt-2">4. Evaluate Models</button>
+            </form>
+
+            <!-- 4. Launch Modeling Tools -->
+            <form action="/model" method="get" class="list-group-item">
+                <button type="submit" class="btn btn-primary mt-2">5. Make a Prediction</button>
+            </form>
+
+            <!-- 5. Generate synthetic Data -->
+            <form action="/fakedata" method="get" class="list-group-item">
+                <div class="mb-2">
+                    <label for="count" class="form-label">Number of incidents</label>
+                    <input type="number" class="form-control" id="count" name="count" value="1000" min="1" max="10000">
+                </div>
+                <button type="submit" class="btn btn-warning">6. Generate Synthetic Incidents</button>
+            </form>
+        </div>
+
+        <!-- Developer Tools Section -->
+        <div class="card border-danger">
+            <div class="card-header bg-danger text-white">
+                Developer Tools
+            </div>
+            <div class="card-body">
+                <p class="card-text">Only use these during development:</p>
+                <a href="/initdb" class="btn btn-outline-danger m-1">7. Initialize DB</a>
+                <a href="/resetdb" class="btn btn-outline-danger m-1">8. Reset DB</a>
+                <a href="/importcsv" class="btn btn-outline-danger m-1">9. Import CSV to DB</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

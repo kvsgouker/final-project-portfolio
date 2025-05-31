@@ -1,0 +1,22 @@
+<h1>Model Evaluation</h1>
+
+<a href="/" style="display: inline-block; margin-bottom: 1rem; padding: 0.5rem 1rem; background-color: #007BFF; color: white; text-decoration: none; border-radius: 5px;">
+    ← Home
+</a>
+
+<h2>Injury Location</h2>
+<img src="{{ location_img }}" alt="Confusion Matrix for Injury Location" width="600"/>
+
+<h2>Severity</h2>
+<img src="{{ severity_img }}" alt="Confusion Matrix for Severity" width="600"/>
+
+<h2 class="mt-5">Classification Report: Injury Location</h2>
+<pre style="background-color: rgba(0, 0, 0, 0.6); padding: 1rem; border-radius: 6px; color: white;">
+{{ loc_report }}
+</pre>
+
+<h2 class="mt-4">Classification Report: Severity</h2>
+<pre style="background-color: rgba(0, 0, 0, 0.6); padding: 1rem; border-radius: 6px; color: white;">
+{{ sev_report }}
+</pre>
+

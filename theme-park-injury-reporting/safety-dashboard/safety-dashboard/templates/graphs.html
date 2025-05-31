@@ -1,0 +1,75 @@
+{% extends "layout_with_sidebar.html" %}
+
+{% block title %}Incident Trends & Graphs{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Incident Trends & Graphs</h1>
+
+<div class="mt-5">
+    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+</div>
+
+<div id="graph-controls" class="mb-4">
+</div>
+
+<div class="graph-card">
+    <h3>Monthly Incidents by Company</h3>
+    {{ plot_line | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incident Share by Company</h3>
+    {{ plot_pie | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incident Severity by Coaster Era</h3>
+    {{ plot_bar | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incident Severity by Month</h3>
+    {{ plot_hist | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incidents by Ride Type</h3>
+    {{ plot_ride_type | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incident Breakdown by Gender</h3>
+    {{ plot_gender | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Severity by Age Group (Heatmap)</h3>
+    {{ plot_age_severity | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incidents by Theme Park</h3>
+    {{ plot_by_park | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Incident Severity by Symptom Type</h3>
+    {{ plot_severity_by_symptom | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Overall Severity Distribution (Pie Chart)</h3>
+    {{ plot_severity_pie | safe }}
+</div>
+
+<div class="graph-card">
+    <h3>Rides with Most Incidents</h3>
+    {{ most_incidents_pie | safe }}
+</div>
+
+<div class="mt-5">
+    <a href="/" class="btn btn-outline-secondary">← Back to Home</a>
+</div>
+
+
+{% endblock %}
