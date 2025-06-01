@@ -29,5 +29,7 @@ Kyle Salgado-Gouker
 May 2025  
 
 <img width="1277" alt="dashboard-1" src="https://github.com/user-attachments/assets/8b5fb266-2552-4f03-b4f2-06da7c872927" />
-![dashboard-2](https://github.com/user-attachments/assets/a1209de1-6b37-4174-9b5d-55655776ee70)
+<img width="1277" alt="dashboard-2" src="https://github.com/user-attachments/assets/9e7dc978-c5c7-4cce-9308-82d0ceae61bf" />
+
+
 
