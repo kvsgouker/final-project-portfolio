@@ -4,26 +4,24 @@
 
 - Download code
 - Open PyCharm
-- Create new project with existing source at root of code base
-- Use "main" as initial script. A menu will appear.
-- Some functions may require internet access
+- Create new Flask project with existing source at safety-dashboard
+- Use "app" as initial script. A menu will appear.
+- This project requires internet access
+- [Link to site](https://theme-park-safety-demo-de6e264e3690.herokuapp.com)
+
+## Deployment
+For Heroku:
+- Install heroku inside of PyCharm
+– Procedure to update site with changes - 
+- git status (finds files that have changed)
+- git add filename (for example, git add requirements.txt)
+- git commit -m “your message”
+- git push heroku master
+- heroku logs --tail (to find issues loading)
 
 ## Tools & Dependencies
 
-This project was developed using the following tools:
-
-- PyCharm
-- Python 3.8 or later
-- matplotlib
-- pandas
-- numpy
-- seaborn
-- scikit-learn
-- statsmodels
-- requests
-- tabulate
-- beautifulsoup4
-- lxml
+See requirements.txt for details.
 
 ## Author
 
