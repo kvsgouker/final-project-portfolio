@@ -6,12 +6,12 @@ Otherwise:
 - Open Jupyter Notebook
 - Some functions may require internet access
 
-!pip install imdbpy
-!pip install cinemagoer
-!pip install tmdbv3api
-!pip install matplotlib seaborn statsmodels
-!pip install python-Levenshtein
-!pip install nbconvert[webpdf]
+!pip install imdbpy <br>
+!pip install cinemagoer <br>
+!pip install tmdbv3api <br>
+!pip install matplotlib seaborn statsmodels <br>
+!pip install python-Levenshtein <br>
+!pip install nbconvert[webpdf] <br>
 
 ## Tools & Dependencies
 
