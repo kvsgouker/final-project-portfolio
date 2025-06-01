@@ -1,3 +1,7 @@
+# Weather App: Python + OpenWeatherMap
+
+This simple PyCharm project is a web server that accesses OpenWeather api.
+
 Project has 5 separate files:
 
 (1) main - main driver creates objects OpenWeather, WeatherModel, and WeatherReportUI.
