@@ -2,17 +2,11 @@
 
 ## Instructions
 Otherwise:
-- Download SalgadoGouker-imdb-project.ipynb.
+- Download SalgadoGouker-politician-voting-prediction.ipynb.
 - Open Jupyter Notebook
 - Some functions may require internet access
 - Project will download files automatically.
-
-!pip install imdbpy <br>
-!pip install cinemagoer <br>
-!pip install tmdbv3api <br>
-!pip install matplotlib seaborn statsmodels <br>
-!pip install python-Levenshtein <br>
-!pip install nbconvert[webpdf] <br>
+- !pip install as instructed in ipynb file.
 
 ## Tools & Dependencies
 
@@ -20,22 +14,20 @@ This project was developed using the following tools:
 
 - Jupyter Notebook
 - Python 3.8 or later
-- requests
-- urllib
-- bs4 (Beautiful Soup)
-- scipy
+- tabulate
 - pandas
 - numpy
-- sklearn
-- statsmodel.api
-- xgboost
-- lightgbm
-- fuzzywuzzy
-- tabulate
-- seaborn
+- requests
+- urllib
 - matplotlib
-- tmdbv3api
-- imdb
+- seaborn
+- redis
+- congress
+- sklearn
+- lightgbm
+- xgboost
+- scipy
+- crpapi
 
 ## Author
 
