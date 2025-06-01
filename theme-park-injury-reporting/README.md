@@ -28,3 +28,6 @@ See requirements.txt for details.
 Kyle Salgado-Gouker  
 May 2025  
 
+<img width="1277" alt="dashboard-1" src="https://github.com/user-attachments/assets/8b5fb266-2552-4f03-b4f2-06da7c872927" />
+<img width="1277" alt="dashboard-2" src="https://github.com/user-attachments/assets/9e7dc978-c5c7-4cce-9308-82d0ceae61bf" />
+<img width="1277" alt="dashboard-3" src="https://github.com/user-attachments/assets/4c83a125-1295-4e69-a8cc-f08eecb1c2aa" />
