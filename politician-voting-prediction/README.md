@@ -1,4 +1,4 @@
-# Forecasting TV Series Success with Machine Learning
+# Money, Votes, and Influence: Predicting Congressional Voting Patterns
 
 ## Instructions
 Otherwise:
