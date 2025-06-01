@@ -17,3 +17,4 @@ More info here: https://www.pythontutorial.net/tkinter/
 
 (5) Units - Shared data between modules moved to separate file to avoid recursive dependencies.
 
+![weather-day-cloudy-tokyo](https://github.com/user-attachments/assets/a2d9caeb-21c2-4cef-81e9-bad2ae1ab588)
