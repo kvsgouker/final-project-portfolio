@@ -30,3 +30,4 @@ This project was developed using the following tools:
 Kyle Salgado-Gouker  
 April 2025  
 
+<img width="850" alt="basketball-tanking-costs" src="https://github.com/user-attachments/assets/2432a206-5306-4de8-a4ab-ae3fefe122c5" />
