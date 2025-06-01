@@ -2,9 +2,10 @@
 
 ## Instructions
 Otherwise:
-- Download SalgadoGouker-imdb-project.ipynb
+- Download SalgadoGouker-imdb-project.ipynb.
 - Open Jupyter Notebook
 - Some functions may require internet access
+- Project will download files automatically.
 
 !pip install imdbpy <br>
 !pip install cinemagoer <br>
