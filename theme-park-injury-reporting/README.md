@@ -10,20 +10,7 @@
 
 ## Tools & Dependencies
 
-This project was developed using the following tools:
-
-- PyCharm
-- Python 3.8 or later
-- matplotlib
-- pandas
-- numpy
-- seaborn
-- scikit-learn
-- statsmodels
-- requests
-- tabulate
-- beautifulsoup4
-- lxml
+See requirements.txt for details.
 
 ## Author
 
