@@ -2,7 +2,7 @@
 
 ## Instructions
 Otherwise:
-- Download code
+- Download SalgadoGouker-imdb-project.ipynb
 - Open Jupyter Notebook
 - Some functions may require internet access
 
