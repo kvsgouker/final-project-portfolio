@@ -1,18 +1,16 @@
 # Forecasting TV Series Success with Machine Learning
 
 ## Instructions
-Otherwise:
 - Download SalgadoGouker-imdb-project.ipynb.
 - Open Jupyter Notebook
 - Some functions may require internet access
 - Project will download files automatically.
-
-!pip install imdbpy <br>
-!pip install cinemagoer <br>
-!pip install tmdbv3api <br>
-!pip install matplotlib seaborn statsmodels <br>
-!pip install python-Levenshtein <br>
-!pip install nbconvert[webpdf] <br>
+- !pip install imdbpy <br>
+- !pip install cinemagoer <br>
+- !pip install tmdbv3api <br>
+- !pip install matplotlib seaborn statsmodels <br>
+- !pip install python-Levenshtein <br>
+- !pip install nbconvert[webpdf] <br>
 
 ## Tools & Dependencies
 
